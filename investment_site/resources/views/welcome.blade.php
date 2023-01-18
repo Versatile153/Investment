@@ -1194,6 +1194,47 @@ transition: var(--transition-1);
 
 :is(.about, .app) .container { gap: 60px; }
 
+/* Dropdown Button */
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: blue;}
 
 
 /**
@@ -1250,9 +1291,20 @@ transition: var(--transition-1);
             <a href="#" class="navbar-link active" data-nav-link>Homepage</a>
           </li>
 
-          <li class="navbar-item">
+          {{-- <li class="navbar-item">
             <a href="#" class="navbar-link" data-nav-link>About</a>
-          </li>
+          </li> --}}
+
+          <div class="dropdown">
+            <button class="dropbtn">About</button>
+            <div class="dropdown-content">
+              <a href="#">Our Story</a>
+              <hr>
+              <a href="#">Careers</a>
+
+            </div>
+          </div>
+
 
           <li class="navbar-item">
             <a href="#" class="navbar-link" data-nav-link>Markets</a>
@@ -1272,11 +1324,35 @@ transition: var(--transition-1);
           </li>
           @endif
 
+          <div class="dropdown">
+            <button class="dropbtn">Trade</button>
+            <div class="dropdown-content">
+              <a href="#">Spot Trading</a>
+              <hr>
+              <a href="#">Margin Trading</a>
+              <hr>
+              <a href="#">Bot Trading</a>
+            </div>
+          </div>
 
 
-          <li class="navbar-item">
+<div class="dropdown">
+            <button class="dropbtn">Earn</button>
+            <div class="dropdown-content">
+              <a href="#">Forex</a>
+              <hr>
+              <a href="#">Crypto Currency</a>
+              <hr>
+              <a href="#">Stocks & EFTs</a>
+              <hr>
+              <a href="#">Staking</a>
+              <hr>
+              <a href="#">Commodities</a>
+            </div>
+          </div>
+          {{-- <li class="navbar-item">
             <a href="#" class="navbar-link" data-nav-link>Blog</a>
-          </li>
+          </li> --}}
 
 
 
@@ -2420,3 +2496,6 @@ addEventOnElem(window, "scroll", scrollReveal);
 </body>
 
 </html>
+
+
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
