@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Primestocktradefx</title>
 
-  <!-- 
+  <!--
     - favicon
   -->
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
@@ -16,7 +16,7 @@
   #style.css
 \*-----------------------------------*/
 
-/** 
+/**
  * copyrights 2022 codewithsadee
  */
 
@@ -1216,12 +1216,12 @@ transition: var(--transition-1);
 
 }
 </style>
-  <!-- 
+  <!--
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!-- 
+  <!--
     - google font link
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1231,7 +1231,7 @@ transition: var(--transition-1);
 
 <body>
 
-  <!-- 
+  <!--
     - #HEADER
   -->
 
@@ -1258,18 +1258,27 @@ transition: var(--transition-1);
             <a href="#" class="navbar-link" data-nav-link>Markets</a>
           </li>
 
+          @if (Route::has('register'))
           <li class="navbar-item">
-            <a href="#" class="navbar-link" data-nav-link>Register</a>
+            <a href="{{ route('register') }}" class="navbar-link" data-nav-link>Register</a>
           </li>
+          @endif
+
+
+
+          @if (Route::has('login'))
           <li class="navbar-item">
-            <a href="#" class="navbar-link" data-nav-link>Log In</a>
+            <a href="{{ route('login') }}" class="navbar-link" data-nav-link>Log In</a>
           </li>
+          @endif
+
+
 
           <li class="navbar-item">
             <a href="#" class="navbar-link" data-nav-link>Blog</a>
           </li>
 
-        
+
 
         </ul>
       </nav>
@@ -1292,7 +1301,7 @@ transition: var(--transition-1);
   <main>
     <article>
 
-      <!-- 
+      <!--
         - #HERO
       -->
 
@@ -1307,7 +1316,7 @@ transition: var(--transition-1);
               Primestocktradefx is the easiest, safest way, to save and earn with a high rate of ROI.
             </p>
 
-            <a href="#" class="btn btn-primary">Get started now</a>
+            <a href="{{ route('register') }}" class="btn btn-primary">Get started now</a>
 
           </div>
 
@@ -1322,7 +1331,7 @@ transition: var(--transition-1);
 
 
 
-      <!-- 
+      <!--
         - #TREND
       -->
 
@@ -1336,7 +1345,7 @@ transition: var(--transition-1);
                 </li>
             </h3>
             <ul class="tab-nav">
-               
+
 
               <li>
                 <button class="tab-btn active">Crypto</button>
@@ -1477,7 +1486,7 @@ transition: var(--transition-1);
 
 
 
-      <!-- 
+      <!--
         - #MARKET
       -->
 
@@ -1861,7 +1870,7 @@ transition: var(--transition-1);
 
 
 
-      <!-- 
+      <!--
         - #INSTRUCTION
       -->
 
@@ -1962,7 +1971,7 @@ transition: var(--transition-1);
 
 
 
-      <!-- 
+      <!--
         - #ABOUT
       -->
 
@@ -2025,7 +2034,7 @@ transition: var(--transition-1);
 
 
 
-      <!-- 
+      <!--
         - #APP
       -->
 
@@ -2099,7 +2108,7 @@ transition: var(--transition-1);
 
 
 
-  <!-- 
+  <!--
     - #FOOTER
   -->
 
@@ -2298,7 +2307,7 @@ transition: var(--transition-1);
 
 
 
-  <!-- 
+  <!--
     - custom js link
   -->
   <script src="./assets/js/script.js" defer></script>
@@ -2402,7 +2411,7 @@ scrollReveal();
 addEventOnElem(window, "scroll", scrollReveal);
   </script>
 
-  <!-- 
+  <!--
     - ionicon link
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
