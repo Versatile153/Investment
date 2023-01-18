@@ -114,7 +114,66 @@
 
 
 
+.faq {
+  padding-top: 80px;
+}
 
+.faq .accordion-item {
+  border: 0;
+  margin-bottom: 10px;
+}
+
+.faq .accordion-collapse {
+  border: 0;
+}
+
+.faq .accordion-button {
+  padding: 15px 30px 20px 60px;
+  font-weight: 600;
+  border: 0;
+  font-size: 18px;
+  color: var(--color-default);
+  text-align: left;
+  background: rgba(14, 29, 52, 0.03);
+  border-radius: 5px;
+}
+
+.faq .accordion-button:focus {
+  box-shadow: none;
+}
+
+.faq .accordion-button:not(.collapsed) {
+  color: var(--color-primary);
+  border-bottom: 0;
+  box-shadow: none;
+}
+
+.faq .question-icon {
+  position: absolute;
+  top: 14px;
+  left: 25px;
+  font-size: 20px;
+  color: var(--color-primary);
+}
+
+.faq .accordion-button:after {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.faq .accordion-body {
+  padding: 0 30px 25px 60px;
+  border: 0;
+  background: rgba(14, 29, 52, 0.03);
+  border-radius: 5px;
+}
+/*--------------------------------------------------------------
+# KYLE CUSTOMIZED
+--------------------------------------------------------------*/
+.gld h3, h4{
+    color: #fff !important;
+}
 
 /*-----------------------------------*\
 #RESET
@@ -361,6 +420,144 @@ font-weight: var(--fw-700);
 display: flex;
 align-items: center;
 gap: 5px;
+}
+
+
+.about .content h3 {
+  font-weight: 700;
+  font-size: 32px;
+  font-family: var(--font-secondary);
+  color: #001f8d;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+.about .content ul i {
+  flex-shrink: 0;
+  font-size: 48px;
+  color: var(--color-primary);
+  margin-right: 20px;
+  line-height: 0;
+}
+
+.about .content ul h5 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #19335c;
+}
+
+.about .content ul p {
+  font-size: 15px;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+.about .play-btn {
+  width: 94px;
+  height: 94px;
+  background: radial-gradient(var(--color-primary) 50%, rgba(13, 66, 255, 0.4) 52%);
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  left: calc(50% - 47px);
+  top: calc(50% - 47px);
+  overflow: hidden;
+}
+
+.about .play-btn:before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation: pulsate-btn 2s;
+  animation: pulsate-btn 2s;
+  -webkit-animation-direction: forwards;
+  animation-direction: forwards;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: steps;
+  animation-timing-function: steps;
+  opacity: 1;
+  border-radius: 50%;
+  border: 5px solid rgba(13, 66, 255, 0.7);
+  top: -15%;
+  left: -15%;
+  background: rgba(198, 16, 0, 0);
+}
+
+.about .play-btn:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  z-index: 100;
+  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.about .play-btn:hover:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border: none;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  z-index: 200;
+  -webkit-animation: none;
+  animation: none;
+  border-radius: 0;
+}
+
+.about .play-btn:hover:after {
+  border-left: 15px solid var(--color-primary);
+  transform: scale(20);
+}
+
+@-webkit-keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
+@keyframes  pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
 }
 
 .nav-toggle-btn .line {
@@ -1948,9 +2145,143 @@ transition: var(--transition-1);
 
 
 
-      <!--
-        - #INSTRUCTION
-      -->
+
+      <section class="own_trending_area mt-3" style="margin: 0 !important;">
+        <div class="container gld">
+            <div class="main_title aboutus" style="margin: 35px 0 0 0;">
+                <h3>ABOUT US</h3>
+            </div>
+            <div class="row mb-3">
+                <div class="col-lg-6">
+                    <div class="trending_list">
+                        <div class="media">
+                            <div class="d-flex">
+
+                            </div>
+                            <div class="media-body">
+                                <a href="#">
+                                    <h4 class="my-3">PrimestocktradeFx is committed to leading a wave of change; by connecting with, educating and empowering younger generations to reimagine, redefine and reengineer their lives, and the world.
+                                    </h4>
+                                </a>
+                                <p class="my-3">We believe in learning to teach, and teaching to learn. PrimestocktradetradeFx Media is our channel to educate; to connect with the world, to maintain the integrity of our perspective, and to share our intellectual truth.
+                               <br> We seek to provide access to tools and information that allows people to empower themselves (both financially and philosophically) as a means towards economic and intellectual sovereignty.
+                               <br> We aim to actively contribute to the evolution of humanity through the application and provision of advanced technologies and tools that have a positive impact at both an individual and collective level.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        <div class="col-lg-6 position-relative align-self-start order-lg-last order-first about">
+                            <img src="https://media.istockphoto.com/id/1365603846/photo/shot-of-a-group-of-businesspeople-clapping-hands-in-a-meeting-at-work.jpg?b=1&s=170667a&w=0&k=20&c=qPOl9-Yt6W3rcDVI2Y5VsXWqB12RZNfRiQQH3RiwE6Y=" class="img-fluid" alt="">
+                            <a href="https://www.youtube.com/watch?v=Uw_QyeHo8f0" class="glightbox play-btn"></a>
+                          </div>
+                
+                        
+                
+            </div>
+        </div>
+    </section>    
+    
+    <section id="faq" class="faq">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>FAQs</h2>
+
+        </div>
+
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-10">
+
+            <div class="accordion accordion-flush" id="faqlist">
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                    <i class="bi bi-question-circle question-icon"></i>
+                   Is PrimestocktradeFx a safe investment trading platform?
+                  </button>
+                </h3>
+                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    PrimestocktradeFx Trading Limited controls one of the world's most sophisticated security technology and maintenance team, and is constantly upgrading our security systems to ensure the safety of user assets and accounts.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    What is Forex Trading?
+                  </button>
+                </h3>
+                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+					Forex trading is the buying and selling of currencies on the foreign exchange market. When you trade forex online, you are counting on the value of the currency changing in your favor in the future.
+
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    What moves the forex market?
+                  </button>
+                </h3>
+                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+					There are several key factors that move the forex market: interest rates, inflation, economic stability, central banks and global events. 
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
+                    <i class="bi bi-question-circle question-icon"></i>            
+					What is commodity trading?
+                  </button>
+                </h3>
+                <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    <i class="bi bi-question-circle question-icon"></i>
+					Commodity trading is the buying and selling of raw materials, such as precious metals and oil, that are important to the global economy.                   </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    How do CFDs work?
+                  </button>
+                </h3>
+                <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+						Contract for Difference (CFD) is a popular format for online trading. Its main feature is the ability to profit from price movements of the underlying instrument in any direction. In this case, you do not need to own this asset physically.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+        
+        
+
+
+      <div class="cryptohopper-web-widget" data-id="1" data-table_style="dark" data-realtime="on" data-table_length="6"></div> 
+
+
+
+
 
       <section class="section instruction" aria-label="instruction" data-section>
         <div class="container">
@@ -2204,9 +2535,9 @@ transition: var(--transition-1);
 
           <h2 class="footer-title">Let's talk! 🤙</h2>
 
-          <a href="tel:+123456789101" class="footer-contact-link">+12 345 678 9101</a>
+          <a href="tel:+123456789101" class="footer-contact-link">+23481275454</a>
 
-          <a href="" class="footer-contact-link">hello.cryptex@gmail.com</a>
+          <a href="" class="footer-contact-link">primestockfxx@gmail.com</a>
 
           <address class="footer-contact-link">
             Cecilia Chapman 711-2880 Nulla St. Mankato Abuja
@@ -2345,7 +2676,7 @@ transition: var(--transition-1);
       <div class="container">
 
         <p class="copyright">
-          &copy; 2023 PrimeStock All Rights Reserved  <a href="#" class="copyright-link"></a>
+          &copy; 2023 PrimeStocktradeFx All Rights Reserved  <a href="#" class="copyright-link"></a>
         </p>
 
         <ul class="social-list">
@@ -2488,6 +2819,22 @@ scrollReveal();
 
 addEventOnElem(window, "scroll", scrollReveal);
   </script>
+  <div data-rw-flash="32333"></div>
+  <!-- End widget code -->
+        <script src="https://www.cryptohopper.com/widgets/js/script"></script>
+  
+    
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+  
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    
 
   <!--
     - ionicon link
@@ -2500,5 +2847,3 @@ addEventOnElem(window, "scroll", scrollReveal);
 
 </html>
 
-
-    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
