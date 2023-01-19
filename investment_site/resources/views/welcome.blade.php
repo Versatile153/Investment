@@ -1567,6 +1567,41 @@ transition: var(--transition-1);
       <a href="#" class="btn btn-outline">Wallet</a>
 
     </div>
+
+
+    <div class="tradingview-widget-container mb-1-5m">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript"
+        src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+      {
+        "symbols": [{
+            "proName": "OANDA:SPX500USD",
+            "title": "S&P 500"
+          },
+          {
+            "proName": "OANDA:NAS100USD",
+            "title": "Nasdaq 100"
+          },
+          {
+            "proName": "FX_IDC:EURUSD",
+            "title": "EUR/USD"
+          },
+          {
+            "proName": "BITSTAMP:BTCUSD",
+            "title": "BTC/USD"
+          },
+          {
+            "proName": "BITSTAMP:ETHUSD",
+            "title": "ETH/USD"
+          }
+        ],
+        "colorTheme": "light",
+        "isTransparent": false,
+        "displayMode": "regular",
+        "locale": "en"
+      }
+      </script>
+    </div>
   </header>
 
 
@@ -1579,7 +1614,7 @@ transition: var(--transition-1);
       <!--
         - #HERO
       -->
-
+      
       <section class="section hero" aria-label="hero" data-section>
         <div class="container">
 
