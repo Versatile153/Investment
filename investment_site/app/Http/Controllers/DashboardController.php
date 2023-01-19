@@ -35,4 +35,13 @@ class DashboardController extends Controller
         return view('dashboard.dash');
         
     }
+    public function deposit(){
+        return view('dashboard.deposit');
+        
+    }
+    
+    public function view_deposit(){
+        return view('dashboard.view_deposit');
+        
+    }
 }

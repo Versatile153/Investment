@@ -648,8 +648,11 @@ body {
                     <span style="margin-right: 5rem;" class="text">Deposit</span>
                 </button>
                 <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
-                  <li><button class="dropdown-item" type="button">Deposit funds</button></li>
-                  <li><button class="dropdown-item" type="button">View deposits</button></li>
+                  <a href="/deposit">
+					<li><button class="dropdown-item" type="button">Deposit funds</button></li>
+				
+				</a>
+                 <a href="/view_deposit"> <li><button class="dropdown-item" type="button">View deposits</button></li></a>
                 </ul>
               </div>
 

@@ -30,6 +30,10 @@ Route::get('/ref',[DashboardController::class,'ref']);
 Route::get('/withdraw',[DashboardController::class,'withdraw']);
 Route::get('/view_with',[DashboardController::class,'view']);
 Route::get('/dash',[DashboardController::class,'dash']);
+Route::get('/deposit',[DashboardController::class,'deposit']);
+Route::get('/view_deposit',[DashboardController::class,'view_deposit']);
+
+
 
 
 
