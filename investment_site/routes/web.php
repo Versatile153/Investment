@@ -32,6 +32,14 @@ Route::get('/view_with',[DashboardController::class,'view']);
 Route::get('/dash',[DashboardController::class,'dash']);
 Route::get('/deposit',[DashboardController::class,'deposit']);
 Route::get('/view_deposit',[DashboardController::class,'view_deposit']);
+Route::get('/set_up_payement',[DashboardController::class,'set_up']);
+Route::get('/profile',[DashboardController::class,'profile']);
+Route::get('/payment_account',[DashboardController::class,'payment_account']);
+Route::get('/security',[DashboardController::class,'security']);
+
+
+
+
 
 
 

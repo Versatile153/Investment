@@ -1,16 +1,19 @@
 @extends('layouts.app')
 
+   
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
+		
+	
         <div class="col-md-8">
             <div class="card">
-
+				
     <div class="card-header btn btn-primary"><strong>
         You are warmly welcome  {{ Auth::user()->name }}
         
     </strong></div>
-
+	
 
             </div>
         </div>
@@ -1000,6 +1003,19 @@ switchMode.addEventListener('change', function () {
 	}
 })
     </script>
+
+<script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/lang.js"></script>
+<script src="https://primestocktrades.com/m_cust/dash/assets/dist/summernote/editor-summernote.js"></script>
+<script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/moment/moment.js"></script>
+<script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/contact.js"></script>
+<script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/perfect-scrollbar.min.js"></script>
+<script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/masonry.pkgd.min.js"></script>
+<script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/sweetalert2.js"></script>
+<script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/customizer.js"></script>
+<script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/Chart.min.js"></script>
+<script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/chartist.min.js"></script>
+<script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/script.js"></script>
 </body>
 </html>
 @endsection

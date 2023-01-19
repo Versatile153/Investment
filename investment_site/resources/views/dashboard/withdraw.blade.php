@@ -373,7 +373,7 @@
                                 Please setup payment account by clicking on the link below                                </p>
                                 <!-- /card text-->
                                 <!-- Card Link-->
-                                <a href=""
+                                <a href="/set_up_payement"
                                     class="btn btn-info text-uppercase">Setup payment account</a>
                                 <!-- /card link-->
                                                     </div>

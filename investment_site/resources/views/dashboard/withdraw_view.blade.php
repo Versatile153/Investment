@@ -404,7 +404,7 @@
                                     <!-- /card text-->
 
                                     <!-- Card Link-->
-                                    <a href=""
+                                    <a href="/set_up_payement"
                                         class="btn btn-info text-uppercase">Setup payment account</a>
                                     <!-- /card link-->
 

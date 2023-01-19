@@ -44,4 +44,22 @@ class DashboardController extends Controller
         return view('dashboard.view_deposit');
         
     }
+    
+    public function set_up(){
+        return view('dashboard.setup_payment');
+        
+    }
+
+    public function profile(){
+        return view('dashboard.profile');
+        
+    }
+    public function payment_account(){
+        return view('dashboard.payment_account');
+        
+    }
+    public function security(){
+        return view('dashboard.security');
+        
+    }
 }
