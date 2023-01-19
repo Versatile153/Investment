@@ -1626,7 +1626,7 @@ transition: var(--transition-1);
               Primestocktradefx is the easiest, safest way, to save and earn with a high rate of ROI.
             </p>
 
-            <a href="{{ route('register') }}" class="btn btn-primary">Get started now</a>
+            <a style="font-size:large;" href="{{ route('register') }}" class="btn btn-primary">Get started now</a>
 
           </div>
 
