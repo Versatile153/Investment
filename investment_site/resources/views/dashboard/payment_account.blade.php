@@ -133,7 +133,7 @@
                                                 src="https://primestocktrades.com/m_cust/dash/assets/dist/img/avatar.png"
                                                 alt="versatile eze">
                                             <span class="dt-avatar-info d-none d-sm-block">
-                                                <span
+                                            <span
                                                     class="dt-avatar-name">versatile eze</span>
                                                                                                         <span>Verified</span>
                                                                                                 </span> </a>
@@ -191,7 +191,7 @@
                                     <ul class="dt-side-nav__sub-menu display-n">
                                         <li
                                             class="dt-side-nav__item open ">
-                                            <a href=""
+                                            <a href="payment_account"
                                                 class="dt-side-nav__link "
                                                 title="Traffic">
                                                 <span class="dt-side-nav__text">Deposit funds</span> </a>

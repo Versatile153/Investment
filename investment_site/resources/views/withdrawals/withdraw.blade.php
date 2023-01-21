@@ -199,7 +199,7 @@
                                         </li>
 
                                         <li class="dt-side-nav__item">
-                                            <a href=""
+                                            <a href="payment_account"
                                                 class="dt-side-nav__link "
                                                 title="Revenue">
                                                 <span class="dt-side-nav__text">View deposits</span> </a>

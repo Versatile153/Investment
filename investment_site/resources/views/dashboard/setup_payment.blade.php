@@ -190,8 +190,14 @@
                                         <ul class="dt-side-nav__sub-menu display-n">
                                             <li
                                                 class="dt-side-nav__item open ">
-                                                <a href=""
-                                                    class="dt-side-nav__link "
+                                                <a href="payment_account"
+                                                <span class="dt-avatar-info d-none d-sm-block">
+                                                
+                                                    <a style="font-weight: bolder;" id="navbarDropdown" class="nav-link dropdown-toggle" href="{{ route('logout') }}" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                                        {{ Auth::user()->name }}
+                                                    </a>
+                                                
+                                               </span>      class="dt-side-nav__link "
                                                     title="Traffic">
                                                     <span class="dt-side-nav__text">Deposit funds</span> </a>
                                             </li>

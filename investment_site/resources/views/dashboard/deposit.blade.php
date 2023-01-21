@@ -143,10 +143,13 @@
                                                 src="https://primestocktrades.com/m_cust/dash/assets/dist/img/avatar.png"
                                                 alt="eze cecc">
                                             <span class="dt-avatar-info d-none d-sm-block">
-                                                <span
-                                                    class="dt-avatar-name">eze cecc</span>
-                                                                                                        <span>Verified</span>
-                                                                                                </span> </a>
+                                                <span class="dt-avatar-info d-none d-sm-block">
+                                                
+                                                    <a style="font-weight: bolder;" id="navbarDropdown" class="nav-link dropdown-toggle" href="{{ route('logout') }}" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                                        {{ Auth::user()->name }}
+                                                    </a>
+                                                
+                                               </span>
                                         <!-- /dropdown link -->
 
                                         <!-- Dropdown Option -->
@@ -201,7 +204,7 @@
                                     <ul class="dt-side-nav__sub-menu display-n">
                                         <li
                                             class="dt-side-nav__item open ">
-                                            <a href=""
+                                            <a href="payment_account"
                                                 class="dt-side-nav__link "
                                                 title="Traffic">
                                                 <span class="dt-side-nav__text">Deposit funds</span> </a>

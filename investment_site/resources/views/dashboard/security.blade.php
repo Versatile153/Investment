@@ -194,7 +194,7 @@
                                     <ul class="dt-side-nav__sub-menu display-n">
                                         <li
                                             class="dt-side-nav__item open ">
-                                            <a href=""
+                                            <a href="payment_account"
                                                 class="dt-side-nav__link "
                                                 title="Traffic">
                                                 <span class="dt-side-nav__text">Deposit funds</span> </a>

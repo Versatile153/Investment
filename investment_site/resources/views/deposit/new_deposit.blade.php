@@ -134,10 +134,15 @@
                                                 src="https://primestocktrades.com/m_cust/dash/assets/dist/img/avatar.png"
                                                 alt="eze cecc">
                                             <span class="dt-avatar-info d-none d-sm-block">
-                                                <span
+                                                <a href="{{ route('logout') }}">
+                                                    <span
+                                                
                                                     class="dt-avatar-name">eze cecc</span>
                                                                                                         <span>Verified</span>
                                                                                                 </span> </a>
+                                                
+                                                </a>
+                                                
                                         <!-- /dropdown link -->
 
                                         <!-- Dropdown Option -->
@@ -192,7 +197,7 @@
                                     <ul class="dt-side-nav__sub-menu display-n">
                                         <li
                                             class="dt-side-nav__item open ">
-                                            <a href=""
+                                            <a href="payment_account"
                                                 class="dt-side-nav__link "
                                                 title="Traffic">
                                                 <span class="dt-side-nav__text">Deposit funds</span> </a>
