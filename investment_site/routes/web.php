@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\PayMentController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -32,10 +33,37 @@ Route::get('/view_with',[DashboardController::class,'view']);
 Route::get('/dash',[DashboardController::class,'dash']);
 Route::get('/deposit',[DashboardController::class,'deposit']);
 Route::get('/view_deposit',[DashboardController::class,'view_deposit']);
-Route::get('/set_up_payement',[DashboardController::class,'set_up']);
+// Route::get('/set_up_payement',[DashboardController::class,'set_up']);
 Route::get('/profile',[DashboardController::class,'profile']);
 Route::get('/payment_account',[DashboardController::class,'payment_account']);
 Route::get('/security',[DashboardController::class,'security']);
+
+////payment
+// Route::post('/payment',[PayMentController::class,'store']);
+
+//withdrawals
+Route::get('/withdraw',[PayMentController::class,'withdraw']);
+Route::get('/view',[PayMentController::class,'view']);
+
+
+///deposits
+Route::get('/deposit',[PayMentController::class,'deposit']);
+Route::get('/new_deposit',[PayMentController::class,'new_deposit']);
+
+
+//post routes
+Route::post('/plan',[PayMentController::class,'plan']);
+Route::post('/set_up',[PayMentController::class,'set_up']);
+Route::post('/profile',[PayMentController::class,'profile']);
+Route::post('/security',[PayMentController::class,'security']);
+Route::post('/money_withdrawal',[PayMentController::class,'money_withdrawal']);
+
+
+
+
+
+
+
 
 
 

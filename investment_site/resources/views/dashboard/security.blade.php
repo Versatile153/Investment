@@ -646,26 +646,23 @@
                                             <!-- Grid Item -->
                                             <div class="col-xl-6">
                                                 <!-- Form -->
-                                                <form action="" id="resetForm" method="post" accept-charset="utf-8">
+                                                <form action="/security" id="resetForm" method="post" accept-charset="utf-8">
+                                                    @csrf
 <input type="hidden" name="csrf_test_name" value="" />                               
                                                 <!-- Form Group -->
-                                                <div class="form-group">
-                                                    <label for="currentpass">Current password</label>
-                                                    <input class="form-control " name="oldPassword" type="password">
-                                                    <label class="error" for="fname"></label>
-                                                </div>
+                                                
                                                 <!-- /form group -->
                                                 <!-- Form Group -->
                                                 <div class="form-group">
                                                     <label for="newpass">New password</label>
-                                                    <input class="form-control " name="newPassword" type="password">
+                                                    <input class="form-control " name="new_password" type="password">
                                                     <label class="error" for="fname"></label>
                                                 </div>
                                                 <!-- /form group -->
                                                 <!-- Form Group -->
                                                 <div class="form-group">
                                                     <label for="cpass">Confirm Password</label>
-                                                    <input class="form-control " name="cNewPassword" type="password">
+                                                    <input class="form-control " name="confirm_password" type="password">
                                                     <label class="error" for="fname"></label>
                                                 </div>
                                                 <!-- /form group -->
@@ -683,7 +680,7 @@
                                     <div class="modal fade" id="authenticate-modal" tabindex="-1"
                                         role="dialog" aria-labelledby="model-8" aria-hidden="true">
                                         <form action="" id="google2FAForm" method="post" accept-charset="utf-8">
-<input type="hidden" name="csrf_test_name" value="" />                                                
+                                            <input type="hidden" name="csrf_test_name" value="" />                                                
                                         <div class="modal-dialog modal-dialog-centered"
                                             role="document">
 

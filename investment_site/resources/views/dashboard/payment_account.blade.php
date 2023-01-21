@@ -529,7 +529,8 @@
                                                         aria-hidden="true">×</button>
                                                     Updated successfully                                                </div>
                                                                                                 <!-- Form -->
-                                                <form action="" method="post" accept-charset="utf-8">
+                                                <form action="/set_up" method="post" accept-charset="utf-8">
+                                                    @csrf
                                        <input type="hidden" name="csrf_test_name" value="" />
                                                     <div class="row">
                                                         <div class="col-md-12">
@@ -538,7 +539,7 @@
                                                                     <!-- Form Group -->
                                                                     <div class="form-group">
                                                                         <label for="paymentType">Type</label>
-                                                                        <select class="form-control" name="paymentType" id="simple-select">
+                                                                        <select class="form-control" name="payment_type" id="simple-select">
                                                                             <option value="" selected disabled hidden>Choose Here</option>
                                                                                                                                                             <option value="Btc" >Btc</option>
                                                                                                                                                             <option value="Eth" >Eth</option>
@@ -558,7 +559,7 @@
                                                                         <label for="bitcoinAd">Account</label>
                                                                         <input type="text"
                                                                             value="ceze46321@gmail.com"
-                                                                            class="form-control" name="paymentAccount"
+                                                                            class="form-control" name="payment_account"
                                                                             aria-describedby="bitcoinAd"
                                                                             placeholder="Payment Account">
                                                                         <label class="error" for="paymentAccount"></label>
@@ -600,6 +601,7 @@
                                                                     <!-- Modal Body -->
                                                                     <div class="modal-body">
                                                                         <form>
+                                                                            @csrf
                                                                             <div class="form-group">
                                                                             <input class="form-control " name="password"
                                                                                     id="password" type="password">
@@ -644,6 +646,7 @@
                                             <div class="col-xl-6">
                                                 <!-- Form -->
                                                 <form action="" id="resetForm" method="post" accept-charset="utf-8">
+                                                    @csrf
                              <input type="hidden" name="csrf_test_name" value="4e0186dbd34b7c0d1894efb685c6f1e8" />
                                                 <!-- Form Group -->
                                                 <div class="form-group">

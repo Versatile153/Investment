@@ -387,6 +387,7 @@
                                                 
                                                 <!-- Form -->
                                                 <form action="" id="editProfile" method="post" accept-charset="utf-8">
+                                                    @csrf
                                            <input type="hidden" name="csrf_test_name" value="" />
                                                     <!-- Row -->
                                                     <div class="row">
@@ -436,7 +437,7 @@
                                                                         <input type="tel" value=""
                                                                             class="form-control " name="phone" id="phone"
                                                                             aria-describedby="phone">
-                                                                        <input type="hidden" name="phonefull" id="phonefull" />
+                                                                        <input type="text" name="phonefull" id="phonefull" />
                                                                         <label class="error" for="phone"></label>
                                                                     </div>
                                                                     <!-- /form group -->
@@ -489,6 +490,7 @@
                                                                     <!-- Modal Body -->
                                                                     <div class="modal-body">
                                                                         <form>
+                                                                            @csrf
                                                                             <div class="form-group">
                                                                                 <input class="form-control " name="password"
                                                                                     id="password" type="password">
@@ -530,6 +532,7 @@
                                             <div class="col-xl-6">
                                                                                                 <!-- Form -->
                                                 <form action="" method="post" accept-charset="utf-8">
+                                                    @csrf
                                                  <input type="hidden" name="csrf_test_name" value="4e0186dbd34b7c0d1894efb685c6f1e8" />
                                                     <div class="row">
                                                         <div class="col-md-12">
@@ -644,6 +647,7 @@
                                             <div class="col-xl-6">
                                                 <!-- Form -->
                                                 <form action="" id="resetForm" method="post" accept-charset="utf-8">
+                                                    @csrf
 <input type="hidden" name="csrf_test_name" value="" />                                                                                                                          
                                                 <!-- Form Group -->
                                                 <div class="form-group">
@@ -680,6 +684,7 @@
                                     <div class="modal fade" id="authenticate-modal" tabindex="-1"
                                         role="dialog" aria-labelledby="model-8" aria-hidden="true">
                                         <form action="" id="google2FAForm" method="post" accept-charset="utf-8">
+                                            @csrf
 <input type="hidden" name="csrf_test_name" value="4e0186dbd34b7c0d1894efb685c6f1e8" />                                                                                                                    
                                         <div class="modal-dialog modal-dialog-centered"
                                             role="document">

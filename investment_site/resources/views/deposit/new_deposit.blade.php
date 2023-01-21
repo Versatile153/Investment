@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -7,7 +8,7 @@
     <meta name="keywords" content="primestocktrades, bitcoin trading, forex, investment, trading                                                                                                                                                                                                                                                                                                                                                                                                                                                       ">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Withdrawals</title>
+    <title>Bank Transfer</title>
     <!-- Bootstrap CSS -->
     
     <link rel="shortcut icon" href="https://primestocktrades.com/m_cust/dash/uploads/prime25.png">
@@ -60,18 +61,8 @@
                         
 
                             <div class="search-box d-none d-lg-block">
-                                                            <form method="post">
-                                                                    <input type="hidden" name="csrf_test_name" value="55155f335e9e9cfe34faa16180d71b1c" />
-                                    <div class="input-group">
-                                        <input class="form-control" placeholder="Search Withdrawals"
-                                            name="searchText" value="" type="search">
-                                        <span class="search-icon"><i class="icon icon-search icon-lg"></i></span>
-                                        <div class="input-group-append">
-                                            <button class="btn btn-primary" type="submit">Search                                            </button>
-                                        </div>
-                                    </div>
-                                </form>
-                                                            </div>
+                                                            <h1 class="dt-page__title mt-4" style="margin-left: -1.5em;">Deposits <span class="breadcrumb-arrow-right"></span> New</h1>
+                                                        </div>
 
                             <!-- Header Menu Wrapper -->
                             <div class="dt-nav-wrapper">
@@ -187,7 +178,7 @@
                                         class="dt-side-nav__link "
                                         title="Dashboard">
                                         <i class="icon icon-dashboard icon-fw icon-lg"></i>
-                                        <span class="dt-side-nav__text btn btn-primary">main Dashboard</span>
+                                        <span class="dt-side-nav__text btn btn-primary">Main dashboard</span>
                                     </a>
                                 </li>
                                 <li
@@ -218,16 +209,16 @@
 
                                 </li>
                                 <li
-                                    class="dt-side-nav__item selected open">
+                                    class="dt-side-nav__item ">
                                     <a href="javascript:void(0)" class="dt-side-nav__link dt-side-nav__arrow"
                                         title="Dashboard">
                                         <i class="icon icon-revenue-new icon-fw icon-lg"></i><span
                                             class="dt-side-nav__text">Withdrawals</span> </a>
 
                                     <!-- Sub-menu -->
-                                    <ul class="dt-side-nav__sub-menu display-b">
+                                    <ul class="dt-side-nav__sub-menu display-n">
                                         <li
-                                            class="dt-side-nav__item open selected">
+                                            class="dt-side-nav__item open ">
                                             <a href=""
                                                 class="dt-side-nav__link "
                                                 title="Traffic">
@@ -236,7 +227,7 @@
 
                                         <li class="dt-side-nav__item">
                                             <a href=""
-                                                class="dt-side-nav__link active"
+                                                class="dt-side-nav__link "
                                                 title="Revenue">
                                                 <span class="dt-side-nav__text">View withdrawals</span> </a>
                                         </li>
@@ -280,20 +271,22 @@
                         </div>
                                             </aside>
                     <!-- /sidebar -->
-                    <!-- Site Content Wrapper -->
-<div class="dt-content-wrapper">
+                    <div class="dt-content-wrapper">
+
     <!-- Site Content -->
     <div class="dt-content">
         <!-- Profile -->
         <div class="profile">
+
             <!-- Profile Banner -->
             <div class="profile__banner">
+
                 <!-- Page Header -->
                 <div class="dt-page__header">
-                    <h1 class="dt-page__title text-white display-i">
-                    Withdrawals                    </h1>
-                                                                    <a href="" class="btn btn-light btn-sm display-i ft-right">Make a withdrawal</a>
-                                                                <div class="dt-entry__header mt-1m">
+                    <h1 class="dt-page__title text-light display-i">Deposits / New</h1>
+                    <a href="" class="btn btn-light btn-sm display-i ft-right">Back</a>
+
+                    <div class="dt-entry__header mt-1m">
                         <!-- Entry Heading -->
                         <div class="dt-entry__heading">
                         </div>
@@ -301,81 +294,53 @@
                     </div>
                 </div>
                 <!-- /page header -->
+
                 <div class="profile__banner-detail">
                     <!-- Avatar Wrapper -->
                     <div class="col-12">
-                        <div class="row">
-                                                        <!-- Grid Item -->
-                            <div class="col-sm-6 col-12">
-
-                                <!-- Card -->
-                                <div class="dt-card dt-card__full-height text-dark">
-
-                                    <!-- Card Body -->
-                                    <div class="dt-card__body p-xl-8 py-sm-8 py-6 px-4">
-                                        <span class="badge badge-secondary badge-top-right">
-                                                                                    Pending withdrawals                                        </span>
-                                        <!-- Media -->
-                                        <div class="media">
-
-                                            <i class="icon icon-revenue icon-6x mr-6 align-self-center"></i>
-
-                                            <!-- Media Body -->
-                                            <div class="media-body">
-                                                <div class="display-3 font-weight-600 mb-1 init-counter">
-                                                    NGN 0.00                                                </div>
-                                                <span class="d-block">
-                                                    Pending withdrawals                                                </span>
+                        <!-- Grid -->
+                <div class="row">
+                    <!-- Grid Item --> 
+                    <div class="col-xl-6 col-md-6 col-12 order-xl-1">
+                    </div>
+                    <!-- Grid Item --> 
+                    <div class="col-xl-6 col-md-6 col-12 order-xl-1">
+                        <!-- Card -->
+                        <div class="dt-card">
+                            <!-- Card Body -->
+                            <div class="dt-card__body p-xl-8 py-sm-8 py-6 px-4">
+                                <span class="badge badge-secondary badge-top-right">
+                                Make a payment</span>
+                                <!-- Media -->
+                                <div class="media">
+                                    <!-- Media Body -->
+                                    <div class="media-body" style="color: grey;">
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <i class="icon icon-revenue-new icon-6x mr-6 align-self-center"></i>
                                             </div>
-                                            <!-- /media body -->
-
+                                            <div class="col-md-10">
+                                                <div class="display-3 font-weight-600 mt-1 init-counter">
+                                                Pay GBP 100.00 
+                                                </div>
+                                            </div>
                                         </div>
-                                        <!-- /media -->
                                     </div>
-                                    <!-- /card body -->
+                                    <!-- /media body -->
 
                                 </div>
-                                <!-- /card -->
-
+                                <!-- /media -->
                             </div>
-                            <!-- Grid Item -->
-
-                            <!-- Grid Item -->
-                            <div class="col-sm-6 col-12">
-
-                                <!-- Card -->
-                                <div class="dt-card dt-card__full-height text-dark">
-
-                                    <!-- Card Body -->
-                                    <div class="dt-card__body p-xl-8 py-sm-8 py-6 px-4">
-                                        <span class="badge badge-secondary badge-top-right">
-                                            Total earnings                                        </span>
-                                        <!-- Media -->
-                                        <div class="media">
-
-                                            <i class="icon icon-revenue-new icon-6x mr-6 align-self-center"></i>
-
-                                            <!-- Media Body -->
-                                            <div class="media-body">
-                                                <div class="display-3 font-weight-600 mb-1 init-counter">
-                                                    NGN 0.00                                                </div>
-                                                <span class="d-block">
-                                                    Total earnings                                                </span>
-                                            </div>
-                                            <!-- /media body -->
-
-                                        </div>
-                                        <!-- /media -->
-                                    </div>
-                                    <!-- /card body -->
-
-                                </div>
-                                <!-- /card -->
-
+                                <!-- /card body -->
                             </div>
-                            <!-- Grid Item -->
-
+                            <!-- /card -->
                         </div>
+                        <!-- /grid item -->
+                    </div>
+                    <!-- /grid -->
+                </div>
+                <!-- /profile content -->
+                        
                     </div>
                     <!-- /avatar wrapper -->
                 </div>
@@ -384,251 +349,92 @@
             <!-- /profile banner -->
 
             <!-- Profile Content -->
-            <div class="profile-content">
+            <div class="profile-content marg-t-17 marg-t-0 ">
+            <div class="row">
+                <!-- Grid Item -->
+                <div class="col-sm-6 col-12">
+                    <!-- Card -->
+                    <div class="dt-card dt-card__full-height text-dark hide">
 
-                <!-- Grid -->
-                <div class="row">
+                        <!-- Card Body -->
+                        <div class="dt-card__body p-xl-8 py-sm-8 py-6 px-4">
+                            <span class="badge badge-secondary badge-top-right">
+                            Make a payment</span>
+                            <!-- Media -->
+                            <div class="media">
 
-                    <!-- Grid Item -->
-                    <div class="col-xl-12 col-12 order-xl-1">
-                        <!-- Card -->
-                        <div class="dt-card">
-                                                        <div class="card-body">
+                                <i class="icon icon-revenue-new icon-6x mr-6 align-self-center"></i>
 
-                                    <!-- Card Title-->
-                                    <h2 class="card-title">No payment method on record</h2>
-                                    <!-- Card Title-->
-                                    <!-- Card Text-->
-                                    <p class="card-text">
-                                    Please setup payment account by clicking on the link below                                    </p>
-                                    <!-- /card text-->
+                                <!-- Media Body -->
+                                <div class="media-body">
+                                    <div class="display-3 font-weight-600 mb-1 init-counter" style="font-size: 2.5rem;">
+                                    Btc Account 
+                                    </div>
+                                    <div>
+                                        bc1qt7yhkjctt3pqrh79vtxvyv4vcfdgq7698tv9um                                    </div>
+                                    <br>
+                                    <form action="" id="submitForm" enctype="multipart/form-data" method="post" accept-charset="utf-8">
+<input type="hidden" name="csrf_test_name" value="3e54aa80732d818effafc569eb5e0b23" />                                                                           
+                                        <div class="form-group">
+                                            <label>Enter account you've sent the deposit from</label>
+                                            <input type="text" class="form-control" id="accountId" name="account">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary text-uppercase">Confirm Deposit and Proceed</button>
+                                    </form>                                </div>
+                                <!-- /media body -->
 
-                                    <!-- Card Link-->
-                                    <a href="/view_deposit"
-                                        class="btn btn-info text-uppercase">Setup payment account</a>
-                                    <!-- /card link-->
-
-                                
                             </div>
-                            <!-- /card -->
+                            <!-- /media -->
                         </div>
-                        <!-- /grid item -->
-                        
-                        <div class="dt-card__body">
-                            <!-- Modal -->
-                            <div class="modal fade display-n" id="accountsModal" tabindex="-1" role="dialog" aria-labelledby="model-8" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-
-                                    <!-- Modal Content -->
-                                    <div class="modal-content">
-
-                                        <!-- Modal Header -->
-                                        <div class="modal-header">
-                                            <h3 class="modal-title" id="model-8">Payment Account</h3>
-                                            <button type="button" class="close"
-                                                data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">×</span>
-                                            </button>
-                                        </div>
-                                        <!-- /modal header -->
-
-                                        <!-- Modal Body -->
-                                        <div class="modal-body">
-                                            <div class="row" id="paymentList">
-                                            </div>
-                                        </div>
-                                        <!-- /modal body -->
-
-                                        <!-- Modal Footer -->
-                                        <div class="modal-footer">
-                                            <button type="button"
-                                                class="btn btn-secondary btn-sm"
-                                                data-dismiss="modal">Cancel
-                                            </button>
-                                        </div>
-                                        <!-- /modal footer -->
-                                        </form>
-                                    </div>
-                                    <!-- /modal content -->
-
-                                </div>
-                            </div>
-                            <!-- /modal -->
-                            <div class="modal fade display-n" id="pricemodal" tabindex="-1" role="dialog"
-                                aria-labelledby="model-8" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-
-                                    <!-- Modal Content -->
-                                    <div class="modal-content">
-
-                                        <!-- Modal Header -->
-                                        <div class="modal-header">
-                                            <h3 class="modal-title" id="model-8">View Payment Amount Info</h3>
-                                            <button type="button" class="close"
-                                                data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">×</span>
-                                            </button>
-                                        </div>
-                                        <!-- /modal header -->
-
-                                        <!-- Modal Body -->
-                                        <div class="modal-body">
-                                            <p>Withdrawn Amount: <b id="fullamount"></b></p>
-                                            <p>Transaction Fees: <b id="fullamountfees"></b></p>
-                                            <p>Amount To Receive: <b id="fullamountlessfees"></b></p>
-                                        </div>
-                                        <!-- /modal body -->
-
-                                        <!-- Modal Footer -->
-                                        <div class="modal-footer">
-                                            <button type="button"
-                                                class="btn btn-secondary btn-sm"
-                                                data-dismiss="modal">Cancel                                            </button>
-                                        </div>
-                                        <!-- /modal footer -->
-
-                                    </div>
-                                    <!-- /modal content -->
-
-                                </div>
-                            </div>
-                            <!-- /modal -->
-                                                    </div>
+                        <!-- /card body -->
 
                     </div>
-                    <!-- /grid -->
-
+                    <!-- /card -->
                 </div>
-                <!-- /profile content -->
-
+                <!-- Grid Item -->
+            </div>
+                
             </div>
             <!-- /Profile -->
-
         </div>
-    </div>
-    <!-- Modal -->
-    <div class="modal fade display-n" id="modal" tabindex="-1" role="dialog"
-        aria-labelledby="model-8" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <!-- Modal Content -->
-            <div class="modal-content">
-                <form action="" id="modalForm" method="post" accept-charset="utf-8">
-<input type="hidden" name="csrf_test_name" value="" />                                                                                             
-                    <!-- Modal Header -->
-                    <div class="modal-header">
-                        <h3 class="modal-title" id="model-8"></h3>
-                        <button type="button" class="close"
-                            data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">×</span>
-                        </button>
-                    </div>
-                    <!-- /modal header -->
-                    <!-- Modal Body -->
-                    <!-- Form Group -->
-                    <div class="modal-body mb--10 hide" id="reinvestPlans">
-                        <div class="form-group">
-                            <label for="fname">Select your preferred investment plan</label>
-                            <select class="form-control" name="plan" id="simple-select">
-                                <option value="" selected disabled hidden>Select your preferred investment plan</option>
-                                                            </select>
-                        </div>
-                    </div>
-                    <!-- /form group -->
-                    <div class="modal-body" id="modalBody">
-                    </div>
-                    <!-- /modal body -->
-                    <!-- Modal Footer -->
-                    <div class="modal-footer" id="modalFooter">
-                        <button type="button"
-                            class="btn btn-secondary btn-sm"
-                            data-dismiss="modal">Cancel                        </button>
-                        <div id="continue"></div>
-                    </div>
-                    <!-- /modal footer -->
-                </form>
-            </div>
-            <!-- /modal content -->
-        </div>
-    </div>
-    <!-- /modal -->
-    <script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/trans.js"></script>
-    <script>
-        $("#pfm").click(function(e){
-            e.preventDefault();
+        <script>
+            $('#submitForm').on('submit', function(e){
+                e.preventDefault();
+                var actionurl = e.currentTarget.action;
+                $.ajax({
+                url:actionurl,
+                method:"POST",
+                data:new FormData(this),
+                contentType: false,
+                cache: false,
+                
+                processData: false,
+                success:function(data)
+                {
+                    var content = JSON.parse(data);
+                    swal(
+                        content.success == true ? 'Success!' : 'Error!',
+                        content.msg,
+                        content.success == true ? 'success' : 'error'
+                    );
 
-            var amount = $(this).attr('data-amount');
-            var fees = $(this).attr('data-fees');
-            var final = $(this).attr('data-amountlessfee');
-
-            $('#fullamount').html(amount);
-            $('#fullamountfees').html(fees);
-            $('#fullamountlessfees').html(final);
-        })
-        $('.accountsButton').click(function(e){
-            e.preventDefault();
-            var user = $(this).attr('data-id');
-            var actionurl = $(this).attr('data-url');
-
-            //Clear list
-            $('#paymentList').html('');
-
-            $.ajax({
-                url: actionurl,
-                type: 'get',
-                success: function(res) {
-                    var content = JSON.parse(res);
-                    console.log(content);
-                    if(content.success == true)
-                    {
-                            var div = document.getElementById('paymentList');
-
-                            if(content.data.withdrawal_account == null){
-                                var divOpen = '<div class="row col-md-12">'
-                                var div1 = '<div class="col-md-6">Bank Name: </div>'
-                                var div2 = '<div class="col-md-6 text-uppercase">'+content.data.bank_name+'</div>'
-                                var div3 = '<div class="col-md-6">Account Name: </div>'
-                                var div4 = '<div class="col-md-6 text-uppercase">'+content.data.account_name+'</div>'
-                                var div5 = '<div class="col-md-6">Account Number: </div>'
-                                var div6 = '<div class="col-md-6">'+content.data.account_number+'</div>'
-                                var div7 = '<div class="col-md-6">Swift Code: </div>'
-                                var div8 = '<div class="col-md-6">'+content.data.swift_code+'</div>'
-                                var div9 = '<div class="col-md-6">Status: </div>'
-                                var div10 = '<div class="col-md-6">'+content.status+'</div>'
-                                var div11 = '<div class="col-md-6">Reason: </div>'
-                                var div12 = '<div class="col-md-6">'+content.data.reason+'</div>'
-                                var divClose = '</div>'
-
-                                if(content.data.status == '0' || content.data.status == '1'){
-                                    div.innerHTML += divOpen + div1 + div2 + div3 + div4 + div5 + div6 + div7 + div8 + div9 + div10 + divClose;
-                                } else {
-                                    div.innerHTML += divOpen + div1 + div2 + div3 + div4 + div5 + div6 + div7 + div8 + div9 + div10 + div11 + div12 + divClose;
-                                }
-                            } else {
-                                var divOpen = '<div class="row col-md-12">'
-                                var div1 = '<div class="col-md-6">'+content.data.withdrawal_method+': </div>'
-                                var div2 = '<div class="col-md-6">'+content.data.withdrawal_account+'</div>'
-                                var div3 = '<div class="col-md-6">Status: </div>'
-                                var div4 = '<div class="col-md-6">'+content.status+'</div>'
-                                var div5 = '<div class="col-md-6">Reason: </div>'
-                                var div6 = '<div class="col-md-6">'+content.data.reason+'</div>'
-                                var divClose = '</div>'
-
-                                if(content.data.status === 0 || content.data.status === 1){
-                                    div.innerHTML += divOpen + div1 + div2 + div3 + div4 +  divClose;
-                                } else {
-                                    div.innerHTML += divOpen + div1 + div2 + div3 + div4 + divClose;
-                                }
-                            }
-
-                        $("#terms").html(content.terms);
-                        $('#submit').attr('disabled', false);
-                        $("#submit").html('Create Account');
+                    if(content.success == true){
+                        window.setTimeout(function(){
+                            window.location.replace("./deposits");
+                        }, 2000)
                     }
+                },
+                error: function(data) {
+                    swal(
+                        'Error!',
+                        'There is an issue in updating your account. Please refresh the page.',
+                        'error'
+                    );
                 }
+                })
             })
-
-        })
-    </script><!-- Footer -->
+        </script>
+<!-- Footer -->
 <footer class="dt-footer">
 
     Copyright PrimestockFx Trades  © 2023</footer>

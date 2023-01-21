@@ -651,7 +651,7 @@ body {
                     <span style="margin-right: 5rem;" class="text">Deposit</span>
                 </button>
                 <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
-                  <a href="/deposit">
+                  <a href="/payment_account">
 					<li><button class="dropdown-item" type="button">Deposit funds</button></li>
 				
 				</a>
@@ -668,7 +668,7 @@ body {
 					<li><button class="dropdown-item" type="button">withdraw funds</button></li>
 				 </a>
 
-				 <a href="/view_with">
+				 <a href="/view_deposit">
 					<li><button class="dropdown-item" type="button">View withdrawals</button></li>
 
 				 </a>

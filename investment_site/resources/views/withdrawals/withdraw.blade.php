@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -7,7 +8,7 @@
     <meta name="keywords" content="primestocktrades, bitcoin trading, forex, investment, trading                                                                                                                                                                                                                                                                                                                                                                                                                                                       ">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Withdrawals</title>
+    <title>New Withdrawal</title>
     <!-- Bootstrap CSS -->
     
     <link rel="shortcut icon" href="https://primestocktrades.com/m_cust/dash/uploads/prime25.png">
@@ -60,18 +61,8 @@
                         
 
                             <div class="search-box d-none d-lg-block">
-                                                            <form method="post">
-                                                                    <input type="hidden" name="csrf_test_name" value="55155f335e9e9cfe34faa16180d71b1c" />
-                                    <div class="input-group">
-                                        <input class="form-control" placeholder="Search Withdrawals"
-                                            name="searchText" value="" type="search">
-                                        <span class="search-icon"><i class="icon icon-search icon-lg"></i></span>
-                                        <div class="input-group-append">
-                                            <button class="btn btn-primary" type="submit">Search                                            </button>
-                                        </div>
-                                    </div>
-                                </form>
-                                                            </div>
+                                                            <h1 class="dt-page__title mt-4" style="margin-left: -1.5em;">Withdrawals <span class="breadcrumb-arrow-right"></span> New</h1>
+                                                        </div>
 
                             <!-- Header Menu Wrapper -->
                             <div class="dt-nav-wrapper">
@@ -187,7 +178,7 @@
                                         class="dt-side-nav__link "
                                         title="Dashboard">
                                         <i class="icon icon-dashboard icon-fw icon-lg"></i>
-                                        <span class="dt-side-nav__text btn btn-primary">main Dashboard</span>
+                                        <span class="dt-side-nav__text">Main dashboard</span>
                                     </a>
                                 </li>
                                 <li
@@ -229,14 +220,14 @@
                                         <li
                                             class="dt-side-nav__item open selected">
                                             <a href=""
-                                                class="dt-side-nav__link "
+                                                class="dt-side-nav__link active"
                                                 title="Traffic">
                                                 <span class="dt-side-nav__text">Withdraw funds</span> </a>
                                         </li>
 
                                         <li class="dt-side-nav__item">
                                             <a href=""
-                                                class="dt-side-nav__link active"
+                                                class="dt-side-nav__link "
                                                 title="Revenue">
                                                 <span class="dt-side-nav__text">View withdrawals</span> </a>
                                         </li>
@@ -282,18 +273,21 @@
                     <!-- /sidebar -->
                     <!-- Site Content Wrapper -->
 <div class="dt-content-wrapper">
+
     <!-- Site Content -->
     <div class="dt-content">
         <!-- Profile -->
         <div class="profile">
+
             <!-- Profile Banner -->
             <div class="profile__banner">
+
                 <!-- Page Header -->
                 <div class="dt-page__header">
-                    <h1 class="dt-page__title text-white display-i">
-                    Withdrawals                    </h1>
-                                                                    <a href="" class="btn btn-light btn-sm display-i ft-right">Make a withdrawal</a>
-                                                                <div class="dt-entry__header mt-1m">
+                    <h1 class="dt-page__title text-light display-i">Withdrawals / New Withdrawal</h1>
+                                        <a href="" class="btn btn-light btn-sm display-i ft-right">My withdrawals</a>
+                    
+                    <div class="dt-entry__header mt-1m">
                         <!-- Entry Heading -->
                         <div class="dt-entry__heading">
                         </div>
@@ -301,41 +295,13 @@
                     </div>
                 </div>
                 <!-- /page header -->
+
                 <div class="profile__banner-detail">
                     <!-- Avatar Wrapper -->
                     <div class="col-12">
                         <div class="row">
-                                                        <!-- Grid Item -->
-                            <div class="col-sm-6 col-12">
-
-                                <!-- Card -->
-                                <div class="dt-card dt-card__full-height text-dark">
-
-                                    <!-- Card Body -->
-                                    <div class="dt-card__body p-xl-8 py-sm-8 py-6 px-4">
-                                        <span class="badge badge-secondary badge-top-right">
-                                                                                    Pending withdrawals                                        </span>
-                                        <!-- Media -->
-                                        <div class="media">
-
-                                            <i class="icon icon-revenue icon-6x mr-6 align-self-center"></i>
-
-                                            <!-- Media Body -->
-                                            <div class="media-body">
-                                                <div class="display-3 font-weight-600 mb-1 init-counter">
-                                                    NGN 0.00                                                </div>
-                                                <span class="d-block">
-                                                    Pending withdrawals                                                </span>
-                                            </div>
-                                            <!-- /media body -->
-
-                                        </div>
-                                        <!-- /media -->
-                                    </div>
-                                    <!-- /card body -->
-
-                                </div>
-                                <!-- /card -->
+                            <!-- Grid Item -->
+                            <div class="col-sm-6 col-12 z0">
 
                             </div>
                             <!-- Grid Item -->
@@ -349,7 +315,7 @@
                                     <!-- Card Body -->
                                     <div class="dt-card__body p-xl-8 py-sm-8 py-6 px-4">
                                         <span class="badge badge-secondary badge-top-right">
-                                            Total earnings                                        </span>
+                                            Available funds                                        </span>
                                         <!-- Media -->
                                         <div class="media">
 
@@ -358,9 +324,9 @@
                                             <!-- Media Body -->
                                             <div class="media-body">
                                                 <div class="display-3 font-weight-600 mb-1 init-counter">
-                                                    NGN 0.00                                                </div>
+                                                                                                        GBP 0.00                                                                                                    </div>
                                                 <span class="d-block">
-                                                    Total earnings                                                </span>
+                                                    Available funds                                                </span>
                                             </div>
                                             <!-- /media body -->
 
@@ -374,7 +340,6 @@
 
                             </div>
                             <!-- Grid Item -->
-
                         </div>
                     </div>
                     <!-- /avatar wrapper -->
@@ -384,251 +349,207 @@
             <!-- /profile banner -->
 
             <!-- Profile Content -->
-            <div class="profile-content">
+            <div class="profile-content marg-t-17 marg-t-0 ">
 
                 <!-- Grid -->
                 <div class="row">
 
                     <!-- Grid Item -->
-                    <div class="col-xl-12 col-12 order-xl-1">
+                    <div class="col-xl-6 col-md-6 col-12 order-xl-1 z20">
                         <!-- Card -->
                         <div class="dt-card">
-                                                        <div class="card-body">
-
-                                    <!-- Card Title-->
-                                    <h2 class="card-title">No payment method on record</h2>
-                                    <!-- Card Title-->
-                                    <!-- Card Text-->
-                                    <p class="card-text">
-                                    Please setup payment account by clicking on the link below                                    </p>
-                                    <!-- /card text-->
-
-                                    <!-- Card Link-->
-                                    <a href="/view_deposit"
-                                        class="btn btn-info text-uppercase">Setup payment account</a>
-                                    <!-- /card link-->
-
-                                
+                            <div class="dt-card__body">
+                                                                <div class="row">
+                                    <div class="col-md-12">
+                                                                            </div>
+                                </div>
                             </div>
-                            <!-- /card -->
-                        </div>
-                        <!-- /grid item -->
-                        
-                        <div class="dt-card__body">
-                            <!-- Modal -->
-                            <div class="modal fade display-n" id="accountsModal" tabindex="-1" role="dialog" aria-labelledby="model-8" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-
-                                    <!-- Modal Content -->
-                                    <div class="modal-content">
-
-                                        <!-- Modal Header -->
-                                        <div class="modal-header">
-                                            <h3 class="modal-title" id="model-8">Payment Account</h3>
-                                            <button type="button" class="close"
-                                                data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">×</span>
-                                            </button>
-                                        </div>
-                                        <!-- /modal header -->
-
-                                        <!-- Modal Body -->
-                                        <div class="modal-body">
-                                            <div class="row" id="paymentList">
+                            <!-- Card Body -->
+                                                        <div class="dt-card__body">
+                                <!-- Form -->
+                                <form action="/money_withdrawal" id="addWithdrawal" method="post" accept-charset="utf-8">
+                                    @csrf
+<input type="hidden" name="csrf_test_name" value="1fee447187b9352dc7294a980a048ca9" />                                                 
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                                                                                                                    <div id="step2" class="display-b">
+                                                <!-- Row -->
+                                                <div class="row">
+                                                    <div class="col-md-12" id="with-step-1">
+                                                        <!-- Form Group -->
+                                                        <div class="form-group">
+                                                            <label for="amount">Enter amount</label>
+                                                            <div class="input-group">
+                                                                <input type="number" class="form-control myElements" step="any" name="amount"
+                                                                value="" id="amount" aria-describedby="amount"
+                                                                placeholder="Enter amount" onkeyup="transfee(this);">
+                                                                <div class="input-group-prepend hide" id="tr-ref-sel">
+                                                                    <span class="input-group-text" id="inputGroupPrepend2"></span>
+                                                                </div>
+                                                            </div>
+                                                            <label class="error" id="amountWithError"></label>
+                                                        </div>
+                                                        <!-- /form group -->
+                                                        <!-- VISA/Mastercard withdrawal -->
+                                                        <div class="hide" id="vsms-withdrawal">
+                                                            <div class="row">
+                                                                <div class="form-group col-md-12">
+                                                                    <label for="cardNumber">Card number</label>
+                                                                    <div class="input-group" id="cardnumber12">
+                                                                        <input type="text" class="form-control card-number required" step="any" name="cardNumber"
+                                                                        value="" aria-describedby="cardNumber"
+                                                                        placeholder="1234-5678-1234-5678">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- VISA/Mastercard withdrawal -->
+                                                        <!-- Bank withdrawal -->
+                                                        <div class="hide" id="bank-withdrawal">
+                                                            <div class="row">
+                                                                <div class="form-group col-md-12">
+                                                                    <label for="bank_account">Bank Name</label>
+                                                                    <input type="text" class="form-control required" step="any" name="bank_name"
+                                                                        value="" aria-describedby="bank_account">
+                                                                </div>
+                                                                <div class="form-group col-md-12">
+                                                                    <label for="account_name">Account Name</label>
+                                                                    <input type="text" class="form-control required" step="any" name="account_name"
+                                                                        value="" aria-describedby="account_name">
+                                                                </div>
+                                                                <div class="form-group col-md-12">
+                                                                    <label for="account_number">Account Number</label>
+                                                                    <input type="text" class="form-control required" step="any" name="account_number"
+                                                                        value="" aria-describedby="account_number">
+                                                                </div>
+                                                                <div class="form-group col-md-12">
+                                                                    <label for="swift_code">SWIFT-Code</label>
+                                                                        <input type="text" class="form-control required" step="any" name="swift_code"
+                                                                        value="" aria-describedby="swift_code">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Bank withdrawal -->
+                                                        <!-- Form Group -->
+                                                                                                                <div class="form-group hide" id="rec-inp">
+                                                            <label for="recipient">Recipient Account</label>
+                                                            <input type="text" class="form-control" name="account"
+                                                                value="" id="account-wda" aria-describedby="recipient"
+                                                                placeholder="">
+                                                            <label class="error hide" id="acc-with-err"></label>
+                                                        </div>
+                                                        <!-- /form group -->
+                                                        <!--
+                                                        <div class="form-group hide" id="tr-fee-fi">
+                                                            <label for="recipient">Transaction fee is <d id="transFee"><d></label>
+                                                            <br>
+                                                            <label for="recipient">You will get <d id="finAmount"></d></label>
+                                                        </div>
+                                                        -->
+                                                        <!-- /form group -->
+                                                        <div class="form-group">
+                                                            <label for="amount" id="tr-with-mth">Payment method</label>
+                                                            <div class="row">
+                                                                                                                                                                                                <div class="cnt_min col-md-2" id="rowMN">
+                                                                    <input type="radio" name="withdrawalMethod"
+                                                                        value="41" data-name="Btc" data-api="0" data-id="41" data-value="MN" data-name="Btc" onchange="transfee(this);"/>
+                                                                        <img
+                                                                        src="https://primestocktrades.com/m_cust/dash/uploads/DAA9DF07-6B67-47F0-B3C8-E44022CBABD3.png"
+                                                                        alt="Select withdrawal method"
+                                                                        class="selected_img myElements">
+                                                                </div>
+                                                                                                                                                                                                <div class="cnt_min col-md-2" id="rowMN">
+                                                                    <input type="radio" name="withdrwa_method"
+                                                                        value="42" data-name="Eth" data-api="0" data-id="42" data-value="MN" data-name="Eth" onchange="transfee(this);"/>
+                                                                        <img
+                                                                        src="https://primestocktrades.com/m_cust/dash/uploads/A21D8A4C-D4D6-443B-947F-52C4514E6D2D.png"
+                                                                        alt="Select withdrawal method"
+                                                                        class="selected_img myElements">
+                                                                </div>
+                                                                                                                                                                                                <div class="cnt_min col-md-2" id="rowMN">
+                                                                    <input type="radio" name="withdrwa_method"
+                                                                        value="43" data-name="Bnb" data-api="0" data-id="43" data-value="MN" data-name="Bnb" onchange="transfee(this);"/>
+                                                                        <img
+                                                                        src="https://primestocktrades.com/m_cust/dash/uploads/D3A1C922-F01F-4B8E-A046-D17A2F3FF20E.png"
+                                                                        alt="Select withdrawal method"
+                                                                        class="selected_img myElements">
+                                                                </div>
+                                                                                                                                                                                                <div class="cnt_min col-md-2" id="rowMN">
+                                                                    <input type="radio" name="withdrwa_method"
+                                                                        value="44" data-name="USDC Erc20" data-api="0" data-id="44" data-value="MN" data-name="USDC Erc20" onchange="transfee(this);"/>
+                                                                        <img
+                                                                        src="https://primestocktrades.com/m_cust/dash/uploads/ECD4073F-A1EC-42EC-97F2-BCF187C46B35.png"
+                                                                        alt="Select withdrawal method"
+                                                                        class="selected_img myElements">
+                                                                </div>
+                                                                                                                                                                                                                                                                <div class="cnt_min col-md-2" id="rowMN">
+                                                                    <input type="radio" name="withdrwa_method"
+                                                                        value="46" data-name="Trx" data-api="0" data-id="46" data-value="MN" data-name="Trx" onchange="transfee(this);"/>
+                                                                        <img
+                                                                        src="https://primestocktrades.com/m_cust/dash/uploads/4FB55AFB-C3D1-4A62-89AA-CC878D9133B5.png"
+                                                                        alt="Select withdrawal method"
+                                                                        class="selected_img myElements">
+                                                                </div>
+                                                                                                                                                                                                <div class="cnt_min col-md-2" id="rowMN">
+                                                                    <input type="radio" name="withdrwa_method"
+                                                                        value="47" data-name="Doge" data-api="0" data-id="47" data-value="MN" data-name="Doge" onchange="transfee(this);"/>
+                                                                        <img
+                                                                        src="https://primestocktrades.com/m_cust/dash/uploads/02334F22-C7AD-4F85-80DC-BDAD5328B08D1.png"
+                                                                        alt="Select withdrawal method"
+                                                                        class="selected_img myElements">
+                                                                </div>
+                                                                                                                                                                                                <div class="cnt_min col-md-2" id="rowMN">
+                                                                    <input type="radio" name="withdrwa_method"
+                                                                        value="48" data-name="Usdt Trc20" data-api="0" data-id="48" data-value="MN" data-name="Usdt Trc20" onchange="transfee(this);"/>
+                                                                        <img
+                                                                        src="https://primestocktrades.com/m_cust/dash/uploads/C0C61C55-309A-4772-9603-779EC50253C4.png"
+                                                                        alt="Select withdrawal method"
+                                                                        class="selected_img myElements">
+                                                                </div>
+                                                                                                                            </div>
+                                                        </div>
+                                                        <p class="hide" style="margin-top:-20px;" id="transactionfeewrapper">Transaction fee is : <b id="transactionfee"></b></p>
+                                                        <p class="hide" id="finalamountwrapper">You will get : <b id="finalamount"></b></p>
+                                                                                                            </div>
+                                                </div>
+                                                <!-- /row -->
+                                                                                                <!-- Form Group -->
+                                                <div class="form-group mb-0">
+                                                    <button type="submit" id="submitButtonForm"
+                                                        class="btn btn-info text-uppercase w-100 mt-2m">
+                                                        Process withdrawal</button>
+                                                        <button type="submit" class="btn btn-info text-uppercase w-100 mt-2m hide" id="withdrawSubmitButton">Process withdrawal</button>
+                                                </div>
+                                                <!-- /form group -->
                                             </div>
                                         </div>
-                                        <!-- /modal body -->
-
-                                        <!-- Modal Footer -->
-                                        <div class="modal-footer">
-                                            <button type="button"
-                                                class="btn btn-secondary btn-sm"
-                                                data-dismiss="modal">Cancel
-                                            </button>
-                                        </div>
-                                        <!-- /modal footer -->
-                                        </form>
-                                    </div>
-                                    <!-- /modal content -->
-
-                                </div>
+                                </form>                                <!-- /form -->
                             </div>
-                            <!-- /modal -->
-                            <div class="modal fade display-n" id="pricemodal" tabindex="-1" role="dialog"
-                                aria-labelledby="model-8" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-
-                                    <!-- Modal Content -->
-                                    <div class="modal-content">
-
-                                        <!-- Modal Header -->
-                                        <div class="modal-header">
-                                            <h3 class="modal-title" id="model-8">View Payment Amount Info</h3>
-                                            <button type="button" class="close"
-                                                data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">×</span>
-                                            </button>
-                                        </div>
-                                        <!-- /modal header -->
-
-                                        <!-- Modal Body -->
-                                        <div class="modal-body">
-                                            <p>Withdrawn Amount: <b id="fullamount"></b></p>
-                                            <p>Transaction Fees: <b id="fullamountfees"></b></p>
-                                            <p>Amount To Receive: <b id="fullamountlessfees"></b></p>
-                                        </div>
-                                        <!-- /modal body -->
-
-                                        <!-- Modal Footer -->
-                                        <div class="modal-footer">
-                                            <button type="button"
-                                                class="btn btn-secondary btn-sm"
-                                                data-dismiss="modal">Cancel                                            </button>
-                                        </div>
-                                        <!-- /modal footer -->
-
-                                    </div>
-                                    <!-- /modal content -->
-
-                                </div>
-                            </div>
-                            <!-- /modal -->
+                            <!-- /card body -->
                                                     </div>
-
+                        <!-- /card -->
                     </div>
-                    <!-- /grid -->
-
+                    <!-- /grid item -->
                 </div>
-                <!-- /profile content -->
-
+                <!-- /grid -->
             </div>
-            <!-- /Profile -->
-
+            <!-- /profile content -->
         </div>
+        <!-- /Profile -->
     </div>
-    <!-- Modal -->
-    <div class="modal fade display-n" id="modal" tabindex="-1" role="dialog"
-        aria-labelledby="model-8" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <!-- Modal Content -->
-            <div class="modal-content">
-                <form action="" id="modalForm" method="post" accept-charset="utf-8">
-<input type="hidden" name="csrf_test_name" value="" />                                                                                             
-                    <!-- Modal Header -->
-                    <div class="modal-header">
-                        <h3 class="modal-title" id="model-8"></h3>
-                        <button type="button" class="close"
-                            data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">×</span>
-                        </button>
-                    </div>
-                    <!-- /modal header -->
-                    <!-- Modal Body -->
-                    <!-- Form Group -->
-                    <div class="modal-body mb--10 hide" id="reinvestPlans">
-                        <div class="form-group">
-                            <label for="fname">Select your preferred investment plan</label>
-                            <select class="form-control" name="plan" id="simple-select">
-                                <option value="" selected disabled hidden>Select your preferred investment plan</option>
-                                                            </select>
-                        </div>
-                    </div>
-                    <!-- /form group -->
-                    <div class="modal-body" id="modalBody">
-                    </div>
-                    <!-- /modal body -->
-                    <!-- Modal Footer -->
-                    <div class="modal-footer" id="modalFooter">
-                        <button type="button"
-                            class="btn btn-secondary btn-sm"
-                            data-dismiss="modal">Cancel                        </button>
-                        <div id="continue"></div>
-                    </div>
-                    <!-- /modal footer -->
-                </form>
-            </div>
-            <!-- /modal content -->
-        </div>
-    </div>
-    <!-- /modal -->
-    <script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/trans.js"></script>
+</div>
+<script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/functions.js"></script>
+    <script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/bootstrap-formhelpers.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
     <script>
-        $("#pfm").click(function(e){
-            e.preventDefault();
-
-            var amount = $(this).attr('data-amount');
-            var fees = $(this).attr('data-fees');
-            var final = $(this).attr('data-amountlessfee');
-
-            $('#fullamount').html(amount);
-            $('#fullamountfees').html(fees);
-            $('#fullamountlessfees').html(final);
-        })
-        $('.accountsButton').click(function(e){
-            e.preventDefault();
-            var user = $(this).attr('data-id');
-            var actionurl = $(this).attr('data-url');
-
-            //Clear list
-            $('#paymentList').html('');
-
-            $.ajax({
-                url: actionurl,
-                type: 'get',
-                success: function(res) {
-                    var content = JSON.parse(res);
-                    console.log(content);
-                    if(content.success == true)
-                    {
-                            var div = document.getElementById('paymentList');
-
-                            if(content.data.withdrawal_account == null){
-                                var divOpen = '<div class="row col-md-12">'
-                                var div1 = '<div class="col-md-6">Bank Name: </div>'
-                                var div2 = '<div class="col-md-6 text-uppercase">'+content.data.bank_name+'</div>'
-                                var div3 = '<div class="col-md-6">Account Name: </div>'
-                                var div4 = '<div class="col-md-6 text-uppercase">'+content.data.account_name+'</div>'
-                                var div5 = '<div class="col-md-6">Account Number: </div>'
-                                var div6 = '<div class="col-md-6">'+content.data.account_number+'</div>'
-                                var div7 = '<div class="col-md-6">Swift Code: </div>'
-                                var div8 = '<div class="col-md-6">'+content.data.swift_code+'</div>'
-                                var div9 = '<div class="col-md-6">Status: </div>'
-                                var div10 = '<div class="col-md-6">'+content.status+'</div>'
-                                var div11 = '<div class="col-md-6">Reason: </div>'
-                                var div12 = '<div class="col-md-6">'+content.data.reason+'</div>'
-                                var divClose = '</div>'
-
-                                if(content.data.status == '0' || content.data.status == '1'){
-                                    div.innerHTML += divOpen + div1 + div2 + div3 + div4 + div5 + div6 + div7 + div8 + div9 + div10 + divClose;
-                                } else {
-                                    div.innerHTML += divOpen + div1 + div2 + div3 + div4 + div5 + div6 + div7 + div8 + div9 + div10 + div11 + div12 + divClose;
-                                }
-                            } else {
-                                var divOpen = '<div class="row col-md-12">'
-                                var div1 = '<div class="col-md-6">'+content.data.withdrawal_method+': </div>'
-                                var div2 = '<div class="col-md-6">'+content.data.withdrawal_account+'</div>'
-                                var div3 = '<div class="col-md-6">Status: </div>'
-                                var div4 = '<div class="col-md-6">'+content.status+'</div>'
-                                var div5 = '<div class="col-md-6">Reason: </div>'
-                                var div6 = '<div class="col-md-6">'+content.data.reason+'</div>'
-                                var divClose = '</div>'
-
-                                if(content.data.status === 0 || content.data.status === 1){
-                                    div.innerHTML += divOpen + div1 + div2 + div3 + div4 +  divClose;
-                                } else {
-                                    div.innerHTML += divOpen + div1 + div2 + div3 + div4 + divClose;
-                                }
-                            }
-
-                        $("#terms").html(content.terms);
-                        $('#submit').attr('disabled', false);
-                        $("#submit").html('Create Account');
-                    }
-                }
-            })
-
-        })
-    </script><!-- Footer -->
+        $(document).ready(function () {
+            $('.card-number').mask('0000-0000-0000-0000');
+            $('.dob').mask('00/00/0000');
+            $('.expDate').mask('00/00');
+        });
+    </script>
+    <script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/withdrawal.js"></script>
+<!-- Footer -->
 <footer class="dt-footer">
 
     Copyright PrimestockFx Trades  © 2023</footer>

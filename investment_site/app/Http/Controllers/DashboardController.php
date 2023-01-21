@@ -59,6 +59,8 @@ class DashboardController extends Controller
         
     }
     public function security(){
+
+       
         return view('dashboard.security');
         
     }
