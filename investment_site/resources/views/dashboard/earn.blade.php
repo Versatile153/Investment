@@ -210,7 +210,7 @@
                                         </li>
 
                                         <li class="dt-side-nav__item">
-                                            <a href=""
+                                            <a href="view_deposit"
                                                 class="dt-side-nav__link "
                                                 title="Revenue">
                                                 <span class="dt-side-nav__text">View deposits</span> </a>
@@ -230,14 +230,14 @@
                                     <ul class="dt-side-nav__sub-menu display-n">
                                         <li
                                             class="dt-side-nav__item open ">
-                                            <a href=""
+                                            <a href="withdraw"
                                                 class="dt-side-nav__link "
                                                 title="Traffic">
                                                 <span class="dt-side-nav__text">Withdraw funds</span> </a>
                                         </li>
 
                                         <li class="dt-side-nav__item">
-                                            <a href=""
+                                            <a href="view"
                                                 class="dt-side-nav__link "
                                                 title="Revenue">
                                                 <span class="dt-side-nav__text">View withdrawals</span> </a>
@@ -248,7 +248,7 @@
                                 </li>
                                 <li
                                     class="dt-side-nav__item selected">
-                                    <a href=""
+                                    <a href="earn"
                                         class="dt-side-nav__link dt-active"
                                         title="Earnings">
                                         
@@ -257,7 +257,7 @@
                                 </li>
                                 <li
                                     class="dt-side-nav__item ">
-                                    <a href=""
+                                    <a href="ref"
                                         class="dt-side-nav__link "
                                         title="My Referrals">
                                         
@@ -266,7 +266,7 @@
                                 </li>
                                 <li
                                     class="dt-side-nav__item ">
-                                    <a href="" class="dt-side-nav__link"
+                                    <a href="help" class="dt-side-nav__link"
                                         title="Support">
                                        
                                         <span  class="dt-side-nav__text">Help Desk</span>

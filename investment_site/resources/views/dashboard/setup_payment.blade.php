@@ -203,7 +203,7 @@
                                             </li>
 
                                             <li class="dt-side-nav__item">
-                                                <a href=""
+                                                <a href="view_deposit"
                                                     class="dt-side-nav__link "
                                                     title="Revenue">
                                                     <span class="dt-side-nav__text">View deposits</span> </a>
@@ -223,14 +223,14 @@
                                         <ul class="dt-side-nav__sub-menu display-n">
                                             <li
                                                 class="dt-side-nav__item open ">
-                                                <a href=""
+                                                <a href="withdraw"
                                                     class="dt-side-nav__link "
                                                     title="Traffic">
                                                     <span class="dt-side-nav__text">Withdraw funds</span> </a>
                                             </li>
 
                                             <li class="dt-side-nav__item">
-                                                <a href=""
+                                                <a href="view"
                                                     class="dt-side-nav__link "
                                                     title="Revenue">
                                                     <span class="dt-side-nav__text">View withdrawals</span> </a>
@@ -241,7 +241,7 @@
                                     </li>
                                     <li
                                         class="dt-side-nav__item ">
-                                        <a href=""
+                                        <a href="earn"
                                             class="dt-side-nav__link "
                                             title="Earnings">
                                             <i class="icon icon-dashboard icon-fw icon-lg"></i>
@@ -250,7 +250,7 @@
                                     </li>
                                     <li
                                         class="dt-side-nav__item ">
-                                        <a href=""
+                                        <a href="ref"
                                             class="dt-side-nav__link "
                                             title="My Referrals">
                                             <i class="icon icon-users icon-fw icon-lg"></i>
@@ -259,7 +259,7 @@
                                     </li>
                                     <li
                                         class="dt-side-nav__item ">
-                                        <a href="" class="dt-side-nav__link"
+                                        <a href="help" class="dt-side-nav__link"
                                             title="Support">
                                             <i class="icon icon-mail icon-fw icon-lg"></i>
                                             <span class="dt-side-nav__text">Help Desk</span>
