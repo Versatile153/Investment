@@ -668,7 +668,7 @@ body {
 					<li><button class="dropdown-item" type="button">withdraw funds</button></li>
 				 </a>
 
-				 <a href="/withdraw_view">
+				 <a href="/view_deposit">
 					<li><button class="dropdown-item" type="button">View withdrawals</button></li>
 
 				 </a>

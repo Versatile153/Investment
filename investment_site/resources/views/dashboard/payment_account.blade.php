@@ -134,17 +134,23 @@
                                                 alt="versatile eze">
                                             <span class="dt-avatar-info d-none d-sm-block">
                                             <span
-                                                    class="dt-avatar-name">versatile eze</span>
+                                                    class="dt-avatar-name">{{ Auth::user()->name }}</span>
                                                                                                         <span>Verified</span>
                                                                                                 </span> </a>
+                                                                                                
                                         <!-- /dropdown link -->
 
                                         <!-- Dropdown Option -->
-                                        <div class="dropdown-menu dropdown-menu-right">
-                                            <a class="dropdown-item" href=""> <i
-                                                    class="icon icon-user icon-fw mr-2 mr-sm-1"></i>Account                                            </a>
-                                            <a class="dropdown-item" href=""> <i
-                                                    class="icon icon-editors icon-fw mr-2 mr-sm-1"></i>Logout                                            </a>
+                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                            <a  class="dropdown-item btn btn-danger" href="{{ route('logout') }}"
+                                               onclick="event.preventDefault();
+                                                             document.getElementById('logout-form').submit();">
+                                                {{ __('Logout') }}
+                                            </a>
+        
+                                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                                @csrf
+                                            </form>
                                         </div>
                                         <!-- /dropdown option -->
 

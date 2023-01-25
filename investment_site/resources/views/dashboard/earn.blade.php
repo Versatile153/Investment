@@ -138,30 +138,32 @@
                                         <!-- Dropdown Link -->
                                         <a href="#" class="dt-nav__link dropdown-toggle no-arrow dt-avatar-wrapper"
                                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <img class="dt-avatar size-30"
+                                            {{-- <img class="dt-avatar size-30"
                                                 src="https://primestocktrades.com/m_cust/dash/assets/dist/img/avatar.png"
-                                                alt="eze cecc">
+                                                alt="eze cecc"> --}}
                                             <span class="dt-avatar-info d-none d-sm-block">
-                                                <span class="dt-avatar-info d-none d-sm-block">
-                                                
-                                                    <a style="font-weight: bolder;" id="navbarDropdown" class="nav-link dropdown-toggle" href="{{ route('logout') }}" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                                        {{ Auth::user()->name }}
-                                                    </a>
-                                                
-                                               </span>
+                                                <span
+                                                    class="dt-avatar-name">{{ Auth::user()->name }}</span>
+                                                                                                      
                                         <!-- /dropdown link -->
 
                                         <!-- Dropdown Option -->
-                                        <div class="dropdown-menu dropdown-menu-right">
-                                            <a class="dropdown-item" href=""> <i
-                                                    class="icon icon-user icon-fw mr-2 mr-sm-1"></i>Account                                            </a>
-                                            <a class="dropdown-item" href=""> <i
-                                                    class="icon icon-editors icon-fw mr-2 mr-sm-1"></i>Logout                                            </a>
+                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                            <a  class="dropdown-item btn btn-danger" href="{{ route('logout') }}"
+                                               onclick="event.preventDefault();
+                                                             document.getElementById('logout-form').submit();">
+                                                {{ __('Logout') }}
+                                            </a>
+        
+                                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                                @csrf
+                                            </form>
                                         </div>
                                         <!-- /dropdown option -->
 
                                     </li>
                                 </ul>
+                                <!-- /header menu -
                                 <!-- /header menu -->
                             </div>
                             <!-- Header Menu Wrapper -->
