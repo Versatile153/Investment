@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\PagesController;
 use App\Http\Controllers\PayMentController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -17,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome1');
 });
 
 Auth::routes();
@@ -57,6 +58,31 @@ Route::post('/set_up',[PayMentController::class,'set_up']);
 Route::post('/profile',[PayMentController::class,'profile']);
 Route::post('/security',[PayMentController::class,'security']);
 Route::post('/money_withdrawal',[PayMentController::class,'money_withdrawal']);
+
+///pages routes
+Route::get('/forex',[PagesController::class,'forex']);
+Route::get('/crypto',[PagesController::class,'crypto']);
+Route::get('/stock',[PagesController::class,'stock']);
+Route::get('/stake',[PagesController::class,'stake']);
+Route::get('/commo',[PagesController::class,'commo']);
+Route::get('/spot',[PagesController::class,'spot']);
+Route::get('/bot',[PagesController::class,'bot']);
+Route::get('/margin',[PagesController::class,'margin']);
+Route::get('/career',[PagesController::class,'career']);
+Route::get('/story',[PagesController::class,'story']);
+Route::get('/price',[PagesController::class,'price']);
+Route::get('/forex_price',[PagesController::class,'forex_price'][]);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
