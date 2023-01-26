@@ -30,6 +30,7 @@ Route::get('/help',[DashboardController::class,'help']);
 Route::get('/earn',[DashboardController::class,'earn']);
 Route::get('/ref',[DashboardController::class,'ref']);
 Route::get('/withdraw',[DashboardController::class,'withdraw']);
+Route::get('/withdraw_view',[DashboardController::class,'view']);
 Route::get('/view_with',[DashboardController::class,'view']);
 Route::get('/dash',[DashboardController::class,'dash']);
 Route::get('/deposit',[DashboardController::class,'deposit']);
