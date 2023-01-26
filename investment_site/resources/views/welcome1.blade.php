@@ -9938,9 +9938,11 @@ ul#footermenu li {
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4 footers-one">
                      <div class="footers-logo">
-                       <a href="default.php">
-                         <img src="https://primestocktrades.com/img/logo.png" class="img-fluid" alt="Logo">
-                       </a>
+                        <a href="default.php" class="logo d-flex align-items-center">
+                            <!-- Uncomment the line below if you also wish to use an image logo -->
+                            <img width="120"src="https://media.istockphoto.com/id/1369406446/photo/shield-check-mark-on-podium.jpg?s=612x612&w=0&k=20&c=0ND_Mr3otYh7rEnjUGY9gVy6k7ndSzGkcnH1yuwF0S4=" alt="">
+                           <!--- <h1>Logis</h1>--->
+                          </a>
                      </div>
                     <div class="footers-info mt-3">
                          <p>"Primestocktrades is not just a company, it's a mission"<br> - Michael Walker, Founder and CEO </p>
