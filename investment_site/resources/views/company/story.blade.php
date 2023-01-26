@@ -7618,7 +7618,7 @@ i:before {
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-      <a class="buy-tickets scrollto" href="default.php">Primestocktrades Home</a>
+      <a class="buy-tickets scrollto" href="/">Primestocktrades Home</a>
 
     </div>
   </header><!-- End Header -->
@@ -7950,10 +7950,10 @@ ul#footermenu li {
                          <p>"Primestocktrades is not just a company, it's a mission"<br> - Michael Walker, Founder and CEO </p>
                      </div>
                      <div class="social-icons"> 
-                     <a href="https://wa.me/message/6ITEC6W5E5FTE1"><i id="social-fb" class="fa fa-whatsapp fa-2x social"></i></a>
-                     <a href="https://instagram.com/primestocktrades?igshid=YmMyMTA2M2Y="><i id="social-yb" class="fa fa-instagram fa-2x social"></i></a>
-                     <a href="https://t.me/primestocktrades"><i id="social-tm" class="fa fa-telegram fa-2x social"></i></a>
-                     <a href="support@primestocktrades.com"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
+                     <a href=""><i id="social-fb" class="fa fa-whatsapp fa-2x social"></i></a>
+                     <a href=""><i id="social-yb" class="fa fa-instagram fa-2x social"></i></a>
+                     <a href=""><i id="social-tm" class="fa fa-telegram fa-2x social"></i></a>
+                     <a href=""><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
                  </div>
                  </div>
                 <div class="col-xs-12 col-sm-6 col-md-2 footers-two">
@@ -7990,11 +7990,11 @@ ul#footermenu li {
                 <div class="col-xs-12 col-sm-6 col-md-2 footers-five">
     		    <h5>Legal </h5>
     		     <ul class="list-unstyled">
-    			 <li><a href="doc/Certificate-of-Inc.pdf">Certificate of Incorporation</a></li>
-    			 <li><a href="doc/Tax-insurance.pdf">Tax & Insurance </a></li>
-    			 <li><a href="doc/Anti-laundering.pdf">Guide to Anti Laundering</a></li>
-    			 <li><a href="doc/Brochure.pdf">Company Brochure</a></li>
-    			 <li><a href="doc/Fin-statement-2021.pdf">Financial Statement 2021</a></li>
+    			 <li><a href="">Certificate of Incorporation</a></li>
+    			 <li><a href="">Tax & Insurance </a></li>
+    			 <li><a href="">Guide to Anti Laundering</a></li>
+    			 <li><a href="">Company Brochure</a></li>
+    			 <li><a href="">Financial Statement 2021</a></li>
     			</ul>
     		</div>
                  

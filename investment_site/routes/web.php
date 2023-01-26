@@ -30,7 +30,6 @@ Route::get('/help',[DashboardController::class,'help']);
 Route::get('/earn',[DashboardController::class,'earn']);
 Route::get('/ref',[DashboardController::class,'ref']);
 Route::get('/withdraw',[DashboardController::class,'withdraw']);
-Route::get('/withdraw_view',[DashboardController::class,'view']);
 Route::get('/view_with',[DashboardController::class,'view']);
 Route::get('/dash',[DashboardController::class,'dash']);
 Route::get('/deposit',[DashboardController::class,'deposit']);
@@ -72,7 +71,7 @@ Route::get('/margin',[PagesController::class,'margin']);
 Route::get('/career',[PagesController::class,'career']);
 Route::get('/story',[PagesController::class,'story']);
 Route::get('/price',[PagesController::class,'price']);
-Route::get('/forex_price',[PagesController::class,'forex_price'][]);
+Route::get('/forex_price',[PagesController::class,'forex_price']);
 
 
 
