@@ -7851,7 +7851,7 @@ h1, h2, h3, h4, h5, h6 {
       <h1>Spot Trading.</h1>
       
       <div class="d-flex">
-        <a href="m_cust/dash/signup" class="btn-get-started scrollto">Get Started</a>
+        <a href="" class="btn-get-started scrollto">Get Started</a>
        
       </div>
     </div>

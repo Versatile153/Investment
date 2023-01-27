@@ -646,7 +646,7 @@ $(document).ready(function(){
       <h1>Commodities Trading</h1>
       <h2>Commodity trading is the buying and selling of a wide range of commodities such as energy, metals, oil, gas and agricultural products </h2>
       <div class="d-flex">
-        <a href="m_cust/dash/signup" class="btn-get-started scrollto">Trade Now</a>
+        <a href="" class="btn-get-started scrollto">Trade Now</a>
       </div>
     </div>
   </section><!-- End Hero -->

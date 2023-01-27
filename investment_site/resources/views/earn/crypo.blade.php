@@ -6859,7 +6859,7 @@ h1, h2, h3, h4, h5, h6 {
       <header id="header" class="header d-flex align-items-center fixed-top" style="background-color: black !important;">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
     
-          <a href="default.php" class="logo d-flex align-items-center">
+          <a href="/" class="logo d-flex align-items-center">
             <!-- Uncomment the line below if you also wish to use an image logo -->
             <img src="https://media.istockphoto.com/id/1369406446/photo/shield-check-mark-on-podium.jpg?s=612x612&w=0&k=20&c=0ND_Mr3otYh7rEnjUGY9gVy6k7ndSzGkcnH1yuwF0S4=" alt="">
            <!--- <h1>Logis</h1>--->
@@ -7048,7 +7048,7 @@ $(document).ready(function(){
       <h1>Trade Cryptocurrencies </h1>
       <h2>Speculate on the rise and fall of the most popular cryptocurrencies <br/> including Bitcoin, Ethereum, and Litecoin .</h2>
       <div class="d-flex">
-        <a href="m_cust/dash/signup" class="btn-get-started scrollto">Start Trading</a>
+        <a href="" class="btn-get-started scrollto">Start Trading</a>
       </div>
     </div>
   </section><!-- End Hero -->

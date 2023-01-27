@@ -67,6 +67,12 @@ class RegisterController extends Controller
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
+            'usdt_wallet_address' => $data['usdt_wallet_address'],
+            'etherem_wallet_address' => $data['etherem_wallet_address'],
+            'bitcoin_wallet_address' => $data['bitcoin_wallet_address'],
+
+
+
             'password' => Hash::make($data['password']),
         ]);
     }

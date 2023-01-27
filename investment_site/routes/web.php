@@ -1,8 +1,10 @@
 <?php
 
+use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\PayMentController;
+use App\Http\Controllers\UsersController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -22,7 +24,7 @@ Route::get('/', function () {
 });
 
 Auth::routes();
-
+Route::post('/reg',[UsersController::class,'create']);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 //////////////dash
@@ -102,3 +104,11 @@ Route::get('/forex_price',[PagesController::class,'forex_price']);
 
 
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

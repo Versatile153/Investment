@@ -8936,37 +8936,37 @@ i:before {
                   </li>
               <li class="dropdown"><a href="#"><span>Trade</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul>
-                  <li><a href="spottrading.html">Spot Trading</a></li>
-                  <li><a href="margin.html">Margin Trading</a></li>
-                  <li><a href="tradebots.html">Bot Trading</a></li>
+                  <li><a href="/spot">Spot Trading</a></li>
+                  <li><a href="/margin">Margin Trading</a></li>
+                  <li><a href="bot">Bot Trading</a></li>
                     </ul>
                   </li>
-              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="">Pricing</a></li>
               
                <li class="dropdown"><a href="#"><span>Company</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul>
-                      <li><a href="about.html">Our Story</a></li>
-                    <li><a href="careers.html">Careers</a></li>
+                      <li><a href="/career">Our Story</a></li>
+                  <li><a href="/story">Careers</a></li>
                     </ul>
                   </li>
               <li class="dropdown"><a href="#"><span>Resources</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="doc/Brochure.pdf">Company Brochure</a></li>
-            <li><a href="doc/Certificate-of-Inc.pdf">Company Certificate of Incorporation</a></li>
-            <li><a href="doc/Reg-address.pdf">Company Registered House Address</a></li>
-            <li><a href="doc/Foreign-investor-protection.pdf">Foreign Investors Protection</a></li>
-    		<li><a href="doc/Tax-insurance.pdf">Company Tax & Insurance</a></li>
-            <li><a href="doc/UKTax-guide.pdf">UK Taxation Basic Guide</a></li>
-    		<li><a href="doc/Anti-laundering.pdf">Guide to Anti Laundering</a></li>
-    		<li><a href="doc/Fin-statement-2022.pdf">Unaudited Financial Statement 2022</a></li>
-    		<li><a href="doc/Fin-statement-2021.pdf">Unaudited Financial Statement 2021</a></li>
-            <li><a href="doc/Fin-statement-2020.pdf">Unaudited Financial Statement 2020</a></li>
-            <li><a href="doc/Fin-statement-2019.pdf">Unaudited Financial Statement 2019</a></li>
+              <li><a href="">Company Brochure</a></li>
+            <li><a href="">Company Certificate of Incorporation</a></li>
+            <li><a href="">Company Registered House Address</a></li>
+            <li><a href="">Foreign Investors Protection</a></li>
+    		<li><a href="">Company Tax & Insurance</a></li>
+            <li><a href="">UK Taxation Basic Guide</a></li>
+    		<li><a href="">Guide to Anti Laundering</a></li>
+    		<li><a href="">Unaudited Financial Statement 2022</a></li>
+    		<li><a href="">Unaudited Financial Statement 2021</a></li>
+            <li><a href="">Unaudited Financial Statement 2020</a></li>
+            <li><a href="">Unaudited Financial Statement 2019</a></li>
                 </ul>
               </li>
                
               
-              <li><a class="get-a-quote" href="m_cust/dash/login">Get Started</a></li>
+              <li><a class="get-a-quote" href="">Get Started</a></li>
             </ul>
           </nav><!-- .navbar -->
     
@@ -9038,7 +9038,7 @@ i:before {
       <h1>Bot Trading</h1>
       
       <div class="d-flex">
-        <a href="m_cust/dash/signup" class="btn-get-started scrollto">Get Started</a>
+        <a href="" class="btn-get-started scrollto">Get Started</a>
        
       </div>
     </div>

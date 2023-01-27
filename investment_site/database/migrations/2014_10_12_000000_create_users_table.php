@@ -15,12 +15,12 @@ return new class extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
-            $table->string('fullname');
-            $table->string('username');
-            $table->string('password');
+            $table->string('name');
             $table->string('email')->unique();
+            $table->string('password');
+            // $table->string('email')->unique();
             $table->string('bitcoin_wallet_address')->nullable();
-            $table->string('ethereum_wallet_address')->nullable();
+            $table->string('etherem_wallet_address')->nullable();
             $table->string('usdt_wallet_address')->nullable();
             $table->rememberToken();
             $table->timestamps();

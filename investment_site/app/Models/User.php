@@ -18,8 +18,7 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
-        'fullname',
-        'username',
+        'name',
         'email',
         'password',
         'bitcoin_wallet_address',
