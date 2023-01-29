@@ -333,14 +333,14 @@
                         <!-- Card -->
                         <div class="dt-card">
                             <!-- Card Body -->
-                            <div class="dt-card__body p-xl-8 py-sm-8 py-6 px-4 dt-card bg-secondary text-white">
+					<div class="dt-card__body p-xl-8 py-sm-8 py-6 px-4 dt-card  text-dark">
                                 <span class="badge badge-secondary badge-top-right">Earnings</span>
                                 <!-- Media -->
                                 <div class="media">
                                     <i class="icon icon-revenue-new icon-5x mr-xl-5 mr-3 align-self-center"></i>
                                     <!-- Media Body -->
                                     <div class="media-body">
-                                        <p class="mb-1 h1 text-white">
+                                        <p class="mb-1 h1 text-dark">
 											{{ DB::table('deposits')->sum('amount') }} GBP 
 			                                 </p>
                                         <span class="d-block">Total Deposit</span>
