@@ -134,9 +134,8 @@
                                                 alt="eze cecc">
                                             <span class="dt-avatar-info d-none d-sm-block">
                                                 <span
-                                                    class="dt-avatar-name">eze cecc</span>
-                                                                                                        <span>Verified</span>
-                                                                                                </span> </a>
+                                        class="dt-avatar-name">{{ Auth::user()->name }}</span>
+                                                        
                                         <!-- /dropdown link -->
 
                                         <!-- Dropdown Option -->
