@@ -324,7 +324,7 @@
                                             <!-- Media Body -->
                                             <div class="media-body">
                                                 <div class="display-3 font-weight-600 mb-1 init-counter">
-                                                                                                        GBP 0.00                                                                                                    </div>
+                                            GBP    {{ DB::table('deposits')->sum('amount') }}                                                                                                 </div>
                                                 <span class="d-block">
                                                     Available funds                                                </span>
                                             </div>
@@ -351,7 +351,7 @@
             <!-- Profile Content -->
             <div class="profile-content marg-t-17 marg-t-0 ">
 
-                <!-- Grid -->
+                <!-- Grid -->   
                 <div class="row">
 
                     <!-- Grid Item -->
@@ -369,7 +369,7 @@
                                 <!-- Form -->
                                 <form action="/money_withdrawal" id="addWithdrawal" method="post" accept-charset="utf-8">
                                     @csrf
-<input type="hidden" name="csrf_test_name" value="1fee447187b9352dc7294a980a048ca9" />                                                 
+                            <input type="hidden" name="csrf_test_name" value="" />                                                 
                                     <div class="row">
                                         <div class="col-md-12">
                                                                                                                                     <div id="step2" class="display-b">
@@ -382,144 +382,20 @@
                                                             <div class="input-group">
                                                                 <input type="number" class="form-control myElements" step="any" name="amount"
                                                                 value="" id="amount" aria-describedby="amount"
-                                                                placeholder="Enter amount" onkeyup="transfee(this);">
+                                                                placeholder="Enter amount">
                                                                 <div class="input-group-prepend hide" id="tr-ref-sel">
                                                                     <span class="input-group-text" id="inputGroupPrepend2"></span>
                                                                 </div>
                                                             </div>
-                                                            <label class="error" id="amountWithError"></label>
-                                                        </div>
-                                                        <!-- /form group -->
-                                                        <!-- VISA/Mastercard withdrawal -->
-                                                        <div class="hide" id="vsms-withdrawal">
-                                                            <div class="row">
-                                                                <div class="form-group col-md-12">
-                                                                    <label for="cardNumber">Card number</label>
-                                                                    <div class="input-group" id="cardnumber12">
-                                                                        <input type="text" class="form-control card-number required" step="any" name="cardNumber"
-                                                                        value="" aria-describedby="cardNumber"
-                                                                        placeholder="1234-5678-1234-5678">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <!-- VISA/Mastercard withdrawal -->
-                                                        <!-- Bank withdrawal -->
-                                                        <div class="hide" id="bank-withdrawal">
-                                                            <div class="row">
-                                                                <div class="form-group col-md-12">
-                                                                    <label for="bank_account">Bank Name</label>
-                                                                    <input type="text" class="form-control required" step="any" name="bank_name"
-                                                                        value="" aria-describedby="bank_account">
-                                                                </div>
-                                                                <div class="form-group col-md-12">
-                                                                    <label for="account_name">Account Name</label>
-                                                                    <input type="text" class="form-control required" step="any" name="account_name"
-                                                                        value="" aria-describedby="account_name">
-                                                                </div>
-                                                                <div class="form-group col-md-12">
-                                                                    <label for="account_number">Account Number</label>
-                                                                    <input type="text" class="form-control required" step="any" name="account_number"
-                                                                        value="" aria-describedby="account_number">
-                                                                </div>
-                                                                <div class="form-group col-md-12">
-                                                                    <label for="swift_code">SWIFT-Code</label>
-                                                                        <input type="text" class="form-control required" step="any" name="swift_code"
-                                                                        value="" aria-describedby="swift_code">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <!-- Bank withdrawal -->
-                                                        <!-- Form Group -->
-                                                                                                                <div class="form-group hide" id="rec-inp">
-                                                            <label for="recipient">Recipient Account</label>
-                                                            <input type="text" class="form-control" name="account"
-                                                                value="" id="account-wda" aria-describedby="recipient"
-                                                                placeholder="">
-                                                            <label class="error hide" id="acc-with-err"></label>
-                                                        </div>
-                                                        <!-- /form group -->
-                                                        <!--
-                                                        <div class="form-group hide" id="tr-fee-fi">
-                                                            <label for="recipient">Transaction fee is <d id="transFee"><d></label>
-                                                            <br>
-                                                            <label for="recipient">You will get <d id="finAmount"></d></label>
-                                                        </div>
-                                                        -->
-                                                        <!-- /form group -->
-                                                        <div class="form-group">
-                                                            <label for="amount" id="tr-with-mth">Payment method</label>
-                                                            <div class="row">
-                                                                                                                                                                                                <div class="cnt_min col-md-2" id="rowMN">
-                                                                    <input type="radio" name="withdrawalMethod"
-                                                                        value="41" data-name="Btc" data-api="0" data-id="41" data-value="MN" data-name="Btc" onchange="transfee(this);"/>
-                                                                        <img
-                                                                        src="https://primestocktrades.com/m_cust/dash/uploads/DAA9DF07-6B67-47F0-B3C8-E44022CBABD3.png"
-                                                                        alt="Select withdrawal method"
-                                                                        class="selected_img myElements">
-                                                                </div>
-                                                                                                                                                                                                <div class="cnt_min col-md-2" id="rowMN">
-                                                                    <input type="radio" name="withdrwa_method"
-                                                                        value="42" data-name="Eth" data-api="0" data-id="42" data-value="MN" data-name="Eth" onchange="transfee(this);"/>
-                                                                        <img
-                                                                        src="https://primestocktrades.com/m_cust/dash/uploads/A21D8A4C-D4D6-443B-947F-52C4514E6D2D.png"
-                                                                        alt="Select withdrawal method"
-                                                                        class="selected_img myElements">
-                                                                </div>
-                                                                                                                                                                                                <div class="cnt_min col-md-2" id="rowMN">
-                                                                    <input type="radio" name="withdrwa_method"
-                                                                        value="43" data-name="Bnb" data-api="0" data-id="43" data-value="MN" data-name="Bnb" onchange="transfee(this);"/>
-                                                                        <img
-                                                                        src="https://primestocktrades.com/m_cust/dash/uploads/D3A1C922-F01F-4B8E-A046-D17A2F3FF20E.png"
-                                                                        alt="Select withdrawal method"
-                                                                        class="selected_img myElements">
-                                                                </div>
-                                                                                                                                                                                                <div class="cnt_min col-md-2" id="rowMN">
-                                                                    <input type="radio" name="withdrwa_method"
-                                                                        value="44" data-name="USDC Erc20" data-api="0" data-id="44" data-value="MN" data-name="USDC Erc20" onchange="transfee(this);"/>
-                                                                        <img
-                                                                        src="https://primestocktrades.com/m_cust/dash/uploads/ECD4073F-A1EC-42EC-97F2-BCF187C46B35.png"
-                                                                        alt="Select withdrawal method"
-                                                                        class="selected_img myElements">
-                                                                </div>
-                                                                                                                                                                                                                                                                <div class="cnt_min col-md-2" id="rowMN">
-                                                                    <input type="radio" name="withdrwa_method"
-                                                                        value="46" data-name="Trx" data-api="0" data-id="46" data-value="MN" data-name="Trx" onchange="transfee(this);"/>
-                                                                        <img
-                                                                        src="https://primestocktrades.com/m_cust/dash/uploads/4FB55AFB-C3D1-4A62-89AA-CC878D9133B5.png"
-                                                                        alt="Select withdrawal method"
-                                                                        class="selected_img myElements">
-                                                                </div>
-                                                                                                                                                                                                <div class="cnt_min col-md-2" id="rowMN">
-                                                                    <input type="radio" name="withdrwa_method"
-                                                                        value="47" data-name="Doge" data-api="0" data-id="47" data-value="MN" data-name="Doge" onchange="transfee(this);"/>
-                                                                        <img
-                                                                        src="https://primestocktrades.com/m_cust/dash/uploads/02334F22-C7AD-4F85-80DC-BDAD5328B08D1.png"
-                                                                        alt="Select withdrawal method"
-                                                                        class="selected_img myElements">
-                                                                </div>
-                                                                                                                                                                                                <div class="cnt_min col-md-2" id="rowMN">
-                                                                    <input type="radio" name="withdrwa_method"
-                                                                        value="48" data-name="Usdt Trc20" data-api="0" data-id="48" data-value="MN" data-name="Usdt Trc20" onchange="transfee(this);"/>
-                                                                        <img
-                                                                        src="https://primestocktrades.com/m_cust/dash/uploads/C0C61C55-309A-4772-9603-779EC50253C4.png"
-                                                                        alt="Select withdrawal method"
-                                                                        class="selected_img myElements">
-                                                                </div>
-                                                                                                                            </div>
-                                                        </div>
-                                                        <p class="hide" style="margin-top:-20px;" id="transactionfeewrapper">Transaction fee is : <b id="transactionfee"></b></p>
-                                                        <p class="hide" id="finalamountwrapper">You will get : <b id="finalamount"></b></p>
-                                                                                                            </div>
-                                                </div>
+                                        
                                                 <!-- /row -->
-                                                                                                <!-- Form Group -->
-                                                <div class="form-group mb-0">
-                                                    <button type="submit" id="submitButtonForm"
-                                                        class="btn btn-info text-uppercase w-100 mt-2m">
-                                                        Process withdrawal</button>
-                                                        <button type="submit" class="btn btn-info text-uppercase w-100 mt-2m hide" id="withdrawSubmitButton">Process withdrawal</button>
-                                                </div>
+                                                                                                                <!-- Form Group -->
+                                                                <div class="form-group mb-0">
+                                                                    <button type="submit" id="submitButtonForm"
+                                                                        class="btn btn-info text-uppercase w-100 mt-2m">
+                                                                        Process withdrawal</button>
+                                                                        <button type="submit" class="btn btn-info text-uppercase w-100 mt-2m hide" id="withdrawSubmitButton">Process withdrawal</button>
+                                                                </div>
                                                 <!-- /form group -->
                                             </div>
                                         </div>

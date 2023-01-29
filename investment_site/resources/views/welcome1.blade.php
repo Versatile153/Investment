@@ -13,6 +13,7 @@
     <meta name="theme-color" content="#282828">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <meta name="apple-mobile-web-app-capable" content="yes">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
   	<meta name="google-site-verification" content="ixJOUyAWE6Lvpj3c1KN6XihIjqZlkVMuSR_EP83GA0I" />
   	<script src="cdn-cgi/apps/head/FBvCx6ySlved6tyImToYBe2zoog.js"></script><link rel="icon"  href="img/favicon.ico">
@@ -8096,7 +8097,7 @@ h1, h2, h3, h4, h5, h6 {
      <header id="header" class="header d-flex align-items-center fixed-top" style="background-color: black !important; display:flex;">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
     
-          <a href="default.php" class="logo d-flex align-items-center">
+          <a href="/" class="logo d-flex align-items-center">
             <!-- Uncomment the line below if you also wish to use an image logo -->
             <img src="https://media.istockphoto.com/id/1369406446/photo/shield-check-mark-on-podium.jpg?s=612x612&w=0&k=20&c=0ND_Mr3otYh7rEnjUGY9gVy6k7ndSzGkcnH1yuwF0S4=" alt="">
            <!--- <h1>Logis</h1>--->
@@ -10023,7 +10024,7 @@ ul#footermenu li {
                    <div class="col-sm-6">
                      <p class="copyright font-alt">&copy;<script>
                     document.write(new Date().getFullYear());
-                </script> Primestocktrades Trading Limited, All Rights Reserved</p>
+    </script> PrimestocktradeFx Trading Limited, All Rights Reserved</p>
                    </div>
                    <div class="col-sm-6">
                      <div class="footer-social-links"><a href="/terms">Terms</a><a href="/risk">Risk Disclosure</a><a href="/policy">Privacy Policy</a><a href="/cookies">Cookie Policy</a>
@@ -10046,6 +10047,7 @@ ul#footermenu li {
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   <!-- Template Main JS File -->

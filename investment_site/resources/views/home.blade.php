@@ -634,17 +634,14 @@ body {
 
 	<!-- SIDEBAR -->
 	<section id="sidebar">
-		<a href="#" class="brand">
-            <img width="40" class="d-none d-sm-inline-block w-100" src="https://media.istockphoto.com/id/1369738799/photo/blue-round-clock-on-white-background.jpg?b=1&s=170667a&w=0&k=20&c=aBwVsg0PbTUoBIeYAX7M7uhT47cEihCbfml1q-YWyls=" alt="logo">
+		<a href="#" class="brand" style="margin-left:1rem;">
+            {{-- <img width="40" class="d-none d-sm-inline-block w-100" src="https://media.istockphoto.com/id/1369738799/photo/blue-round-clock-on-white-background.jpg?b=1&s=170667a&w=0&k=20&c=aBwVsg0PbTUoBIeYAX7M7uhT47cEihCbfml1q-YWyls=" alt="logo"> --}}
 
 			<span class="text">Primestocktradefx</span>
 		</a>
 		<ul class="side-menu top">
 			<li class="active">
-				<a href="#">
-					<i class='bx bxs-dashboard' ></i>
-					<span class="text">Dashboard</span>
-				</a>
+
 			</li>
 			<div class="btn-group">
                 <button style="margin-right: 2rem;" type="button" class=" mt-1 btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
@@ -675,46 +672,14 @@ body {
                 </ul>
               </div>
 
-              {{-- <div class="btn-group"> --}}
+              
+				
+             <div>
+
                
-                
-              {{-- </div> --}}
-
-
-              <li class="">
-                <a href="/ref"><span class="btn btn-primary mt-2" style="margin-right: 4rem;" class="text">Referals</span></a>
-    
-    
-               </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
               
-              <li class="">
-                <a href="/earn"><span class="btn btn-primary mt-2" style="margin-right: 4rem;" class="text">Earnings</span></a>
-    
-    
-               </li>
-              
-           <li class="">
-            <a href="/help"><span class="btn btn-primary mt-2" style="margin-right: 4rem;" class="text">Help desk</span></a>
-
-
-           </li>
-
-                
-              </div>
+         
+		</div>
 	</section>
 	<!-- SIDEBAR -->
 
@@ -725,11 +690,11 @@ body {
 		<!-- NAVBAR -->
 		<nav>
 			<i class='bx bx-menu' ></i>
-			<a href="#" class="nav-link">Categories</a>
+		
 			<form action="#">
 				<div class="form-input">
-					<input type="search" placeholder="Search...">
-					<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+					
+		<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
 				</div>
 			</form>
 			<input type="checkbox" id="switch-mode" hidden>
@@ -738,9 +703,7 @@ body {
 				<i class='bx bxs-bell' ></i>
 				<span class="num">8</span>
 			</a>
-			<a href="#" class="profile">
-				<img src="img/people.png">
-			</a>
+			
 		</nav>
 		<!-- NAVBAR -->
 
@@ -804,114 +767,52 @@ body {
 					<i class='bx bxs-calendar-check' ></i>
 					<span class="text">
 						<h3>1020</h3>
-						<p>New Order</p>
+						<p>Total Earnings</p>
 					</span>
 				</li>
 				<li>
 					<i class='bx bxs-group' ></i>
 					<span class="text">
-						<h3>2834</h3>
+					<h3> {{count($users)  }}</h3>
 						<p>Visitors</p>
 					</span>
 				</li>
 				<li>
 					<i class='bx bxs-dollar-circle' ></i>
 					<span class="text">
-						<h3>$2543</h3>
-						<p>Total Sales</p>
+						<h3> {{ DB::table('deposits')->sum('amount') }} GBP 
+						</h3>
+						<p>Total Deposits</p>
 					</span>
 				</li>
+				<li>
+<i class="fa fa-info-circle" aria-hidden="true"></i>
+					<span class="text">
+						<h3>2543 issues </h3>
+						<a href="/help">Help Desk</a>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-dollar-circle' ></i>
+					<span class="text">
+						<h4>View earnings</h4>
+						<a href="/earn">Earnings</a>
+					</span>
+				</li>
+
+				<li>
+					<i class='bx bxs-dollar-circle' ></i>
+					<span class="text">
+						<h5>Check Referals</h5>
+						<a href="/ref">Referals</a>
+					</span>
+				</li>
+
+				     
+				
 			</ul>
 
 
-			<div class="table-data">
-				<div class="order">
-					<div class="head">
-						<h3>Latest Transactions</h3>
-						<i class='bx bx-search' ></i>
-						<i class='bx bx-filter' ></i>
-					</div>
-					<table>
-						<thead>
-							<tr>
-								<th>User</th>
-								<th>Date</th>
-								<th>Status</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>John Doe</p>
-								</td>
-								<td>01-10-2021</td>
-								<td><span class="status completed">Completed</span></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>John Doe</p>
-								</td>
-								<td>01-10-2021</td>
-								<td><span class="status pending">Pending</span></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>John Doe</p>
-								</td>
-								<td>01-10-2021</td>
-								<td><span class="status process">Process</span></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>John Doe</p>
-								</td>
-								<td>01-10-2021</td>
-								<td><span class="status pending">Pending</span></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>John Doe</p>
-								</td>
-								<td>01-10-2021</td>
-								<td><span class="status completed">Completed</span></td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-				<div class="todo">
-					<div class="head">
-						<h3>Latests</h3>
-						<i class='bx bx-plus' ></i>
-						<i class='bx bx-filter' ></i>
-					</div>
-					<ul class="todo-list">
-						<li class="completed">
-							<p>withdrawals</p>
-							<i class='bx bx-dots-vertical-rounded' ></i>
-						</li>
-						<li class="completed">
-							<p>withdrawals</p>
-							<i class='bx bx-dots-vertical-rounded' ></i>
-						</li>
-						<li class="not-completed">
-							<p>withdrawals</p>
-							<i class='bx bx-dots-vertical-rounded' ></i>
-						</li>
-						<li class="completed">
-							<p>withdrawals</p>
-							<i class='bx bx-dots-vertical-rounded' ></i>
-						</li>
-						<li class="not-completed">
-							<p>withdrawals</p>
-							<i class='bx bx-dots-vertical-rounded' ></i>
-						</li>
-					</ul>
-				</div>
 			</div>
 		</main>
 		<footer class="dt-footer">

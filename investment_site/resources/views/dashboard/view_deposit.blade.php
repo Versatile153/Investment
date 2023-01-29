@@ -1,4 +1,4 @@
-[<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
     <!-- Required meta tags -->
@@ -60,16 +60,7 @@
                         
 
                             <div class="search-box d-none d-lg-block">
-                                                            <form method="post">
-                                                                    <input type="hidden" name="csrf_test_name" value="3d8b9786d5a0f346337541c7f2cabc60" />
-                                    <div class="input-group">
-                                        <input class="form-control" placeholder="Search Deposits"
-                                            name="searchText" value="" type="search">
-                                        <span class="search-icon"><i class="icon icon-search icon-lg"></i></span>
-                                        <div class="input-group-append">
-                                            <button class="btn btn-primary" type="submit">Search                                            </button>
-                                        </div>
-                                    </div>
+                                                            
                                 </form>
                                                             </div>
 
@@ -145,8 +136,7 @@
                                             <span class="dt-avatar-info d-none d-sm-block">
                                                 <span
                                                     class="dt-avatar-name">{{ Auth::user()->name }}</span>
-                                                                                                        <span>Verified</span>
-                                                                                                </span> </a>
+                                        
                                         <!-- /dropdown link -->
 
                                         <!-- Dropdown Option -->
@@ -327,9 +317,9 @@
                                             <!-- Media Body -->
                                             <div class="media-body">
                                                 <div class="display-3 font-weight-600 mb-1 init-counter">
-                                                    GBP 0.00                                                </div>
+                                                    GBP   {{ DB::table('deposits')->sum('amount') }}                                                 </div>
                                                 <span class="d-block">
-                                                    Locked deposits                                                </span>
+                                    Active Deposits                                              </span>
                                             </div>
                                             <!-- /media body -->
 
@@ -400,6 +390,69 @@
                                                     <div class="dt-card__body">
                             <!-- Card Body -->
                                 <!-- Tables -->
+
+
+
+                                <div class="table-responsive dataTables_wrapper dt-bootstrap4">
+                                    <div class="table-responsive">
+                                                                            <table class="table table-striped mb-0">
+                                            <thead class="thead-light">
+                                                <tr role="row">
+                                                    <th>Transaction id</th>
+                                                                                                        <th>Amount</th>
+                                                                                                                                                            <th>Created on</th>
+                                                                                                            <th>Maturity date</th>
+                                                                                                                                                                                                                <th>Status</th>
+                                                                                                    </tr>
+                                            </thead>
+                                            <tbody>
+                                                                                                <tr id="row15">
+                                                    <td>NJsjRtMI5Y</td>
+                                                                                                        <td>
+                                                                                                            GBP 100.00                                                                                                        </td>
+                                                                                                                                                            <td>29 Jan 2023 17:00                                                    </td>
+                                                                                                        <td>2023-01-30 17:00:59</td>
+                                                    <!-- Check the access for this component -->
+                                                                                                                                                            <td class="collastcl" id="colNJsjRtMI5Y">
+                                                                                                            Pending approval                                                                                                        </td>
+                                                                                                                                                                                                            </tr>
+                                                                                                <tr id="row6">
+                                                    <td>NJnoFJGwtl</td>
+                                                                                                        <td>
+                                                                                                            GBP 100.00                                                                                                        </td>
+                                                                                                                                                            <td>21 Jan 2023 04:55                                                    </td>
+                                                                      <td>2023-01-22 04:55:16</td>
+                                                <!-- Check the access for this component -->
+                                                                                                                                                        <td class="collastcl" id="colNJnoFJGwtl">
+                                                                                                        <!--
+                                                    <button class="btn btn-sm btn-info reinvest trans-btn" id="reinvest" data-toggle="modal" value="" data-target="#modal"></button>
+                                                    
+                                                    <button data-toggle="modal" id="" data-target="#modal" value="" class="btn btn-sm btn-info withdraw trans-btn"></button>
+                                                        -->
+                                                        Maturity reached                                                                                                        </td>
+                                                                                                                                                                                                            </tr>
+                                                                                            </tbody>
+                                        </table>
+                                                                                                                    </div>
+                                    <!-- /tables -->
+
+                                </div>
+                                <!-- /card body -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                                 <div class="table-responsive dataTables_wrapper dt-bootstrap4">
                                     <div class="table-responsive">
                                                                             <div class="text-center mt-5">

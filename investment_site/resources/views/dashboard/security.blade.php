@@ -62,10 +62,7 @@
                         <div class="dt-header__toolbar">
                         
 
-                            <div class="search-box d-none d-lg-block">
-                                                            <h1 class="dt-page__title mt-4" style="margin-left: -1.5em;">Settings <span class="breadcrumb-arrow-right"></span> My Profile</h1>
-                                                        </div>
-
+                           
                             <!-- Header Menu Wrapper -->
                             <div class="dt-nav-wrapper">
                                 <!-- Header Menu -->
@@ -138,8 +135,7 @@
                                             <span class="dt-avatar-info d-none d-sm-block">
                                                 <span
                                                     class="dt-avatar-name">{{ Auth::user()->name }}</span>
-                                                                                                        <span>Verified</span>
-                                                                                                </span> </a>
+                                        
                                         <!-- /dropdown link -->
 
                                         <!-- Dropdown Option -->
@@ -181,11 +177,11 @@
                             <ul class="dt-side-nav">
                                                                 <li
                                     class="dt-side-nav__item ">
-                                    <a href=""
+                                    <a href="/home"
                                         class="dt-side-nav__link "
                                         title="Dashboard">
                                         <i class="icon icon-dashboard icon-fw icon-lg"></i>
-                                        <span class="dt-side-nav__text">Dashboard</span>
+                                        <span class="dt-side-nav__text btn btn-primary">Main dashboard</span>
                                     </a>
                                 </li>
                                 <li
@@ -302,17 +298,13 @@
                         <div class="dt-avatar-info">
                             <span
                                 class="dt-avatar-name display-4 mb-2 font-weight-light">versatile eze</span>
-                            <span class="f-16"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a6c3c5c3cac3d5d2cfc8c3c3979395e6c1cbc7cfca88c5c9cb">[email&#160;protected]</a></span>
                             <div class="dropdown mt-2">
 
                                 <!-- Profile Pic Uploader -->
                                 <form action="" id="upload_form" enctype="multipart/form-data" method="post" accept-charset="utf-8">
                                                        <input type="hidden" name="csrf_test_name" value="4e0186dbd34b7c0d1894efb685c6f1e8" />
                                     <div class="upload-btn-wrapper">
-                                    <button class="dropdown-toggle no-arrow text-white bg-transparent border-n">
-                                        <i class="icon icon-settings icon-xl mr-2"></i>
-                                        <span class="d-sm-inline-block">Change profile pic</span>
-                                    </button>
+                                
                                     <input type="file" name="profile-pic" id="imgInp"/>
                                     </div>
                                     <button id="ppic-save" type="submit" class="btn btn-info display-n bg-transparent border-n">

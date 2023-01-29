@@ -135,8 +135,7 @@
                                             <span class="dt-avatar-info d-none d-sm-block">
                                                 <span
                                                     class="dt-avatar-name">{{ Auth::user()->name }}</span>
-                                                                                                        <span>Verified</span>
-                                                                                                </span> </a>
+                                                                                                      
                                         <!-- /dropdown link -->
 
                                         <!-- Dropdown Option -->
@@ -182,7 +181,7 @@
                                         class="dt-side-nav__link "
                                         title="Dashboard">
                                         <i class="icon icon-dashboard icon-fw icon-lg"></i>
-                                        <span class="dt-side-nav__text"> maindashboard</span>
+                                        <span class="dt-side-nav__text"> main dashboard</span>
                                     </a>
                                 </li>
                                 <li
@@ -299,19 +298,13 @@
                         <div class="dt-avatar-info">
                             <span
                                 class="dt-avatar-name display-4 mb-2 font-weight-light">versatile eze</span>
-                            <span class="f-16"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="14717771787167607d7a7171252127547379757d783a777b79">[email&#160;protected]</a></span>
+                        <span class="f-16"><a href="" class="__cf_email__" data-cfemail="14717771787167607d7a7171252127547379757d783a777b79"></a></span>
                             <div class="dropdown mt-2">
 
                                 <!-- Profile Pic Uploader -->
                                 <form action="" id="upload_form" enctype="multipart/form-data" method="post" accept-charset="utf-8">
                                                                          <input type="hidden" name="csrf_test_name" value="4e0186dbd34b7c0d1894efb685c6f1e8" />
-                                    <div class="upload-btn-wrapper">
-                                    <button class="dropdown-toggle no-arrow text-white bg-transparent border-n">
-                                        <i class="icon icon-settings icon-xl mr-2"></i>
-                                        <span class="d-sm-inline-block">Change profile pic</span>
-                                    </button>
-                                    <input type="file" name="profile-pic" id="imgInp"/>
-                                    </div>
+                                    
                                     <button id="ppic-save" type="submit" class="btn btn-info display-n bg-transparent border-n">
                                         <i class="icon icon-circle-add-o icon-xl mr-2"></i>
                                         <span class="d-sm-inline-block">Save</span>

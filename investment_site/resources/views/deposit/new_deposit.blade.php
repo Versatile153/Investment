@@ -325,9 +325,12 @@
                                                 <i class="icon icon-revenue-new icon-6x mr-6 align-self-center"></i>
                                             </div>
                                             <div class="col-md-10">
+                                             
                                                 <div class="display-3 font-weight-600 mt-1 init-counter">
-                                                Pay GBP 100.00 
-                                                </div>
+                                                    Total  {{ DB::table('deposits')->sum('amount') }} GBP 
+                                                    </div>
+                                              
+                                               
                                             </div>
                                         </div>
                                     </div>
@@ -368,18 +371,13 @@
                             <!-- Media -->
                             <div class="media">
 
-                                <i class="icon icon-revenue-new icon-6x mr-6 align-self-center"></i>
+                            
 
                                 <!-- Media Body -->
                                 <div class="media-body">
-                                    <div class="display-3 font-weight-600 mb-1 init-counter" style="font-size: 2.5rem;">
-                                    Btc Account 
-                                    </div>
-                                    <div>
-                                        bc1qt7yhkjctt3pqrh79vtxvyv4vcfdgq7698tv9um                                    </div>
-                                    <br>
+                                   
                                     <form action="" id="submitForm" enctype="multipart/form-data" method="post" accept-charset="utf-8">
-<input type="hidden" name="csrf_test_name" value="3e54aa80732d818effafc569eb5e0b23" />                                                                           
+<input type="hidden" name="csrf_test_name" value="" />                                                                           
                                         <div class="form-group">
                                             <label>Enter account you've sent the deposit from</label>
                                             <input type="text" class="form-control" id="accountId" name="account">

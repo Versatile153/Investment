@@ -323,13 +323,13 @@
                                             <!-- Media Body -->
                                             <div class="media-body">
                                                 <div class="display-3 font-weight-600 mb-1 init-counter">
-                                                    GBP 0.00                                                </div>
+                                {{ DB::table('deposits')->sum('amount') }}                                        </div>
                                                 <span class="d-block">
                                                     Total deposits                                                </span>
                                             </div>
                                             <!-- /media body -->
 
-                                        </div>
+                                    </div>
                                         <!-- /media -->
                                     </div>
                                     <!-- /card body -->

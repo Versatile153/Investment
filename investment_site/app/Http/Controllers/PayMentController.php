@@ -6,6 +6,7 @@ use App\Models\Account;
 use App\Models\Deposit;
 use App\Models\Profile;
 use App\Models\Security;
+use App\Models\Withdrawal;
 use Illuminate\Http\Request;
 
 class PayMentController extends Controller
@@ -22,11 +23,13 @@ class PayMentController extends Controller
     }
 
     public function deposit(){
-        return view('deposit.depo');
+        $deposits= Deposit::all();
+        return view('deposit.depo')->with('deposits',$deposits);
     }
 
     
     public function new_deposit(){
+      
         return view('deposit.new_deposit');
     }
 
@@ -60,8 +63,9 @@ class PayMentController extends Controller
         return view('/home');
     }
 
-    public function money_withdrawal(){
-        return 12321;
+public function money_withdrawal(Request $request){
+        Withdrawal::create($request->all());
+        return redirect('/home');
     }
 
 

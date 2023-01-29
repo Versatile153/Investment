@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Deposit;
 use Illuminate\Http\Request;
 
 class DashboardController extends Controller
@@ -36,6 +37,7 @@ class DashboardController extends Controller
         
     }
     public function deposit(){
+        // return Deposit::all();
         return view('dashboard.deposit');
         
     }
