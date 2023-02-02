@@ -17,24 +17,24 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
   	<meta name="google-site-verification" content="ixJOUyAWE6Lvpj3c1KN6XihIjqZlkVMuSR_EP83GA0I" />
   	<script src="cdn-cgi/apps/head/FBvCx6ySlved6tyImToYBe2zoog.js"></script><link rel="icon"  href="img/favicon.ico">
-  	
+
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link href="https://primestocktrades.com/img/logo.png" rel="icon">
       <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-    
+
       <!-- Google Fonts -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    
+
       <!-- Vendor CSS Files -->
       <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
       <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
       <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
       <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
       <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    
+
       <!-- Template Main CSS File -->
       <link href="assets/css/main.css" rel="stylesheet">
       <link rel="stylesheet" href="kcustom.css">
@@ -44,9 +44,9 @@ new google.translate.TranslateElement({pageLanguage: 'en', layout: google.transl
 }
 // ]]></script>
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
-  
-  <!-- Global site tag (gtag.js) - Google Ads: 10962727561 --> 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10962727561"></script> 
+
+  <!-- Global site tag (gtag.js) - Google Ads: 10962727561 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10962727561"></script>
   <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-10962727561'); </script>
 
 <!--Start of Tawk.to Script-->
@@ -8088,76 +8088,77 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff !important;
 }
 
+
   </style>
 
 	</head>
 	<body>
 
      <!-- ======= Header ======= -->
-     <header id="header" class="header d-flex align-items-center fixed-top" style="background-color: black !important; display:flex;">
+     <header id="header" class="header d-flex align-items-center fixed-top" style="background-color: black !important;">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-    
-          <a href="/" class="logo d-flex align-items-center">
+
+          <a href="default.php" class="logo d-flex align-items-center">
             <!-- Uncomment the line below if you also wish to use an image logo -->
-            <img src="https://media.istockphoto.com/id/1369406446/photo/shield-check-mark-on-podium.jpg?s=612x612&w=0&k=20&c=0ND_Mr3otYh7rEnjUGY9gVy6k7ndSzGkcnH1yuwF0S4=" alt="">
+            <img src="img/logo.png" alt="">
            <!--- <h1>Logis</h1>--->
           </a>
-    
+
           <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
           <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
           <nav id="navbar" class="navbar">
-    <ul>
-            <li><a href="/" class="active">Home</a></li>
-                
-            <li class="dropdown"><a href="#"><span>Earn</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-                <li><a href="/forex">Forex</a></li>
-                <li><a href="/crypto">Cryptocurrency</a></li>
-                <li><a href="/stock">Stocks & EFTs</a></li>
-                <li><a href="/stake">Staking</a></li>
-                <li><a href="/commo">Commodities</a></li>
-                </ul>
-                </li>
-            <li class="dropdown"><a href="#"><span>Trade</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-                <li><a href="/spot">Spot Trading</a></li>
-                <li><a href="/bot">Margin Trading</a></li>
-                <li><a href="/margin">Bot Trading</a></li>
-                </ul>
-                </li>
-            <li><a href="/price">Pricing</a></li>
-        
-            <li class="dropdown"><a href="#"><span>Company</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-                    <li><a href="career">Our Story</a></li>
-                <li><a href="story">Careers</a></li>
-                </ul>
-                </li>
+              <li><a href="default.php" class="active">Home</a></li>
+
+              <li class="dropdown"><a href="#"><span>Earn</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="forextrading.html">Forex</a></li>
+                  <li><a href="cryptotrading.html">Cryptocurrency</a></li>
+                  <li><a href="stock_etfs.html">Stocks & EFTs</a></li>
+                  <li><a href="staking.html">Staking</a></li>
+                  <li><a href="commodity.html">Commodities</a></li>
+                    </ul>
+                  </li>
+              <li class="dropdown"><a href="#"><span>Trade</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="spottrading.html">Spot Trading</a></li>
+                  <li><a href="margin.html">Margin Trading</a></li>
+                  <li><a href="tradebots.html">Bot Trading</a></li>
+                    </ul>
+                  </li>
+              <li><a href="pricing.html">Pricing</a></li>
+
+               <li class="dropdown"><a href="#"><span>Company</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                      <li><a href="about.html">Our Story</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    </ul>
+                  </li>
               <li class="dropdown"><a href="#"><span>Resources</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="">Company Brochure</a></li>
-            <li><a href="">Company Certificate of Incorporation</a></li>
-            <li><a href="">Company Registered House Address</a></li>
-            <li><a href="">Foreign Investors Protection</a></li>
-    		<li><a href="">Company Tax & Insurance</a></li>
-            <li><a href="">UK Taxation Basic Guide</a></li>
-    		<li><a href="">Guide to Anti Laundering</a></li>
-    		<li><a href="">Unaudited Financial Statement 2022</a></li>
-    		<li><a href="">Unaudited Financial Statement 2021</a></li>
-            <li><a href="">Unaudited Financial Statement 2020</a></li>
-            <li><a href="">Unaudited Financial Statement 2019</a></li>
+              <li><a href="doc/Brochure.pdf">Company Brochure</a></li>
+            <li><a href="doc/Certificate-of-Inc.pdf">Company Certificate of Incorporation</a></li>
+            <li><a href="doc/Reg-address.pdf">Company Registered House Address</a></li>
+            <li><a href="doc/Foreign-investor-protection.pdf">Foreign Investors Protection</a></li>
+    		<li><a href="doc/Tax-insurance.pdf">Company Tax & Insurance</a></li>
+            <li><a href="doc/UKTax-guide.pdf">UK Taxation Basic Guide</a></li>
+    		<li><a href="doc/Anti-laundering.pdf">Guide to Anti Laundering</a></li>
+    		<li><a href="doc/Fin-statement-2022.pdf">Unaudited Financial Statement 2022</a></li>
+    		<li><a href="doc/Fin-statement-2021.pdf">Unaudited Financial Statement 2021</a></li>
+            <li><a href="doc/Fin-statement-2020.pdf">Unaudited Financial Statement 2020</a></li>
+            <li><a href="doc/Fin-statement-2019.pdf">Unaudited Financial Statement 2019</a></li>
                 </ul>
               </li>
-               
-              
-              <li><a class="get-a-quote" href="">Get Started</a></li>
+
+
+              <li><a class="get-a-quote" href="m_cust/dash/login">Get Started</a></li>
             </ul>
           </nav><!-- .navbar -->
-    
+
         </div>
-      </header><!-- End Header -->
+      </header>
   <!-- End Header -->
-   
+
       <main id="main">
                 <div class="v2" data-styles="bbox">
                     <div class="v2-bbox" style="background-color:#11131B">
@@ -8172,22 +8173,29 @@ h1, h2, h3, h4, h5, h6 {
                                         <div class="v2-col-xs-12 v2-col-md-8 v2-clearfix v2-md-align-self--start v2-md-text-align--left v2-text-align--left v2-row-sm-x">
                                             <h3 class="pre-header v2-hide-empty "></h3>
                                             <h2 class="v2-h1" style="padding-left: 20px !important;">
-                                                We're on a                                                   
+                                                We're on a
                                                 <br>
-                                           		Mission                                            
+                                           		Mission
                                             </h2>
                                             <p class="v2-sh1 v2-hide-empty "></p>
                                             <div class="v2-mab30 v2-hide-empty">
                                                 <div class="rte--output">
                                                     <p class="v2-sh1" style="padding-left: 20px !important;">
-                                                         A mission to harness the power of Bitcoin and technology to enable individual sovereignty and eventually garner the next evolution of humanity.                                                        
-                                                                                                              
+                                                         A mission to harness the power of Bitcoin and technology to enable individual sovereignty and eventually garner the next evolution of humanity.
+
                                                     </p>
                                                 </div>
                                             </div>
                                             <div class="v2-btn-wrapper v2-mab30">
-                                                <a href="" class="v2-btn v2-btn-primary">Open account</a>
-                                                <a class="v2-btn v2-btn-secondary--inverted" data-behavior="off-canvas-trigger" data-target="ec42615c-1290-4354-b328-e27faa3cad2f" href="" data-wide="true" data-scripts-target="[data-ref='off-canvas__content']" data-instance="off-canvas-trigger__8Q63K2"> Login </a>
+                                                @if (Route::has('register'))
+                                                <a href="{{ route('register') }}" class="v2-btn v2-btn-primary">Open account</a>
+                                                @endif
+
+                                                @if (Route::has('login'))
+
+                                                <a class="v2-btn v2-btn-secondary--inverted" data-behavior="off-canvas-trigger" data-target="ec42615c-1290-4354-b328-e27faa3cad2f" href="{{ route('login') }}" data-wide="true" data-scripts-target="[data-ref='off-canvas__content']" data-instance="off-canvas-trigger__8Q63K2"> Login </a>
+                                                @endif
+
                                                 <div class="v2-hidden "></div>
                                             </div>
                                         </div>
@@ -8299,10 +8307,10 @@ h1, h2, h3, h4, h5, h6 {
                             </section>
                         </div>
                     </div>
-                </div> 
+                </div>
                 <div id="google_translate_element"></div>
-    
-        
+
+
         		<!-- ======= About Us Section ======= -->
                 <section class="own_trending_area mt-3" style="margin: 0 !important;">
                     <div class="container gld">
@@ -8314,7 +8322,7 @@ h1, h2, h3, h4, h5, h6 {
                                 <div class="trending_list">
                                     <div class="media">
                                         <div class="d-flex">
-            
+
                                         </div>
                                         <div class="media-body">
                                             <a href="#">
@@ -8324,7 +8332,7 @@ h1, h2, h3, h4, h5, h6 {
                                             <p class="my-3">We believe in learning to teach, and teaching to learn. Primestocktrades Media is our channel to educate; to connect with the world, to maintain the integrity of our perspective, and to share our intellectual truth.
                                            <br> We seek to provide access to tools and information that allows people to empower themselves (both financially and philosophically) as a means towards economic and intellectual sovereignty.
                                            <br> We aim to actively contribute to the evolution of humanity through the application and provision of advanced technologies and tools that have a positive impact at both an individual and collective level.</p>
-                                            
+
                                         </div>
                                     </div>
                                 </div>
@@ -8333,12 +8341,12 @@ h1, h2, h3, h4, h5, h6 {
                                         <img src="https://primestocktrades.com/img/Event_Header.jpeg" class="img-fluid" alt="">
                                         <a href="https://youtu.be/hN6APH2fTpE" class="glightbox play-btn"></a>
                                       </div>
-                            
-                                    
-                            
+
+
+
                         </div>
                     </div>
-                </section>            
+                </section>
     <!--<section id="about" class="about pt-0">
       <div class="container" data-aos="fade-up">
 
@@ -8381,7 +8389,7 @@ h1, h2, h3, h4, h5, h6 {
       </div>
     </section>--><!-- End About Us Section -->
 
-                
+
         		<div style="padding-top:5px !important; margin-top: 0 !important;" class="v2">
                     <div class="v2-wrapper">
                         <div class="v2-row v2-xs-align--middle v2-mat100 v2-mab40 v2-sm-max-mat50 v2-sm-max-mab40n">
@@ -8594,8 +8602,8 @@ h1, h2, h3, h4, h5, h6 {
                         </div>
                     </section>
                 </div>
-        
-        									
+
+
         											  <!-- ======= Call To Action Section ======= -->
                                     <section id="call-to-action" class="call-to-action">
                                       <div class="container" data-aos="zoom-out">
@@ -8609,9 +8617,9 @@ h1, h2, h3, h4, h5, h6 {
                                           </div>
                                         </div>
                                     </section><!-- End Call To Action Section -->
-        
-                                          		<div class="cryptohopper-web-widget" data-id="1" data-table_style="dark" data-realtime="on" data-table_length="6"></div> 
-        						 
+
+                                          		<div class="cryptohopper-web-widget" data-id="1" data-table_style="dark" data-realtime="on" data-table_length="6"></div>
+
                  <section class="choose_bitcoin_area p_100">
         <div class="container">
             <div class="main_title">
@@ -8626,7 +8634,7 @@ h1, h2, h3, h4, h5, h6 {
                             <h4 style="background-color: #000 !important;">Focused on the Client</h4>
                         </a>
                         <p>Size does not matter. At Primestocktrades Trading Limited the client comes first regardless of net capital Prime, account type or size of investment. All our clients receive the same quality services, the same execution, and the same level of support. Primestocktrades Trading Limited was founded on these values, and that will not change.</p>
-                       
+
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
@@ -8657,13 +8665,13 @@ h1, h2, h3, h4, h5, h6 {
                             <h4 style="background-color: #000 !important;">Transparent And Fair</h4>
                         </a>
                         <p>At Primestocktrades Trading Limited what you see is what you get, with no hidden terms. Be that pricing, execution or promotions. What we advertise is what we give our clients, regardless of the size of their investment. </p>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
         </div>
-    </section>          
+    </section>
                 <!--<div class="v2" data-styles="bbox">
                     <div class="v2-bbox">
                         <div class="v2-bbox__background v2-bbox__background--bg-bottom-center" data-behavior="bbox" data-instance="bbox__DWXWX3">
@@ -8671,8 +8679,8 @@ h1, h2, h3, h4, h5, h6 {
                                 <img alt="" class="" loading="lazy" data-object-fit="cover" data-object-position="bottom center" data-src="img/testimonials-bg.jpg" src="img/testimonials-bg.jpg"/>
                           </picture>
                         </div>
-                        
-                      
+
+
                         <div class="v2-bbox__foreground">
                             <div class="v2">
                                 <div class="v2-wrapper">
@@ -8686,7 +8694,7 @@ h1, h2, h3, h4, h5, h6 {
                                     </div>
                                 </div>
                             </div>
-                          
+
                             <div class="v2" data-styles="media-element">
                                 <div data-qa="uvp" class="v2-bbox v2-mat0 v2-mab30n v2-sm-max-mab150" data-styles="bbox">
                                     <div class="v2-bbox__background" data-behavior="bbox" data-instance="bbox__AMXZ75"></div>
@@ -8706,7 +8714,7 @@ h1, h2, h3, h4, h5, h6 {
                                                             <p class="text--body" style="color:#fff; padding-left: 20px !important;">Size does not matter. At Primestocktrades Trading Limited the client comes first regardless of net capital Prime, account type or size of investment. All our clients receive the same quality services, the same execution, and the same level of support. Primestocktrades Trading Limited was founded on these values, and that will not change. </p>
                                                         </div>
                                                     </div>
-                                                  
+
                                                     <div class="v2-col v2-align--top v2-media-element v2-show-more__item v2-borderless" data-styles="media-element show-more">
                                                         <div class="v2-media-element__media v2-hide-empty "></div>
                                                         <div class="v2-media-element__text v2-align-self--top">
@@ -8816,7 +8824,7 @@ h1, h2, h3, h4, h5, h6 {
                         </div>
                   </div>
                           </div>-->
-        
+
        <div id="stamped-reviews-widget" data-widget-type="reviews-popup" data-layout="horizontal" data-effect="jelly" data-delay-seconds="5" data-show-seconds="15" data-position="bottomleft" data-color-background="#240101" data-color-star="#e8cd05"></div>
          <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq">
@@ -8870,7 +8878,7 @@ h1, h2, h3, h4, h5, h6 {
                 </h3>
                 <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-					There are several key factors that move the forex market: interest rates, inflation, economic stability, central banks and global events. 
+					There are several key factors that move the forex market: interest rates, inflation, economic stability, central banks and global events.
                   </div>
                 </div>
               </div><!-- # Faq item-->
@@ -8878,7 +8886,7 @@ h1, h2, h3, h4, h5, h6 {
               <div class="accordion-item">
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
-                    <i class="bi bi-question-circle question-icon"></i>            
+                    <i class="bi bi-question-circle question-icon"></i>
 					What is commodity trading?
                   </button>
                 </h3>
@@ -8910,15 +8918,15 @@ h1, h2, h3, h4, h5, h6 {
 
       </div>
     </section><!-- End Frequently Asked Questions Section -->
-        
-        
-        
-        
-     
-                      
-                            
+
+
+
+
+
+
+
         </main>
-      
+
          <style>
         @media (min-width: 768px) {
             .v2 .v2-accordion-list__item__header {
@@ -9843,23 +9851,23 @@ h1, h2, h3, h4, h5, h6 {
             padding: 30px;
             margin-bottom: 0
         }
-        </style>     
+        </style>
 
         <style>
-          
+
           .footers{
           font-size: 14px;
   background-color: var(--color-secondary);
   padding: 50px 0;
   color: white;
-          }        
+          }
 .footers a {color:#f5f5f5;        }
 .footers a:hover {color:#e3612d;}
 .footers p {color:#f5f5f5;}
 .footers ul {
   line-height:30px;
      }
-        
+
 .footers h5{
   color:#fff;
   font-family: "Raleway", sans-serif;
@@ -9893,7 +9901,7 @@ h1, h2, h3, h4, h5, h6 {
  #social-tm:hover {
      color: #02103b;
      transition:all .001s;
- }      
+ }
  hr{
    width: 50%;
    margin: 0;
@@ -9931,8 +9939,8 @@ ul#footermenu li {
 }
 .font-alt {
   font-family: "Raleway", sans-serif;
-  color: #fff;          
-} 
+  color: #fff;
+}
       </style>
       <section class="footers pt-5 pb-3" style="background:black !important;">
         <div class="container pt-5">
@@ -9948,7 +9956,7 @@ ul#footermenu li {
                     <div class="footers-info mt-3">
                          <p>"Primestocktrades is not just a company, it's a mission"<br> - Michael Walker, Founder and CEO </p>
                      </div>
-                     <div class="social-icons"> 
+                     <div class="social-icons">
                      <a href="https://wa.me/message/6ITEC6W5E5FTE1"><i id="social-fb" class="fa fa-whatsapp fa-2x social"></i></a>
                      <a href="https://instagram.com/primestocktrades?igshid=YmMyMTA2M2Y="><i id="social-yb" class="fa fa-instagram fa-2x social"></i></a>
                      <a href="https://t.me/primestocktrades"><i id="social-tm" class="fa fa-telegram fa-2x social"></i></a>
@@ -9971,7 +9979,7 @@ ul#footermenu li {
                       <li><a href="spottrading.html">Spot Trading</a></li>
                       <li><a href="margin.html">Margin Trading</a></li>
                       <li><a href="tradebots.html">Bot Trading</a></li>
-                      
+
                      </ul>
                  </div>
                 <div class="col-xs-12 col-sm-6 col-md-2 footers-four">
@@ -9992,8 +10000,8 @@ ul#footermenu li {
     			 <li><a href="doc/Brochure.pdf">Company Brochure</a></li>
     			 <li><a href="doc/Fin-statement-2021.pdf">Financial Statement 2021</a></li>
     			</ul>
-    		</div>                
-                 
+    		</div>
+
             </div>
         </div>
      </section>
@@ -10003,7 +10011,7 @@ ul#footermenu li {
              <div class="row ">
                  <div class="col-md-12 py-2">
                      <small class="disc">
-                        Disclaimer: CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 70% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs, or any of our other products work, and whether you can afford to take the high risk of losing your money. The value of your investments can go down as well as up. Losses can exceed deposits on some margin products. Professional clients can lose more than they deposit. All trading carries risk. 
+                        Disclaimer: CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 70% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs, or any of our other products work, and whether you can afford to take the high risk of losing your money. The value of your investments can go down as well as up. Losses can exceed deposits on some margin products. Professional clients can lose more than they deposit. All trading carries risk.
                    </small>
                    <small class="disc">
                      Primestocktrades of Primestocktrades Trading Limited is authorised and regulated by the Financial Conduct Authority, Primestocktrades Registered Number 08994234.
@@ -10015,7 +10023,7 @@ ul#footermenu li {
                  </div>
              </div>
          </div>
-     </section> 
+     </section>
      <section class="copyright" style="background-color: black !important;" >
          <hr class="divider-d">
              <footer class="footer" style="background-color: black !important;">
@@ -10039,7 +10047,7 @@ ul#footermenu li {
 <!-- End widget code -->
       <script src="https://www.cryptohopper.com/widgets/js/script"></script>
 
-  
+
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -10047,8 +10055,8 @@ ul#footermenu li {
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
-  
-  
+
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   <!-- Template Main JS File -->
 
@@ -10205,7 +10213,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
   </script>
-  
+
 </body>
 
 </html>
