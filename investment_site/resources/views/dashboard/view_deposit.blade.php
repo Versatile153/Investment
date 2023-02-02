@@ -375,274 +375,72 @@
                 </div>
 
             </div>
-            <!-- /profile banner -->
+            
+        </div>
+            <table class="table" style="margin-top: 10vh;">
+                <thead>
+                  <tr>
+                    <th scope="col">transaction no</th>
+                    <th scope="col">Plan</th>
+                    <th scope="col">Amount</th>
+                    <th scope="col">payment method</th>
+                    <th scope="col">transaction date</th>
 
-            <!-- Profile Content -->
-            <div class="profile-content">
-
-                <!-- Grid -->
-                <div class="row">
-
-                    <!-- Grid Item -->
-                    <div class="col-xl-12 col-12 order-xl-1">
-                        <!-- Card -->
-                        <div class="dt-card">
-                                                    <div class="dt-card__body">
-                            <!-- Card Body -->
-                                <!-- Tables -->
-
-
-
-                                <div class="table-responsive dataTables_wrapper dt-bootstrap4">
-                                    <div class="table-responsive">
-                                                                            <table class="table table-striped mb-0">
-                                            <thead class="thead-light">
-                                                <tr role="row">
-                                                    <th>Transaction id</th>
-                                                                                                        <th>Amount</th>
-                                                                                                                                                            <th>Created on</th>
-                                                                                                            <th>Maturity date</th>
-                                                                                                                                                                                                                <th>Status</th>
-                                                                                                    </tr>
-                                            </thead>
-                                            <tbody>
-                                                                                                <tr id="row15">
-                                                    <td>NJsjRtMI5Y</td>
-                                                                                                        <td>
-                                                                                                            GBP 100.00                                                                                                        </td>
-                                                                                                                                                            <td>29 Jan 2023 17:00                                                    </td>
-                                                                                                        <td>2023-01-30 17:00:59</td>
-                                                    <!-- Check the access for this component -->
-                                                                                                                                                            <td class="collastcl" id="colNJsjRtMI5Y">
-                                                                                                            Pending approval                                                                                                        </td>
-                                                                                                                                                                                                            </tr>
-                                                                                                <tr id="row6">
-                                                    <td>NJnoFJGwtl</td>
-                                                                                                        <td>
-                                                                                                            GBP 100.00                                                                                                        </td>
-                                                                                                                                                            <td>21 Jan 2023 04:55                                                    </td>
-                                                                      <td>2023-01-22 04:55:16</td>
-                                                <!-- Check the access for this component -->
-                                                                                                                                                        <td class="collastcl" id="colNJnoFJGwtl">
-                                                                                                        <!--
-                                                    <button class="btn btn-sm btn-info reinvest trans-btn" id="reinvest" data-toggle="modal" value="" data-target="#modal"></button>
-                                                    
-                                                    <button data-toggle="modal" id="" data-target="#modal" value="" class="btn btn-sm btn-info withdraw trans-btn"></button>
-                                                        -->
-                                                        Maturity reached                                                                                                        </td>
-                                                                                                                                                                                                            </tr>
-                                                                                            </tbody>
-                                        </table>
-                                                                                                                    </div>
-                                    <!-- /tables -->
-
-                                </div>
-                                <!-- /card body -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                <div class="table-responsive dataTables_wrapper dt-bootstrap4">
-                                    <div class="table-responsive">
-                                                                            <div class="text-center mt-5">
-                                            <img src="https://primestocktrades.com/m_cust/dash/assets/dist/img/no-search-results.png" class="w-20rm">
-                                            <h1>No transactions can be found</h1>
-                                        </div>
-                                                                            </div>
-                                    <!-- /tables -->
-
-                                </div>
-                                <!-- /card body -->
-                                
-                            </div>
-                            <!-- /card -->
-                        </div>
-                        <!-- /grid item -->
+                  </tr>
+                </thead>
+                <tbody>
+                    @if (count($deposits)>0)
+                    @foreach ($deposits as $item)
+                    <tr>
+                        <th scope="row">{{ $item->id }}</th>
+                        <td>{{ $item->plan }}</td>
+                        <td>{{ $item->amount }}</td>
+                        <td>{{ $item->payment_method }}</td>
+                        <td>{{ $item->created_at }}</td>
+                      </tr>
                         
-                        <div class="dt-card__body">
-                            <!-- Modal -->
-                            <div class="modal fade display-n" id="accountsModal" tabindex="-1" role="dialog" aria-labelledby="model-8" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
+                    @endforeach
+                    @else
 
-                                    <!-- Modal Content -->
-                                    <div class="modal-content">
-
-                                        <!-- Modal Header -->
-                                        <div class="modal-header">
-                                            <h3 class="modal-title" id="model-8">Payment Account</h3>
-                                            <button type="button" class="close"
-                                                data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">×</span>
-                                            </button>
-                                        </div>
-                                        <!-- /modal header -->
-
-                                        <!-- Modal Body -->
-                                        <div class="modal-body">
-                                            <div class="row" id="paymentList">
-                                            </div>
-                                        </div>
-                                        <!-- /modal body -->
-
-                                        <!-- Modal Footer -->
-                                        <div class="modal-footer">
-                                            <button type="button"
-                                                class="btn btn-secondary btn-sm"
-                                                data-dismiss="modal">Cancel
-                                            </button>
-                                        </div>
-                                        <!-- /modal footer -->
-                                        </form>
-                                    </div>
-                                    <!-- /modal content -->
-
-                                </div>
+                    <div class="table-responsive dataTables_wrapper dt-bootstrap4">
+                        <div class="table-responsive">
+                                                                <div class="text-center mt-5">
+                                <img src="https://primestocktrades.com/m_cust/dash/assets/dist/img/no-search-results.png" class="w-20rm">
+                                <h1>No transactions can be found</h1>
                             </div>
-                            <!-- /modal -->
-                            <div class="modal fade display-n" id="pricemodal" tabindex="-1" role="dialog"
-                                aria-labelledby="model-8" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                                </div>
+                        
+                    @endif
+                 
+                  {{-- <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                  </tr> --}}
+                </tbody>
+              </table>
 
-                                    <!-- Modal Content -->
-                                    <div class="modal-content">
 
-                                        <!-- Modal Header -->
-                                        <div class="modal-header">
-                                            <h3 class="modal-title" id="model-8">View Payment Amount Info</h3>
-                                            <button type="button" class="close"
-                                                data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">×</span>
-                                            </button>
-                                        </div>
-                                        <!-- /modal header -->
 
-                                        <!-- Modal Body -->
-                                        <div class="modal-body">
-                                            <p>Withdrawn Amount: <b id="fullamount"></b></p>
-                                            <p>Transaction Fees: <b id="fullamountfees"></b></p>
-                                            <p>Amount To Receive: <b id="fullamountlessfees"></b></p>
-                                        </div>
-                                        <!-- /modal body -->
 
-                                        <!-- Modal Footer -->
-                                        <div class="modal-footer">
-                                            <button type="button"
-                                                class="btn btn-secondary btn-sm"
-                                                data-dismiss="modal">Cancel                                            </button>
-                                        </div>
-                                        <!-- /modal footer -->
 
-                                    </div>
-                                    <!-- /modal content -->
 
-                                </div>
-                            </div>
-                            <!-- /modal -->
-                                                    </div>
 
-                    </div>
-                    <!-- /grid -->
 
-                </div>
-                <!-- /profile content -->
 
-            </div>
-            <!-- /Profile -->
 
-        </div>
-    </div>
-    <!-- Modal -->
-    <div class="modal fade display-n" id="modal" tabindex="-1" role="dialog"
-        aria-labelledby="model-8" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <!-- Modal Content -->
-            <div class="modal-content">
-                <form action="" id="modalForm" method="post" accept-charset="utf-8">
-<input type="hidden" name="csrf_test_name" value="3d8b9786d5a0f346337541c7f2cabc60" />                                           
-                    <!-- Modal Header -->
-                    <div class="modal-header">
-                        <h3 class="modal-title" id="model-8"></h3>
-                        <button type="button" class="close"
-                            data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">×</span>
-                        </button>
-                    </div>
-                    <!-- /modal header -->
-                    <!-- Modal Body -->
-                    <!-- Form Group -->
-                    <div class="modal-body mb--10 hide" id="reinvestPlans">
-                        <div class="form-group">
-                            <label for="fname">Select your preferred investment plan</label>
-                            <select class="form-control" name="plan" id="simple-select">
-                                <option value="" selected disabled hidden>Select your preferred investment plan</option>
-                                                                <option value="1">
-                                    Signups Bonus at 0.00% Annually investment: GBP 50.00 - GBP 499.00                                </option>
-                                                                <option value="2">
-                                    Day Trading at 1.03% Daily investment: GBP 100.00 - GBP 999.00                                </option>
-                                                                <option value="6">
-                                    Crypto Beginner at 1.30% Daily investment: GBP 100.00 - GBP 1,999.00                                </option>
-                                                                <option value="3">
-                                    Scalping Trading at 2.10% Daily investment: GBP 1,000.00 - GBP 9,999.00                                </option>
-                                                                <option value="12">
-                                    _reits Index at 1.50% Daily investment: GBP 2,000.00 - GBP 14,990.00                                </option>
-                                                                <option value="7">
-                                    Crypto Advanced at 1.65% Monthly investment: GBP 2,000.00 - GBP 49,999.00                                </option>
-                                                                <option value="16">
-                                    Light (sweet) Crude at 1.70% Daily investment: GBP 5,000.00 - GBP 14,990.00                                </option>
-                                                                <option value="10">
-                                    Child Insurance at 4.00% Monthly investment: GBP 10,000.00 - GBP 500,000.00                                </option>
-                                                                <option value="4">
-                                    Swing Trading at 3.00% Daily investment: GBP 10,000.00 - GBP 99,999.00                                </option>
-                                                                <option value="13">
-                                    _s & P/tsx Index at 2.90% Daily investment: GBP 12,000.00 - GBP 60,990.00                                </option>
-                                                                <option value="17">
-                                    Medium (sweet) Crude at 2.30% Daily investment: GBP 15,000.00 - GBP 99,990.00                                </option>
-                                                                <option value="14">
-                                    _dow Jones Index at 3.70% Daily investment: GBP 50,000.00 - GBP 299,990.00                                </option>
-                                                                <option value="8">
-                                    Crypto Competent at 2.50% Monthly investment: GBP 50,000.00 - GBP 249,999.00                                </option>
-                                                                <option value="11">
-                                    Home Mortgage at 9.50% Monthly investment: GBP 50,000.00 - GBP 10,000,000.00                                </option>
-                                                                <option value="5">
-                                    Position Trading at 4.00% Daily investment: GBP 100,000.00 - GBP 999,999.00                                </option>
-                                                                <option value="18">
-                                    Medium (sour) Crude at 5.20% Monthly investment: GBP 100,000.00 - GBP 499,990.00                                </option>
-                                                                <option value="15">
-                                    _nasdaq Index at 12.00% Monthly investment: GBP 200,000.00 - GBP 2,000,000.00                                </option>
-                                                                <option value="9">
-                                    Crypto Expert at 5.00% Monthly investment: GBP 250,000.00 - GBP 10,000,000.00                                </option>
-                                                                <option value="19">
-                                    Heavy (sour) Crude at 11.90% Monthly investment: GBP 500,000.00 - GBP 2,000,000.00                                </option>
-                                                            </select>
-                        </div>
-                    </div>
-                    <!-- /form group -->
-                    <div class="modal-body" id="modalBody">
-                    </div>
-                    <!-- /modal body -->
-                    <!-- Modal Footer -->
-                    <div class="modal-footer" id="modalFooter">
-                        <button type="button"
-                            class="btn btn-secondary btn-sm"
-                            data-dismiss="modal">Cancel                        </button>
-                        <div id="continue"></div>
-                    </div>
-                    <!-- /modal footer -->
-                </form>
-            </div>
-            <!-- /modal content -->
-        </div>
+
+                                    <!-- /tables -->
+
+                                
+                        
+        
     </div>
     <!-- /modal -->
     <script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/trans.js"></script>

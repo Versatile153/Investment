@@ -8921,55 +8921,104 @@ i:before {
     
           <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
           <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-          <nav id="navbar" class="navbar">
-            <ul>
-              <li><a href="/" class="active">Home</a></li>
-                    
-              <li class="dropdown"><a href="#"><span>Earn</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="forextrading.html">Forex</a></li>
-                  <li><a href="cryptotrading.html">Cryptocurrency</a></li>
-                  <li><a href="stock_etfs.html">Stocks & EFTs</a></li>
-                  <li><a href="staking.html">Staking</a></li>
-                  <li><a href="commodity.html">Commodities</a></li>
-                    </ul>
-                  </li>
-              <li class="dropdown"><a href="#"><span>Trade</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="/spot">Spot Trading</a></li>
-                  <li><a href="/margin">Margin Trading</a></li>
-                  <li><a href="bot">Bot Trading</a></li>
-                    </ul>
-                  </li>
-              <li><a href="">Pricing</a></li>
-              
-               <li class="dropdown"><a href="#"><span>Company</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                      <li><a href="/career">Our Story</a></li>
-                  <li><a href="/story">Careers</a></li>
-                    </ul>
-                  </li>
-              <li class="dropdown"><a href="#"><span>Resources</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="">Company Brochure</a></li>
-            <li><a href="">Company Certificate of Incorporation</a></li>
-            <li><a href="">Company Registered House Address</a></li>
-            <li><a href="">Foreign Investors Protection</a></li>
-    		<li><a href="">Company Tax & Insurance</a></li>
-            <li><a href="">UK Taxation Basic Guide</a></li>
-    		<li><a href="">Guide to Anti Laundering</a></li>
-    		<li><a href="">Unaudited Financial Statement 2022</a></li>
-    		<li><a href="">Unaudited Financial Statement 2021</a></li>
-            <li><a href="">Unaudited Financial Statement 2020</a></li>
-            <li><a href="">Unaudited Financial Statement 2019</a></li>
-                </ul>
-              </li>
-               
-              
-              <li><a class="get-a-quote" href="">Get Started</a></li>
-            </ul>
-          </nav><!-- .navbar -->
+          <div id="navbar" style="display: flex;
+background-color: #333;">
+
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a style=" color:wheat;" class="nav-link " aria-current="page" href="/">Home</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Earn</a>
+      <ul class="dropdown-menu">
+        {{-- <li><a href="/forex">Forex</a></li>
+        <li><a href="/crypto">Cryptocurrency</a></li>
+        <li><a href="/stock">Stocks & EFTs</a></li>
+        <li><a href="/stake">Staking</a></li>
+        <li><a href="/commo">Commodities</a></li> --}}
+        <li><a class="dropdown-item" href="/forex">Forex</a></li>
+        <li><a class="dropdown-item" href="/crypto">Crypto Currency</a></li>
+        <li><a class="dropdown-item" href="/stock">Stocks</a></li>
+        <li><a class="dropdown-item" href="/stake">Staking</a></li>
+
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="/commo">Commodities</a></li>
+      </ul>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/price">Pricing</a>
+    </li>
+   
+  </ul>
+
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a  style=" color:wheat;"  class="nav-link " aria-current="page" href="/home">Dash</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Trade</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="/spot">spot Trading</a></li>
+        <li><a class="dropdown-item" href="/bot">Margin Trading</a></li>
+        <li><a class="dropdown-item" href="/margin">bot trading</a></li>
+        <li><hr class="dropdown-divider"></li>
+       
+      </ul>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
     
+  </ul>
+  
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a  style=" color:wheat;"  class="nav-link " aria-current="page" href="#">Active</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Company</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Our Story</a></li>
+        <li><a class="dropdown-item" href="#">Careers</a></li>
+        {{-- <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Separated link</a></li> --}}
+      </ul>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/register">Get started</a>
+    </li>
+    
+
+
+
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Resources</a>
+        <ul class="dropdown-menu">
+
+            <li><a class="dropdown-item"  href="">Company Brochure</a></li>
+            <li><a class="dropdown-item" href="">Company Certificate of Incorporation</a></li>
+            <li><a class="dropdown-item" href="">Company Registered House Address</a></li>
+            <li><a class="dropdown-item" href="">Foreign Investors Protection</a></li>
+    		<li><a class="dropdown-item" href="">Company Tax & Insurance</a></li>
+            <li><a class="dropdown-item" href="">UK Taxation Basic Guide</a></li>
+    		<li><a class="dropdown-item" href="">Guide to Anti Laundering</a></li>
+    		<li><a class="dropdown-item" href="">Unaudited Financial Statement 2022</a></li>
+    		<li><a class="dropdown-item" href="">Unaudited Financial Statement 2021</a></li>
+            <li><a class="dropdown-item" href="">Unaudited Financial Statement 2020</a></li>
+            <li><a class="dropdown-item" href="">Unaudited Financial Statement 2019</a></li>
+          
+         
+        </ul>
+       
+      </li>
+  </ul>
+
+
+    
+
+</div>
         </div>
       </header><!-- End Header -->
       

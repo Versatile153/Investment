@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="https://primestocktrades.com/m_cust/dash/assets/dist/css/style.min.css">
     <!-- /load styles -->
     <!-- include summernote css/js -->
+    <link rel="stylesheet" href="http://translate.google.com/translate?js=n&sl=auto&tl=destination_language&u=http://example.net">
     <link href="https://primestocktrades.com/m_cust/dash/assets/dist/summernote/summernote-bs4.css" rel="stylesheet">
     <link rel="stylesheet" href="https://primestocktrades.com/m_cust/dash/assets/dist/css/intlTelInput.css">
 
@@ -61,7 +62,14 @@
                         
 
                             <div class="search-box d-none d-lg-block">
-                                                            <h1 class="dt-page__title mt-4" style="margin-left: -1.5em;">Home <span class="breadcrumb-arrow-right"></span> Dashboard</h1>
+                                                            <h1 class="dt-page__title mt-4" style="margin-left: -1.5em;">Home <span class="breadcrumb-arrow-right"></span> Dashboard
+                                                               
+                                                            </h1>
+                                                            <strong class="btn btn-primary">
+                                                                You are warmly welcome  {{ Auth::user()->name }}
+                                                            </strong>
+                                                          
+                                                           
                                                         </div>
 
                             <!-- Header Menu Wrapper -->
@@ -106,17 +114,17 @@
 
                                         <!-- Dropdown Option -->
                                         <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(8px, 72px, 0px); top: 0px; left: 0px; will-change: transform;">
-                                                                                        <button class="dropdown-item sitelangChange" type="button" data-id="https://primestocktrades.com/m_cust/dash/switchlang/English">
-                                            <img class="flag-icon flag-icon-rounded flag-icon-lg mr-2" src="https://primestocktrades.com/m_cust/dash/uploads/gb-eng.png"><span>English</span> </button>
-                                                                                        <button class="dropdown-item sitelangChange" type="button" data-id="https://primestocktrades.com/m_cust/dash/switchlang/Russian">
-                                            <img class="flag-icon flag-icon-rounded flag-icon-lg mr-2" src="https://primestocktrades.com/m_cust/dash/uploads/russia.png"><span>Russian</span> </button>
-                                                                                        <button class="dropdown-item sitelangChange" type="button" data-id="https://primestocktrades.com/m_cust/dash/switchlang/Português">
-                                            <img class="flag-icon flag-icon-rounded flag-icon-lg mr-2" src="https://primestocktrades.com/m_cust/dash/uploads/portuguese.png"><span>Português</span> </button>
-                                                                                        <button class="dropdown-item sitelangChange" type="button" data-id="https://primestocktrades.com/m_cust/dash/switchlang/Español">
-                                            <img class="flag-icon flag-icon-rounded flag-icon-lg mr-2" src="https://primestocktrades.com/m_cust/dash/uploads/spain.png"><span>Español</span> </button>
-                                                                                        <button class="dropdown-item sitelangChange" type="button" data-id="https://primestocktrades.com/m_cust/dash/switchlang/German">
-                                            <img class="flag-icon flag-icon-rounded flag-icon-lg mr-2" src="https://primestocktrades.com/m_cust/dash/uploads/germany.png"><span>German</span> </button>
-                                                                                    </div>
+                                            <button class="dropdown-item sitelangChange" type="button" data-id="https://primestocktrades.com/m_cust/dash/switchlang/English">
+<img class="flag-icon flag-icon-rounded flag-icon-lg mr-2" src="https://primestocktrades.com/m_cust/dash/uploads/gb-eng.png"><span>English</span> </button>
+                                            <button class="dropdown-item sitelangChange" type="button" data-id="https://primestocktrades.com/m_cust/dash/switchlang/Russian">
+<img class="flag-icon flag-icon-rounded flag-icon-lg mr-2" src="https://primestocktrades.com/m_cust/dash/uploads/russia.png"><span>Russian</span> </button>
+                                            <button class="dropdown-item sitelangChange" type="button" data-id="https://primestocktrades.com/m_cust/dash/switchlang/Português">
+<img class="flag-icon flag-icon-rounded flag-icon-lg mr-2" src="https://primestocktrades.com/m_cust/dash/uploads/portuguese.png"><span>Português</span> </button>
+                                            <button class="dropdown-item sitelangChange" type="button" data-id="https://primestocktrades.com/m_cust/dash/switchlang/Español">
+<img class="flag-icon flag-icon-rounded flag-icon-lg mr-2" src="https://primestocktrades.com/m_cust/dash/uploads/spain.png"><span>Español</span> </button>
+                                            <button class="dropdown-item sitelangChange" type="button" data-id="https://primestocktrades.com/m_cust/dash/switchlang/German">
+<img class="flag-icon flag-icon-rounded flag-icon-lg mr-2" src="https://primestocktrades.com/m_cust/dash/uploads/germany.png"><span>German</span> </button>
+                                        </div>
                                         <!-- /dropdown option -->
 
                                     </li>
@@ -141,8 +149,7 @@
 
                                         <!-- Dropdown Option -->
                                         <div class="dropdown-menu dropdown-menu-right">
-                                            <a class="dropdown-item" href=""> <i
-                                                    class="icon icon-user icon-fw mr-2 mr-sm-1"></i>Account                                            </a>
+                                            
                                             <a class="dropdown-item" href=""> <i
                                                     class="icon icon-editors icon-fw mr-2 mr-sm-1"></i>Logout                                            </a>
                                         </div>
@@ -177,8 +184,14 @@
                                         class="dt-side-nav__link dt-active"
                                         title="Dashboard">
                                         <i class="icon icon-dashboard icon-fw icon-lg"></i>
-									<span class="dt-side-nav__text btn btn-primary">Dashboard</span>
+									<span class="dt-side-nav__text btn btn-primary">Dashboard 
+                                      
+                                    </span>
+                                    
+                                        
+                                
                                     </a>
+                                   
                                 </li>
                                 <li
                                     class="dt-side-nav__item ">
@@ -209,7 +222,7 @@
                                 </li>
                                 <li
                                     class="dt-side-nav__item ">
-                                    <a href="//withdraw" class="dt-side-nav__link dt-side-nav__arrow"
+                                    <a href="#" class="dt-side-nav__link dt-side-nav__arrow"
                                         title="Dashboard">
                                         <i class="icon icon-revenue-new icon-fw icon-lg"></i><span
                                             class="dt-side-nav__text">Withdrawals</span> </a>
@@ -218,7 +231,7 @@
                                     <ul class="dt-side-nav__sub-menu display-n">
                                         <li
                                             class="dt-side-nav__item open ">
-                                            <a href=""
+                                            <a href="/withdraw"
                                                 class="dt-side-nav__link "
                                                 title="Traffic">
                                                 <span class="dt-side-nav__text">Withdraw funds</span> </a>
@@ -516,8 +529,47 @@
 </main>
 </div>
 </div>
+<script>
+    $(".sitelangChange").click(function(e){
+    var actionurl = $(this).attr("data-id");
+    $.get(actionurl, function(data){
+        var content = JSON.parse(data);
+        setTimeout(
+            function() {
+                location.reload();
+            }, 1000);
+    });
+});
+
+$('.close').on('click', function(e){
+    $('.drawer').removeClass('open');
+})
+
+$('.customizer-toggle').on('click', function(e){
+    $('.drawer').addClass('open');
+})
+
+$('.choose-option__icon').on('click', function(e){
+    var actionurl = $(this).attr("data-url");
+    $.get(actionurl, function(data){
+        var content = JSON.parse(data);
+
+        setTimeout(
+            function() {
+                window.location.replace("./home");
+            }, 1000);
+    });
+})
+</script>
+<script type="text/javascript">// <![CDATA[
+    function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+    }
+    // ]]></script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
+      
 <script src="https://primestocktrades.com/m_cust/dash/assets/dist/summernote/summernote-bs4.js"></script>
-<script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/lang.js"></script>
+{{-- <script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/lang.js"></script> --}}
 <script src="https://primestocktrades.com/m_cust/dash/assets/dist/summernote/editor-summernote.js"></script>
 <script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/moment/moment.js"></script>
 <script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/bootstrap/bootstrap.bundle.min.js"></script>

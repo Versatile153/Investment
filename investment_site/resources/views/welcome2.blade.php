@@ -37,7 +37,13 @@
       <!-- Template Main CSS File -->
       <link href="assets/css/main.css" rel="stylesheet">
       <link rel="stylesheet" href="kcustom.css">
-     
+      <script type="text/javascript">// <![CDATA[
+function googleTranslateElementInit() {
+new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+// ]]></script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
+  
   <!-- Global site tag (gtag.js) - Google Ads: 10962727561 --> 
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10962727561"></script> 
   <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-10962727561'); </script>
@@ -4040,7 +4046,7 @@ i:before {
         width: 100%;
     }
 }
-/* 
+
 @media(max-width: 1199px) {
     .main_menu_inner .navbar .navbar-nav li {
         margin-right: 13px;
@@ -4192,7 +4198,7 @@ i:before {
         border: none;
         border-radius: 0px;
         margin: 0px;
-    } */
+    }
     .small_feature_area {
         padding-top: 70px;
         padding-bottom: 70px;
@@ -9710,301 +9716,87 @@ h1, h2, h3, h4, h5, h6 {
 
 </style>
 </style>
-
-<style>
-    .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 60px;
-}
-img.sticky {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-}
-</style>
 	</head>
 	<body>
-        {{-- <header id="header" class="header d-flex align-items-center fixed-top" style="background-color: black !important;">
-            <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-        
-              <a href="default.php" class="logo d-flex align-items-center">
-                <!-- Uncomment the line below if you also wish to use an image logo -->
-                <img src="img/logo.png" alt="">
-               <!--- <h1>Logis</h1>--->
-              </a>
-        
-              <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-              <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-              <nav id="navbar" class="navbar">
-                <ul>
-                  <li><a href="default.php" class="active">Home</a></li>
-                        
-                  <li class="dropdown"><a href="#"><span>Earn</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                    <ul>
-                      <li><a href="forextrading.html">Forex</a></li>
-                      <li><a href="cryptotrading.html">Cryptocurrency</a></li>
-                      <li><a href="stock_etfs.html">Stocks & EFTs</a></li>
-                      <li><a href="staking.html">Staking</a></li>
-                      <li><a href="commodity.html">Commodities</a></li>
-                        </ul>
-                      </li>
-                  <li class="dropdown"><a href="#"><span>Trade</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                    <ul>
-                      <li><a href="spottrading.html">Spot Trading</a></li>
-                      <li><a href="margin.html">Margin Trading</a></li>
-                      <li><a href="tradebots.html">Bot Trading</a></li>
-                        </ul>
-                      </li>
-                  <li><a href="pricing.html">Pricing</a></li>
-                  
-                   <li class="dropdown"><a href="#"><span>Company</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                    <ul>
-                          <li><a href="about.html">Our Story</a></li>
-                        <li><a href="careers.html">Careers</a></li>
-                        </ul>
-                      </li>
-                  <li class="dropdown"><a href="#"><span>Resources</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="doc/Brochure.pdf">Company Brochure</a></li>
-                <li><a href="doc/Certificate-of-Inc.pdf">Company Certificate of Incorporation</a></li>
-                <li><a href="doc/Reg-address.pdf">Company Registered House Address</a></li>
-                <li><a href="doc/Foreign-investor-protection.pdf">Foreign Investors Protection</a></li>
-                <li><a href="doc/Tax-insurance.pdf">Company Tax & Insurance</a></li>
-                <li><a href="doc/UKTax-guide.pdf">UK Taxation Basic Guide</a></li>
-                <li><a href="doc/Anti-laundering.pdf">Guide to Anti Laundering</a></li>
-                <li><a href="doc/Fin-statement-2022.pdf">Unaudited Financial Statement 2022</a></li>
-                <li><a href="doc/Fin-statement-2021.pdf">Unaudited Financial Statement 2021</a></li>
-                <li><a href="doc/Fin-statement-2020.pdf">Unaudited Financial Statement 2020</a></li>
-                <li><a href="doc/Fin-statement-2019.pdf">Unaudited Financial Statement 2019</a></li>
-                    </ul>
-                  </li>
-                   
-                  
-                  <li><a class="get-a-quote" href="m_cust/dash/login">Get Started</a></li>
+
+     <!-- ======= Header ======= -->
+     <header id="header" class="header d-flex align-items-center fixed-top" style=" display:flex;">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+    
+          <a href="/" class="logo d-flex align-items-center">
+            <!-- Uncomment the line below if you also wish to use an image logo -->
+            <img src="https://media.istockphoto.com/id/1369406446/photo/shield-check-mark-on-podium.jpg?s=612x612&w=0&k=20&c=0ND_Mr3otYh7rEnjUGY9gVy6k7ndSzGkcnH1yuwF0S4=" alt="">
+           <!--- <h1>Logis</h1>--->
+          </a>
+    
+          <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+          <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+        {{-- <nav id="navbar" class="navbar navbar navbar-dark light-blue lighten-4">
+        <ul class="">
+            <li><a href="/" class="active">Home</a></li>
+                
+            <li class="dropdown"><a href="#"><span>Earn</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+                <li><a href="/forex">Forex</a></li>
+                <li><a href="/crypto">Cryptocurrency</a></li>
+                <li><a href="/stock">Stocks & EFTs</a></li>
+                <li><a href="/stake">Staking</a></li>
+                <li><a href="/commo">Commodities</a></li>
                 </ul>
-              </nav><!-- .navbar -->
+                </li>
+            <li class="dropdown"><a href="#"><span>Trade</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+                <li><a href="/spot">Spot Trading</a></li>
+                <li><a href="/bot">Margin Trading</a></li>
+                <li><a href="/margin">Bot Trading</a></li>
+                </ul>
+                </li>
+            <li><a href="/price">Pricing</a></li>
         
-            </div>
-          </header><!-- End Header -->
-      <!-- End Header --> --}}
-{{--        
-<div style="display: flex; justify-content:space-evenly;">
-
-      <nav class="nav flex-column">
-        <a class="nav-link active" aria-current="page" href="#">Active</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-       
-      </nav>
-      <nav class="nav flex-column">
-        <a class="nav-link active" aria-current="page" href="#">Active</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-      </nav>
-      <nav class="nav flex-column">
-        <a class="nav-link active" aria-current="page" href="#">Active</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-      </nav>
-      
-
-
-</div>
-
- --}}
- {{-- <ul class="nav nav-pills nav-fill">
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#">Active</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Much longer nav link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link disabled">Disabled</a>
-    </li>
-  </ul> --}}
-  {{-- <header id="header" class="header d-flex align-items-center fixed-top" style="background-color: black !important;">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-
-      
-      <a href="" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="https://media.istockphoto.com/id/1369406446/photo/shield-check-mark-on-podium.jpg?s=612x612&w=0&k=20&c=0ND_Mr3otYh7rEnjUGY9gVy6k7ndSzGkcnH1yuwF0S4=" alt="">
-       <!--- <h1>Logis</h1>--->
-      </a>
-
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-      <div id="navbar" style="display: flex;
-background-color: #333;">
-
-<ul class="nav nav-tabs">
-<li class="nav-item">
-  <a style=" color:wheat;" class="nav-link " aria-current="page" href="/">Home</a>
-</li>
-<li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Earn</a>
-  <ul class="dropdown-menu">
-    {{-- <li><a href="/forex">Forex</a></li>
-    <li><a href="/crypto">Cryptocurrency</a></li>
-    <li><a href="/stock">Stocks & EFTs</a></li>
-    <li><a href="/stake">Staking</a></li>
-    <li><a href="/commo">Commodities</a></li> --}}
-    {{-- <li><a class="dropdown-item" href="/forex">Forex</a></li>
-    <li><a class="dropdown-item" href="/crypto">Crypto Currency</a></li>
-    <li><a class="dropdown-item" href="/stock">Stocks</a></li>
-    <li><a class="dropdown-item" href="/Stake">Staking</a></li>
-
-    <li><hr class="dropdown-divider"></li>
-    <li><a class="dropdown-item" href="/commo">Commodities</a></li>
-  </ul>
-</li>
-<li class="nav-item">
-  <a class="nav-link" href="#">Pricing</a>
-</li>
-
-</ul>
-
-<ul class="nav nav-tabs">
-<li class="nav-item">
-  <a  style=" color:wheat;"  class="nav-link " aria-current="page" href="/home">Dash</a>
-</li>
-<li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Trade</a>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="/spot">spot Trading</a></li>
-    <li><a class="dropdown-item" href="/bot">Margin Trading</a></li>
-    <li><a class="dropdown-item" href="/margin">bot trading</a></li>
-    <li><hr class="dropdown-divider"></li>
-   
-  </ul>
-</li>
-
-<li class="nav-item">
-  <a class="nav-link" href="#">Link</a>
-</li>
-
-</ul>
-
-<ul class="nav nav-tabs">
-<li class="nav-item">
-  <a  style=" color:wheat;"  class="nav-link " aria-current="page" href="#">Active</a>
-</li>
-<li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Company</a>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Our Story</a></li>
-    <li><a class="dropdown-item" href="#">Careers</a></li>
-    {{-- <li><a class="dropdown-item" href="#">Something else here</a></li>
-    <li><hr class="dropdown-divider"></li>
-    <li><a class="dropdown-item" href="#">Separated link</a></li> --}}
-  {{-- </ul>
-</li>
-<li class="nav-item">
-  <a class="nav-link" href="/register">Get started</a>
-</li>
+            <li class="dropdown"><a href="#"><span>Company</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+                    <li><a href="career">Our Story</a></li>
+                <li><a href="story">Careers</a></li>
+                </ul>
+                </li>
+              <li class="dropdown"><a href="#"><span>Resources</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="">Company Brochure</a></li>
+            <li><a href="">Company Certificate of Incorporation</a></li>
+            <li><a href="">Company Registered House Address</a></li>
+            <li><a href="">Foreign Investors Protection</a></li>
+    		<li><a href="">Company Tax & Insurance</a></li>
+            <li><a href="">UK Taxation Basic Guide</a></li>
+    		<li><a href="">Guide to Anti Laundering</a></li>
+    		<li><a href="">Unaudited Financial Statement 2022</a></li>
+    		<li><a href="">Unaudited Financial Statement 2021</a></li>
+            <li><a href="">Unaudited Financial Statement 2020</a></li>
+            <li><a href="">Unaudited Financial Statement 2019</a></li>
+                </ul>
+              </li>
+               
+              
+              <li><a class="get-a-quote" href="">Get Started</a></li>
+            </ul>
+          </nav><!-- .navbar --> --}}
+    
+        </div>
+      </header><!-- End Header ]-->
 
 
 
 
-<li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Resources</a>
-    <ul class="dropdown-menu">
-
-        <li><a class="dropdown-item"  href="">Company Brochure</a></li>
-        <li><a class="dropdown-item" href="">Company Certificate of Incorporation</a></li>
-        <li><a class="dropdown-item" href="">Company Registered House Address</a></li>
-        <li><a class="dropdown-item" href="">Foreign Investors Protection</a></li>
-        <li><a class="dropdown-item" href="">Company Tax & Insurance</a></li>
-        <li><a class="dropdown-item" href="">UK Taxation Basic Guide</a></li>
-        <li><a class="dropdown-item" href="">Guide to Anti Laundering</a></li>
-        <li><a class="dropdown-item" href="">Unaudited Financial Statement 2022</a></li>
-        <li><a class="dropdown-item" href="">Unaudited Financial Statement 2021</a></li>
-        <li><a class="dropdown-item" href="">Unaudited Financial Statement 2020</a></li>
-        <li><a class="dropdown-item" href="">Unaudited Financial Statement 2019</a></li>
-      
-     
-    </ul>
-   
-  </li>
-</ul>
 
 
 
 
-</div>
-    </div>
-  </header>  --}}
 
 
-  <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-    Check out
-  </a>
-  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-    Start tour
-  </button>
-  
-  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasExampleLabel">PrimewareTrades</h5>
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-      <div>
-        A mission to harness the power of Bitcoin and technology to enable individual sovereignty and eventually garner the next evolution of humanity.
-      </div>
-      <div class="dropdown mt-3">
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-          click me
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="/">Home</a></li>
-          <li><a class="dropdown-item" href="/home">dashboard</a></li>
-          <li><a class="dropdown-item" href="/login">login</a></li>
-          <li><a class="dropdown-item" href="/register">Get Started</a></li>
 
-        </ul>
-      </div>
-    </div>
-  </div>
 
   <!-- End Header -->
-
-
-  
-
    
       <main id="main">
-       
-            <h1 id="">logo</h1>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
-
-      
                 <div class="v2" data-styles="bbox">
                     <div class="v2-bbox" style="background-color:#11131B">
                         <div class="v2-bbox__background" data-behavior="bbox" data-instance="bbox__ZXQ753">
@@ -10032,8 +9824,8 @@ background-color: #333;">
                                                 </div>
                                             </div>
                                             <div class="v2-btn-wrapper v2-mab30">
-                                                <a href="/register" class="v2-btn v2-btn-primary">Open account</a>
-                                                <a class="v2-btn v2-btn-secondary--inverted" data-behavior="off-canvas-trigger" data-target="ec42615c-1290-4354-b328-e27faa3cad2f" href="/login" data-wide="true" data-scripts-target="[data-ref='off-canvas__content']" data-instance="off-canvas-trigger__8Q63K2"> Login </a>
+                                                <a href="" class="v2-btn v2-btn-primary">Open account</a>
+                                                <a class="v2-btn v2-btn-secondary--inverted" data-behavior="off-canvas-trigger" data-target="ec42615c-1290-4354-b328-e27faa3cad2f" href="" data-wide="true" data-scripts-target="[data-ref='off-canvas__content']" data-instance="off-canvas-trigger__8Q63K2"> Login </a>
                                                 <div class="v2-hidden "></div>
                                             </div>
                                         </div>
@@ -10114,7 +9906,7 @@ background-color: #333;">
                                                         </div>
                                                         <div class="v2-card__cta v2-card__cta--left">
                                                             <div class="v2-card__cta-wrapper">
-                                                                <a href="" data-di-id="f232e2d0-038f-45a3-83ee-dd0ee1ab1c64" class="v2-btn v2-btn--link" id="f232e2d0-038f-45a3-83ee-dd0ee1ab1c64">Read more</a>
+                                                                <a href="forextrading.html" data-di-id="f232e2d0-038f-45a3-83ee-dd0ee1ab1c64" class="v2-btn v2-btn--link" id="f232e2d0-038f-45a3-83ee-dd0ee1ab1c64">Read more</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -12051,24 +11843,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
   </script>
-  {{-- <script>
-    window.onscroll = function() {myFunction()};
-
-// Get the navbar
-var navbar = document.getElementById("navbar");
-
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-  </script> --}}
+  
 </body>
 
 </html>
