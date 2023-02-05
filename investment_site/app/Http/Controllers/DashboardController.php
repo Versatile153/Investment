@@ -68,4 +68,14 @@ class DashboardController extends Controller
         return view('dashboard.security');
         
     }
+
+    public function avatar(Request $request){
+        // dd($request->file);
+        $request->file->store('images','public');
+
+       
+     
+        
+    }
+
 }

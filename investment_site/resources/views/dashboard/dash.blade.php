@@ -1744,7 +1744,7 @@ h1, h2, h3, h4, h5, h6 {
               </li>
                
               
-              <li><a class="get-a-quote" href="m_cust/dash/login">Get Started</a></li>
+              <li><a class="get-a-quote" href="/login">Get Started</a></li>
             </ul>
           </nav><!-- .navbar -->
     

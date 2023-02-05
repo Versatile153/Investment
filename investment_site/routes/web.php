@@ -5,6 +5,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\PayMentController;
 use App\Http\Controllers\UsersController;
+use GuzzleHttp\Psr7\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -75,6 +76,17 @@ Route::get('/story',[PagesController::class,'story']);
 Route::get('/price',[PagesController::class,'price']);
 Route::get('/forex_price',[PagesController::class,'forex_price']);
 
+
+
+Route::get('/img', function () {
+    return view('image');
+    });
+Route::post('/logo',[DashboardController::class,'avatar']);
+
+
+
+  
+    
 
 
 

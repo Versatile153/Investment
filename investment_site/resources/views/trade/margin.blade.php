@@ -7389,118 +7389,98 @@ h1, h2, h3, h4, h5, h6 {
 
 
 </style>
-<header id="header" class="header d-flex align-items-center fixed-top" style="background-color: black !important;">
-        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-    
+<div style="display: flex;justify-content:space-around; margin-top:1rem;">
+     <div>
+        {{-- <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            start tour
+          </a> --}}
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            Get started
+          </button>
           
-          <a href="" class="logo d-flex align-items-center">
-            <!-- Uncomment the line below if you also wish to use an image logo -->
-            <img src="https://media.istockphoto.com/id/1369406446/photo/shield-check-mark-on-podium.jpg?s=612x612&w=0&k=20&c=0ND_Mr3otYh7rEnjUGY9gVy6k7ndSzGkcnH1yuwF0S4=" alt="">
-           <!--- <h1>Logis</h1>--->
-          </a>
-    
-          <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-          <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-          <div id="navbar" style="display: flex;
-background-color: #333;">
-
-  <ul class="nav nav-tabs">
-    <li class="nav-item">
-      <a style=" color:wheat;" class="nav-link " aria-current="page" href="/">Home</a>
-    </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Earn</a>
-      <ul class="dropdown-menu">
-        {{-- <li><a href="/forex">Forex</a></li>
-        <li><a href="/crypto">Cryptocurrency</a></li>
-        <li><a href="/stock">Stocks & EFTs</a></li>
-        <li><a href="/stake">Staking</a></li>
-        <li><a href="/commo">Commodities</a></li> --}}
-        <li><a class="dropdown-item" href="/forex">Forex</a></li>
-        <li><a class="dropdown-item" href="/crypto">Crypto Currency</a></li>
-        <li><a class="dropdown-item" href="/stock">Stocks</a></li>
-        <li><a class="dropdown-item" href="/stake">Staking</a></li>
-
-        <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="/commo">Commodities</a></li>
-      </ul>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="/price">Pricing</a>
-    </li>
-   
-  </ul>
-
-  <ul class="nav nav-tabs">
-    <li class="nav-item">
-      <a  style=" color:wheat;"  class="nav-link " aria-current="page" href="/home">Dash</a>
-    </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Trade</a>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="/spot">spot Trading</a></li>
-        <li><a class="dropdown-item" href="/bot">Margin Trading</a></li>
-        <li><a class="dropdown-item" href="/margin">bot trading</a></li>
-        <li><hr class="dropdown-divider"></li>
-       
-      </ul>
-    </li>
-
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    
-  </ul>
-  
-  <ul class="nav nav-tabs">
-    <li class="nav-item">
-      <a  style=" color:wheat;"  class="nav-link " aria-current="page" href="#">Active</a>
-    </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Company</a>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">Our Story</a></li>
-        <li><a class="dropdown-item" href="#">Careers</a></li>
-        {{-- <li><a class="dropdown-item" href="#">Something else here</a></li>
-        <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="#">Separated link</a></li> --}}
-      </ul>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="/register">Get started</a>
-    </li>
-    
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Primewaretrades</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                A mission to harness the power of Bitcoin and technology to enable individual sovereignty and eventually garner the next evolution of humanity.
+              </div>
+              <div class="dropdown mt-3">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                  Explore
+                </button>
+                <ul class="dropdown-menu" style="display: flex;">
+                  <div>
+                    <li><a class="dropdown-item" href="/">Home</a></li>
+                  <li><a class="dropdown-item" href="/home">dashboard</a></li>
+                  <li><a class="dropdown-item" href="/login">login </a></li>
+                  <li><a class="dropdown-item" href="/register">Register</a></li>
+                  </div>
+                  <div>
+                    <li><a class="dropdown-item" href="">Brochure</a></li>
+                    <li><a class="dropdown-item" href="">Certificate of Incorporation</a></li>
+                    <li><a class="dropdown-item" href=""> House Address</a></li>
+                    <li><a class="dropdown-item" href=""> Investors Protection</a></li>
+                    <li><a class="dropdown-item" href=""> Tax & Insurance</a></li>
+                    <li><a class="dropdown-item" href="">Taxation Basic Guide</a></li>
+                    <li><a class="dropdown-item" href="">Anti Laundering</a></li>
+                    <li><a class="dropdown-item" href="">Financial Statement 2022</a></li>
+                    <li><a class="dropdown-item" href=""> Financial Statement 2021</a></li>
+                    <li><a class="dropdown-item" href=""> Financial Statement 2020</a></li>
+                    <li><a class="dropdown-item" href=""> Financial Statement 2019</a></li>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </div>
 
 
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">See More</button>
 
-    <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Resources</a>
-        <ul class="dropdown-menu">
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Primewaretrades</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Primestocktrades is committed to leading a wave of change; by connecting with, educating and empowering younger generations to reimagine, redefine and reengineer their lives, and the world.</p>
+    <div class="dropdown mt-3">
+        <button class="btn btn-primary dropdown-toggle " type="button" data-bs-toggle="dropdown">
+          Read More
+        </button>
+        <ul class="dropdown-menu mt-2" style="display: flex;">
+          <div>
+            <li><a class="dropdown-item" href="/forex">Forex</a></li>
+            <li><a class="dropdown-item" href="/crypto">Cryptocurrency</a></li>
+            <li><a class="dropdown-item" href="/stock">Stocks & EFTs</a></li>
+            <li><a class="dropdown-item" href="/stake">Staking</a></li>
+            <li><a class="dropdown-item" href="/commo">Commodities</a></li>
+            <li><a class="dropdown-item" href="/spot">Spot Trading</a></li>
+            <li><a class="dropdown-item" href="/bot">Margin Trading</a></li>
+            <li><a class="dropdown-item" href="/margin">Bot Trading</a></li>
+          </div>
 
-            <li><a class="dropdown-item"  href="">Company Brochure</a></li>
-            <li><a class="dropdown-item" href="">Company Certificate of Incorporation</a></li>
-            <li><a class="dropdown-item" href="">Company Registered House Address</a></li>
-            <li><a class="dropdown-item" href="">Foreign Investors Protection</a></li>
-    		<li><a class="dropdown-item" href="">Company Tax & Insurance</a></li>
-            <li><a class="dropdown-item" href="">UK Taxation Basic Guide</a></li>
-    		<li><a class="dropdown-item" href="">Guide to Anti Laundering</a></li>
-    		<li><a class="dropdown-item" href="">Unaudited Financial Statement 2022</a></li>
-    		<li><a class="dropdown-item" href="">Unaudited Financial Statement 2021</a></li>
-            <li><a class="dropdown-item" href="">Unaudited Financial Statement 2020</a></li>
-            <li><a class="dropdown-item" href="">Unaudited Financial Statement 2019</a></li>
+          <div>
+            
+            <li><a class="dropdown-item" href="career">Our Story</a></li>
+            <li><a class="dropdown-item" href="story">Careers</a></li>
+          </div>
+
           
-         
+          
         </ul>
-       
-      </li>
-  </ul>
-
-
-    
-
+      </div>
+  </div>
+  
 </div>
-        </div>
-      </header>
+     </div>
+     
+       
+logo
+          </div>
+   
    
 <div class="cover hide"></div>        <style>
             .text-center {
@@ -7515,34 +7495,7 @@ background-color: #333;">
                 display: flex;
                 align-items: center;
             }
-            .btn {
-                display: inline-flex;
-                align-items: center;
-                align-content: center;
-                justify-content: center;
-                padding: 2px 45px;
-                min-height: 40px;
-                max-height: 64px;
-                line-height: 16px;
-                border-radius: 40px;
-                background: #2bb498;
-                text-decoration: none;
-                margin: 0;
-                border: none;
-                color: white;
-                cursor: pointer;
-                font-size: 16px;
-                font-weight: 500;
-                overflow: hidden;
-                position: relative;
-                transition-property: background,color,border,letter-spacing;
-                transition-duration: .25s;
-                transition-timing-function: ease-in;
-                text-align: center;
-                text-decoration: none;
-                vertical-align: middle;
-            }
-
+            
             .btn:hover {
                 background-color: #2bb4a9;
             }
@@ -8496,7 +8449,7 @@ ul#footermenu li {
                      <div class="footers-logo">
                         <a href="/" class="logo d-flex align-items-center">
             <!-- Uncomment the line below if you also wish to use an image logo -->
-            <img width="130"dth="120" src="https://media.istockphoto.com/id/1369406446/photo/shield-check-mark-on-podium.jpg?s=612x612&w=0&k=20&c=0ND_Mr3otYh7rEnjUGY9gVy6k7ndSzGkcnH1yuwF0S4=" alt="">
+<img src="" alt="logo">            
            <!--- <h1>Logis</h1>--->
           </a>
                      </div>

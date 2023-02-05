@@ -7600,29 +7600,99 @@ i:before {
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center ">
-    <div class="container-fluid container-xxl d-flex align-items-center">
+  <div style="display: flex;justify-content:space-around; margin-top:1rem;">
+    <div>
+       {{-- <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+           start tour
+         </a> --}}
+         <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+           Get started
+         </button>
+         
+         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+           <div class="offcanvas-header">
+             <h5 class="offcanvas-title" id="offcanvasExampleLabel">Primewaretrades</h5>
+             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+           </div>
+           <div class="offcanvas-body">
+             <div>
+               A mission to harness the power of Bitcoin and technology to enable individual sovereignty and eventually garner the next evolution of humanity.
+             </div>
+             <div class="dropdown mt-3">
+               <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                 Explore
+               </button>
+               <ul class="dropdown-menu" style="display: flex;">
+                 <div>
+                   <li><a class="dropdown-item" href="/">Home</a></li>
+                 <li><a class="dropdown-item" href="/home">dashboard</a></li>
+                 <li><a class="dropdown-item" href="/login">login </a></li>
+                 <li><a class="dropdown-item" href="/register">Register</a></li>
+                 </div>
+                 <div>
+                   <li><a class="dropdown-item" href="">Brochure</a></li>
+                   <li><a class="dropdown-item" href="">Certificate of Incorporation</a></li>
+                   <li><a class="dropdown-item" href=""> House Address</a></li>
+                   <li><a class="dropdown-item" href=""> Investors Protection</a></li>
+                   <li><a class="dropdown-item" href=""> Tax & Insurance</a></li>
+                   <li><a class="dropdown-item" href="">Taxation Basic Guide</a></li>
+                   <li><a class="dropdown-item" href="">Anti Laundering</a></li>
+                   <li><a class="dropdown-item" href="">Financial Statement 2022</a></li>
+                   <li><a class="dropdown-item" href=""> Financial Statement 2021</a></li>
+                   <li><a class="dropdown-item" href=""> Financial Statement 2020</a></li>
+                   <li><a class="dropdown-item" href=""> Financial Statement 2019</a></li>
+                 </div>
+               </ul>
+             </div>
+           </div>
+         </div>
 
-      <div id="logo" class="me-auto">
-        <!-- Uncomment below if you prefer to use a text logo -->
-        <h3><a href="">About Primestocktrades</a></h3>
-       
-      </div>
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li><a class="nav-link scrollto" href="">Company</a></li>
-          <li><a class="nav-link scrollto active" href="">Careers</a></li>
-          <li><a class="nav-link scrollto" href="#">Register</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-      <a class="buy-tickets scrollto" href="/">Primestocktrades Home</a>
+         <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">See More</button>
 
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+ <div class="offcanvas-header">
+   <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Primewaretrades</h5>
+   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+ </div>
+ <div class="offcanvas-body">
+   <p>Primestocktrades is committed to leading a wave of change; by connecting with, educating and empowering younger generations to reimagine, redefine and reengineer their lives, and the world.</p>
+   <div class="dropdown mt-3">
+       <button class="btn btn-primary dropdown-toggle " type="button" data-bs-toggle="dropdown">
+         Read More
+       </button>
+       <ul class="dropdown-menu mt-2" style="display: flex;">
+         <div>
+           <li><a class="dropdown-item" href="/forex">Forex</a></li>
+           <li><a class="dropdown-item" href="/crypto">Cryptocurrency</a></li>
+           <li><a class="dropdown-item" href="/stock">Stocks & EFTs</a></li>
+           <li><a class="dropdown-item" href="/stake">Staking</a></li>
+           <li><a class="dropdown-item" href="/commo">Commodities</a></li>
+           <li><a class="dropdown-item" href="/spot">Spot Trading</a></li>
+           <li><a class="dropdown-item" href="/bot">Margin Trading</a></li>
+           <li><a class="dropdown-item" href="/margin">Bot Trading</a></li>
+         </div>
+
+         <div>
+           
+           <li><a class="dropdown-item" href="career">Our Story</a></li>
+           <li><a class="dropdown-item" href="story">Careers</a></li>
+         </div>
+
+         
+         
+       </ul>
+     </div>
+ </div>
+ 
+</div>
     </div>
-  </header><!-- End Header -->
+    
+      
+    <img style="border-end-start-radius: 40%;border-end-end-radius: 40%;" width="70" src="{{ asset('/storage/images/63Om7c9wvaZtut6izJvgS9hjW9NM3e6wBTkwYgO3.jpg') }}" alt="">
 
+         </div>
+  
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">

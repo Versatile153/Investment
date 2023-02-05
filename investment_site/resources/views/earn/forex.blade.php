@@ -6674,119 +6674,99 @@ h1, h2, h3, h4, h5, h6 {
 	</head>
 	<body style="background-color:#F2F2F5">
 
-
-        <header id="header" class="header d-flex align-items-center fixed-top" style="background-color: black !important;">
-            <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-        
-              
-              <a href="" class="logo d-flex align-items-center">
-                <!-- Uncomment the line below if you also wish to use an image logo -->
-                <img src="https://media.istockphoto.com/id/1369406446/photo/shield-check-mark-on-podium.jpg?s=612x612&w=0&k=20&c=0ND_Mr3otYh7rEnjUGY9gVy6k7ndSzGkcnH1yuwF0S4=" alt="">
-               <!--- <h1>Logis</h1>--->
-              </a>
-        
-              <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-              <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-              <div id="navbar" style="display: flex;
-    background-color: #333;">
-    
-      <ul class="nav nav-tabs">
-        <li class="nav-item">
-          <a style=" color:wheat;" class="nav-link " aria-current="page" href="/">Home</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Earn</a>
-          <ul class="dropdown-menu">
-            {{-- <li><a href="/forex">Forex</a></li>
-            <li><a href="/crypto">Cryptocurrency</a></li>
-            <li><a href="/stock">Stocks & EFTs</a></li>
-            <li><a href="/stake">Staking</a></li>
-            <li><a href="/commo">Commodities</a></li> --}}
-            <li><a class="dropdown-item" href="/forex">Forex</a></li>
-            <li><a class="dropdown-item" href="/crypto">Crypto Currency</a></li>
-            <li><a class="dropdown-item" href="/stock">Stocks</a></li>
-            <li><a class="dropdown-item" href="/stake">Staking</a></li>
-    
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="/commo">Commodities</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/price">Pricing</a>
-        </li>
+        <div style="display: flex;justify-content:space-around; margin-top:1rem;">
+            <div>
+               {{-- <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                   start tour
+                 </a> --}}
+                 <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                   Get started
+                 </button>
+                 
+                 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                   <div class="offcanvas-header">
+                     <h5 class="offcanvas-title" id="offcanvasExampleLabel">Primewaretrades</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                   </div>
+                   <div class="offcanvas-body">
+                     <div>
+                       A mission to harness the power of Bitcoin and technology to enable individual sovereignty and eventually garner the next evolution of humanity.
+                     </div>
+                     <div class="dropdown mt-3">
+                       <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                         Explore
+                       </button>
+                       <ul class="dropdown-menu" style="display: flex;">
+                         <div>
+                           <li><a class="dropdown-item" href="/">Home</a></li>
+                         <li><a class="dropdown-item" href="/home">dashboard</a></li>
+                         <li><a class="dropdown-item" href="/login">login </a></li>
+                         <li><a class="dropdown-item" href="/register">Register</a></li>
+                         </div>
+                         <div>
+                           <li><a class="dropdown-item" href="">Brochure</a></li>
+                           <li><a class="dropdown-item" href="">Certificate of Incorporation</a></li>
+                           <li><a class="dropdown-item" href=""> House Address</a></li>
+                           <li><a class="dropdown-item" href=""> Investors Protection</a></li>
+                           <li><a class="dropdown-item" href=""> Tax & Insurance</a></li>
+                           <li><a class="dropdown-item" href="">Taxation Basic Guide</a></li>
+                           <li><a class="dropdown-item" href="">Anti Laundering</a></li>
+                           <li><a class="dropdown-item" href="">Financial Statement 2022</a></li>
+                           <li><a class="dropdown-item" href=""> Financial Statement 2021</a></li>
+                           <li><a class="dropdown-item" href=""> Financial Statement 2020</a></li>
+                           <li><a class="dropdown-item" href=""> Financial Statement 2019</a></li>
+                         </div>
+                       </ul>
+                     </div>
+                   </div>
+                 </div>
        
-      </ul>
-    
-      <ul class="nav nav-tabs">
-        <li class="nav-item">
-          <a  style=" color:wheat;"  class="nav-link " aria-current="page" href="/home">Dash</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Trade</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="/spot">spot Trading</a></li>
-            <li><a class="dropdown-item" href="/bot">Margin Trading</a></li>
-            <li><a class="dropdown-item" href="/margin">bot trading</a></li>
-            <li><hr class="dropdown-divider"></li>
-           
-          </ul>
-        </li>
-    
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        
-      </ul>
-      
-      <ul class="nav nav-tabs">
-        <li class="nav-item">
-          <a  style=" color:wheat;"  class="nav-link " aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Company</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Our Story</a></li>
-            <li><a class="dropdown-item" href="#">Careers</a></li>
-            {{-- <li><a class="dropdown-item" href="#">Something else here</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Separated link</a></li> --}}
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/register">Get started</a>
-        </li>
-        
-    
-    
-    
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Resources</a>
-            <ul class="dropdown-menu">
-    
-                <li><a class="dropdown-item"  href="">Company Brochure</a></li>
-                <li><a class="dropdown-item" href="">Company Certificate of Incorporation</a></li>
-                <li><a class="dropdown-item" href="">Company Registered House Address</a></li>
-                <li><a class="dropdown-item" href="">Foreign Investors Protection</a></li>
-                <li><a class="dropdown-item" href="">Company Tax & Insurance</a></li>
-                <li><a class="dropdown-item" href="">UK Taxation Basic Guide</a></li>
-                <li><a class="dropdown-item" href="">Guide to Anti Laundering</a></li>
-                <li><a class="dropdown-item" href="">Unaudited Financial Statement 2022</a></li>
-                <li><a class="dropdown-item" href="">Unaudited Financial Statement 2021</a></li>
-                <li><a class="dropdown-item" href="">Unaudited Financial Statement 2020</a></li>
-                <li><a class="dropdown-item" href="">Unaudited Financial Statement 2019</a></li>
-              
-             
-            </ul>
-           
-          </li>
-      </ul>
-    
-    
-        
-    
-    </div>
+       
+                 <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">See More</button>
+       
+       <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+         <div class="offcanvas-header">
+           <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Primewaretrades</h5>
+           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+         </div>
+         <div class="offcanvas-body">
+           <p>Primestocktrades is committed to leading a wave of change; by connecting with, educating and empowering younger generations to reimagine, redefine and reengineer their lives, and the world.</p>
+           <div class="dropdown mt-3">
+               <button class="btn btn-primary dropdown-toggle " type="button" data-bs-toggle="dropdown">
+                 Read More
+               </button>
+               <ul class="dropdown-menu mt-2" style="display: flex;">
+                 <div>
+                   <li><a class="dropdown-item" href="/forex">Forex</a></li>
+                   <li><a class="dropdown-item" href="/crypto">Cryptocurrency</a></li>
+                   <li><a class="dropdown-item" href="/stock">Stocks & EFTs</a></li>
+                   <li><a class="dropdown-item" href="/stake">Staking</a></li>
+                   <li><a class="dropdown-item" href="/commo">Commodities</a></li>
+                   <li><a class="dropdown-item" href="/spot">Spot Trading</a></li>
+                   <li><a class="dropdown-item" href="/bot">Margin Trading</a></li>
+                   <li><a class="dropdown-item" href="/margin">Bot Trading</a></li>
+                 </div>
+       
+                 <div>
+                   
+                   <li><a class="dropdown-item" href="career">Our Story</a></li>
+                   <li><a class="dropdown-item" href="story">Careers</a></li>
+                 </div>
+       
+                 
+                 
+               </ul>
+             </div>
+         </div>
+         
+       </div>
             </div>
-          </header>
+            
+              
+            <img style="border-end-start-radius: 40%;border-end-end-radius: 40%;" width="70" src="{{ asset('/storage/images/63Om7c9wvaZtut6izJvgS9hjW9NM3e6wBTkwYgO3.jpg') }}" alt="">
+
+                 </div>
+          
       <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 
 <div class="cover hide"></div>    
@@ -7111,72 +7091,6 @@ function tableFunction() {
     <th class="tbe-hd" style="padding: 15px;">Min</th>
     <th class="tbe-hd" style="padding: 15px;">Avg</th>
   </tr>
-  
-           
-  <tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;"><a target="_blank" href="	#">	AUDCAD	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Australian Dollar vs Canadian Dollar	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	1.9	</td><td class="tbe-blue" style="padding: 5px;">	0	</td><td class="tbe-liteblue" style="padding: 5px;">	0.9	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	AUDCHF	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Australian Dollar vs Swiss Franc	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	2.2	</td><td class="tbe-blue" style="padding: 5px;">	0	</td><td class="tbe-liteblue" style="padding: 5px;">	1.1	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	AUDJPY	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Australian Dollar vs Japanese Yen	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	2.1	</td><td class="tbe-blue" style="padding: 5px;">	0	</td><td class="tbe-liteblue" style="padding: 5px;">	1	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	AUDNZD	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Australian Dollar vs New Zealand Dollar	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	2.9	</td><td class="tbe-blue" style="padding: 5px;">	0	</td><td class="tbe-liteblue" style="padding: 5px;">	1.8	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	AUDSGD	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Australian Dollar vs Singapore Dollar	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	4	</td><td class="tbe-blue" style="padding: 5px;">	0	</td><td class="tbe-liteblue" style="padding: 5px;">	2.5	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	AUDUSD	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Australian Dollar vs US Dollar	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	1.5	</td><td class="tbe-blue" style="padding: 5px;">	0	</td><td class="tbe-liteblue" style="padding: 5px;">	0.4	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	CADCHF	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Canadian Dollar vs Swiss Franc	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	2.5	</td><td class="tbe-blue" style="padding: 5px;">	0	</td><td class="tbe-liteblue" style="padding: 5px;">	1.4	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	CADJPY	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Canadian Dollar vs Japanese Yen	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	2.2	</td><td class="tbe-blue" style="padding: 5px;">	0	</td><td class="tbe-liteblue" style="padding: 5px;">	1.1	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	CHFJPY	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Swiss Franc vs Japanese Yen	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	4	</td><td class="tbe-blue" style="padding: 5px;">	0.4	</td><td class="tbe-liteblue" style="padding: 5px;">	2.9	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	CHFSGD	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Swiss Franc vs Singapore Dollar	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	6.2	</td><td class="tbe-blue" style="padding: 5px;">	1.9	</td><td class="tbe-liteblue" style="padding: 5px;">	6.2	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	EURAUD	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Euro vs Australian Dollar	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	2.5	</td><td class="tbe-blue" style="padding: 5px;">	0	</td><td class="tbe-liteblue" style="padding: 5px;">	1.4	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	EURCAD	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Euro vs Canadian Dollar	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	2.9	</td><td class="tbe-blue" style="padding: 5px;">	0	</td><td class="tbe-liteblue" style="padding: 5px;">	1.3	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	EURCHF	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Euro vs Swiss Franc	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	2.3	</td><td class="tbe-blue" style="padding: 5px;">	0	</td><td class="tbe-liteblue" style="padding: 5px;">	1.2	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	EURCZK	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Euro vs Czech Koruna	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	159.3	</td><td class="tbe-blue" style="padding: 5px;">	39.3	</td><td class="tbe-liteblue" style="padding: 5px;">	141.9	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	EURDKK	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Euro vs Danish Krone	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	17.9	</td><td class="tbe-blue" style="padding: 5px;">	9.5	</td><td class="tbe-liteblue" style="padding: 5px;">	11.9	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	EURGBP	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Euro vs Great Britain Pound	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	1.7	</td><td class="tbe-blue" style="padding: 5px;">	0	</td><td class="tbe-liteblue" style="padding: 5px;">	0.6	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	EURHUF	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Euro vs Hungarian Forint	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	261.1	</td><td class="tbe-blue" style="padding: 5px;">	10.2	</td><td class="tbe-liteblue" style="padding: 5px;">	47.5	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	EURJPY	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Euro vs Japanese Yen	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	2	</td><td class="tbe-blue" style="padding: 5px;">	0.1	</td><td class="tbe-liteblue" style="padding: 5px;">	0.9	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	EURMXN	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Euro vs Mexican Peso	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	99.4	</td><td class="tbe-blue" style="padding: 5px;">	15.3	</td><td class="tbe-liteblue" style="padding: 5px;">	79.4	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	EURNOK	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Euro vs Norwegian Krone	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	98.2	</td><td class="tbe-blue" style="padding: 5px;">	21.1	</td><td class="tbe-liteblue" style="padding: 5px;">	90.7	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	EURNZD	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Euro vs New Zealand Dollar	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	3.6	</td><td class="tbe-blue" style="padding: 5px;">	0.2	</td><td class="tbe-liteblue" style="padding: 5px;">	2.5	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	EURPLN	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Euro vs Polish Zloty	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	46.9	</td><td class="tbe-blue" style="padding: 5px;">	8	</td><td class="tbe-liteblue" style="padding: 5px;">	43.6	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	EURSEK	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Euro vs Swedish Krona	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	80.3	</td><td class="tbe-blue" style="padding: 5px;">	20.5	</td><td class="tbe-liteblue" style="padding: 5px;">	74.8	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	EURSGD	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Euro vs Singapore Dollar	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	4.2	</td><td class="tbe-blue" style="padding: 5px;">	0.5	</td><td class="tbe-liteblue" style="padding: 5px;">	3.1	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	EURTRY	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Euro vs Turkish Lira	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	783.9	</td><td class="tbe-blue" style="padding: 5px;">	117.2	</td><td class="tbe-liteblue" style="padding: 5px;">	780.8	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	EURUSD	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Euro vs US Dollar	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	1.3	</td><td class="tbe-blue" style="padding: 5px;">	0	</td><td class="tbe-liteblue" style="padding: 5px;">	0.2	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	EURZAR	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Euro vs South African Rand	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	189.6	</td><td class="tbe-blue" style="padding: 5px;">	44.9	</td><td class="tbe-liteblue" style="padding: 5px;">	178.1	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	GBPAUD	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Great Britain Pound vs Australian Dollar	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	3	</td><td class="tbe-blue" style="padding: 5px;">	0	</td><td class="tbe-liteblue" style="padding: 5px;">	1.9	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	GBPCAD	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Great Britain Pound vs Canadian Dollar	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	3.1	</td><td class="tbe-blue" style="padding: 5px;">	0	</td><td class="tbe-liteblue" style="padding: 5px;">	2	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	GBPCHF	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Great Britain Pound vs Swiss Franc	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	3.2	</td><td class="tbe-blue" style="padding: 5px;">	0.3	</td><td class="tbe-liteblue" style="padding: 5px;">	2.1	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	GBPDKK	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Great Britain Pound  vs Danish Krone	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	32.9	</td><td class="tbe-blue" style="padding: 5px;">	11.5	</td><td class="tbe-liteblue" style="padding: 5px;">	26.9	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	GBPJPY	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Great Britain Pound vs Japanese Yen	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	2.9	</td><td class="tbe-blue" style="padding: 5px;">	0.1	</td><td class="tbe-liteblue" style="padding: 5px;">	1.8	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	GBPMXN	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Great Britain Pound vs Mexican Peso	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	145.7	</td><td class="tbe-blue" style="padding: 5px;">	30.1	</td><td class="tbe-liteblue" style="padding: 5px;">	125.7	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	GBPNZD	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Great Britain Pound vs New Zealand Dollar	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	4.8	</td><td class="tbe-blue" style="padding: 5px;">	0.2	</td><td class="tbe-liteblue" style="padding: 5px;">	3.3	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	GBPPLN	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Great Britain Pound vs Polish Zloty	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	69.3	</td><td class="tbe-blue" style="padding: 5px;">	19.9	</td><td class="tbe-liteblue" style="padding: 5px;">	67.8	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	GBPSEK	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Great Britain Pound vs Swedish Krona	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	132.3	</td><td class="tbe-blue" style="padding: 5px;">	54.7	</td><td class="tbe-liteblue" style="padding: 5px;">	127.6	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	GBPSGD	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Great Britain Pound vs Singapore Dollar	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	5.8	</td><td class="tbe-blue" style="padding: 5px;">	1	</td><td class="tbe-liteblue" style="padding: 5px;">	4.6	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	GBPTRY	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Great Britain Pound vs Turkish Lira	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	957.8	</td><td class="tbe-blue" style="padding: 5px;">	140.7	</td><td class="tbe-liteblue" style="padding: 5px;">	950.8	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	GBPUSD	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	Great Britain Pound vs US Dollar	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	2.2	</td><td class="tbe-blue" style="padding: 5px;">	0	</td><td class="tbe-liteblue" style="padding: 5px;">	1.1	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	NZDCAD	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	New Zealand Dollar vs Canadian Dollar	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	2.8	</td><td class="tbe-blue" style="padding: 5px;">	0	</td><td class="tbe-liteblue" style="padding: 5px;">	1.7	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	NZDCHF	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	New Zealand Dollar vs Swiss Franc	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	2.7	</td><td class="tbe-blue" style="padding: 5px;">	0	</td><td class="tbe-liteblue" style="padding: 5px;">	1.6	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	NZDJPY	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	New Zealand Dollar vs Japanese Yen	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	2.9	</td><td class="tbe-blue" style="padding: 5px;">	0	</td><td class="tbe-liteblue" style="padding: 5px;">	1.8	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	NZDSGD	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	New Zealand Dollar vs Singapore Dollar	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	4.2	</td><td class="tbe-blue" style="padding: 5px;">	0.7	</td><td class="tbe-liteblue" style="padding: 5px;">	3.1	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	NZDUSD	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	New Zealand Dollar vs US Dollar	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	2.2	</td><td class="tbe-blue" style="padding: 5px;">	0	</td><td class="tbe-liteblue" style="padding: 5px;">	1	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	USDBRL	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	US Dollar vs Brazilian Real	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	51.22	</td><td class="tbe-blue" style="padding: 5px;">		19.12 </td><td class="tbe-liteblue" style="padding: 5px;">	41.22	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	USDCAD	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	US Dollar vs Canadian Dollar	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	1.9	</td><td class="tbe-blue" style="padding: 5px;">	0	</td><td class="tbe-liteblue" style="padding: 5px;">	0.8	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	USDCHF	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	US Dollar vs Swiss Franc	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	2.7	</td><td class="tbe-blue" style="padding: 5px;">	0	</td><td class="tbe-liteblue" style="padding: 5px;">	1.5	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	USDCNH	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	US Dollar vs Chinese Yuan	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	2.6	</td><td class="tbe-blue" style="padding: 5px;">	0	</td><td class="tbe-liteblue" style="padding: 5px;">	1.5	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	USDCZK	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	US Dollar vs Czech Koruna 	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	132.3	</td><td class="tbe-blue" style="padding: 5px;">	29.1	</td><td class="tbe-liteblue" style="padding: 5px;">	114.9	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	USDDKK	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	US Dollar vs Danish Krone	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	16.7	</td><td class="tbe-blue" style="padding: 5px;">	2.4	</td><td class="tbe-liteblue" style="padding: 5px;">	10.7	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	USDHKD	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	US Dollar vs Hong Kong Dollar	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	6.4	</td><td class="tbe-blue" style="padding: 5px;">	2.3	</td><td class="tbe-liteblue" style="padding: 5px;">	5.3	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	USDHUF	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	US Dollar vs Hungarian Forint	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	261.3	</td><td class="tbe-blue" style="padding: 5px;">	9.5	</td><td class="tbe-liteblue" style="padding: 5px;">	47.7	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	USDINR	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	US Dollar vs Indian Rupee	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	33	</td><td class="tbe-blue" style="padding: 5px;">	11.4	</td><td class="tbe-liteblue" style="padding: 5px;">	13	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	USDJPY	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	US Dollar vs Japanese Yen	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	1.5	</td><td class="tbe-blue" style="padding: 5px;">	0	</td><td class="tbe-liteblue" style="padding: 5px;">	0.4	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	USDKRW	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	US Dollar vs Korean Won	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	115.5	</td><td class="tbe-blue" style="padding: 5px;">	47	</td><td class="tbe-liteblue" style="padding: 5px;">	85.5	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	USDMXN	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	US Dollar vs Mexican Peso	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	61.7	</td><td class="tbe-blue" style="padding: 5px;">	3.6	</td><td class="tbe-liteblue" style="padding: 5px;">	51.7	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	USDNOK	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	US Dollar vs Norwegian Krone	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	109.3	</td><td class="tbe-blue" style="padding: 5px;">	23.5	</td><td class="tbe-liteblue" style="padding: 5px;">	100.8	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	USDPLN	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	US Dollar vs Polish Zloty	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	43.2	</td><td class="tbe-blue" style="padding: 5px;">	8.2	</td><td class="tbe-liteblue" style="padding: 5px;">	39.5	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	USDSEK	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	US Dollar vs Swedish Krona	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	88	</td><td class="tbe-blue" style="padding: 5px;">	20.9	</td><td class="tbe-liteblue" style="padding: 5px;">	79.3	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	USDSGD	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	US Dollar vs Singapore Dollar	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	3.1	</td><td class="tbe-blue" style="padding: 5px;">	0.1	</td><td class="tbe-liteblue" style="padding: 5px;">	2	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	USDTHB	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	US Dollar vs Thai Baht	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	287.6	</td><td class="tbe-blue" style="padding: 5px;">	171.9	</td><td class="tbe-liteblue" style="padding: 5px;">	267.6	</td></tr>
-<tr class="active0"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	USDTRY	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	US Dollar vs Turkish Lira	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	421.4	</td><td class="tbe-blue" style="padding: 5px;">	36.4	</td><td class="tbe-liteblue" style="padding: 5px;">	418.9	</td></tr>
-<tr class="active1"><td class="tbe-para" style="padding: 15px;font-size:18.5px;font-weight:300;padding-left:40px;">	<a target="_blank" href="	#">	USDZAR	</a>	</td><td class="tbe-para font300" style="padding: 15px;">	US Dollar vs South African Rand	</td><td class="tbe-red" style="padding: 5px;"></td><td class="tbe-red" style="padding: 5px;">	111.4	</td><td class="tbe-blue" style="padding: 5px;">	13.4	</td><td class="tbe-liteblue" style="padding: 5px;">	98.5	</td></tr>
-
   
 </tbody>
                     </table>
