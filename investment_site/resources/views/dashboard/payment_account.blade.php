@@ -4,8 +4,8 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="UTF-8">
-    <meta name="description" content="PrimestockTrades is an investment company that aggregates funds for investment in bitcoin and forex trading.                                                                                                                                                                                                                                                                                                                                                                                                        ">
-    <meta name="keywords" content="primestocktrades, bitcoin trading, forex, investment, trading                                                                                                                                                                                                                                                                                                                                                                                                                                                       ">
+    <meta name="description" content="Primewaretrades is an investment company that aggregates funds for investment in bitcoin and forex trading.                                                                                                                                                                                                                                                                                                                                                                                                        ">
+    <meta name="keywords" content="Primewaretrades, bitcoin trading, forex, investment, trading                                                                                                                                                                                                                                                                                                                                                                                                                                                       ">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>My profile</title>
     <!-- Bootstrap CSS -->
@@ -798,7 +798,7 @@
 </script><!-- Footer -->
 <footer class="dt-footer">
 
-    Copyright PrimestockFx Trades  © 2023</footer>
+    Copyright Primewaretrades © 2023</footer>
 <!-- /footer -->
 
 </div>

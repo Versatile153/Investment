@@ -2,13 +2,13 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-    
+
     <meta name="keywords" content="                                                                                                                                                                                                                                                                                                                                                                                                                                                       ">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <title>Tickets</title>
     <!-- Bootstrap CSS -->
-    
+
     <!-- Font Icon Styles -->
     <link rel="stylesheet" href="https://primestocktrades.com/m_cust/dash/assets/dist/css/icons.css">
     <!-- /font icon Styles -->
@@ -54,7 +54,7 @@
 
                         <!-- Header toolbar-->
                         <div class="dt-header__toolbar">
-                        
+
 
                             <div class="search-box d-none d-lg-block">
                                                             <form method="post">
@@ -103,7 +103,7 @@
                                 <!-- Header Menu -->
                                 <ul class="dt-nav">
                                     <li class="dt-nav__item dropdown">
-      
+
                                         <!-- Dropdown Link -->
                                         <a href="#" class="dt-nav__link dropdown-toggle" id='currentLang' data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <img class="flag-icon flag-icon-rounded flag-icon-lg mr-1m" src="">
@@ -142,7 +142,7 @@
                                             <span class="dt-avatar-info d-none d-sm-block">
                                                 <span
                                                     class="dt-avatar-name">{{ Auth::user()->name }}</span>
-                                                                                                      
+
                                         <!-- /dropdown link -->
 
                                         <!-- Dropdown Option -->
@@ -152,7 +152,7 @@
                                                              document.getElementById('logout-form').submit();">
                                                 {{ __('Logout') }}
                                             </a>
-        
+
                                             <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                                 @csrf
                                             </form>
@@ -205,7 +205,7 @@
                                                                                             </li>
                                             <li class="dt-module-side-nav__item ng-tns-c266-22">
                                                 <a class="dt-module-side-nav__link ng-tns-c266-22" id="newTicket" href="javascript:void(0);" style="width: 100%;">
-                                                    
+
                                                     <span class="dt-module-side-nav__text ng-tns-c266-22">Drop complaint</span>
                                                 </a>
                                             </li>
@@ -263,12 +263,12 @@
                                             </checkbox>
                                             <a aria-haspopup="true" href="javascript:void(0)" id="action-select" class="text-dark" aria-expanded="false"> None </a>
                                         </div>
-                                        
+
                                         <div placement="bottom-right" class="mr-auto dropdown">
                                                                                 </div><!---->
-                                        
+
                                     <div role="group" class="btn-group btn-group-sm mr-4 mr-lg-7 mb-1 ng-star-inserted">
-                                                                                
+
                                         <div x-placement="bottom-right" data-url="" class="dropdown-menu bulk-priority" style="">
                                             <a href="javascript:void(0)" data-id="high" class="prioritise-table dropdown-item ng-star-inserted">High priority</a>
                                             <a href="javascript:void(0)" data-id="medium" class="prioritise-table dropdown-item ng-star-inserted">Medium priority</a>
@@ -320,7 +320,7 @@
                                 </div>
                             </div>
                             <!-- Tables -->
-                            
+
                         </div>
                         <!-- /grid item -->
 
@@ -335,14 +335,14 @@
             </div>
             <!-- /Profile -->
             <aside class="dt-customizer dt-drawer w-65 position-right" style="width: 55em;">
-           
+
         </aside>        </div>
         </div>
     </div><!-- Footer --><!-- Footer --><!-- Footer --><!-- Footer -->
     <script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/tickets.js"></script><!-- Footer -->
 <footer class="dt-footer">
 
-    Copyright PrimestockFx Trades  © 2023</footer>
+    Copyright Primewaretrades © 2023</footer>
 <!-- /footer -->
 
 </div>

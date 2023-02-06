@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
   	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Primestocktrades Trading Limited | Our Company</title>
+    <title>Primewaretrades Trading Limited | Our Company</title>
     <meta name="description" content="Primestocktrades Trading Limited is a global leader in online trading and investing, providing thousands of clients worldwide with access to forex, contracts for difference (CFDs), stockbroking and bonds markets via award-winning platforms.">
     <meta name="keywords" content="Primestocktrades Trading Limited bank,regulated banking,forex trading,CFD trading,Forex,trading,online trading,mobile trading,licensed trading">
     <meta name="robots" content="index, follow">
@@ -16,30 +16,30 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
   	<script src="/cdn-cgi/apps/head/FBvCx6ySlved6tyImToYBe2zoog.js"></script><link rel="icon"  href="img/favicon.ico">
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+
       <link href="assets/img/favicon.png" rel="icon">
       <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-    
+
       <!-- Google Fonts -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    
+
       <!-- Vendor CSS Files -->
       <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
       <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
       <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
       <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
       <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    
+
       <!-- Template Main CSS File -->
       <link href="assets/css/main.css" rel="stylesheet">
       <link rel="stylesheet" href="kcustom.css">
-  
+
 
 
   <!-- Template Main CSS File -->
- 
+
 
   <!-- =======================================================
   * Template Name: TheEvent - v4.7.0
@@ -48,7 +48,7 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
-  
+
   <style>
 body {
   background: #fff;
@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -348,7 +348,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -662,7 +662,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-    
+
     /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -711,7 +711,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
   font-size: 56px;
   font-weight: 600;
-  
+
 }
 #herod  span {
   color: #f82249;
@@ -7266,7 +7266,7 @@ i:before {
   margin-bottom: 10px;
 }
 
-    
+
    /*--------------------------------------------------------------
 # Schedule Section
 --------------------------------------------------------------*/
@@ -7626,7 +7626,7 @@ i:before {
   }
 
   /**
-   * Easy on scroll event listener 
+   * Easy on scroll event listener
    */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
@@ -7795,7 +7795,7 @@ i:before {
   });
 
   /**
-   * Initiate gallery lightbox 
+   * Initiate gallery lightbox
    */
   const galleryLightbox = GLightbox({
     selector: '.gallery-lightbox'
@@ -7830,8 +7830,8 @@ i:before {
 
       <div id="logo" class="me-auto">
         <!-- Uncomment below if you prefer to use a text logo -->
-        <h3><a href="about.html">About Primestocktrades</a></h3>
-       
+        <h3><a href="about.html">About Primewaretrades</a></h3>
+
       </div>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
@@ -7842,7 +7842,7 @@ i:before {
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-      <a class="buy-tickets scrollto" href="/">Primestocktrades Home</a>
+      <a class="buy-tickets scrollto" href="/">Primewaretrades Home</a>
 
     </div>
 
@@ -7865,11 +7865,11 @@ i:before {
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-lg-6">
-            <h2>Primestocktrades</h2>
+            <h2>Primewaretrades</h2>
             <p>As our understanding of the boundless potential of Bitcoin has developed and deepened, so too has our vision.</p>
             <p>By leveraging Bitcoin and the advanced technologies at our disposal it's possible to reimagine, redefine and reengineer our lives, and our world.
 </p>
-            
+
 			<p>Global leaders of the past and present have ransomed our future in the pursuit of profits. We have been manipulated, influenced and controlled by a global pyramid of power that infiltrates just about every aspect of our lives; our education, our entertainment, our societal beliefs and our finances.</p>
             <p>But we are the new generation.</p>
             <p>We are conscious and choose to fight with ‘light, harnessing the tools of humanity; the incredible technologies available to us to steer the evolution of humankind and create a new world.</p>
@@ -7889,7 +7889,7 @@ i:before {
         </div>
       </div>
     </section><!-- End About Section -->
-    
+
     <!-- ======= Schedule Section ======= -->
     <section id="schedule" class="section-with-bg">
       <div class="container" data-aos="fade-up">
@@ -7932,11 +7932,11 @@ i:before {
             <div class="row schedule-item">
               <div class="col-md-2"><time></time></div>
               <div class="col-md-10">
-                
+
                 <h4 style="color:red;">We seek to provide access to tools and information that allows people to empower themselves (both financially and philosophically) as a means towards economic and intellectual sovereignty. </h4>
                 <p></p>
               </div>
-            </div>    
+            </div>
 
           </div>
           <!-- End Schdule Day 2 -->
@@ -7947,7 +7947,7 @@ i:before {
             <div class="row schedule-item">
               <div class="col-md-2"><time></time></div>
               <div class="col-md-10">
-                
+
                 <h4 style="color:red;">We aim to actively contribute to the evolution of humanity through the application and provision of advanced technologies and tools that have a positive impact at both an individual and collective level.</h4>
                 <p></p>
               </div>
@@ -7957,8 +7957,8 @@ i:before {
         </div>
       </div>
     </section><!-- End Schedule Section -->
-    
-    
+
+
     <!-- ======= Hero Section ======= -->
   <section id="herod">
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
@@ -7968,7 +7968,7 @@ i:before {
       <a href="#" class="about-btn scrollto">More</a>
     </div>
   </section><!-- End Hero Section -->
-    
+
     <!-- ======= Speakers Section ======= -->
     <section id="speakers">
       <div class="container" data-aos="fade-up">
@@ -7982,11 +7982,11 @@ i:before {
               <img src="https://media.istockphoto.com/id/1386939559/photo/tutor-addresses-the-class.jpg?b=1&s=170667a&w=0&k=20&c=cuBA4-srgEofP_JOazzqj0d_nKDNA5HJzGDQnpEMzkY=" alt="Speaker 1" class="img-fluid">
               <div class="details">
                 <h3><a href="#">Michael Walker</a></h3>
-                <p>CEO Primestocktrades</p>
+                <p>CEO Primewaretrades</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
-                  
+
                 </div>
               </div>
             </div>
@@ -7998,8 +7998,8 @@ i:before {
                 <h3><a href="#">David Arakelian</a></h3>
                 <p>CTO</p>
                 <div class="social">
-                  
-                  
+
+
                 </div>
               </div>
             </div>
@@ -8011,7 +8011,7 @@ i:before {
                 <h3><a href="#">Nichola Shillingford</a></h3>
                 <p>Head of Marketing</p>
                 <div class="social">
-                  
+
                 </div>
               </div>
             </div>
@@ -8023,7 +8023,7 @@ i:before {
                 <h3><a href="#">Lara Port </a></h3>
                 <p>Careers & Wellbeing</p>
                 <div class="social">
-                
+
                 </div>
               </div>
             </div>
@@ -8035,7 +8035,7 @@ i:before {
                 <h3><a href="#">Damien Hartley</a></h3>
                 <p>Head of Brand & Design</p>
                 <div class="social">
-                
+
                 </div>
               </div>
             </div>
@@ -8047,7 +8047,7 @@ i:before {
                 <h3><a href="speaker-details.html">James Coughlan</a></h3>
                 <p>Relationship Manager</p>
                 <div class="social">
-                
+
                 </div>
               </div>
             </div>
@@ -8056,26 +8056,26 @@ i:before {
       </div>
 
     </section><!-- End Speakers Section -->
-   
+
 
 
   </main><!-- End #main -->
 
         <style>
-          
+
           .footers{
           font-size: 14px;
   background-color: var(--color-secondary);
   padding: 50px 0;
   color: white;
-          }        
+          }
 .footers a {color:#f5f5f5;        }
 .footers a:hover {color:#e3612d;}
 .footers p {color:#f5f5f5;}
 .footers ul {
   line-height:30px;
      }
-        
+
 .footers h5{
   color:#fff;
   font-family: "Raleway", sans-serif;
@@ -8109,7 +8109,7 @@ i:before {
  #social-tm:hover {
      color: #02103b;
      transition:all .001s;
- }      
+ }
  hr{
    width: 50%;
    margin: 0;
@@ -8147,8 +8147,8 @@ ul#footermenu li {
 }
 .font-alt {
   font-family: "Raleway", sans-serif;
-  color: #fff;          
-} 
+  color: #fff;
+}
       </style>
       <section class="footers pt-5 pb-3" style="background:black !important;">
         <div class="container pt-5">
@@ -8162,9 +8162,9 @@ ul#footermenu li {
                           </a>
                      </div>
                     <div class="footers-info mt-3">
-                         <p>"Primestocktrades is not just a company, it's a mission"<br> - Michael Walker, Founder and CEO </p>
+                         <p>"Primewaretrades is not just a company, it's a mission"<br> - Michael Walker, Founder and CEO </p>
                      </div>
-                     <div class="social-icons"> 
+                     <div class="social-icons">
                      <a href=""><i id="social-fb" class="fa fa-whatsapp fa-2x social"></i></a>
                      <a href=""><i id="social-yb" class="fa fa-instagram fa-2x social"></i></a>
                      <a href=""><i id="social-tm" class="fa fa-telegram fa-2x social"></i></a>
@@ -8187,7 +8187,7 @@ ul#footermenu li {
                       <li><a href="">Spot Trading</a></li>
                       <li><a href="">Margin Trading</a></li>
                       <li><a href="">Bot Trading</a></li>
-                      
+
                      </ul>
                  </div>
                 <div class="col-xs-12 col-sm-6 col-md-2 footers-four">
@@ -8199,7 +8199,7 @@ ul#footermenu li {
                       <li><a href="">Commodities</a></li>
                      </ul>
                  </div>
-                
+
                  <div class="col-xs-12 col-sm-6 col-md-2 footers-five">
     		    <h5>Legal </h5>
     		     <ul class="list-unstyled">
@@ -8219,10 +8219,10 @@ ul#footermenu li {
              <div class="row ">
                  <div class="col-md-12 py-2">
                      <small class="disc">
-                        Disclaimer: CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 70% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs, or any of our other products work, and whether you can afford to take the high risk of losing your money. The value of your investments can go down as well as up. Losses can exceed deposits on some margin products. Professional clients can lose more than they deposit. All trading carries risk. 
+                        Disclaimer: CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 70% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs, or any of our other products work, and whether you can afford to take the high risk of losing your money. The value of your investments can go down as well as up. Losses can exceed deposits on some margin products. Professional clients can lose more than they deposit. All trading carries risk.
                    </small>
                    <small class="disc">
-                     Primestocktrades of Primestocktrades Trading Limited is authorised and regulated by the Financial Conduct Authority, Primestocktrades Registered Number 08994234.
+                     Primewaretrades of Primewaretrades Trading Limited is authorised and regulated by the Financial Conduct Authority, Primestocktrades Registered Number 08994234.
                    </small><br>
                    <small class="disc">
                      This information should not be relied upon as research, investment advice, or a recommendation regarding any products, strategies, or any security in particular. This material is strictly for illustrative, educational, or informational purposes and is subject to change.
@@ -8231,7 +8231,7 @@ ul#footermenu li {
                  </div>
              </div>
          </div>
-     </section> 
+     </section>
      <section class="copyright" style="background-color: black !important;" >
          <hr class="divider-d">
              <footer class="footer" style="background-color: black !important;">
@@ -8240,7 +8240,7 @@ ul#footermenu li {
                    <div class="col-sm-6">
                      <p class="copyright font-alt"><script>
                     document.write(new Date().getFullYear());
-                </script>  Primestocktrades Trading Limited, All Rights Reserved</p>
+                </script>  Primewaretrades Trading Limited, All Rights Reserved</p>
                    </div>
                    <div class="col-sm-6">
                      <div class="footer-social-links"><a href="/terms">Terms</a><a href="/risk">Risk Disclosure</a><a href="/policy">Privacy Policy</a><a href="/cookies">Cookie Policy</a>
@@ -8250,7 +8250,7 @@ ul#footermenu li {
                </div>
              </footer>
      </section>
-      
+
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
 <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>

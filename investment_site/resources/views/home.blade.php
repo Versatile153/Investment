@@ -1,19 +1,19 @@
 @extends('layouts.app')
 
-   
+
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-		
-	
+
+
         <div class="col-md-8">
             <div class="card">
-				
+
     <div class="card-header btn btn-primary"><strong>
         You are warmly welcome  {{ Auth::user()->name }}
-        
+
     </strong></div>
-	
+
 
             </div>
         </div>
@@ -434,7 +434,7 @@ body {
 	color: var(--dark);
 }
 #content main .box-info li .text p {
-	color: var(--dark);	
+	color: var(--dark);
 }
 
 
@@ -637,7 +637,7 @@ body {
 		<a href="#" class="brand" style="margin-left:1rem;">
             {{-- <img width="40" class="d-none d-sm-inline-block w-100" src="https://media.istockphoto.com/id/1369738799/photo/blue-round-clock-on-white-background.jpg?b=1&s=170667a&w=0&k=20&c=aBwVsg0PbTUoBIeYAX7M7uhT47cEihCbfml1q-YWyls=" alt="logo"> --}}
 
-			<span class="text">Primestocktradefx</span>
+			<span class="text">Primewaretrades</span>
 		</a>
 		<ul class="side-menu top">
 			<li class="active">
@@ -650,7 +650,7 @@ body {
                 <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
                   <a href="/payment_account">
 					<li><button class="dropdown-item" type="button">Deposit funds</button></li>
-				
+
 				</a>
                  <a href="/view_deposit"> <li><button class="dropdown-item" type="button">View deposits</button></li></a>
                 </ul>
@@ -672,13 +672,13 @@ body {
                 </ul>
               </div>
 
-              
-				
+
+
              <div>
 
-               
-              
-         
+
+
+
 		</div>
 	</section>
 	<!-- SIDEBAR -->
@@ -690,10 +690,10 @@ body {
 		<!-- NAVBAR -->
 		<nav>
 			<i class='bx bx-menu' ></i>
-		
+
 			<form action="#">
 				<div class="form-input">
-					
+
 		<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
 				</div>
 			</form>
@@ -703,7 +703,7 @@ body {
 				<i class='bx bxs-bell' ></i>
 				<span class="num">8</span>
 			</a>
-			
+
 		</nav>
 		<!-- NAVBAR -->
 
@@ -780,7 +780,7 @@ body {
 				<li>
 					<i class='bx bxs-dollar-circle' ></i>
 					<span class="text">
-						<h3> {{ DB::table('deposits')->sum('amount') }} GBP 
+						<h3> {{ DB::table('deposits')->sum('amount') }} GBP
 						</h3>
 						<p>Total Deposits</p>
 					</span>
@@ -808,8 +808,8 @@ body {
 					</span>
 				</li>
 
-				     
-				
+
+
 			</ul>
 
 
@@ -817,13 +817,13 @@ body {
 		</main>
 		<footer class="dt-footer">
 
-			Copyright PrimestockFx Trades  © 2023</footer>
-		
+			Copyright Primewaretrades © 2023</footer>
+
 		<!-- MAIN -->
 	</section>
-	
-	
-	
+
+
+
 
 	<script src="script.js"></script>
     <script>

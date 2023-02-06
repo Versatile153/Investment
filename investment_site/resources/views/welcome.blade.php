@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Primestocktradefx</title>
+  <title>Primewaretrades</title>
 
   <!--
     - favicon
@@ -1614,16 +1614,16 @@ transition: var(--transition-1);
       <!--
         - #HERO
       -->
-      
+
       <section class="section hero" aria-label="hero" data-section>
         <div class="container">
 
           <div class="hero-content">
 
-            <h1 class="h1 hero-title">Save And Earn Amazingly In  Primestocktradefx</h1>
+            <h1 class="h1 hero-title">Save And Earn Amazingly In  Primewaretrades</h1>
 
             <p class="hero-text">
-              Primestocktradefx is the easiest, safest way, to save and earn with a high rate of ROI.
+                Primewaretrades is the easiest, safest way, to save and earn with a high rate of ROI.
             </p>
 
             <a style="font-size:large;" href="{{ route('register') }}" class="btn btn-primary">Get started now</a>
@@ -2195,13 +2195,13 @@ transition: var(--transition-1);
                             </div>
                             <div class="media-body">
                                 <a href="#">
-                                    <h4 class="my-3">PrimestocktradeFx is committed to leading a wave of change; by connecting with, educating and empowering younger generations to reimagine, redefine and reengineer their lives, and the world.
+                                    <h4 class="my-3">Primewaretrades is committed to leading a wave of change; by connecting with, educating and empowering younger generations to reimagine, redefine and reengineer their lives, and the world.
                                     </h4>
                                 </a>
                                 <p class="my-3">We believe in learning to teach, and teaching to learn. PrimestocktradetradeFx Media is our channel to educate; to connect with the world, to maintain the integrity of our perspective, and to share our intellectual truth.
                                <br> We seek to provide access to tools and information that allows people to empower themselves (both financially and philosophically) as a means towards economic and intellectual sovereignty.
                                <br> We aim to actively contribute to the evolution of humanity through the application and provision of advanced technologies and tools that have a positive impact at both an individual and collective level.</p>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -2210,13 +2210,13 @@ transition: var(--transition-1);
                             <img src="https://media.istockphoto.com/id/1365603846/photo/shot-of-a-group-of-businesspeople-clapping-hands-in-a-meeting-at-work.jpg?b=1&s=170667a&w=0&k=20&c=qPOl9-Yt6W3rcDVI2Y5VsXWqB12RZNfRiQQH3RiwE6Y=" class="img-fluid" alt="">
                             <a href="https://www.youtube.com/watch?v=Uw_QyeHo8f0" class="glightbox play-btn"></a>
                           </div>
-                
-                        
-                
+
+
+
             </div>
         </div>
-    </section>    
-    
+    </section>
+
     <section id="faq" class="faq">
       <div class="container" data-aos="fade-up">
 
@@ -2234,12 +2234,12 @@ transition: var(--transition-1);
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
                     <i class="bi bi-question-circle question-icon"></i>
-                   Is PrimestocktradeFx a safe investment trading platform?
+                   Is Primewaretrades a safe investment trading platform?
                   </button>
                 </h3>
                 <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                    PrimestocktradeFx Trading Limited controls one of the world's most sophisticated security technology and maintenance team, and is constantly upgrading our security systems to ensure the safety of user assets and accounts.
+                    Primewaretrades Trading Limited controls one of the world's most sophisticated security technology and maintenance team, and is constantly upgrading our security systems to ensure the safety of user assets and accounts.
                   </div>
                 </div>
               </div><!-- # Faq item-->
@@ -2268,7 +2268,7 @@ transition: var(--transition-1);
                 </h3>
                 <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-					There are several key factors that move the forex market: interest rates, inflation, economic stability, central banks and global events. 
+					There are several key factors that move the forex market: interest rates, inflation, economic stability, central banks and global events.
                   </div>
                 </div>
               </div><!-- # Faq item-->
@@ -2276,7 +2276,7 @@ transition: var(--transition-1);
               <div class="accordion-item">
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
-                    <i class="bi bi-question-circle question-icon"></i>            
+                    <i class="bi bi-question-circle question-icon"></i>
 					What is commodity trading?
                   </button>
                 </h3>
@@ -2308,11 +2308,11 @@ transition: var(--transition-1);
 
       </div>
     </section><!-- End Frequently Asked Questions Section -->
-        
-        
 
 
-      <div class="cryptohopper-web-widget" data-id="1" data-table_style="dark" data-realtime="on" data-table_length="6"></div> 
+
+
+      <div class="cryptohopper-web-widget" data-id="1" data-table_style="dark" data-realtime="on" data-table_length="6"></div>
 
 
 
@@ -2429,10 +2429,10 @@ transition: var(--transition-1);
 
           <div class="about-content">
 
-            <h2 class="h2 section-title">What Is Primestocktradefx</h2>
+            <h2 class="h2 section-title">What Is Primewaretrades</h2>
 
             <p class="section-text">
-             Primestocktradefx is a Global trade platform,completely transparent and customer satisfying.we are duely registered and our testimonials speak volumes
+                Primewaretrades is a Global trade platform,completely transparent and customer satisfying.we are duely registered and our testimonials speak volumes
             </p>
 
             <ul class="section-list">
@@ -2487,10 +2487,10 @@ transition: var(--transition-1);
 
           <div class="app-content">
 
-            <h2 class="h2 section-title">Free Your Money & Invest With Confident in Primestocktradefx</h2>
+            <h2 class="h2 section-title">Free Your Money & Invest With Confident in Primewaretrades</h2>
 
             <p class="section-text">
-              With Primestocktradefx, you can be sure your trading skills are matched
+              With Primewaretrades, you can be sure your trading skills are matched
             </p>
 
             <ul class="section-list">
@@ -2565,14 +2565,14 @@ transition: var(--transition-1);
 
           <a href="#" class="logo">
             <img src="https://plus.unsplash.com/premium_photo-1663931932688-306b0197d388?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGludmVzdG1lbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" width="50" height="50" alt="Cryptex logo">
-            PrimeStockfx
+            Primewaretrades
           </a>
 
           <h2 class="footer-title">Let's talk! 🤙</h2>
 
           <a href="tel:+123456789101" class="footer-contact-link">+23481275454</a>
 
-          <a href="" class="footer-contact-link">primestockfxx@gmail.com</a>
+          <a href="" class="footer-contact-link">Primewaretrades@gmail.com</a>
 
           <address class="footer-contact-link">
             Cecilia Chapman 711-2880 Nulla St. Mankato Abuja
@@ -2711,7 +2711,7 @@ transition: var(--transition-1);
       <div class="container">
 
         <p class="copyright">
-          &copy; 2023 PrimeStocktradeFx All Rights Reserved  <a href="#" class="copyright-link"></a>
+          &copy; 2023 Primewaretrades All Rights Reserved  <a href="#" class="copyright-link"></a>
         </p>
 
         <ul class="social-list">
@@ -2857,8 +2857,8 @@ addEventOnElem(window, "scroll", scrollReveal);
   <div data-rw-flash="32333"></div>
   <!-- End widget code -->
         <script src="https://www.cryptohopper.com/widgets/js/script"></script>
-  
-    
+
+
     <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -2866,10 +2866,10 @@ addEventOnElem(window, "scroll", scrollReveal);
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
-  
+
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-    
+
 
   <!--
     - ionicon link

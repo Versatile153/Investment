@@ -3,14 +3,14 @@
     <head>
         <!-- Required meta tags -->
         <meta charset="UTF-8">
-        <meta name="description" content="PrimestockTrades is an investment company that aggregates funds for investment in bitcoin and forex trading.                                                                                                                                                                                                                                                                                                                                                                                                        ">
-        <meta name="keywords" content="primestocktrades, bitcoin trading, forex, investment, trading                                                                                                                                                                                                                                                                                                                                                                                                                                                       ">
+        <meta name="description" content="Primewaretrades is an investment company that aggregates funds for investment in bitcoin and forex trading.                                                                                                                                                                                                                                                                                                                                                                                                        ">
+        <meta name="keywords" content="Primewaretrades, bitcoin trading, forex, investment, trading                                                                                                                                                                                                                                                                                                                                                                                                                                                       ">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>My profile</title>
         <!-- Bootstrap CSS -->
-        
+
         <link rel="shortcut icon" href="https://primestocktrades.com/m_cust/dash/uploads/prime25.png">
-        
+
         <!-- Font Icon Styles -->
         <link rel="stylesheet" href="https://primestocktrades.com/m_cust/dash/assets/dist/css/icons.css">
         <!-- /font icon Styles -->
@@ -56,7 +56,7 @@
 
                             <!-- Header toolbar-->
                             <div class="dt-header__toolbar">
-                            
+
 
                                 <div class="search-box d-none d-lg-block">
                                                                 <h1 class="dt-page__title mt-4" style="margin-left: -1.5em;">Settings <span class="breadcrumb-arrow-right"></span> My Profile</h1>
@@ -95,7 +95,7 @@
                                     <!-- Header Menu -->
                                     <ul class="dt-nav">
                                         <li class="dt-nav__item dropdown">
-        
+
                                             <!-- Dropdown Link -->
                                             <a href="#" class="dt-nav__link dropdown-toggle" id='currentLang' data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             <img class="flag-icon flag-icon-rounded flag-icon-lg mr-1m" src="https://primestocktrades.com/m_cust/dash/uploads/gb-eng.png">
@@ -145,7 +145,7 @@
                                                                  document.getElementById('logout-form').submit();">
                                                     {{ __('Logout') }}
                                                 </a>
-            
+
                                                 <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                                     @csrf
                                                 </form>
@@ -197,11 +197,11 @@
                                                 class="dt-side-nav__item open ">
                                                 <a href="payment_account"
                                                 <span class="dt-avatar-info d-none d-sm-block">
-                                                
+
                                                     <a style="font-weight: bolder;" id="navbarDropdown" class="nav-link dropdown-toggle" href="{{ route('logout') }}" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                                         {{ Auth::user()->name }}
                                                     </a>
-                                                
+
                                                </span    class="dt-side-nav__link "
                                                     title="Traffic">
                                                     <span class="dt-side-nav__text">Deposit funds</span> </a>
@@ -271,7 +271,7 @@
                                         </a>
                                     </li>
                                     <!-- Menu Header -->
-                                    
+
                                     <!-- /menu item -->
 
                                 </ul>
@@ -390,11 +390,11 @@
                                             <div class="row">
                                                 <!-- Grid Item -->
                                                 <div class="col-xl-12">
-                                                    
+
                                                     <!-- Form -->
                                                     <form action="/set_up" id="editProfile" method="post" accept-charset="utf-8">
                                                         @csrf
-    <input type="hidden" name="csrf_test_name" value="" />        
+    <input type="hidden" name="csrf_test_name" value="" />
                                                         <!-- Row -->
                                                         <div class="row">
                                                             <div class="col-md-6">
@@ -539,7 +539,7 @@
                                                                                                                                                     <!-- Form -->
                                                     <form action="/set_up" method="post" accept-charset="utf-8">
                                                         @csrf
-                                                        <input type="hidden" name="csrf_test_name" value="" />                
+                                                        <input type="hidden" name="csrf_test_name" value="" />
                                                         <div class="row">
                                                             <div class="col-md-12">
                                                                 <div class="row">
@@ -610,8 +610,8 @@
                                                                                 class="btn btn-secondary btn-sm"
                                                                                 data-dismiss="modal">Cancel                                                                        </button>
                                                                             <button type="submit"
-                                                                                class="btn btn-primary btn-sm">Save                                                                
-                                                                    
+                                                                                class="btn btn-primary btn-sm">Save
+
                                                                                         </div>
                                                                         <!-- /modal footer -->
                                                                     </div>
@@ -630,7 +630,7 @@
 
                                         </div>
                                         <!-- /tab panel -->
-                                        
+
                                         <!-- Tab panel -->
                                         <div id="tab-pane2" class="tab-pane ">
                                             <div class="row">
@@ -640,7 +640,7 @@
                                                 <div class="col-xl-6">
                                                     <!-- Form -->
                                                     <form action="" id="resetForm" method="post" accept-charset="utf-8">
-    <input type="hidden" name="csrf_test_name" value="" />                                                                                                
+    <input type="hidden" name="csrf_test_name" value="" />
                                                     <!-- Form Group -->
                                                     <div class="form-group">
                                                         <label for="currentpass">Current password</label>
@@ -755,7 +755,7 @@
             var input = $('#authyphone');
             var country = $('#countrycode');
             var iti = intlTelInput(input.get(0))
-            
+
             // set it's initial value
             country.val(iti.getSelectedCountryData().dialCode);
 
@@ -767,8 +767,8 @@
 
             $("form").submit(function() {
             });var obj = document.getElementById('partitioned');
-            obj.addEventListener('keydown', stopCarret); 
-            obj.addEventListener('keyup', stopCarret); 
+            obj.addEventListener('keydown', stopCarret);
+            obj.addEventListener('keyup', stopCarret);
 
             function stopCarret() {
                 if (obj.value.length > 5){
@@ -797,7 +797,7 @@
     </script><!-- Footer -->
     <footer class="dt-footer">
 
-        Copyright PrimestockFx Trades  © 2023</footer>
+        Copyright Primewaretrades © 2023</footer>
     <!-- /footer -->
 
     </div>

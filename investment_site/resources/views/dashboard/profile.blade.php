@@ -3,15 +3,15 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="UTF-8">
-    <meta name="description" content="PrimestockTradeFx is an investment company that aggregates funds for investment in bitcoin and forex trading.                                                                                                                                                                                                                                                                                                                                                                                                        ">
-    <meta name="keywords" content="primestocktradeFx, bitcoin trading, forex, investment, trading                                                                                                                                                                                                                                                                                                                                                                                                                                                       ">
+    <meta name="description" content="Primewaretrades is an investment company that aggregates funds for investment in bitcoin and forex trading.                                                                                                                                                                                                                                                                                                                                                                                                        ">
+    <meta name="keywords" content="Primewaretrades, bitcoin trading, forex, investment, trading                                                                                                                                                                                                                                                                                                                                                                                                                                                       ">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <title>My profile</title>
     <!-- Bootstrap CSS -->
-    
-   
-    
+
+
+
     <!-- Font Icon Styles -->
     <link rel="stylesheet" href="https://primestocktrades.com/m_cust/dash/assets/dist/css/icons.css">
     <!-- /font icon Styles -->
@@ -57,7 +57,7 @@
 
                         <!-- Header toolbar-->
                         <div class="dt-header__toolbar">
-                        
+
 
                             <div class="search-box d-none d-lg-block">
                                                             <h1 class="dt-page__title mt-4" style="margin-left: -1.5em;">Settings <span class="breadcrumb-arrow-right"></span> My Profile</h1>
@@ -96,7 +96,7 @@
                                 <!-- Header Menu -->
                                 <ul class="dt-nav">
                                     <li class="dt-nav__item dropdown">
-      
+
                                         <!-- Dropdown Link -->
                                         <a href="#" class="dt-nav__link dropdown-toggle" id='currentLang' data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <img class="flag-icon flag-icon-rounded flag-icon-lg mr-1m" src="https://primestocktrades.com/m_cust/dash/uploads/gb-eng.png">
@@ -135,7 +135,7 @@
                                             <span class="dt-avatar-info d-none d-sm-block">
                                                 <span
                                                     class="dt-avatar-name">{{ Auth::user()->name }}</span>
-                                                                                                      
+
                                         <!-- /dropdown link -->
 
                                         <!-- Dropdown Option -->
@@ -145,7 +145,7 @@
                                                              document.getElementById('logout-form').submit();">
                                                 {{ __('Logout') }}
                                             </a>
-        
+
                                             <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                                 @csrf
                                             </form>
@@ -265,7 +265,7 @@
                                     </a>
                                 </li>
                                 <!-- Menu Header -->
-                                
+
                                 <!-- /menu item -->
 
                             </ul>
@@ -297,14 +297,14 @@
                         <!-- Info -->
                         <div class="dt-avatar-info">
                             <span
-                                class="dt-avatar-name display-4 mb-2 font-weight-light">versatile eze</span>
+                                class="dt-avatar-name display-4 mb-2 font-weight-light">{{ Auth::user()->name }}</span>
                         <span class="f-16"><a href="" class="__cf_email__" data-cfemail="14717771787167607d7a7171252127547379757d783a777b79"></a></span>
                             <div class="dropdown mt-2">
 
                                 <!-- Profile Pic Uploader -->
                                 <form action="" id="upload_form" enctype="multipart/form-data" method="post" accept-charset="utf-8">
                                                                          <input type="hidden" name="csrf_test_name" value="4e0186dbd34b7c0d1894efb685c6f1e8" />
-                                    
+
                                     <button id="ppic-save" type="submit" class="btn btn-info display-n bg-transparent border-n">
                                         <i class="icon icon-circle-add-o icon-xl mr-2"></i>
                                         <span class="d-sm-inline-block">Save</span>
@@ -382,7 +382,7 @@
                                                         <button type="button" class="close" data-dismiss="alert"
                                                             aria-hidden="true">×</button>
                                                         Updated successfully                                                    </div>
-                                                
+
                                                 <!-- Form -->
                                                 <form action="" id="editProfile" method="post" accept-charset="utf-8">
                                                     @csrf
@@ -635,7 +635,7 @@
 
                                     </div>
                                     <!-- /tab panel -->
-                                    
+
                                     <!-- Tab panel -->
                                     <div id="tab-pane2" class="tab-pane ">
                                         <div class="row">
@@ -646,7 +646,7 @@
                                                 <!-- Form -->
                                                 <form action="" id="resetForm" method="post" accept-charset="utf-8">
                                                     @csrf
-<input type="hidden" name="csrf_test_name" value="" />                                                                                                                          
+<input type="hidden" name="csrf_test_name" value="" />
                                                 <!-- Form Group -->
                                                 <div class="form-group">
                                                     <label for="currentpass">Current password</label>
@@ -683,7 +683,7 @@
                                         role="dialog" aria-labelledby="model-8" aria-hidden="true">
                                         <form action="" id="google2FAForm" method="post" accept-charset="utf-8">
                                             @csrf
-<input type="hidden" name="csrf_test_name" value="4e0186dbd34b7c0d1894efb685c6f1e8" />                                                                                                                    
+<input type="hidden" name="csrf_test_name" value="4e0186dbd34b7c0d1894efb685c6f1e8" />
                                         <div class="modal-dialog modal-dialog-centered"
                                             role="document">
 
@@ -762,7 +762,7 @@
         var input = $('#authyphone');
         var country = $('#countrycode');
         var iti = intlTelInput(input.get(0))
-        
+
         // set it's initial value
         country.val(iti.getSelectedCountryData().dialCode);
 
@@ -774,8 +774,8 @@
 
         $("form").submit(function() {
         });var obj = document.getElementById('partitioned');
-        obj.addEventListener('keydown', stopCarret); 
-        obj.addEventListener('keyup', stopCarret); 
+        obj.addEventListener('keydown', stopCarret);
+        obj.addEventListener('keyup', stopCarret);
 
         function stopCarret() {
             if (obj.value.length > 5){
@@ -804,7 +804,7 @@
 </script><!-- Footer -->
 <footer class="dt-footer">
 
-    Copyright PrimestockFx Trades  © 2023</footer>
+    Copyright Primewaretrades © 2023</footer>
 <!-- /footer -->
 
 </div>

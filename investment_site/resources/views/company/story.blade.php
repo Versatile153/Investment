@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
   	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Primestocktrades Trading Limited | Careers</title>
+    <title>Primewaretrades Trading Limited | Careers</title>
     <meta name="description" content="Primestocktrades Trading Limited is a global leader in online trading and investing, providing thousands of clients worldwide with access to forex, contracts for difference (CFDs), stockbroking and bonds markets via award-winning platforms.">
     <meta name="keywords" content="Primestocktrades Trading Limited bank,regulated banking,forex trading,CFD trading,Forex,trading,online trading,mobile trading,licensed trading">
     <meta name="robots" content="index, follow">
@@ -16,29 +16,29 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
   	<script src="/cdn-cgi/apps/head/FBvCx6ySlved6tyImToYBe2zoog.js"></script><link rel="icon"  href="img/favicon.ico">
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+
       <link href="assets/img/favicon.png" rel="icon">
       <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-    
+
       <!-- Google Fonts -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    
+
       <!-- Vendor CSS Files -->
       <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
       <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
       <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
       <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
       <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    
+
       <!-- Template Main CSS File -->
       <link href="assets/css/main.css" rel="stylesheet">
       <link rel="stylesheet" href="kcustom.css">
 
 
   <!-- Template Main CSS File -->
- 
+
 
   <!-- =======================================================
   * Template Name: TheEvent - v4.7.0
@@ -47,7 +47,7 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
-  
+
   <style>
     /**
 * Template Name: TheEvent - v4.7.0
@@ -247,7 +247,7 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -6756,7 +6756,7 @@ i:before {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -6985,7 +6985,7 @@ i:before {
   color: #fff;
 }
 
-    
+
     /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -7034,7 +7034,7 @@ i:before {
   font-family: "Raleway", sans-serif;
   font-size: 56px;
   font-weight: 600;
-  
+
 }
 #herod  span {
   color: #f82249;
@@ -7190,7 +7190,7 @@ i:before {
   margin-bottom: 10px;
 }
 
-    
+
    /*--------------------------------------------------------------
 # Schedule Section
 --------------------------------------------------------------*/
@@ -7606,8 +7606,8 @@ i:before {
 
       <div id="logo" class="me-auto">
         <!-- Uncomment below if you prefer to use a text logo -->
-        <h3><a href="">About Primestocktrades</a></h3>
-       
+        <h3><a href="">About Primewaretrades</a></h3>
+
       </div>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
@@ -7618,7 +7618,7 @@ i:before {
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-      <a class="buy-tickets scrollto" href="/">Primestocktrades Home</a>
+      <a class="buy-tickets scrollto" href="/">Primewaretrades Home</a>
 
     </div>
   </header><!-- End Header -->
@@ -7626,10 +7626,10 @@ i:before {
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
-      
+
     </div>
   </section><!-- End Hero Section -->
-  
+
   <br><br>
 
   <main id="main">
@@ -7640,8 +7640,8 @@ i:before {
                     <div class="span12 widget-span widget-type-widget_container " style="" data-widget-type="widget_container" data-x="0" data-w="12">
                         <span id="hs_cos_wrapper_module_15640568252832100" class="hs_cos_wrapper hs_cos_wrapper_widget_container hs_cos_wrapper_type_widget_container" style="" data-hs-cos-general-type="widget_container" data-hs-cos-type="widget_container">
                             <div id="hs_cos_wrapper_widget_13681966973" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
-                               
-                               
+
+
                             </div>
                             <div id="hs_cos_wrapper_widget_13681966972" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
                                 <div class="two-col-text  top-space bottom-space">
@@ -7677,7 +7677,7 @@ i:before {
                                             </div>
                                             <div class="right-text">
                                                 <div class="detail-content" data-aos="fade-up" data-aos-delay="300" data-aos-duration="700">
-                                             
+
                                                     <p>
                                                         <a href="#" rel="noopener">
                                                             <strong>
@@ -7685,7 +7685,7 @@ i:before {
                                                             </strong>
                                                         </a>
                                                     </p>
-                                                    
+
                                                     <p>
                                                         <span style="color: #599ce8;">
                                                             <strong>
@@ -7724,11 +7724,11 @@ i:before {
                                                         <hr>
 
                                                                      Send us your CV
-                                                                   
+
                                                     </h2>
 
                                                     <div class="detail-containt">
-                                                        <p>Want to work for Primestocktrades? Even if we're not currently advertising for a specific role, we're open to hearing from people who resonate with our mission and would like to be considered for a permanent position.</p>
+                                                        <p>Want to work for Primewaretrades? Even if we're not currently advertising for a specific role, we're open to hearing from people who resonate with our mission and would like to be considered for a permanent position.</p>
                                                         <p>&nbsp;</p>
                                                         <p>Be sure to include a cover letter that details your proposed role and why you are interested in working with us.</p>
                                                     </div>
@@ -7757,25 +7757,25 @@ i:before {
                                     <div class="form-group mt-3">
                                       <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
                                     </div>
-                                    
+
                                     <div class="text-center"><button type="submit">Send Message</button></div>
                                   </form>
                                 </div>
 
-                                              
-                                     
-                          
-                          
-                          	
+
+
+
+
+
                             <div id="hs_cos_wrapper_widget_13681966974" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
                                 <div class="benifits-module">
                                     <div class="benifits-module-flex">
                                         <div class="benifits-left" data-aos="zoom-in" data-aos-duration="700">
                                             <div class="benifits-left-content-wrapper">
-                                                <h3>Why Work for Primestocktrades</h3>
+                                                <h3>Why Work for Primewaretrades</h3>
                                                 <div class="benifits-left-content">
-                                                    <p>"Primestocktrades is not just a company, it's a mission" - Michael Walker, Founder and CEO&nbsp;</p>
-                                                    <p>Working for Primestocktrades, you're not just another number. You're a part of a team. A family. A family committed and driven to use the best of our skills and talents to contribute to the collective goal of helping to reimagine, redefine and reengineer humanity and the world. Not only for our generation, but for the generations to come too.&nbsp;</p>
+                                                    <p>"Primewaretrades is not just a company, it's a mission" - Michael Walker, Founder and CEO&nbsp;</p>
+                                                    <p>Working for Primewaretrades, you're not just another number. You're a part of a team. A family. A family committed and driven to use the best of our skills and talents to contribute to the collective goal of helping to reimagine, redefine and reengineer humanity and the world. Not only for our generation, but for the generations to come too.&nbsp;</p>
                                                     <p>&nbsp;</p>
                                                     <p>&nbsp;</p>
                                                 </div>
@@ -7842,25 +7842,25 @@ i:before {
         <!--end body -->
     </div>
     <!--end body wrapper -->
-  
+
 
   </main><!-- End #main -->
 
                 <style>
-          
+
           .footers{
           font-size: 14px;
   background-color: var(--color-secondary);
   padding: 50px 0;
   color: white;
-          }        
+          }
 .footers a {color:#f5f5f5;        }
 .footers a:hover {color:#e3612d;}
 .footers p {color:#f5f5f5;}
 .footers ul {
   line-height:30px;
      }
-        
+
 .footers h5{
   color:#fff;
   font-family: "Raleway", sans-serif;
@@ -7894,7 +7894,7 @@ i:before {
  #social-tm:hover {
      color: #02103b;
      transition:all .001s;
- }      
+ }
  hr{
    width: 50%;
    margin: 0;
@@ -7932,8 +7932,8 @@ ul#footermenu li {
 }
 .font-alt {
   font-family: "Raleway", sans-serif;
-  color: #fff;          
-} 
+  color: #fff;
+}
       </style>
       <section class="footers pt-5 pb-3" style="background:black !important;">
         <div class="container pt-5">
@@ -7947,9 +7947,9 @@ ul#footermenu li {
                           </a>
                      </div>
                     <div class="footers-info mt-3">
-                         <p>"Primestocktrades is not just a company, it's a mission"<br> - Michael Walker, Founder and CEO </p>
+                         <p>"Primewaretrades is not just a company, it's a mission"<br> - Michael Walker, Founder and CEO </p>
                      </div>
-                     <div class="social-icons"> 
+                     <div class="social-icons">
                      <a href=""><i id="social-fb" class="fa fa-whatsapp fa-2x social"></i></a>
                      <a href=""><i id="social-yb" class="fa fa-instagram fa-2x social"></i></a>
                      <a href=""><i id="social-tm" class="fa fa-telegram fa-2x social"></i></a>
@@ -7960,7 +7960,7 @@ ul#footermenu li {
                      <h5>Company </h5>
                      <ul>
                       <li><a href="/" class="active">Home</a></li>
-                            
+
                       <li class="dropdown"><a href="#"><span>Earn</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
                           <li><a href="/forex">Forex</a></li>
@@ -7978,7 +7978,7 @@ ul#footermenu li {
                             </ul>
                           </li>
                       <li><a href="/price">Pricing</a></li>
-                      
+
                        <li class="dropdown"><a href="#"><span>Company</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
                               <li><a href="career">Our Story</a></li>
@@ -7997,7 +7997,7 @@ ul#footermenu li {
     			 <li><a href="">Financial Statement 2021</a></li>
     			</ul>
     		</div>
-                 
+
             </div>
         </div>
      </section>
@@ -8007,10 +8007,10 @@ ul#footermenu li {
              <div class="row ">
                  <div class="col-md-12 py-2">
                      <small class="disc">
-                        Disclaimer: CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 70% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs, or any of our other products work, and whether you can afford to take the high risk of losing your money. The value of your investments can go down as well as up. Losses can exceed deposits on some margin products. Professional clients can lose more than they deposit. All trading carries risk. 
+                        Disclaimer: CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 70% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs, or any of our other products work, and whether you can afford to take the high risk of losing your money. The value of your investments can go down as well as up. Losses can exceed deposits on some margin products. Professional clients can lose more than they deposit. All trading carries risk.
                    </small>
                    <small class="disc">
-                     Primestocktrades of Primestocktrades Trading Limited is authorised and regulated by the Financial Conduct Authority, Primestocktrades Registered Number 08994234.
+                    Primewaretrades of Primewaretrades Trading Limited is authorised and regulated by the Financial Conduct Authority, Primestocktrades Registered Number 08994234.
                    </small><br>
                    <small class="disc">
                      This information should not be relied upon as research, investment advice, or a recommendation regarding any products, strategies, or any security in particular. This material is strictly for illustrative, educational, or informational purposes and is subject to change.
@@ -8019,7 +8019,7 @@ ul#footermenu li {
                  </div>
              </div>
          </div>
-     </section> 
+     </section>
      <section class="copyright" style="background-color: black !important;" >
          <hr class="divider-d">
              <footer class="footer" style="background-color: black !important;">
@@ -8028,7 +8028,7 @@ ul#footermenu li {
                    <div class="col-sm-6">
                      <p class="copyright font-alt"><script>
                     document.write(new Date().getFullYear());
-                </script>  Primestocktrades Trading Limited, All Rights Reserved</p>
+                </script>  Primewaretrades Trading Limited, All Rights Reserved</p>
                    </div>
                    <div class="col-sm-6">
                      <div class="footer-social-links"><a href="/terms">Terms</a><a href="/risk">Risk Disclosure</a><a href="/policy">Privacy Policy</a><a href="/cookies">Cookie Policy</a>
@@ -8038,7 +8038,7 @@ ul#footermenu li {
                </div>
              </footer>
      </section>
-      
+
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
 <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>

@@ -4,15 +4,15 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="UTF-8">
-    <meta name="description" content="PrimestockTrades is an investment company that aggregates funds for investment in bitcoin and forex trading.                                                                                                                                                                                                                                                                                                                                                                                                        ">
-    <meta name="keywords" content="primestocktrades, bitcoin trading, forex, investment, trading                                                                                                                                                                                                                                                                                                                                                                                                                                                       ">
+    <meta name="description" content="Primewaretrades is an investment company that aggregates funds for investment in bitcoin and forex trading.                                                                                                                                                                                                                                                                                                                                                                                                        ">
+    <meta name="keywords" content="Primewaretrades, bitcoin trading, forex, investment, trading                                                                                                                                                                                                                                                                                                                                                                                                                                                       ">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Dashboard</title>
     <!-- Bootstrap CSS -->
-    
+
     <link rel="shortcut icon" href="https://primestocktrades.com/m_cust/dash/uploads/prime25.png">
-    
+
     <!-- Font Icon Styles -->
     <link rel="stylesheet" href="https://primestocktrades.com/m_cust/dash/assets/dist/css/icons.css">
     <!-- /font icon Styles -->
@@ -58,7 +58,7 @@
 
                         <!-- Header toolbar-->
                         <div class="dt-header__toolbar">
-                        
+
 
                             <div class="search-box d-none d-lg-block">
                                                             <h1 class="dt-page__title mt-4" style="margin-left: -1.5em;">Home <span class="breadcrumb-arrow-right"></span> Dashboard</h1>
@@ -97,7 +97,7 @@
                                 <!-- Header Menu -->
                                 <ul class="dt-nav">
                                     <li class="dt-nav__item dropdown">
-      
+
                                         <!-- Dropdown Link -->
                                         <a href="#" class="dt-nav__link dropdown-toggle" id='currentLang' data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <img class="flag-icon flag-icon-rounded flag-icon-lg mr-1m" src="https://primestocktrades.com/m_cust/dash/uploads/gb-eng.png">
@@ -136,7 +136,7 @@
                                             <span class="dt-avatar-info d-none d-sm-block">
                                                 <span
                                                     class="dt-avatar-name">{{ Auth::user()->name }}</span>
-                                                                                                     
+
                                         <!-- /dropdown link -->
 
                                         <!-- Dropdown Option -->
@@ -261,7 +261,7 @@
                                     </a>
                                 </li>
                                 <!-- Menu Header -->
-                                
+
                                 <!-- /menu item -->
 
                             </ul>
@@ -341,7 +341,7 @@
                                     <!-- Media Body -->
                                     <div class="media-body">
                                         <p class="mb-1 h1 text-dark">
-											{{ DB::table('deposits')->sum('amount') }} GBP 
+											{{ DB::table('deposits')->sum('amount') }} GBP
 			                                 </p>
                                         <span class="d-block">Total Deposit</span>
                                     </div>
@@ -365,7 +365,7 @@
                                     <!-- Media Body -->
                                     <div class="media-body">
                                         <p class="mb-1 h1 text-white">
-											 {{ DB::table('deposits')->sum('amount')-1000 }} GBP 
+											 {{ DB::table('deposits')->sum('amount')-1000 }} GBP
 				                                       </p>
                                         <span class="d-block">Withdrawable</span>
                                     </div>
@@ -434,8 +434,8 @@
                                                                 </div>
                             <!-- /card body -->
                         </div>
-                                                                        
-                        
+
+
                         <div
                             class="dt-card dt-card bg-image-v6 bg-overlay overlay-opacity-0_8 bg-gradient-blue--after text-white">
 
@@ -471,7 +471,7 @@
                             <!-- Card Header -->
                             <div class="dt-card__header mb-4">
 
-                              
+
 
                             </div>
                             <!-- /card header -->
@@ -479,7 +479,7 @@
                             <!-- Card Body -->
                             <div class="dt-card__body pb-5">
 
-                              
+
                                                                                         <tr>
                                                 <td>POl5F4dwPe</td>
                                                 <td>GBP 1.03</td>
@@ -497,7 +497,7 @@
                     </div>
                 </div>
 
-                
+
             </div>
             <!-- /grid item -->
 
@@ -508,7 +508,7 @@
     <script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/functions.js"></script><!-- Footer -->
 <footer class="dt-footer">
 
-    Copyright PrimestockTradefx  © 2023</footer>
+    Copyright Primewaretrades © 2023</footer>
 <!-- /footer -->
 
 </div>

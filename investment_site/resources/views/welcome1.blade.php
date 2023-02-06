@@ -6,9 +6,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
   	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Online Trading, Forex, Staking, Tokens &amp; Investing | Primestocktrades Trading Limited Home</title>
-    <meta name="description" content="Primestocktrades Trading Limited is a global leader in online trading and investing, providing thousands of clients worldwide with access to forex, contracts for difference (CFDs), stockbroking and bonds markets via award-winning platforms.">
-    <meta name="keywords" content="Primestocktrades Trading Limited bank,regulated banking,forex trading,CFD trading,Forex,trading,online trading,mobile trading,licensed trading">
+    <title>Online Trading, Forex, Staking, Tokens &amp; Investing | Primewaretrades Trading Limited Home</title>
+    <meta name="description" content="Primewaretrades Trading Limited is a global leader in online trading and investing, providing thousands of clients worldwide with access to forex, contracts for difference (CFDs), stockbroking and bonds markets via award-winning platforms.">
+    <meta name="keywords" content="Primewaretrades Trading Limited bank,regulated banking,forex trading,CFD trading,Forex,trading,online trading,mobile trading,licensed trading">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#282828">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -8326,7 +8326,7 @@ h1, h2, h3, h4, h5, h6 {
                                         </div>
                                         <div class="media-body">
                                             <a href="#">
-                                                <h4 class="my-3">Primestocktrades is committed to leading a wave of change; by connecting with, educating and empowering younger generations to reimagine, redefine and reengineer their lives, and the world.
+                                                <h4 class="my-3">Primewaretrades is committed to leading a wave of change; by connecting with, educating and empowering younger generations to reimagine, redefine and reengineer their lives, and the world.
                                                 </h4>
                                             </a>
                                             <p class="my-3">We believe in learning to teach, and teaching to learn. Primestocktrades Media is our channel to educate; to connect with the world, to maintain the integrity of our perspective, and to share our intellectual truth.
@@ -8623,7 +8623,7 @@ h1, h2, h3, h4, h5, h6 {
                  <section class="choose_bitcoin_area p_100">
         <div class="container">
             <div class="main_title">
-                <h2  style="color: #fff !important;">WHY CHOOSE PRIMESTOCKTRADES </h2>
+                <h2  style="color: #fff !important;">WHY CHOOSE PRIMEWARETRADES </h2>
             </div>
             <div class="row choose_bit_inner">
                 <div class="col-lg-4 col-md-6">
@@ -8633,7 +8633,7 @@ h1, h2, h3, h4, h5, h6 {
                         <a href="#">
                             <h4 style="background-color: #000 !important;">Focused on the Client</h4>
                         </a>
-                        <p>Size does not matter. At Primestocktrades Trading Limited the client comes first regardless of net capital Prime, account type or size of investment. All our clients receive the same quality services, the same execution, and the same level of support. Primestocktrades Trading Limited was founded on these values, and that will not change.</p>
+                        <p>Size does not matter. At Primewaretrades Trading Limited the client comes first regardless of net capital Prime, account type or size of investment. All our clients receive the same quality services, the same execution, and the same level of support. Primestocktrades Trading Limited was founded on these values, and that will not change.</p>
 
                     </div>
                 </div>
@@ -8664,7 +8664,7 @@ h1, h2, h3, h4, h5, h6 {
                         <a href="#">
                             <h4 style="background-color: #000 !important;">Transparent And Fair</h4>
                         </a>
-                        <p>At Primestocktrades Trading Limited what you see is what you get, with no hidden terms. Be that pricing, execution or promotions. What we advertise is what we give our clients, regardless of the size of their investment. </p>
+                        <p>At Primewaretrades Trading Limited what you see is what you get, with no hidden terms. Be that pricing, execution or promotions. What we advertise is what we give our clients, regardless of the size of their investment. </p>
 
                     </div>
                 </div>
@@ -8844,12 +8844,12 @@ h1, h2, h3, h4, h5, h6 {
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
                     <i class="bi bi-question-circle question-icon"></i>
-                   Is Primestocktrades a safe cryptocurrency trading platform?
+                   Is Primewaretrades a safe cryptocurrency trading platform?
                   </button>
                 </h3>
                 <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                    Primestocktrades Trading Limited controls one of the world's most sophisticated security technology and maintenance team, and is constantly upgrading our security systems to ensure the safety of user assets and accounts.
+                    Primewaretrades Trading Limited controls one of the world's most sophisticated security technology and maintenance team, and is constantly upgrading our security systems to ensure the safety of user assets and accounts.
                   </div>
                 </div>
               </div><!-- # Faq item-->
@@ -9954,7 +9954,7 @@ ul#footermenu li {
                           </a>
                      </div>
                     <div class="footers-info mt-3">
-                         <p>"Primestocktrades is not just a company, it's a mission"<br> - Michael Walker, Founder and CEO </p>
+                         <p>"Primewaretrades is not just a company, it's a mission"<br> - Michael Walker, Founder and CEO </p>
                      </div>
                      <div class="social-icons">
                      <a href="https://wa.me/message/6ITEC6W5E5FTE1"><i id="social-fb" class="fa fa-whatsapp fa-2x social"></i></a>
@@ -10014,7 +10014,7 @@ ul#footermenu li {
                         Disclaimer: CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 70% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs, or any of our other products work, and whether you can afford to take the high risk of losing your money. The value of your investments can go down as well as up. Losses can exceed deposits on some margin products. Professional clients can lose more than they deposit. All trading carries risk.
                    </small>
                    <small class="disc">
-                     Primestocktrades of Primestocktrades Trading Limited is authorised and regulated by the Financial Conduct Authority, Primestocktrades Registered Number 08994234.
+                    Primewaretrades of Primewaretrades Trading Limited is authorised and regulated by the Financial Conduct Authority, Primestocktrades Registered Number 08994234.
                    </small><br>
                    <small class="disc">
                      This information should not be relied upon as research, investment advice, or a recommendation regarding any products, strategies, or any security in particular. This material is strictly for illustrative, educational, or informational purposes and is subject to change.
@@ -10032,7 +10032,7 @@ ul#footermenu li {
                    <div class="col-sm-6">
                      <p class="copyright font-alt">&copy;<script>
                     document.write(new Date().getFullYear());
-    </script> PrimestocktradeFx Trading Limited, All Rights Reserved</p>
+    </script> Primewaretrades Trading Limited, All Rights Reserved</p>
                    </div>
                    <div class="col-sm-6">
                      <div class="footer-social-links"><a href="/terms">Terms</a><a href="/risk">Risk Disclosure</a><a href="/policy">Privacy Policy</a><a href="/cookies">Cookie Policy</a>

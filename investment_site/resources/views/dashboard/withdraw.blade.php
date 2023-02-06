@@ -3,15 +3,15 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="UTF-8">
-    <meta name="description" content="PrimestockTrades is an investment company that aggregates funds for investment in bitcoin and forex trading.                                                                                                                                                                                                                                                                                                                                                                                                        ">
-    <meta name="keywords" content="primestocktrades, bitcoin trading, forex, investment, trading                                                                                                                                                                                                                                                                                                                                                                                                                                                       ">
+    <meta name="description" content="Primewaretrades is an investment company that aggregates funds for investment in bitcoin and forex trading.                                                                                                                                                                                                                                                                                                                                                                                                        ">
+    <meta name="keywords" content="Primewaretrades, bitcoin trading, forex, investment, trading                                                                                                                                                                                                                                                                                                                                                                                                                                                       ">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <title>New Withdrawal</title>
     <!-- Bootstrap CSS -->
-    
+
     <link rel="shortcut icon" href="https://primestocktrades.com/m_cust/dash/uploads/prime25.png">
-    
+
     <!-- Font Icon Styles -->
     <link rel="stylesheet" href="https://primestocktrades.com/m_cust/dash/assets/dist/css/icons.css">
     <!-- /font icon Styles -->
@@ -57,7 +57,7 @@
 
                         <!-- Header toolbar-->
                         <div class="dt-header__toolbar">
-                        
+
 
                             <div class="search-box d-none d-lg-block">
                                                             <h1 class="dt-page__title mt-4" style="margin-left: -1.5em;">Withdrawals <span class="breadcrumb-arrow-right"></span> New</h1>
@@ -96,7 +96,7 @@
                                 <!-- Header Menu -->
                                 <ul class="dt-nav">
                                     <li class="dt-nav__item dropdown">
-      
+
                                         <!-- Dropdown Link -->
                                         <a href="#" class="dt-nav__link dropdown-toggle" id='currentLang' data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <img class="flag-icon flag-icon-rounded flag-icon-lg mr-1m" src="https://primestocktrades.com/m_cust/dash/uploads/gb-eng.png">
@@ -146,7 +146,7 @@
                                                              document.getElementById('logout-form').submit();">
                                                 {{ __('Logout') }}
                                             </a>
-        
+
                                             <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                                 @csrf
                                             </form>
@@ -266,7 +266,7 @@
                                     </a>
                                 </li>
                                 <!-- Menu Header -->
-                                
+
                                 <!-- /menu item -->
 
                             </ul>
@@ -290,7 +290,7 @@
                 <div class="dt-page__header">
                     <h1 class="dt-page__title text-light display-i">Withdrawals / New Withdrawal</h1>
                                         <a href="" class="btn btn-light btn-sm display-i ft-right">My withdrawals</a>
-                    
+
                     <div class="dt-entry__header mt-1m">
                         <!-- Entry Heading -->
                         <div class="dt-entry__heading">
@@ -407,7 +407,7 @@
 <!-- Footer -->
 <footer class="dt-footer">
 
-    Copyright PrimestockFx Trades  © 2023</footer>
+    Copyright Primewaretrades © 2023</footer>
 <!-- /footer -->
 
 </div>

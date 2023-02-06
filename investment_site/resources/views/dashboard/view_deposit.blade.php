@@ -3,15 +3,15 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="UTF-8">
-    <meta name="description" content="PrimestockTrades is an investment company that aggregates funds for investment in bitcoin and forex trading.                                                                                                                                                                                                                                                                                                                                                                                                        ">
-    <meta name="keywords" content="primestocktrades, bitcoin trading, forex, investment, trading                                                                                                                                                                                                                                                                                                                                                                                                                                                       ">
+    <meta name="description" content="Primewaretrades is an investment company that aggregates funds for investment in bitcoin and forex trading.                                                                                                                                                                                                                                                                                                                                                                                                        ">
+    <meta name="keywords" content="Primewaretrades, bitcoin trading, forex, investment, trading                                                                                                                                                                                                                                                                                                                                                                                                                                                       ">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <title>Deposits</title>
     <!-- Bootstrap CSS -->
-    
+
     <link rel="shortcut icon" href="https://primestocktrades.com/m_cust/dash/uploads/prime25.png">
-    
+
     <!-- Font Icon Styles -->
     <link rel="stylesheet" href="https://primestocktrades.com/m_cust/dash/assets/dist/css/icons.css">
     <!-- /font icon Styles -->
@@ -57,10 +57,10 @@
 
                         <!-- Header toolbar-->
                         <div class="dt-header__toolbar">
-                        
+
 
                             <div class="search-box d-none d-lg-block">
-                                                            
+
                                 </form>
                                                             </div>
 
@@ -97,7 +97,7 @@
                                 <!-- Header Menu -->
                                 <ul class="dt-nav">
                                     <li class="dt-nav__item dropdown">
-      
+
                                         <!-- Dropdown Link -->
                                         <a href="#" class="dt-nav__link dropdown-toggle" id='currentLang' data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <img class="flag-icon flag-icon-rounded flag-icon-lg mr-1m" src="https://primestocktrades.com/m_cust/dash/uploads/gb-eng.png">
@@ -136,7 +136,7 @@
                                             <span class="dt-avatar-info d-none d-sm-block">
                                                 <span
                                                     class="dt-avatar-name">{{ Auth::user()->name }}</span>
-                                        
+
                                         <!-- /dropdown link -->
 
                                         <!-- Dropdown Option -->
@@ -146,7 +146,7 @@
                                                              document.getElementById('logout-form').submit();">
                                                 {{ __('Logout') }}
                                             </a>
-        
+
                                             <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                                 @csrf
                                             </form>
@@ -266,7 +266,7 @@
                                     </a>
                                 </li>
                                 <!-- Menu Header -->
-                                
+
                                 <!-- /menu item -->
 
                             </ul>
@@ -426,7 +426,7 @@
                                                                                                                                                         <td class="collastcl" id="colNJnoFJGwtl">
                                                                                                         <!--
                                                     <button class="btn btn-sm btn-info reinvest trans-btn" id="reinvest" data-toggle="modal" value="" data-target="#modal"></button>
-                                                    
+
                                                     <button data-toggle="modal" id="" data-target="#modal" value="" class="btn btn-sm btn-info withdraw trans-btn"></button>
                                                         -->
                                                         Maturity reached                                                                                                        </td>
@@ -464,12 +464,12 @@
 
                                 </div>
                                 <!-- /card body -->
-                                
+
                             </div>
                             <!-- /card -->
                         </div>
                         <!-- /grid item -->
-                        
+
                         <div class="dt-card__body">
                             <!-- Modal -->
                             <div class="modal fade display-n" id="accountsModal" tabindex="-1" role="dialog" aria-labelledby="model-8" aria-hidden="true">
@@ -569,7 +569,7 @@
             <!-- Modal Content -->
             <div class="modal-content">
                 <form action="" id="modalForm" method="post" accept-charset="utf-8">
-<input type="hidden" name="csrf_test_name" value="3d8b9786d5a0f346337541c7f2cabc60" />                                           
+<input type="hidden" name="csrf_test_name" value="3d8b9786d5a0f346337541c7f2cabc60" />
                     <!-- Modal Header -->
                     <div class="modal-header">
                         <h3 class="modal-title" id="model-8"></h3>
@@ -725,7 +725,7 @@
     </script><!-- Footer -->
 <footer class="dt-footer">
 
-    Copyright Primestock Trades  © 2023</footer>
+    Copyright Primewaretrades © 2023</footer>
 <!-- /footer -->
 
 </div>
