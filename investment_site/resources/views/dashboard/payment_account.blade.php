@@ -183,7 +183,7 @@
                                 </li>
                                 <li
                                     class="dt-side-nav__item ">
-                                    <a href="javascript:void(0)" class="dt-side-nav__link dt-side-nav__arrow"
+                                    <a href="#" class="dt-side-nav__link dt-side-nav__arrow"
                                         title="Dashboard">
                                         <i class="icon icon-revenue2 icon-fw icon-lg"></i> <span
                                             class="dt-side-nav__text">Deposits</span> </a>
@@ -199,7 +199,7 @@
                                         </li>
 
                                         <li class="dt-side-nav__item">
-                                            <a href="view_deposit"
+                                            <a href="/view_deposit"
                                                 class="dt-side-nav__link "
                                                 title="Revenue">
                                                 <span class="dt-side-nav__text">View deposits</span> </a>
@@ -210,7 +210,7 @@
                                 </li>
                                 <li
                                     class="dt-side-nav__item ">
-                                    <a href="javascript:void(0)" class="dt-side-nav__link dt-side-nav__arrow"
+                                    <a href="#" class="dt-side-nav__link dt-side-nav__arrow"
                                         title="Dashboard">
                                         <i class="icon icon-revenue-new icon-fw icon-lg"></i><span
                                             class="dt-side-nav__text">Withdrawals</span> </a>
@@ -219,14 +219,14 @@
                                     <ul class="dt-side-nav__sub-menu display-n">
                                         <li
                                             class="dt-side-nav__item open ">
-                                            <a href="withdraw"
+                                            <a href="/withdraw"
                                                 class="dt-side-nav__link "
                                                 title="Traffic">
                                                 <span class="dt-side-nav__text">Withdraw funds</span> </a>
                                         </li>
 
                                         <li class="dt-side-nav__item">
-                                            <a href="view"
+                                            <a href="/view_deposit"
                                                 class="dt-side-nav__link "
                                                 title="Revenue">
                                                 <span class="dt-side-nav__text">View withdrawals</span> </a>

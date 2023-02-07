@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Deposit;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class DashboardController extends Controller
@@ -43,7 +44,8 @@ class DashboardController extends Controller
     }
     
     public function view_deposit(){
-        return view('dashboard.view_deposit');
+        $deposits= Deposit::all();
+        return view('dashboard.view_deposit')->with('deposits',$deposits);
         
     }
     
@@ -66,4 +68,14 @@ class DashboardController extends Controller
         return view('dashboard.security');
         
     }
+
+    public function avatar(Request $request){
+        // dd($request->file);
+        $request->file->store('images','public');
+
+       
+     
+        
+    }
+
 }

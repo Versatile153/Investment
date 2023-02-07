@@ -42,21 +42,17 @@
                             <div class="dt-brand__tool" data-toggle="main-sidebar">
                                 <div class="hamburger-inner"></div>
                             </div>
-                            <!-- /brand tool -->
-
-                            <!-- Brand logo -->
+                           
                             <span class="dt-brand__logo">
-                                <a class="dt-brand__logo-link" href="">
+                                {{-- <a class="dt-brand__logo-link" href="">
                                     <img width="" class="d-none d-sm-inline-block w-100" src="https://media.istockphoto.com/id/1369738799/photo/blue-round-clock-on-white-background.jpg?b=1&s=170667a&w=0&k=20&c=aBwVsg0PbTUoBIeYAX7M7uhT47cEihCbfml1q-YWyls=" alt="logo">
                                     <img class="dt-brand__logo-symbol d-sm-none" src="" alt="logo">
-                                    </a>
+                                </a> --}}
                             </span>
-                            <!-- /brand logo -->
+                           
 
                         </div>
-                        <!-- /brand -->
-
-                        <!-- Header toolbar-->
+                        
                         <div class="dt-header__toolbar">
                         
 
@@ -135,15 +131,13 @@
                                                 alt="eze cecc">
                                             <span class="dt-avatar-info d-none d-sm-block">
                                                 <span
-                                                    class="dt-avatar-name">eze cecc</span>
-                                                                                                        <span>Verified</span>
-                                                                                                </span> </a>
+                                                    class="dt-avatar-name">{{ Auth::user()->name }}</span>
+                                                                                                       
                                         <!-- /dropdown link -->
 
                                         <!-- Dropdown Option -->
                                         <div class="dropdown-menu dropdown-menu-right">
-                                            <a class="dropdown-item" href=""> <i
-                                                    class="icon icon-user icon-fw mr-2 mr-sm-1"></i>Account                                            </a>
+                                            
                                             <a class="dropdown-item" href=""> <i
                                                     class="icon icon-editors icon-fw mr-2 mr-sm-1"></i>Logout                                            </a>
                                         </div>

@@ -87,8 +87,8 @@ input[type="password"]:focus{
     <div class="row justify-content-center" style="height:90%;">
         <div class="col-lg-3">
             <div class="fxt-header" style="border: 2px solid white;">
-                <a href="/" class="fxt-logo"><img style="height: 100px;
-    object-fit: contain;" src="../../site-images/site_logo/bg-rmv.png" alt="Logo"></a>
+                <a href="/" class="fxt-logo"><img style="height: 250px;
+    object-fit: contain;" src="{{ asset('/storage/images/63Om7c9wvaZtut6izJvgS9hjW9NM3e6wBTkwYgO3.jpg') }}" alt="Logo"></a>
             </div>
         </div>
 

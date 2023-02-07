@@ -375,8 +375,18 @@
                 </div>
 
             </div>
-            <!-- /profile banner -->
+            
+        </div>
+            <table class="table" style="margin-top: 10vh;">
+                <thead>
+                  <tr>
+                    <th scope="col">transaction no</th>
+                    <th scope="col">Plan</th>
+                    <th scope="col">Amount</th>
+                    <th scope="col">payment method</th>
+                    <th scope="col">transaction date</th>
 
+<<<<<<< HEAD
             <!-- Profile Content -->
             <div class="profile-content">
 
@@ -474,92 +484,58 @@
                             <!-- Modal -->
                             <div class="modal fade display-n" id="accountsModal" tabindex="-1" role="dialog" aria-labelledby="model-8" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
+=======
+                  </tr>
+                </thead>
+                <tbody>
+                    @if (count($deposits)>0)
+                    @foreach ($deposits as $item)
+                    <tr>
+                        <th scope="row">{{ $item->id }}</th>
+                        <td>{{ $item->plan }}</td>
+                        <td>{{ $item->amount }}</td>
+                        <td>{{ $item->payment_method }}</td>
+                        <td>{{ $item->created_at }}</td>
+                      </tr>
+                        
+                    @endforeach
+                    @else
+>>>>>>> c139b0daeb9d8973aa1ee80d1e905fda6400799f
 
-                                    <!-- Modal Content -->
-                                    <div class="modal-content">
-
-                                        <!-- Modal Header -->
-                                        <div class="modal-header">
-                                            <h3 class="modal-title" id="model-8">Payment Account</h3>
-                                            <button type="button" class="close"
-                                                data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">×</span>
-                                            </button>
-                                        </div>
-                                        <!-- /modal header -->
-
-                                        <!-- Modal Body -->
-                                        <div class="modal-body">
-                                            <div class="row" id="paymentList">
-                                            </div>
-                                        </div>
-                                        <!-- /modal body -->
-
-                                        <!-- Modal Footer -->
-                                        <div class="modal-footer">
-                                            <button type="button"
-                                                class="btn btn-secondary btn-sm"
-                                                data-dismiss="modal">Cancel
-                                            </button>
-                                        </div>
-                                        <!-- /modal footer -->
-                                        </form>
-                                    </div>
-                                    <!-- /modal content -->
-
-                                </div>
+                    <div class="table-responsive dataTables_wrapper dt-bootstrap4">
+                        <div class="table-responsive">
+                                                                <div class="text-center mt-5">
+                                <img src="https://primestocktrades.com/m_cust/dash/assets/dist/img/no-search-results.png" class="w-20rm">
+                                <h1>No transactions can be found</h1>
                             </div>
-                            <!-- /modal -->
-                            <div class="modal fade display-n" id="pricemodal" tabindex="-1" role="dialog"
-                                aria-labelledby="model-8" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                                </div>
+                        
+                    @endif
+                 
+                  {{-- <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                  </tr> --}}
+                </tbody>
+              </table>
 
-                                    <!-- Modal Content -->
-                                    <div class="modal-content">
 
-                                        <!-- Modal Header -->
-                                        <div class="modal-header">
-                                            <h3 class="modal-title" id="model-8">View Payment Amount Info</h3>
-                                            <button type="button" class="close"
-                                                data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">×</span>
-                                            </button>
-                                        </div>
-                                        <!-- /modal header -->
 
-                                        <!-- Modal Body -->
-                                        <div class="modal-body">
-                                            <p>Withdrawn Amount: <b id="fullamount"></b></p>
-                                            <p>Transaction Fees: <b id="fullamountfees"></b></p>
-                                            <p>Amount To Receive: <b id="fullamountlessfees"></b></p>
-                                        </div>
-                                        <!-- /modal body -->
 
-                                        <!-- Modal Footer -->
-                                        <div class="modal-footer">
-                                            <button type="button"
-                                                class="btn btn-secondary btn-sm"
-                                                data-dismiss="modal">Cancel                                            </button>
-                                        </div>
-                                        <!-- /modal footer -->
 
-                                    </div>
-                                    <!-- /modal content -->
 
-                                </div>
-                            </div>
-                            <!-- /modal -->
-                                                    </div>
 
-                    </div>
-                    <!-- /grid -->
 
-                </div>
-                <!-- /profile content -->
 
-            </div>
-            <!-- /Profile -->
 
+<<<<<<< HEAD
         </div>
     </div>
     <!-- Modal -->
@@ -643,6 +619,14 @@
             </div>
             <!-- /modal content -->
         </div>
+=======
+
+                                    <!-- /tables -->
+
+                                
+                        
+        
+>>>>>>> c139b0daeb9d8973aa1ee80d1e905fda6400799f
     </div>
     <!-- /modal -->
     <script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/trans.js"></script>

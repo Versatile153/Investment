@@ -1742,9 +1742,15 @@ h1, h2, h3, h4, h5, h6 {
             <li><a href="doc/Fin-statement-2019.pdf">Unaudited Financial Statement 2019</a></li>
                 </ul>
               </li>
+<<<<<<< HEAD
 
 
               <li><a class="get-a-quote" href="m_cust/dash/login">Get Started</a></li>
+=======
+               
+              
+              <li><a class="get-a-quote" href="/login">Get Started</a></li>
+>>>>>>> c139b0daeb9d8973aa1ee80d1e905fda6400799f
             </ul>
           </nav><!-- .navbar -->
 

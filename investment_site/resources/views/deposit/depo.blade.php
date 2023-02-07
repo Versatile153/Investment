@@ -45,10 +45,10 @@
 
                             <!-- Brand logo -->
                             <span class="dt-brand__logo">
-                                <a class="dt-brand__logo-link" href="">
+                                {{-- <a class="dt-brand__logo-link" href="">
                                     <img width="" class="d-none d-sm-inline-block w-100" src="https://media.istockphoto.com/id/1369738799/photo/blue-round-clock-on-white-background.jpg?b=1&s=170667a&w=0&k=20&c=aBwVsg0PbTUoBIeYAX7M7uhT47cEihCbfml1q-YWyls=" alt="logo">
                                     <img class="dt-brand__logo-symbol d-sm-none" src="" alt="logo">
-                                    </a>
+                                    </a> --}}
                             </span>
                             <!-- /brand logo -->
 
@@ -877,8 +877,40 @@
 </main>
 </div>
 </div>
+<script>
+    $(".sitelangChange").click(function(e){
+    var actionurl = $(this).attr("data-id");
+    $.get(actionurl, function(data){
+        var content = JSON.parse(data);
+        setTimeout(
+            function() {
+                location.reload();
+            }, 1000);
+    });
+});
+
+$('.close').on('click', function(e){
+    $('.drawer').removeClass('open');
+})
+
+$('.customizer-toggle').on('click', function(e){
+    $('.drawer').addClass('open');
+})
+
+$('.choose-option__icon').on('click', function(e){
+    var actionurl = $(this).attr("data-url");
+    $.get(actionurl, function(data){
+        var content = JSON.parse(data);
+
+        setTimeout(
+            function() {
+                window.location.replace("./home");
+            }, 1000);
+    });
+})
+</script>
 <script src="https://primestocktrades.com/m_cust/dash/assets/dist/summernote/summernote-bs4.js"></script>
-<script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/lang.js"></script>
+{{-- <script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/lang.js"></script> --}}
 <script src="https://primestocktrades.com/m_cust/dash/assets/dist/summernote/editor-summernote.js"></script>
 <script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/moment/moment.js"></script>
 <script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/bootstrap/bootstrap.bundle.min.js"></script>

@@ -45,10 +45,10 @@
 
                             <!-- Brand logo -->
                             <span class="dt-brand__logo">
-                                <a class="dt-brand__logo-link" href="">
+                                {{-- <a class="dt-brand__logo-link" href="">
                                     <img width="" class="d-none d-sm-inline-block w-100" src="https://media.istockphoto.com/id/1369738799/photo/blue-round-clock-on-white-background.jpg?b=1&s=170667a&w=0&k=20&c=aBwVsg0PbTUoBIeYAX7M7uhT47cEihCbfml1q-YWyls=" alt="logo">
                                     <img class="dt-brand__logo-symbol d-sm-none" src="" alt="logo">
-                                    </a>
+                                    </a> --}}
                             </span>
                             <!-- /brand logo -->
 

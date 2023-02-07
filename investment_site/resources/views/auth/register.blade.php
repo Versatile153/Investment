@@ -154,7 +154,7 @@
                     <div class="fxt-form">
                         <a href="../../index.php" class="fxt-logo">
                             <center>
-                                <img style="max-width: 100%; width: 250px" src="../../site-images/site_logo/logo1/bg-rmv1.png" alt="Logo">
+                                <img style="max-width: 100%; width: 250px" src="{{ asset('/storage/images/63Om7c9wvaZtut6izJvgS9hjW9NM3e6wBTkwYgO3.jpg') }}" alt="Logo">
                             </center>
                         </a>
                         <br>
