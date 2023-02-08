@@ -76,19 +76,19 @@ input[type="password"]:focus{
         <!-- linear-gradient(45deg, #528BC9 0%, #54ceff 100%);  -->
 
         <!-- Video Area Start Here -->
-        <div class="container" style="width: auto; max-width: 80%; border:2px solid white !important">
+        <div class="container" style="width: auto; max-width: 80%; border: !important">
 
-            <div class="row " style="background: linear-gradient(45deg, #012c6ae6 100%, #012c6ae6 100%); justify-content:center; align-items:center; height:30rem; padding-top: 30px; width:100%; padding-bottom: 30px; display:flex;  ">
+            <div class="row " style="background: linear-gradient(45deg, #012c6ae6 100%, #012c6ae6 100%); justify-content:center; align-items:center; height:25rem; padding-top: 30px; width:100%; padding-bottom: 30px; display:flex;  ">
 
 
 
 <div class="container" style=" height:90%;">
 
-    <div class="row justify-content-center" style="height:90%;">
-        <div class="col-lg-3">
-            <div class="fxt-header" style="border: 2px solid white;">
+    <div class="row justify-content-center" style="height:100%;">
+        <div class="col-lg-5">
+            <div class="fxt-header" style="margin-left:">
                 <a href="/" class="fxt-logo"><img style="height: 250px;
-    object-fit: contain;" src="{{ asset('/storage/images/63Om7c9wvaZtut6izJvgS9hjW9NM3e6wBTkwYgO3.jpg') }}" alt="Logo"></a>
+    ;" src="{{ asset('/storage/images/logo.png') }}" alt="Logo"></a>
             </div>
         </div>
 

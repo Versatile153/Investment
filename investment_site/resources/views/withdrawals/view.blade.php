@@ -20803,10 +20803,9 @@ input[type=checkbox], input[type=radio] {
 
                             <!-- Brand logo -->
                             <span class="dt-brand__logo">
-                                {{-- <a class="dt-brand__logo-link" href="">
-                                    <img width="" class="d-none d-sm-inline-block w-100" src="https://media.istockphoto.com/id/1369738799/photo/blue-round-clock-on-white-background.jpg?b=1&s=170667a&w=0&k=20&c=aBwVsg0PbTUoBIeYAX7M7uhT47cEihCbfml1q-YWyls=" alt="logo">
-                                    <img class="dt-brand__logo-symbol d-sm-none" src="" alt="logo">
-                                    </a> --}}
+                                <a href="/" class="fxt-logo"><img style="height: 150px; 
+                            margin-top:1rem;" src="{{ asset('/storage/images/logo.png') }}"
+                             alt="Logo"></a>
                             </span>
                             <!-- /brand logo -->
 
@@ -20902,17 +20901,18 @@ input[type=checkbox], input[type=radio] {
                                                 alt="eze cecc">
                                             <span class="dt-avatar-info d-none d-sm-block">
                                                 <span
-                                                    class="dt-avatar-name">eze cecc</span>
+                                                    class="dt-avatar-name">{{ Auth::user()->name }}</span>
                                                                                                         <span>Verified</span>
                                                                                                 </span> </a>
                                         <!-- /dropdown link -->
 
                                         <!-- Dropdown Option -->
                                         <div class="dropdown-menu dropdown-menu-right">
-                                            <a class="dropdown-item" href=""> <i
-                                                    class="icon icon-user icon-fw mr-2 mr-sm-1"></i>Account                                            </a>
-                                            <a class="dropdown-item" href=""> <i
-                                                    class="icon icon-editors icon-fw mr-2 mr-sm-1"></i>Logout                                            </a>
+                                            <a class="dropdown-item" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
                                         </div>
                                         <!-- /dropdown option -->
 
@@ -20993,7 +20993,7 @@ input[type=checkbox], input[type=radio] {
                                         </li>
 
                                         <li class="dt-side-nav__item">
-                                        <a href=""
+                                        <a href="/view"
                                                 class="dt-side-nav__link active"
                                                 title="Revenue">
                                                 <span class="dt-side-nav__text">View withdrawals</span> </a>
@@ -21004,7 +21004,7 @@ input[type=checkbox], input[type=radio] {
                                 </li>
                                 <li
                                     class="dt-side-nav__item ">
-                                    <a href=""
+                                    <a href="/earn"
                                         class="dt-side-nav__link "
                                         title="Earnings">
                                         <i class="icon icon-dashboard icon-fw icon-lg"></i>
@@ -21013,7 +21013,7 @@ input[type=checkbox], input[type=radio] {
                                 </li>
                                 <li
                                     class="dt-side-nav__item ">
-                                    <a href=""
+                                    <a href="/ref"
                                         class="dt-side-nav__link "
                                         title="My Referrals">
                                         <i class="icon icon-users icon-fw icon-lg"></i>
@@ -21022,7 +21022,7 @@ input[type=checkbox], input[type=radio] {
                                 </li>
                                 <li
                                     class="dt-side-nav__item ">
-                                    <a href="" class="dt-side-nav__link"
+                                    <a href="/help" class="dt-side-nav__link"
                                         title="Support">
                                         <i class="icon icon-mail icon-fw icon-lg"></i>
                                         <span class="dt-side-nav__text">Help Desk</span>
@@ -21388,7 +21388,7 @@ input[type=checkbox], input[type=radio] {
     </script><!-- Footer -->
 <footer class="dt-footer">
 
-    Copyright Primestock Trades  © 2023</footer>
+    Copyright Primewaretrades © 2023</footer>
 <!-- /footer -->
 
 </div>

@@ -627,7 +627,7 @@ body {
     </style>
 	<link rel="stylesheet" href="style.css">
 
-	<title>Primestocktradefx</title>
+	<title>Primewaretrades</title>
 </head>
 <body>
 
@@ -636,7 +636,7 @@ body {
 	<section id="sidebar">
 		<a href="#" class="brand" style="margin-left:1rem;">
             {{-- <img width="40" class="d-none d-sm-inline-block w-100" src="https://media.istockphoto.com/id/1369738799/photo/blue-round-clock-on-white-background.jpg?b=1&s=170667a&w=0&k=20&c=aBwVsg0PbTUoBIeYAX7M7uhT47cEihCbfml1q-YWyls=" alt="logo"> --}}
-
+<img width="150" src="{{ asset('/storage/images/logo.png') }}" alt="logo">
 			<span class="text">Primewaretrades</span>
 		</a>
 		<ul class="side-menu top">
@@ -645,7 +645,7 @@ body {
 			</li>
 			<div class="btn-group">
                 <button style="margin-right: 2rem;" type="button" class=" mt-1 btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-                    <span style="margin-right: 5rem;" class="text">Deposit</span>
+                    <span style="margin-right: 5rem;" class="text">Deposita</span>
                 </button>
                 <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
                   <a href="/payment_account">
@@ -815,7 +815,7 @@ body {
 
 			</div>
 		</main>
-		<footer class="dt-footer">
+		<footer class="dt-footer"> 
 
 			Copyright Primewaretrades © 2023</footer>
 

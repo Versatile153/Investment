@@ -45,10 +45,9 @@
 
                             <!-- Brand logo -->
                             <span class="dt-brand__logo">
-                                {{-- <a class="dt-brand__logo-link" href="">
-                                    <img width="" class="d-none d-sm-inline-block w-100" src="https://media.istockphoto.com/id/1369738799/photo/blue-round-clock-on-white-background.jpg?b=1&s=170667a&w=0&k=20&c=aBwVsg0PbTUoBIeYAX7M7uhT47cEihCbfml1q-YWyls=" alt="logo">
-                                    <img class="dt-brand__logo-symbol d-sm-none" src="" alt="logo">
-                                    </a> --}}
+                                <a href="/" class="fxt-logo"><img style="height: 150px; 
+                            margin-top:1rem;" src="{{ asset('/storage/images/logo.png') }}"
+                             alt="Logo"></a>
                             </span>
                             <!-- /brand logo -->
 
@@ -139,9 +138,7 @@
                                         <!-- Dropdown Link -->
                                         <a href="#" class="dt-nav__link dropdown-toggle no-arrow dt-avatar-wrapper"
                                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <img class="dt-avatar size-30"
-                                                src="https://primestocktrades.com/m_cust/dash/assets/dist/img/avatar.png"
-                                                alt="eze cecc">
+                                            <img width="150" src="{{ asset('/storage/images/logo.png') }}" alt="logo">
                                             <span class="dt-avatar-info d-none d-sm-block">
                                                 <span class="dt-avatar-info d-none d-sm-block">
 
@@ -188,7 +185,9 @@
                                                 <div class="dt-sidebar__container mt-10">
 
                             <!-- Sidebar Navigation -->
+                            
                             <ul class="dt-side-nav">
+                            
                                                                 <li
                                     class="dt-side-nav__item ">
                                     <a href="/home"

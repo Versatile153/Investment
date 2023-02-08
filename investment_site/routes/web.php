@@ -78,8 +78,8 @@ Route::get('/forex_price',[PagesController::class,'forex_price']);
 
 
 
-Route::get('/img', function () {
-    return view('image');
+Route::get('/image', function () {
+    return view('form');
     });
 Route::post('/logo',[DashboardController::class,'avatar']);
 

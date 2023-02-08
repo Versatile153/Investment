@@ -150,14 +150,14 @@
         <div class="row">
             <div class="col-md-3 col-12"></div>
             <div class="col-md-6 col-12 fxt-bg-color yeyyue ytrwiklwk">
-                <div class="fxt-content" style="margin-top:6rem">
+                <div class="fxt-content" style="margin-top:1rem">
                     <div class="fxt-form">
                         <a href="../../index.php" class="fxt-logo">
                             <center>
-                                <img style="max-width: 100%; width: 250px" src="{{ asset('/storage/images/63Om7c9wvaZtut6izJvgS9hjW9NM3e6wBTkwYgO3.jpg') }}" alt="Logo">
+                                <img style="max-width: 100%; width: 250px" src="{{ asset('/storage/images/logo.png') }}" alt="Logo">
                             </center>
                         </a>
-                        <br>
+                        
                         <h2 style="text-transform: uppercase; text-align: center; margin-bottom: 20px">Create an
                             account</h2>
                         <p style="text-align: center; font-size: 17px">Account creation has never been easier and

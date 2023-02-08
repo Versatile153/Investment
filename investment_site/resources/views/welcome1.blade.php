@@ -9738,11 +9738,13 @@ img.sticky {
 </style>
 	</head>
 	<body>
-        <div style="display: flex;justify-content:space-around; margin-top:.5rem;">
+        <div style="display: flex;justify-content:space-evenly; margin-top:.5rem;">
      <div>
         {{-- <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
             start tour
           </a> --}}
+          <a href="/" class="fxt-logo"><img style="height: 100px;
+                                ;" src="{{ asset('/storage/images/logo.png') }}" alt="Logo"></a>
           <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
             Get started
           </button>
@@ -9827,7 +9829,7 @@ img.sticky {
      </div>
      
        
-     <img style="border-end-start-radius: 40%;border-end-end-radius: 40%;" width="70" src="{{ asset('/storage/images/63Om7c9wvaZtut6izJvgS9hjW9NM3e6wBTkwYgO3.jpg') }}" alt="">
+     
 
           </div>
    
@@ -11632,11 +11634,8 @@ ul#footermenu li {
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4 footers-one">
                      <div class="footers-logo">
-                        <a href="default.php" class="logo d-flex align-items-center">
-                            <!-- Uncomment the line below if you also wish to use an image logo -->
-     <img style="border-end-start-radius: 40%;border-end-end-radius: 40%;" width="70" src="{{ asset('/storage/images/63Om7c9wvaZtut6izJvgS9hjW9NM3e6wBTkwYgO3.jpg') }}" alt="">
-                           
-                          </a>
+                        <a href="/" class="fxt-logo"><img style="height: 300px;
+                                ;" src="{{ asset('/storage/images/logo.png') }}" alt="Logo"></a>
                      </div>
                     <div class="footers-info mt-3">
                          <p>"Primewaretrades is not just a company, it's a mission"<br> - Michael Walker, Founder and CEO </p>
@@ -11699,12 +11698,12 @@ ul#footermenu li {
                         Disclaimer: CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 70% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs, or any of our other products work, and whether you can afford to take the high risk of losing your money. The value of your investments can go down as well as up. Losses can exceed deposits on some margin products. Professional clients can lose more than they deposit. All trading carries risk.
                    </small>
                    <small class="disc">
-                    Primewaretrades of Primewaretrades Trading Limited is authorised and regulated by the Financial Conduct Authority, Primestocktrades Registered Number 08994234.
+                    Primewaretrades of Primewaretrades Trading Limited is authorised and regulated by the Financial Conduct Authority, Primewaretrades Registered Number 08994234.
                    </small><br>
                    <small class="disc">
                      This information should not be relied upon as research, investment advice, or a recommendation regarding any products, strategies, or any security in particular. This material is strictly for illustrative, educational, or informational purposes and is subject to change.
                    </small><br><br>
-                   <p style="font-size:11px; color:#fff;">It is important that you understand that with investments, your capital is at risk. Past performance is not a guide to future performance. It is your responsibility to ensure that you make an informed decision about whether or not to invest with us. If you are still unsure if investing is right for you, please seek independent advice. Primestocktrades Trading Limited assumes no liability for any loss sustained from trading in accordance with a recommendation.</p>
+                   <p style="font-size:11px; color:#fff;">It is important that you understand that with investments, your capital is at risk. Past performance is not a guide to future performance. It is your responsibility to ensure that you make an informed decision about whether or not to invest with us. If you are still unsure if investing is right for you, please seek independent advice. Primewaretrades Trading Limited assumes no liability for any loss sustained from trading in accordance with a recommendation.</p>
                  </div>
              </div>
          </div>
