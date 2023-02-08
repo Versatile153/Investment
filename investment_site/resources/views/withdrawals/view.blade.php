@@ -21388,7 +21388,9 @@ input[type=checkbox], input[type=radio] {
     </script><!-- Footer -->
 <footer class="dt-footer">
 
-    Copyright Primewaretrades © 2023</footer>
+  <a href="/" class="fxt-logo"><img style="height: 250px; 
+                            margin-top:1rem;" src="{{ asset('/storage/images/logo.png') }}"
+                             alt="Logo"></a>  Copyright Primewaretrades © 2023</footer>
 <!-- /footer -->
 
 </div>

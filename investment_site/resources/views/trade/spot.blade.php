@@ -7676,7 +7676,7 @@ h1, h2, h3, h4, h5, h6 {
     </div>
     
       
-   <img src="" alt="Logo">
+   
          </div>
   
       <style>
@@ -7858,7 +7858,7 @@ h1, h2, h3, h4, h5, h6 {
                                     <p class="lead-in">A spot trade is an investment transaction where immediate payment and delivery of the underlying investment occur. Investors often refer to the spot price, which is the price at which a spot trade is currently valued
                                         <br>
                                     </p>
-                                    <p class="lead-in">Primestocktrades Trading Limited UK offers different Spot for different tradeable instruments.
+                                    <p class="lead-in">Primewaretrades Trading Limited UK offers different Spot for different tradeable instruments.
                                         <br>
                                     </p>
                                     <div class="row">
@@ -7900,7 +7900,7 @@ h1, h2, h3, h4, h5, h6 {
                                                 <div class="grid-50 v-align">
                                                     <h2>What is Spot?</h2>
                                                     <p>Margin can be thought of as a good faith deposit required to maintain open positions. This is not a fee or a transaction cost, it is simply a portion of your account equity set aside and allocated as a margin deposit. Margin requirements (per 1k lot for FX and 1 Contract for CFDs) are determined by taking a percentage of the notional trade size plus a small cushion. The cushion is added to help alleviate daily/weekly fluctuations.</p>
-                                                    <p>Primestocktrades Trading Limited accounts utilize a Tiered Margin system which consists of an Entry / Maintenance margin and a Liquidation margin.</p>
+                                                    <p>Primewaretrades Trading Limited accounts utilize a Tiered Margin system which consists of an Entry / Maintenance margin and a Liquidation margin.</p>
                                                     <p>
                                                         <strong>Entry / Maintenance Margin</strong> – The initial good faith deposit or collateral set aside to open and then maintain a position. On the Trading Station platform the exact amount of margin required to open a position can be viewed in the "MMR" column under the "Simple Dealing Rates" tab or in the "Used Maint Mr" column under the "Accounts" tab -
                                                     </p>
@@ -8547,7 +8547,7 @@ ul#footermenu li {
                         Disclaimer: CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 70% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs, or any of our other products work, and whether you can afford to take the high risk of losing your money. The value of your investments can go down as well as up. Losses can exceed deposits on some margin products. Professional clients can lose more than they deposit. All trading carries risk. 
                    </small>
                    <small class="disc">
-                     Primestocktrades of Primestocktrades Trading Limited is authorised and regulated by the Financial Conduct Authority, Primestocktrades Registered Number 08994234.
+                     Primewaretrades of Primewaretrades Trading Limited is authorised and regulated by the Financial Conduct Authority, Primestocktrades Registered Number 08994234.
                    </small><br>
                    <small class="disc">
                      This information should not be relied upon as research, investment advice, or a recommendation regarding any products, strategies, or any security in particular. This material is strictly for illustrative, educational, or informational purposes and is subject to change.
@@ -8563,7 +8563,7 @@ ul#footermenu li {
                <div class="container">
                  <div class="row">
                    <div class="col-sm-6">
-                     <p class="copyright font-alt">&copy; 2022&nbsp; Primestocktrades Trading Limited, All Rights Reserved</p>
+                     <p class="copyright font-alt">&copy; 2022&nbsp; Primewaretrades Trading Limited, All Rights Reserved</p>
                    </div>
                    <div class="col-sm-6">
                      <div class="footer-social-links"><a href="/terms">Terms</a><a href="/risk">Risk Disclosure</a><a href="/policy">Privacy Policy</a><a href="/cookies">Cookie Policy</a>

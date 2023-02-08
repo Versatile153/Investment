@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
   	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Primestocktrades Trading Limited | Margin Staking</title>
+    <title>Primewaretrades Trading Limited | Margin Staking</title>
     <meta name="description" content="Primestocktrades Trading Limited is a global leader in online trading and investing, providing thousands of clients worldwide with access to forex, contracts for difference (CFDs), stockbroking and bonds markets via award-winning platforms.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <meta name="keywords" content="Primestocktrades Trading Limited bank,regulated banking,forex trading,CFD trading,Forex,trading,online trading,mobile trading,licensed trading">
@@ -7445,7 +7445,7 @@ h1, h2, h3, h4, h5, h6 {
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
-    <p>Primestocktrades is committed to leading a wave of change; by connecting with, educating and empowering younger generations to reimagine, redefine and reengineer their lives, and the world.</p>
+    <p>Primewaretrades is committed to leading a wave of change; by connecting with, educating and empowering younger generations to reimagine, redefine and reengineer their lives, and the world.</p>
     <div class="dropdown mt-3">
         <button class="btn btn-primary dropdown-toggle " type="button" data-bs-toggle="dropdown">
           Read More
@@ -7478,7 +7478,7 @@ h1, h2, h3, h4, h5, h6 {
      </div>
      
        
-logo
+
           </div>
    
    
@@ -7892,7 +7892,7 @@ logo
                                 <div class="row">
                                     <div class="grid-100 content">
                                         <h2>The Tiered Margin Watcher</h2>
-                                        <p>Primestocktrades Tiered Margin Watcher is designed to notify you in advance of margin calls, which can give you more time to take action to potentially avoid them. Watch the video to find out more, or check out our
+                                        <p>Primewaretrades Tiered Margin Watcher is designed to notify you in advance of margin calls, which can give you more time to take action to potentially avoid them. Watch the video to find out more, or check out our
                                         </p>
                                     </div>
                                 </div>
@@ -8449,12 +8449,16 @@ ul#footermenu li {
                      <div class="footers-logo">
                         <a href="/" class="logo d-flex align-items-center">
             <!-- Uncomment the line below if you also wish to use an image logo -->
-<img src="" alt="logo">            
+<a href="/" class="fxt-logo"><img style="height: 250px; 
+                            margin-top:1rem;" src="{{ asset('/storage/images/logo.png') }}"
+                             alt="Logo"></a>            
            <!--- <h1>Logis</h1>--->
           </a>
                      </div>
+                     
                     <div class="footers-info mt-3">
-                         <p>"Primestocktrades is not just a company, it's a mission"<br> - Michael Walker, Founder and CEO </p>
+
+                         <p>"Primewaretrades is not just a company, it's a mission"<br> - Michael Walker, Founder and CEO </p>
                      </div>
                      <div class="social-icons"> 
                      <a href=""><i id="social-fb" class="fa fa-whatsapp fa-2x social"></i></a>

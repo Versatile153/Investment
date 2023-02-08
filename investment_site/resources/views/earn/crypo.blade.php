@@ -6,9 +6,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
   	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Primestocktrades Trading Limited | Cryptocurrency Trading</title>
-    <meta name="description" content="Primestocktrades Trading Limited is a global leader in online trading and investing, providing thousands of clients worldwide with access to forex, contracts for difference (CFDs), stockbroking and bonds markets via award-winning platforms.">
-    <meta name="keywords" content="Primestocktrades Trading Limited bank,regulated banking,forex trading,CFD trading,Forex,trading,online trading,mobile trading,licensed trading">
+    <title>Primewaretrades Trading Limited | Cryptocurrency Trading</title>
+    <meta name="description" content="Primewaretrades Trading Limited is a global leader in online trading and investing, providing thousands of clients worldwide with access to forex, contracts for difference (CFDs), stockbroking and bonds markets via award-winning platforms.">
+    <meta name="keywords" content="Primewaretrades Trading Limited bank,regulated banking,forex trading,CFD trading,Forex,trading,online trading,mobile trading,licensed trading">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#282828">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -6911,7 +6911,7 @@ h1, h2, h3, h4, h5, h6 {
      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
    </div>
    <div class="offcanvas-body">
-     <p>Primestocktrades is committed to leading a wave of change; by connecting with, educating and empowering younger generations to reimagine, redefine and reengineer their lives, and the world.</p>
+     <p>Primewaretrades is committed to leading a wave of change; by connecting with, educating and empowering younger generations to reimagine, redefine and reengineer their lives, and the world.</p>
      <div class="dropdown mt-3">
          <button class="btn btn-primary dropdown-toggle " type="button" data-bs-toggle="dropdown">
            Read More
@@ -8482,14 +8482,12 @@ ul#footermenu li {
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4 footers-one">
                      <div class="footers-logo">
-                      <a href="default.php" class="logo d-flex align-items-center">
-                        <!-- Uncomment the line below if you also wish to use an image logo -->
-                        <img width="200" src="https://media.istockphoto.com/id/1369406446/photo/shield-check-mark-on-podium.jpg?s=612x612&w=0&k=20&c=0ND_Mr3otYh7rEnjUGY9gVy6k7ndSzGkcnH1yuwF0S4=" alt="">
-                       <!--- <h1>Logis</h1>--->
-                      </a>
+                      <a href="/" class="fxt-logo"><img style="height: 150px; 
+                            margin-top:1rem;" src="{{ asset('/storage/images/logo.png') }}"
+                             alt="Logo"></a>
                      </div>
                     <div class="footers-info mt-3">
-                         <p>"Primestocktrades is not just a company, it's a mission"<br> - Michael Walker, Founder and CEO </p>
+                         <p>"Primewaretrades is not just a company, it's a mission"<br> - Michael Walker, Founder and CEO </p>
                      </div>
                      <div class="social-icons"> 
                      <a href="https://wa.me/message/6ITEC6W5E5FTE1"><i id="social-fb" class="fa fa-whatsapp fa-2x social"></i></a>
@@ -8549,7 +8547,7 @@ ul#footermenu li {
                         Disclaimer: CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 70% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs, or any of our other products work, and whether you can afford to take the high risk of losing your money. The value of your investments can go down as well as up. Losses can exceed deposits on some margin products. Professional clients can lose more than they deposit. All trading carries risk. 
                    </small>
                    <small class="disc">
-                     Primestocktrades of Primestocktrades Trading Limited is authorised and regulated by the Financial Conduct Authority, Primestocktrades Registered Number 08994234.
+                     Primewaretrades of Primewaretrades Trading Limited is authorised and regulated by the Financial Conduct Authority, Primewaretrades Registered Number 08994234.
                    </small><br>
                    <small class="disc">
                      This information should not be relied upon as research, investment advice, or a recommendation regarding any products, strategies, or any security in particular. This material is strictly for illustrative, educational, or informational purposes and is subject to change.
@@ -8565,7 +8563,7 @@ ul#footermenu li {
                <div class="container">
                  <div class="row">
                    <div class="col-sm-6">
-                     <p class="copyright font-alt">&copy; 2022&nbsp; Primestocktrades Trading Limited, All Rights Reserved</p>
+                     <p class="copyright font-alt">&copy; 2023&nbsp; Primewaretrades Trading Limited, All Rights Reserved</p>
                    </div>
                    <div class="col-sm-6">
                      <div class="footer-social-links"><a href="/terms">Terms</a><a href="/risk">Risk Disclosure</a><a href="/policy">Privacy Policy</a><a href="/cookies">Cookie Policy</a>

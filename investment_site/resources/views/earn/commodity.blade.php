@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
   	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Primestocktrades Trading Limited | Commodities Investment</title>
+    <title>Primewaretrades Trading Limited | Commodities Investment</title>
     <meta name="description" content="Primestocktrades Trading Limited is a global leader in online trading and investing, providing thousands of clients worldwide with access to forex, contracts for difference (CFDs), stockbroking and bonds markets via award-winning platforms.">
     <meta name="keywords" content="Primestocktrades Trading Limited bank,regulated banking,forex trading,CFD trading,Forex,trading,online trading,mobile trading,licensed trading">
     <meta name="robots" content="index, follow">
@@ -509,7 +509,7 @@ h1, h2, h3, h4, h5, h6 {
      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
    </div>
    <div class="offcanvas-body">
-     <p>Primestocktrades is committed to leading a wave of change; by connecting with, educating and empowering younger generations to reimagine, redefine and reengineer their lives, and the world.</p>
+     <p>Primewaretrades is committed to leading a wave of change; by connecting with, educating and empowering younger generations to reimagine, redefine and reengineer their lives, and the world.</p>
      <div class="dropdown mt-3">
          <button class="btn btn-primary dropdown-toggle " type="button" data-bs-toggle="dropdown">
            Read More
@@ -685,7 +685,7 @@ $(document).ready(function(){
       <div class="container-fluid end-divider">
     <div id="section1" class="container default-wd mobile-padding-top1">
         <div class="title">
-        <h2><p style="padding-bottom:5px; font-size:28px!important;">Trade Commodities with Primestocktrades Trading Limited</p></h2>
+        <h2><p style="padding-bottom:5px; font-size:28px!important;">Trade Commodities with Primewaretrades Trading Limited</p></h2>
         </div>
 		<div class="sub-title mobile-subtitle-1 text-center">
         </div>
@@ -693,7 +693,7 @@ $(document).ready(function(){
         <div class="row fb-cus-row">
             
             <div class="col-sm-6 text-content-1" style="paddding-left:0px;padding-right:30px;">
-            <div class="text-block1"><p>Trading commodities CFDs ("contracts for difference") is a great way to diversify your portfolio and hedge risks. Primestocktrades Trading Limited has carved a niche for itself in the commodity trading market in Australia, offering the optimal trading experience.</p>
+            <div class="text-block1"><p>Trading commodities CFDs ("contracts for difference") is a great way to diversify your portfolio and hedge risks. Primeware Trading Limited has carved a niche for itself in the commodity trading market in Australia, offering the optimal trading experience.</p>
             </div>
             <div class="text-block2 padding-30"><p>Choosing from an extensive portfolio of financial products, while benefiting from the latest real-time technology and available commodity prices. When you choose to trade commodity CFDs, you get access to commodity prices worldwide with high execution speeds, low slippage, deep liquidity and tight spreads.</p>
             </div>
@@ -8448,12 +8448,12 @@ ul#footermenu li {
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4 footers-one">
                      <div class="footers-logo">
-                       <a href="default.php">
-                         <img width="120" src="https://media.istockphoto.com/id/513438345/photo/portrait-of-confident-construction-worker-and-crowd.jpg?b=1&s=170667a&w=0&k=20&c=NKjgkMWajPIwU3By0l52Lw0A8VcQQQnOOLsxxqoHGm8=" class="img-fluid" alt="Logo">
-                       </a>
+                       <a href="/" class="fxt-logo"><img style="height: 150px; 
+                            margin-top:1rem;" src="{{ asset('/storage/images/logo.png') }}"
+                             alt="Logo"></a>
                      </div>
                     <div class="footers-info mt-3">
-                         <p>"Primestocktrades is not just a company, it's a mission"<br> - Michael Walker, Founder and CEO </p>
+                         <p>"Primewaretrades is not just a company, it's a mission"<br> - Michael Walker, Founder and CEO </p>
                      </div>
                      <div class="social-icons"> 
                      <a href="https://wa.me/message/6ITEC6W5E5FTE1"><i id="social-fb" class="fa fa-whatsapp fa-2x social"></i></a>
@@ -8513,12 +8513,12 @@ ul#footermenu li {
                         Disclaimer: CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 70% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs, or any of our other products work, and whether you can afford to take the high risk of losing your money. The value of your investments can go down as well as up. Losses can exceed deposits on some margin products. Professional clients can lose more than they deposit. All trading carries risk. 
                    </small>
                    <small class="disc">
-                     Primestocktrades of Primestocktrades Trading Limited is authorised and regulated by the Financial Conduct Authority, Primestocktrades Registered Number 08994234.
+                     Primewaretrades of Primewaretrades Trading Limited is authorised and regulated by the Financial Conduct Authority, Primewaretrades Registered Number 08994234.
                    </small><br>
                    <small class="disc">
                      This information should not be relied upon as research, investment advice, or a recommendation regarding any products, strategies, or any security in particular. This material is strictly for illustrative, educational, or informational purposes and is subject to change.
                    </small><br><br>
-                   <p style="font-size:11px; color:#fff;">It is important that you understand that with investments, your capital is at risk. Past performance is not a guide to future performance. It is your responsibility to ensure that you make an informed decision about whether or not to invest with us. If you are still unsure if investing is right for you, please seek independent advice. Primestocktrades Trading Limited assumes no liability for any loss sustained from trading in accordance with a recommendation.</p>
+                   <p style="font-size:11px; color:#fff;">It is important that you understand that with investments, your capital is at risk. Past performance is not a guide to future performance. It is your responsibility to ensure that you make an informed decision about whether or not to invest with us. If you are still unsure if investing is right for you, please seek independent advice. Primewaretrades Trading Limited assumes no liability for any loss sustained from trading in accordance with a recommendation.</p>
                  </div>
              </div>
          </div>
@@ -8529,7 +8529,7 @@ ul#footermenu li {
                <div class="container">
                  <div class="row">
                    <div class="col-sm-6">
-                     <p class="copyright font-alt">&copy; 2022&nbsp; Primestocktrades Trading Limited, All Rights Reserved</p>
+                     <p class="copyright font-alt">&copy; 2023&nbsp; Primewaretrades Trading Limited, All Rights Reserved</p>
                    </div>
                    <div class="col-sm-6">
                      <div class="footer-social-links"><a href="/terms">Terms</a><a href="/risk">Risk Disclosure</a><a href="/policy">Privacy Policy</a><a href="/cookies">Cookie Policy</a>

@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
   	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Primestocktrades Trading Limited | Bot Trading</title>
+    <title>Primewaretrades Trading Limited | Bot Trading</title>
      <meta name="description" content="Primestocktrades Trading Limited is a global leader in online trading and investing, providing thousands of clients worldwide with access to forex, contracts for difference (CFDs), stockbroking and bonds markets via award-winning platforms.">
     <meta name="keywords" content="Primestocktrades Trading Limited bank,regulated banking,forex trading,CFD trading,Forex,trading,online trading,mobile trading,licensed trading">
     <meta name="robots" content="index, follow">
@@ -8911,9 +8911,7 @@ i:before {
       <!-- ======= Header ======= -->
       <div style="display: flex;justify-content:space-around; margin-top:1rem;">
         <div>
-           {{-- <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-               start tour
-             </a> --}}
+          
              <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                Get started
              </button>
@@ -8965,7 +8963,7 @@ i:before {
        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
      </div>
      <div class="offcanvas-body">
-       <p>Primestocktrades is committed to leading a wave of change; by connecting with, educating and empowering younger generations to reimagine, redefine and reengineer their lives, and the world.</p>
+       <p>Primewaretrades is committed to leading a wave of change; by connecting with, educating and empowering younger generations to reimagine, redefine and reengineer their lives, and the world.</p>
        <div class="dropdown mt-3">
            <button class="btn btn-primary dropdown-toggle " type="button" data-bs-toggle="dropdown">
              Read More
@@ -9076,7 +9074,7 @@ i:before {
      <div class="container-fluid end-divider">
     <div id="section1" class="container default-wd mobile-padding-top1">
         <div class="title">
-        <h2><p class="hidden-xs" style="padding-bottom:5px;font-size:28px; text-align:center;font-weight:600;">Primestocktrades Trading Bot</p></h2>
+        <h2><p class="hidden-xs" style="padding-bottom:5px;font-size:28px; text-align:center;font-weight:600;">Primewaretrades Trading Bot</p></h2>
         </div>
 		<div class="sub-title mobile-subtitle-1 text-center">
         </div>
@@ -9258,10 +9256,10 @@ i:before {
             <ul class="faq-list">
 
               <li>
-                <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">What is Primestocktrades Trading Bot? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">What is Primewaretrades Trading Bot? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
                 <div id="faq1" class="collapse" data-bs-parent=".faq-list">
                   <p>
-                    Primestocktrades Trading Bot are free to use software that users can use to automate their crypto trading.
+                    Primewaretrades Trading Bot are free to use software that users can use to automate their crypto trading.
                   </p>
                 </div>
               </li>
@@ -9270,16 +9268,16 @@ i:before {
                 <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">What is Spot Bot trader? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
                 <div id="faq2" class="collapse" data-bs-parent=".faq-list">
                   <p>
-                    The Spot trading bot is a great Primestocktrades Trading strategy, it allows users to buy low and sell high in specific price changes. 
+                    The Spot trading bot is a great Primewaretrades Trading strategy, it allows users to buy low and sell high in specific price changes. 
                   </p>
                 </div>
               </li>
 
               <li>
-                <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Can you make money with Primestocktrades Trading Bot? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Can you make money with Primewaretrades Trading Bot? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
                 <div id="faq3" class="collapse" data-bs-parent=".faq-list">
                   <p>
-                    Countless users have earned passive stable income using Primestocktrades Trading Bot at no cost. That said, all trading involves risk. Every investor and trader should trade cryptocurrency responsibly and avoid emotional decisions.
+                    Countless users have earned passive stable income using Primewaretrades Trading Bot at no cost. That said, all trading involves risk. Every investor and trader should trade cryptocurrency responsibly and avoid emotional decisions.
                   </p>
                 </div>
               </li>
@@ -9390,13 +9388,16 @@ ul#footermenu li {
                        
           <a href="/" class="logo d-flex align-items-center">
             <!-- Uncomment the line below if you also wish to use an image logo -->
-     <img style="border-end-start-radius: 40%;border-end-end-radius: 40%;" width="70" src="{{ asset('/storage/images/63Om7c9wvaZtut6izJvgS9hjW9NM3e6wBTkwYgO3.jpg') }}" alt="">
+     <a href="/" class="fxt-logo"><img style="height: 250px; 
+                            margin-top:1rem;" src="{{ asset('/storage/images/logo.png') }}"
+                             alt="Logo"></a>
             
            <!--- <h1>Logis</h1>--->
           </a>
                      </div>
                     <div class="footers-info mt-3">
-                         <p>"Primestocktrades is not just a company, it's a mission"<br> - Michael Walker, Founder and CEO </p>
+                    
+                         <p>"Primewaretrades is not just a company, it's a mission"<br> - Michael Walker, Founder and CEO </p>
                      </div>
                      <div class="social-icons"> 
                      <a href=""><i id="social-fb" class="fa fa-whatsapp fa-2x social"></i></a>
@@ -9456,7 +9457,7 @@ ul#footermenu li {
                         Disclaimer: CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 70% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs, or any of our other products work, and whether you can afford to take the high risk of losing your money. The value of your investments can go down as well as up. Losses can exceed deposits on some margin products. Professional clients can lose more than they deposit. All trading carries risk. 
                    </small>
                    <small class="disc">
-                     Primestocktrades of Primestocktrades Trading Limited is authorised and regulated by the Financial Conduct Authority, Primestocktrades Registered Number 08994234.
+                     Primewaretrades of Primewaretrades Trading Limited is authorised and regulated by the Financial Conduct Authority, Primewaretrades Registered Number 08994234.
                    </small><br>
                    <small class="disc">
                      This information should not be relied upon as research, investment advice, or a recommendation regarding any products, strategies, or any security in particular. This material is strictly for illustrative, educational, or informational purposes and is subject to change.
@@ -9472,7 +9473,8 @@ ul#footermenu li {
                <div class="container">
                  <div class="row">
                    <div class="col-sm-6">
-                     <p class="copyright font-alt">&copy; 2022&nbsp; Primestocktrades Trading Limited, All Rights Reserved</p>
+                   
+                     <p class="copyright font-alt">&copy; 2022&nbsp; Primewaretrades Trading Limited, All Rights Reserved</p>
                    </div>
                    <div class="col-sm-6">
                      <div class="footer-social-links"><a href="/terms">Terms</a><a href="/risk">Risk Disclosure</a><a href="/policy">Privacy Policy</a><a href="/cookies">Cookie Policy</a>

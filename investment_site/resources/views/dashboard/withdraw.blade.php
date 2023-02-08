@@ -405,7 +405,9 @@
     <script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/withdrawal.js"></script>
 <!-- Footer -->
 <footer class="dt-footer">
-
+<a href="/" class="fxt-logo"><img style="height: 150px; 
+                            margin-top:1rem;" src="{{ asset('/storage/images/logo.png') }}"
+                             alt="Logo"></a>
     Copyright Primewaretrades © 2023</footer>
 <!-- /footer -->
 
