@@ -7608,6 +7608,8 @@ i:before {
          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
            Get started
          </button>
+              <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">See More</button>
+         <a class="buy-tickets scrollto" href="/">Primewaretrades Home</a>
          
          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
            <div class="offcanvas-header">
@@ -7647,7 +7649,6 @@ i:before {
            </div>
          </div>
 
-<<<<<<< HEAD
       <div id="logo" class="me-auto">
         <!-- Uncomment below if you prefer to use a text logo -->
         <h3><a href="">About Primewaretrades</a></h3>
@@ -7662,11 +7663,11 @@ i:before {
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-      <a class="buy-tickets scrollto" href="/">Primewaretrades Home</a>
-=======
+      
 
-         <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">See More</button>
->>>>>>> c139b0daeb9d8973aa1ee80d1e905fda6400799f
+
+    
+
 
 <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
  <div class="offcanvas-header">
@@ -7707,7 +7708,7 @@ i:before {
     </div>
     
       
-    <img style="border-end-start-radius: 40%;border-end-end-radius: 40%;" width="70" src="{{ asset('/storage/images/63Om7c9wvaZtut6izJvgS9hjW9NM3e6wBTkwYgO3.jpg') }}" alt="">
+   
 
          </div>
   
@@ -8028,11 +8029,8 @@ ul#footermenu li {
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4 footers-one">
                      <div class="footers-logo">
-                        <a href="/" class="logo d-flex align-items-center">
-                            <!-- Uncomment the line below if you also wish to use an image logo -->
-                            <img width="120" src="https://media.istockphoto.com/id/1369406446/photo/shield-check-mark-on-podium.jpg?s=612x612&w=0&k=20&c=0ND_Mr3otYh7rEnjUGY9gVy6k7ndSzGkcnH1yuwF0S4=" alt="">
-                           <!--- <h1>Logis</h1>--->
-                          </a>
+                        <a href="/" class="fxt-logo"><img style="height: 300px;
+                                ;" src="{{ asset('/storage/images/logo.png') }}" alt="Logo"></a>
                      </div>
                     <div class="footers-info mt-3">
                          <p>"Primewaretrades is not just a company, it's a mission"<br> - Michael Walker, Founder and CEO </p>
@@ -8046,36 +8044,34 @@ ul#footermenu li {
                  </div>
                 <div class="col-xs-12 col-sm-6 col-md-2 footers-two">
                      <h5>Company </h5>
-                     <ul>
-                      <li><a href="/" class="active">Home</a></li>
-
-                      <li class="dropdown"><a href="#"><span>Earn</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                        <ul>
-                          <li><a href="/forex">Forex</a></li>
-                          <li><a href="/crypto">Cryptocurrency</a></li>
-                          <li><a href="/stock">Stocks & EFTs</a></li>
-                          <li><a href="/stake">Staking</a></li>
-                          <li><a href="/commo">Commodities</a></li>
-                            </ul>
-                          </li>
-                      <li class="dropdown"><a href="#"><span>Trade</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                        <ul>
-                          <li><a href="/spot">Spot Trading</a></li>
-                          <li><a href="/bot">Margin Trading</a></li>
-                          <li><a href="/margin">Bot Trading</a></li>
-                            </ul>
-                          </li>
-                      <li><a href="/price">Pricing</a></li>
-
-                       <li class="dropdown"><a href="#"><span>Company</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                        <ul>
-                              <li><a href="career">Our Story</a></li>
-                            <li><a href="story">Careers</a></li>
-                            </ul>
-                          </li>
+                     <ul class="list-unstyled">
+                      <li><a href="">About</a></li>
+                      <li><a href="">Careers</a></li>
+                      <li><a href="">Pricing</a></li>
+                      <li><a href="">Meet the team</a></li>
                      </ul>
                  </div>
-                <div class="col-xs-12 col-sm-6 col-md-2 footers-five">
+                <div class="col-xs-12 col-sm-6 col-md-2 footers-three">
+                     <h5>Information</h5>
+                     <ul class="list-unstyled">
+                      <li><a href="">Register Now</a></li>
+                      <li><a href="">Spot Trading</a></li>
+                      <li><a href="">Margin Trading</a></li>
+                      <li><a href="">Bot Trading</a></li>
+
+                     </ul>
+                 </div>
+                <div class="col-xs-12 col-sm-6 col-md-2 footers-four">
+                     <h5>Explore </h5>
+                     <ul class="list-unstyled">
+                      <li><a href="">Forex</a></li>
+                      <li><a href="">Cryptocurrency</a></li>
+                      <li><a href="">Staking</a></li>
+                      <li><a href="">Commodities</a></li>
+                     </ul>
+                 </div>
+
+                 <div class="col-xs-12 col-sm-6 col-md-2 footers-five">
     		    <h5>Legal </h5>
     		     <ul class="list-unstyled">
     			 <li><a href="">Certificate of Incorporation</a></li>
@@ -8085,7 +8081,6 @@ ul#footermenu li {
     			 <li><a href="">Financial Statement 2021</a></li>
     			</ul>
     		</div>
-
             </div>
         </div>
      </section>
@@ -8098,7 +8093,7 @@ ul#footermenu li {
                         Disclaimer: CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 70% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs, or any of our other products work, and whether you can afford to take the high risk of losing your money. The value of your investments can go down as well as up. Losses can exceed deposits on some margin products. Professional clients can lose more than they deposit. All trading carries risk.
                    </small>
                    <small class="disc">
-                    Primewaretrades of Primewaretrades Trading Limited is authorised and regulated by the Financial Conduct Authority, Primestocktrades Registered Number 08994234.
+                     Primewaretrades of Primewaretrades Trading Limited is authorised and regulated by the Financial Conduct Authority, Primestocktrades Registered Number 08994234.
                    </small><br>
                    <small class="disc">
                      This information should not be relied upon as research, investment advice, or a recommendation regarding any products, strategies, or any security in particular. This material is strictly for illustrative, educational, or informational purposes and is subject to change.

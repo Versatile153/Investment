@@ -1308,7 +1308,7 @@ ul#footermenu li {
                <div class="container">
                  <div class="row">
                    <div class="col-sm-6">
-                     <p class="copyright font-alt">&copy; 2022&nbsp; Primestocktrades Trading Limited, All Rights Reserved</p>
+                     <p class="copyright font-alt">&copy; 2022&nbsp; Primewaretrades Trading Limited, All Rights Reserved</p>
                    </div>
                    <div class="col-sm-6">
                      <div class="footer-social-links"><a href="/terms">Terms</a><a href="/risk">Risk Disclosure</a><a href="/policy">Privacy Policy</a><a href="/cookies">Cookie Policy</a>

@@ -7833,14 +7833,20 @@ i:before {
          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
            Get started
          </button>
-         
+
+         <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">See More</button>
+      <a class="buy-tickets scrollto" href="/">Primewaretrades Home</a>
+
+ <h3><a href="about.html">About Primewaretrades</a></h3>
          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
            <div class="offcanvas-header">
              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Primewaretrades</h5>
-             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+             {{-- <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button> --}}
            </div>
            <div class="offcanvas-body">
+           
              <div>
+             
                A mission to harness the power of Bitcoin and technology to enable individual sovereignty and eventually garner the next evolution of humanity.
              </div>
              <div class="dropdown mt-3">
@@ -7872,10 +7878,9 @@ i:before {
            </div>
          </div>
 
-<<<<<<< HEAD
       <div id="logo" class="me-auto">
         <!-- Uncomment below if you prefer to use a text logo -->
-        <h3><a href="about.html">About Primewaretrades</a></h3>
+       
 
       </div>
 
@@ -7887,11 +7892,9 @@ i:before {
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-      <a class="buy-tickets scrollto" href="/">Primewaretrades Home</a>
-=======
+      
+         
 
-         <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">See More</button>
->>>>>>> c139b0daeb9d8973aa1ee80d1e905fda6400799f
 
 <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
  <div class="offcanvas-header">
@@ -7899,7 +7902,7 @@ i:before {
    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
  </div>
  <div class="offcanvas-body">
-   <p>Primestocktrades is committed to leading a wave of change; by connecting with, educating and empowering younger generations to reimagine, redefine and reengineer their lives, and the world.</p>
+   <p>Primewaretrades is committed to leading a wave of change; by connecting with, educating and empowering younger generations to reimagine, redefine and reengineer their lives, and the world.</p>
    <div class="dropdown mt-3">
        <button class="btn btn-primary dropdown-toggle " type="button" data-bs-toggle="dropdown">
          Read More
@@ -7932,7 +7935,7 @@ i:before {
     </div>
     
       
-    <img style="border-end-start-radius: 40%;border-end-end-radius: 40%;" width="70" src="{{ asset('/storage/images/63Om7c9wvaZtut6izJvgS9hjW9NM3e6wBTkwYgO3.jpg') }}" alt="">
+   
 
          </div>
   
@@ -7961,7 +7964,7 @@ i:before {
             <p>But we are the new generation.</p>
             <p>We are conscious and choose to fight with ‘light, harnessing the tools of humanity; the incredible technologies available to us to steer the evolution of humankind and create a new world.</p>
             <p>A world where everyone has a role.</p>
-            <p>Primestocktrades Trading Limited is committed to leading this wave of change; by connecting with, educating and empowering younger generations to reimagine, redefine and reengineer their lives, and the world.</p>
+            <p>Primewaretrades Trading Limited is committed to leading this wave of change; by connecting with, educating and empowering younger generations to reimagine, redefine and reengineer their lives, and the world.</p>
 
 
           </div>
@@ -8242,11 +8245,8 @@ ul#footermenu li {
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4 footers-one">
                      <div class="footers-logo">
-                        <a href="/" class="logo d-flex align-items-center">
-                            <!-- Uncomment the line below if you also wish to use an image logo -->
-                            <img width="120" src="https://media.istockphoto.com/id/1369406446/photo/shield-check-mark-on-podium.jpg?s=612x612&w=0&k=20&c=0ND_Mr3otYh7rEnjUGY9gVy6k7ndSzGkcnH1yuwF0S4=" alt="">
-                           <!--- <h1>Logis</h1>--->
-                          </a>
+                        <a href="/" class="fxt-logo"><img style="height: 300px;
+                                ;" src="{{ asset('/storage/images/logo.png') }}" alt="Logo"></a>
                      </div>
                     <div class="footers-info mt-3">
                          <p>"Primewaretrades is not just a company, it's a mission"<br> - Michael Walker, Founder and CEO </p>
