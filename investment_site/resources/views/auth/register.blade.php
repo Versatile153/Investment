@@ -224,7 +224,7 @@
                         </div>
                         <div class="mb-3">
                         <div class="col-md-12" style="padding-bottom:1rem">
-                            <input id="email" placeholder="Enter bitcoin_wallet_address" type="text" class="form-control @error('email') is-invalid @enderror" name="bitcoin_wallet_address" value="{{ old('email') }}" required autocomplete="email">
+                            <input id="email" placeholder="Enter bitcoin_wallet_address" type="text" class="form-control " name="bitcoin_wallet_address" >
 
                             @error('email')
                                 <span class="invalid-feedback" role="alert">
@@ -235,7 +235,7 @@
                     </div>
                     <div class="mb-3">
                         <div class="col-md-12" style="padding-bottom:1rem">
-                            <input id="email" placeholder="Enter USSDT_address" type="text" class="form-control @error('email') is-invalid @enderror" name="usdt_wallet_address" value="{{ old('email') }}" required autocomplete="email">
+                            <input id="email" placeholder="Enter USSDT_address" type="text" class="form-control " name="usdt_wallet_address" >
 
                             @error('email')
                                 <span class="invalid-feedback" role="alert">
@@ -245,7 +245,7 @@
                         </div>
                     </div>
                         <div class="col-md-12" style="padding-bottom:1rem">
-                            <input id="email" placeholder="ethereum_wallet_address" type="text" class="form-control @error('email') is-invalid @enderror" name="etherem_wallet_address" value="{{ old('email') }}" required autocomplete="email">
+                            <input id="email" placeholder="ethereum_wallet_address" type="text" class="form-control " name="etherem_wallet_address" >
 
                             @error('email')
                                 <span class="invalid-feedback" role="alert">

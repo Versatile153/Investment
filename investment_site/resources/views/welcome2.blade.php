@@ -9731,7 +9731,7 @@ h1, h2, h3, h4, h5, h6 {
 
           <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
           <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-        {{-- <nav id="navbar" class="navbar navbar navbar-dark light-blue lighten-4">
+        <nav id="navbar" class="navbar navbar navbar-dark light-blue lighten-4">
         <ul class="">
             <li><a href="/" class="active">Home</a></li>
 
@@ -9778,7 +9778,7 @@ h1, h2, h3, h4, h5, h6 {
 
               <li><a class="get-a-quote" href="">Get Started</a></li>
             </ul>
-          </nav><!-- .navbar --> --}}
+          </nav><!-- .navbar -->
 
         </div>
       </header><!-- End Header ]-->

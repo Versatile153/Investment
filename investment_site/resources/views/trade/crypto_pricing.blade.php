@@ -1,5 +1,3 @@
-
-
 <!Doctype html>
 <html>
 <head>
@@ -19,12 +17,13 @@
     <!-- Favicon--> 
     <link href="assets/img/favicon.png" rel="icon">
      <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-   
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
      <!-- Google Fonts -->
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-
+{{-- <script src="https://cdn.tailwindcss.com"></script> --}}
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
      <!-- Vendor CSS Files -->
      <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -7388,6 +7387,195 @@ h1, h2, h3, h4, h5, h6 {
     position: sticky;
     z-index:1000;
 }
+
+.pricer{
+    
+    text-align: left !important;
+}
+
+.pricer b{
+    float: right !important;
+    font-weight: 700;
+}
+           
+.section-title {
+    margin-bottom: 40px;
+    text-align: center;
+    position: relative;
+    z-index:1
+}
+
+.section-title .sub-title {
+    display: block;
+    color: #db671d;
+    margin-bottom: 3px;
+    font-weight:600
+}
+
+.section-title h2 {
+    margin-bottom: 0;
+    font-size:38px
+}
+
+.section-title.two {
+    margin-top:-5px
+}
+
+.section-title.two .sub-title {
+    color:#db671d
+}
+
+.section-title.three .sub-title {
+    color:#355efc
+}
+.widget-area .widget-item {
+    margin-bottom: 30px;
+    border: 1px solid #270bb0;
+    padding:30px
+}
+
+.widget-area .widget-item h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 5px;
+    border-left: 3px solid #db671d;
+    padding-left:10px
+}
+
+.widget-area .services ul li {
+    list-style-type: none;
+    display: block;
+    margin-bottom:10px
+}
+
+.widget-area .services ul li:last-child {
+    margin-bottom:0
+}
+
+.widget-area .services ul li a {
+    color: #011f4c;
+    background-color: #fef7f3;
+    display: block;
+    padding: 0px 1px;
+    font-weight: 600;
+    position:relative
+}
+
+.widget-area .services ul li a i {
+    position: absolute;
+    top: 16px;
+    right: 10px;
+    display: inline-block;
+    font-size:18px
+}
+
+.widget-area .services ul li a:hover {
+    color: #fff;
+    background-color:#db671d
+}
+
+
+.common-btn {
+    border: none;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #008290;
+    color: #fff;
+    -webkit-transition: .5s all ease;
+    transition: .5s all ease;
+    border-radius: 5px;
+    opacity: 1;
+    font-weight: 600;
+    padding:12px 25px
+}
+
+.common-btn span {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: #072c5c;
+    -webkit-transition: width .5s ease-in-out, height .5s ease-in-out;
+    transition: width .5s ease-in-out, height .5s ease-in-out;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    border-radius: 5px;
+    opacity:1
+}
+
+.common-btn:hover {
+    color:#fff !important
+}
+
+.common-btn:hover span {
+    width: 225%;
+    height:562.5px
+}
+
+.common-btn.two {
+    background-color:#db671d
+}
+
+.common-btn.three {
+    background-color:#072c5c
+}
+
+.common-btn.three span {
+    background-color:#db671d
+}
+          
+.touch-area {
+    background-color: #072c5c;
+    position:relative
+}
+
+.touch-area .touch-shape {
+    z-index:-1
+}
+.touch-area .section-title {
+    text-align: left;
+    margin-bottom:30px
+}
+
+.touch-area .section-title h2 {
+    color:#fff
+}
+
+.touch-area .touch-content {
+    margin-bottom: 30px;
+    position: relative;
+    z-index:1
+}
+
+.touch-area .touch-content .form-group .nice-select .list {
+    width: 100%;
+    display:block
+}
+
+.touch-area .touch-content .form-group .nice-select .list li {
+    color:#072c5c
+}
+
+.touch-area .touch-content .common-btn {
+    border: 0;
+    width: 100%;
+    display: block;
+    text-align:center
+}
+
+.touch-area .touch-content .common-btn span {
+    background-color:#fff
+}
+
+.touch-area .touch-content .common-btn:hover {
+    color:#072c5c !important
+}
   </style>
 
 <nav class="navbar navbar-expand-lg navbar-dark text-white " style="background-color:#11131B; ">
@@ -7479,157 +7667,216 @@ h1, h2, h3, h4, h5, h6 {
               </div>
             </div>
           </nav>
-  
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-
-<div class="cover hide"></div>       
-      <style>
-
-        /*--------------------------------------------------------------
-# Service Details
---------------------------------------------------------------*/
-.service-details {
-  padding-bottom: 10px;
-}
-.service-details .card {
-  border: 0;
-  padding: 0 30px;
-  margin-bottom: 60px;
-  position: relative;
-}
-.service-details .card-img {
-  width: calc(100% + 60px);
-  margin-left: -30px;
-  overflow: hidden;
-  z-index: 9;
-  border-radius: 0;
-}
-.service-details .card-img img {
-  max-width: 100%;
-  transition: all 0.3s ease-in-out;
-}
-.service-details .card-body {
-  z-index: 10;
-  background: #fff;
-  border-top: 4px solid #fff;
-  padding: 30px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  margin-top: -60px;
-  transition: 0.3s;
-}
-.service-details .card-title {
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 20px;
-}
-.service-details .card-title a {
-  color: #1e4356;
-  transition: 0.3s;
-}
-.service-details .card-text {
-  color: #5e5e5e;
-}
-.service-details .read-more a {
-  color: #777777;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 12px;
-  transition: 0.3s;
-}
-.service-details .read-more a:hover {
-  color: #68A4C4;
-}
-.service-details .card:hover img {
-  transform: scale(1.1);
-}
-.service-details .card:hover .card-body {
-  border-color: #68A4C4;
-}
-.service-details .card:hover .card-body .card-title a {
-  color: #68A4C4;
-}
-
-
-
-
-        </style>
-      <style>
-
-        </style>
-           <!-- ======= Hero Section ======= -->
-  <section id="hero" style="background-image:url('https://media.istockphoto.com/id/1358050858/photo/financial-analyst-working-on-a-computer-with-multi-monitor-workstation-with-real-time-stocks.jpg?b=1&s=170667a&w=0&k=20&c=mVVBCb0jMqelbrhIkN9eJlLOxCIlM5-TV4j0LW41hJo=') ;background-position: center !important;background-repeat: no-repeat !important;background-size: center !important;">
+  <section id="hero">
     <div class="hero-container" data-aos="fade-up" data-aos-delay="150">
-      <h1>Pricing</h1>
+      <h1>Cryptocurrency Pricing</h1>
       
       
     </div>
   </section><!-- End Hero --><br><br>
+      
+      
+      
 
         <div class="main-content" >
           
-          <!-- ======= Service Details Section ======= -->
-    <section class="service-details">
-      <div class="container">
+            <!-- ======= Buy Ticket Section ======= -->
+    <section class="faq-area ptb-100">
+<div class="container">
+<div class="row">
+    <div class="col-lg-12">
+<div class="widget-area">
+<div class="services widget-item">
+<h3>Cryptocurrency</h3>
+<div class="row">
+        <div class="col-lg-3 mb-4">
+       
+        <div class="touch-area " style="border-radius: 10px; background-color: #eee;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <div class="touch-content pt-2 pricer" style="">
+<div class="section-title">
+<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Crypto Beginner</h4>
+<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">£100.00+</h4>
+<ul style=" text-align: left; padding-left:0px;">
+                                                            <li>Min Deposit <b>£100.00</b></li>
+															<li>Max Deposit <b>£1,999.00</b></li>
+                                                            <li>Daily Profit <b>1.30%</b></li>
+                                                            <li>Profit Return <b>3 Days</b></li>
+							</ul>
+<br>
+<a class="common-btn" href="https://primestocktrades.com/dash/e_cust/dashboard/register">
+Trade
+<span></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
-        <div class="row">
-          <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="card">
-              <div class="card-img">
-                <img src="https://media.istockphoto.com/id/1406742992/photo/businessman-draws-increase-arrow-graph-corporate-future-growth-year-2022-to-2023-planning.jpg?b=1&s=170667a&w=0&k=20&c=hwhDfFSJET9J1A6mRK9sTJQn2hQs3Bo_kizTqasrPwA=" alt="...">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title"><a href="/forex_price">Forex Pricing</a></h5>
-                <p class="card-text">Forex, also known as foreign exchange or FX trading, is the conversion of one currency into another. It is one of the most actively traded markets in the world, with an average daily trading volume of $5 trillion. Take a closer look at everything you’ll need to know about forex, including what it is, how you trade it and how leverage in forex works.</p>
-                <div class="read-more"><button class="btn-btn-primary" ><a href=""><i class="bi bi-arrow-right"></i> View Pricing</a></button></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="card">
-              <div class="card-img">
-                <img src="https://media.istockphoto.com/id/1330547068/photo/doing-business-with-a-smile.jpg?b=1&s=170667a&w=0&k=20&c=TwDWQaxszmFw3q3kRvjUF7oSzFQQJGailuxRU9MzvII=" alt="...">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title"><a href="cryptopricing.html">Cryptocurrency Pricing</a></h5>
-                <p class="card-text">Cryptocurrency trading involves speculating on price movements via a CFD trading account, or buying and selling the underlying coins via an exchange. Here youll find more information about cryptocurrency trading, how it works and what moves the markets.</p>
-                <div class="read-more"><button class="btn-btn-primary" ><a href="/crypto_pricing"><i class="bi bi-arrow-right"></i> View Pricing</a></button></div>
-              </div>
-            </div>
+</div>
+        <div class="col-lg-3 mb-4">
+       
+        <div class="touch-area " style="border-radius: 10px; background-color: #eee;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <div class="touch-content pt-2 pricer" style="">
+<div class="section-title">
+<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Crypto Advanced</h4>
+<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">£2,000.00+</h4>
+<ul style=" text-align: left; padding-left:0px;">
+                                                            <li>Min Deposit <b>£2,000.00</b></li>
+															<li>Max Deposit <b>£49,999.00</b></li>
+                                                            <li>Daily Profit <b>1.65%</b></li>
+                                                            <li>Profit Return <b>10 Days</b></li>
+							</ul>
+<br>
+<a class="common-btn" href="https://primestocktrades.com/dash/e_cust/dashboard/register">
+Trade
+<span></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="card">
-              <div class="card-img">
-                <img src="https://media.istockphoto.com/id/1367899893/photo/multi-racial-diverse-group-of-people-working-with-paperwork-on-a-board-room-table-at-a.jpg?b=1&s=170667a&w=0&k=20&c=rHlHdT9X7YPPayW9OjAObixgQnAwu_lgt_5gcN_IE2c=" alt="...">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title"><a href="stockpricing.html">Stocks & ETFs Pricing</a></h5>
-                <p class="card-text">A stock, also known as equity, is a security that represents the ownership of a fraction of the issuing corporation also An exchange-traded fund (ETF) is a type of pooled investment security that operates much like a mutual fund. Typically, ETFs will track a particular index, sector, commodity, or other asset, but unlike mutual funds, ETFs can be purchased or sold on a stock exchange the same way that a regular stock can. </p>
-                <div class="read-more"><button class="btn-btn-primary" ><a href="stockpricing.html"><i class="bi bi-arrow-right"></i> View Pricing</a></button></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="card">
-              <div class="card-img">
-                <img src="https://media.istockphoto.com/id/1358050858/photo/financial-analyst-working-on-a-computer-with-multi-monitor-workstation-with-real-time-stocks.jpg?b=1&s=170667a&w=0&k=20&c=mVVBCb0jMqelbrhIkN9eJlLOxCIlM5-TV4j0LW41hJo=" alt="...">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title"><a href="compricing.html">Commodities Pricing</a></h5>
-                <p class="card-text">The oil and gas industry is one of the largest sectors in the world in terms of dollar value, generating an estimated $5 trillion in global revenue as of 2022.
-                  Oil is crucial to the global economic framework, impacting everything from transportation to heating & electricity to industrial production & manufacturing.</p>
-                <div class="read-more"><button class="btn-btn-primary" ><a href="compricing.html"><i class="bi bi-arrow-right"></i>View Pricing</a></button></div>
-              </div>
-            </div>
-          </div>
-        </div>
+</div>
+        <div class="col-lg-3 mb-4">
+       
+        <div class="touch-area " style="border-radius: 10px; background-color: #eee;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <div class="touch-content pt-2 pricer" style="">
+<div class="section-title">
+<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Crypto Competent</h4>
+<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">£50,000.00+</h4>
+<ul style=" text-align: left; padding-left:0px;">
+                                                            <li>Min Deposit <b>£50,000.00</b></li>
+								<li>Max Deposit <b>£249,999.00</b></li>
+                                                                <li>Daily Profit <b>2.50%</b></li>
+                                                                
+                                                                <li>Profit Return <b>30 Days</b></li>
+							</ul>
+<br>
+<a class="common-btn " href="https://primestocktrades.com/dash/e_cust/dashboard/register">
+Trade
+<span></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
-      </div>
-    </section>
+</div>
+        <div class="col-lg-3 mb-4">
+       
+        <div class="touch-area " style="border-radius: 10px; background-color: #eee;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <div class="touch-content pt-2 pricer" style="">
+<div class="section-title">
+<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Crypto Expert</h4>
+<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">£250,000.00+</h4>
+<ul style=" text-align: left; padding-left:0px;">
+                                                            <li>Min Deposit <b>£250,000.00</b></li>
+															<li>Max Deposit <b>£10,000,000.00</b></li>
+                                                            <li>Daily Profit <b>5%</b></li>
+                                                            <li>Profit Return <b>60 Days</b></li>
+							</ul>
+<br>
+<a class="common-btn" href="https://primestocktrades.com/dash/e_cust/dashboard/register">
+Trade
+<span></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+         <div class="col-lg-3 mb-4">
+       
+        <div class="touch-area " style="border-radius: 10px; background-color:gold;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <div class="touch-content pt-2 pricer" style="">
+<div class="section-title">
+<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Child Insurance</h4>
+<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">£10,000.00+</h4>
+<ul style=" text-align: left; padding-left;0px;">
+                                                            <li>Min Deposit <b>£10,000.00</b></li>
+															<li>Max Deposit <b>£500,000.00</b></li>
+                                                            <li>Daily Profit <b>4%</b></li>
+                                                            <li>Profit Return <b>90 Days</b></li>
+							</ul>
+<br>
+<a class="common-btn " href="https://primestocktrades.com/dash/e_cust/dashboard/register">
+Invest
+<span></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+         <div class="col-lg-3 mb-4">
+       
+        <div class="touch-area " style="border-radius: 10px; background-color: gold;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <div class="touch-content pt-2 pricer" style="">
+<div class="section-title">
+<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Home Mortgage</h4>
+<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">£50,000.00+</h4>
+<ul style=" text-align: left; padding-left:0px;">
+                                                            	<li>Min Deposit <b>£50,000.00</b></li>
+																<li>Max Deposit <b>£10,000,000.00</b></li>
+                                                                <li>Daily Profit <b>9.50%</b></li>
+                                                                <li>Profit Return <b>127 Days</b></li>
+							</ul>
+<br>
+<a class="common-btn " href="https://primestocktrades.com/dash/e_cust/dashboard/register">
+Invest
+<span></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+    </div>
+</div>
+</div>
+</div>
+    
+</div>
+</div>
+</section>
           
         
             </div>
-  <style>
+
+                    <style>
           
           .footers{
           font-size: 14px;
@@ -7723,21 +7970,21 @@ ul#footermenu li {
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4 footers-one">
                      <div class="footers-logo">
-                        <a href="/" class="fxt-logo"><img style="height: 250px; 
-                            margin-top:1rem;" src="{{ asset('/storage/images/logo.png') }}"
-                             alt="Logo"></a>
+                       <a href="default.php">
+                         <img src="img/logo.png" class="img-fluid" alt="Logo">
+                       </a>
                      </div>
                     <div class="footers-info mt-3">
                          <p>"Primewaretrades is not just a company, it's a mission"<br> - Michael Walker, Founder and CEO </p>
                      </div>
                      <div class="social-icons"> 
-                     <a href=""><i id="social-fb" class="fa fa-whatsapp fa-2x social"></i></a>
-                     <a href=""><i id="social-yb" class="fa fa-instagram fa-2x social"></i></a>
-                     <a href=""><i id="social-tm" class="fa fa-telegram fa-2x social"></i></a>
-                     <a href=""><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
+                     <a href="https://wa.me/message/6ITEC6W5E5FTE1"><i id="social-fb" class="fa fa-whatsapp fa-2x social"></i></a>
+                     <a href="https://instagram.com/primestocktrades?igshid=YmMyMTA2M2Y="><i id="social-yb" class="fa fa-instagram fa-2x social"></i></a>
+                     <a href="https://t.me/primestocktrades"><i id="social-tm" class="fa fa-telegram fa-2x social"></i></a>
+                     <a href="support@primestocktrades.com"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
                  </div>
                  </div>
-                <div class="col-xs-12 col-sm-6 col-md-2 footers-two">
+                 <div class="col-xs-12 col-sm-6 col-md-2 footers-two">
                      <h5>Company </h5>
                      <ul class="list-unstyled">
                       <li><a href="/story">About</a></li>
@@ -7765,57 +8012,56 @@ ul#footermenu li {
                       <li><a href="/commodity">Commodities</a></li>
                      </ul>
                  </div>
-                <div class="col-xs-12 col-sm-6 col-md-2 footers-five">
+                 <div class="col-xs-12 col-sm-6 col-md-2 footers-five">
     		    <h5>Legal </h5>
     		     <ul class="list-unstyled">
-    			 <li><a href="">Certificate of Incorporation</a></li>
-    			 <li><a href="">Tax & Insurance </a></li>
-    			 <li><a href="">Guide to Anti Laundering</a></li>
-    			 <li><a href="">Company Brochure</a></li>
-    			 <li><a href="">Financial Statement 2021</a></li>
+    			 <li><a href="doc/Certificate-of-Inc.pdf">Certificate of Incorporation</a></li>
+    			 <li><a href="doc/Tax-insurance.pdf">Tax & Insurance </a></li>
+    			 <li><a href="doc/Anti-laundering.pdf">Guide to Anti Laundering</a></li>
+    			 <li><a href="doc/Brochure.pdf">Company Brochure</a></li>
+    			 <li><a href="doc/Fin-statement-2021.pdf">Financial Statement 2021</a></li>
     			</ul>
     		</div>
+                
                  
             </div>
         </div>
      </section>
-      <hr>
-<section class="disclaimer" style="background-color: black !important;">
-    <div class="container">
-        <div class="row ">
-            <div class="col-md-12 py-2">
-                <small class="disc">
-                   Disclaimer: CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 70% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs, or any of our other products work, and whether you can afford to take the high risk of losing your money. The value of your investments can go down as well as up. Losses can exceed deposits on some margin products. Professional clients can lose more than they deposit. All trading carries risk. 
-              </small>
-              <small class="disc">
-                Primewaretrades of Primewaretrades Trading Limited is authorised and regulated by the Financial Conduct Authority, Primewaretrades Registered Number 08994234.
-              </small><br>
-              <small class="disc">
-                This information should not be relied upon as research, investment advice, or a recommendation regarding any products, strategies, or any security in particular. This material is strictly for illustrative, educational, or informational purposes and is subject to change.
-              </small><br><br>
-              <p style="font-size:11px; color:#fff;">It is important that you understand that with investments, your capital is at risk. Past performance is not a guide to future performance. It is your responsibility to ensure that you make an informed decision about whether or not to invest with us. If you are still unsure if investing is right for you, please seek independent advice. Primewaretrades Trading Limited assumes no liability for any loss sustained from trading in accordance with a recommendation.</p>
-            </div>
-        </div>
-    </div>
-</section> 
-<section class="copyright" style="background-color: black !important;" >
-    <hr class="divider-d">
-        <footer class="footer" style="background-color: black !important;">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6">
-                <p class="copyright font-alt">&copy;<script>
-                    document.write(new Date().getFullYear());
-                </script>  Primewaretrades Trading Limited, All Rights Reserved</p>
-              </div>
-              <div class="col-sm-6">
-                <div class="footer-social-links"><a href="/terms">Terms</a><a href="/risk">Risk Disclosure</a><a href="/policy">Privacy Policy</a><a href="/cookies">Cookie Policy</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </footer>
-</section>
+           <hr>
+     <section class="disclaimer" style="background-color: black !important;">
+         <div class="container">
+             <div class="row ">
+                 <div class="col-md-12 py-2">
+                     <small class="disc">
+                        Disclaimer: CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 70% of retail investor accounts lose money when trading CFDs with this provider. You should consider whether you understand how CFDs, or any of our other products work, and whether you can afford to take the high risk of losing your money. The value of your investments can go down as well as up. Losses can exceed deposits on some margin products. Professional clients can lose more than they deposit. All trading carries risk. 
+                   </small>
+                   <small class="disc">
+                     Primewaretrades of Primewaretrades Trading Limited is authorised and regulated by the Financial Conduct Authority, Primewaretrades Registered Number 08994234.
+                   </small><br>
+                   <small class="disc">
+                     This information should not be relied upon as research, investment advice, or a recommendation regarding any products, strategies, or any security in particular. This material is strictly for illustrative, educational, or informational purposes and is subject to change.
+                   </small><br><br>
+                   <p style="font-size:11px; color:#fff;">It is important that you understand that with investments, your capital is at risk. Past performance is not a guide to future performance. It is your responsibility to ensure that you make an informed decision about whether or not to invest with us. If you are still unsure if investing is right for you, please seek independent advice. Primewaretrades Trading Limited assumes no liability for any loss sustained from trading in accordance with a recommendation.</p>
+                 </div>
+             </div>
+         </div>
+     </section> 
+     <section class="copyright" style="background-color: black !important;" >
+         <hr class="divider-d">
+             <footer class="footer" style="background-color: black !important;">
+               <div class="container">
+                 <div class="row">
+                   <div class="col-sm-6">
+                     <p class="copyright font-alt">&copy; 2023&nbsp; Primewaretrades Trading Limited, All Rights Reserved</p>
+                   </div>
+                   <div class="col-sm-6">
+                     <div class="footer-social-links"><a href="/terms">Terms</a><a href="/risk">Risk Disclosure</a><a href="/policy">Privacy Policy</a><a href="/cookies">Cookie Policy</a>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </footer>
+     </section>
       
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -7825,159 +8071,6 @@ ul#footermenu li {
 <script src="assets/vendor/php-email-form/validate.js"></script>
 
 <!-- Template Main JS File -->
-<script>
-/**
-* Template Name: Logis - v1.2.1
-* Template URL: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-document.addEventListener('DOMContentLoaded', () => {
-  "use strict";
-
-  /**
-   * Preloader
-   */
-  const preloader = document.querySelector('#preloader');
-  if (preloader) {
-    window.addEventListener('load', () => {
-      preloader.remove();
-    });
-  }
-
-  /**
-   * Sticky header on scroll
-   */
-  const selectHeader = document.querySelector('#header');
-  if (selectHeader) {
-    document.addEventListener('scroll', () => {
-      window.scrollY > 100 ? selectHeader.classList.add('sticked') : selectHeader.classList.remove('sticked');
-    });
-  }
-
-  /**
-   * Scroll top button
-   */
-  const scrollTop = document.querySelector('.scroll-top');
-  if (scrollTop) {
-    const togglescrollTop = function() {
-      window.scrollY > 100 ? scrollTop.classList.add('active') : scrollTop.classList.remove('active');
-    }
-    window.addEventListener('load', togglescrollTop);
-    document.addEventListener('scroll', togglescrollTop);
-    scrollTop.addEventListener('click', window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    }));
-  }
-
-  /**
-   * Mobile nav toggle
-   */
-  const mobileNavShow = document.querySelector('.mobile-nav-show');
-  const mobileNavHide = document.querySelector('.mobile-nav-hide');
-
-  document.querySelectorAll('.mobile-nav-toggle').forEach(el => {
-    el.addEventListener('click', function(event) {
-      event.preventDefault();
-      mobileNavToogle();
-    })
-  });
-
-  function mobileNavToogle() {
-    document.querySelector('body').classList.toggle('mobile-nav-active');
-    mobileNavShow.classList.toggle('d-none');
-    mobileNavHide.classList.toggle('d-none');
-  }
-
-  /**
-   * Hide mobile nav on same-page/hash links
-   */
-  document.querySelectorAll('#navbar a').forEach(navbarlink => {
-
-    if (!navbarlink.hash) return;
-
-    let section = document.querySelector(navbarlink.hash);
-    if (!section) return;
-
-    navbarlink.addEventListener('click', () => {
-      if (document.querySelector('.mobile-nav-active')) {
-        mobileNavToogle();
-      }
-    });
-
-  });
-
-  /**
-   * Toggle mobile nav dropdowns
-   */
-  const navDropdowns = document.querySelectorAll('.navbar .dropdown > a');
-
-  navDropdowns.forEach(el => {
-    el.addEventListener('click', function(event) {
-      if (document.querySelector('.mobile-nav-active')) {
-        event.preventDefault();
-        this.classList.toggle('active');
-        this.nextElementSibling.classList.toggle('dropdown-active');
-
-        let dropDownIndicator = this.querySelector('.dropdown-indicator');
-        dropDownIndicator.classList.toggle('bi-chevron-up');
-        dropDownIndicator.classList.toggle('bi-chevron-down');
-      }
-    })
-  });
-
-  /**
-   * Initiate pURE cOUNTER
-   */
-  new PureCounter();
-
-  /**
-   * Initiate glightbox
-   */
-  const glightbox = GLightbox({
-    selector: '.glightbox'
-  });
-
-  /**
-   * Init swiper slider with 1 slide at once in desktop view
-   */
-  new Swiper('.slides-1', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    }
-  });
-
-  /**
-   * Animation on scroll function and init
-   */
-  function aos_init() {
-    AOS.init({
-      duration: 1000,
-      easing: 'ease-in-out',
-      once: true,
-      mirror: false
-    });
-  }
-  window.addEventListener('load', () => {
-    aos_init();
-  });
-
-});
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src="assets/js/main.js"></script> 
 </body>
 </html>

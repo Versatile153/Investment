@@ -8462,32 +8462,32 @@ ul#footermenu li {
                      <a href="support@primestocktrades.com"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
                  </div>
                  </div>
-                <div class="col-xs-12 col-sm-6 col-md-2 footers-two">
+                 <div class="col-xs-12 col-sm-6 col-md-2 footers-two">
                      <h5>Company </h5>
                      <ul class="list-unstyled">
-                      <li><a href="">About</a></li>
-                      <li><a href="">Careers</a></li>
-                      <li><a href="">Pricing</a></li>
-                      <li><a href="">Meet the team</a></li>
+                      <li><a href="/story">About</a></li>
+                      <li><a href="/career">Careers</a></li>
+                      <li><a href="price">Pricing</a></li>
+                      <li><a href="/about">Meet the team</a></li>
                      </ul>
                  </div>
                 <div class="col-xs-12 col-sm-6 col-md-2 footers-three">
                      <h5>Information</h5>
                      <ul class="list-unstyled">
-                      <li><a href="">Register Now</a></li>
-                      <li><a href="">Spot Trading</a></li>
-                      <li><a href="">Margin Trading</a></li>
-                      <li><a href="">Bot Trading</a></li>
+                      <li><a href="/register">Register Now</a></li>
+                      <li><a href="/spot">Spot Trading</a></li>
+                      <li><a href="/margin">Margin Trading</a></li>
+                      <li><a href="/bot">Bot Trading</a></li>
                       
                      </ul>
                  </div>
                 <div class="col-xs-12 col-sm-6 col-md-2 footers-four">
                      <h5>Explore </h5>
                      <ul class="list-unstyled">
-                      <li><a href="">Forex</a></li>
-                      <li><a href="">Cryptocurrency</a></li>
-                      <li><a href="">Staking</a></li>
-                      <li><a href="">Commodities</a></li>
+                      <li><a href="/forex">Forex</a></li>
+                      <li><a href="crypo">Cryptocurrency</a></li>
+                      <li><a href="/stake">Staking</a></li>
+                      <li><a href="/commodity">Commodities</a></li>
                      </ul>
                  </div>
                 <div class="col-xs-12 col-sm-6 col-md-2 footers-five">

@@ -45,4 +45,8 @@ class PagesController extends Controller
     public function forex_price(){
         return view('pricing.forex_price');
     }
+
+    public function crypto_pricing(){
+        return view('trade.crypto_pricing');
+    }
 }

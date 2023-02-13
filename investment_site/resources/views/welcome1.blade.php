@@ -1,5 +1,4 @@
 
-
 <!Doctype html>
 <html>
 <head>
@@ -27,14 +26,14 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    
+
       <!-- Vendor CSS Files -->
       <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
       <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
       <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
       <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
       <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    
+
       <!-- Template Main CSS File -->
       <link href="assets/css/main.css" rel="stylesheet">
       <link rel="stylesheet" href="kcustom.css">
@@ -782,7 +781,7 @@ i:before {
 }
 
 .choose_bitcoin_area {
-    background: url("https://media.istockphoto.com/id/1401582615/photo/residential-buildings-in-a-new-city-district.jpg?b=1&s=170667a&w=0&k=20&c=pFFl5be95qr6YWPd1Sbj-dFFKE42KdTuZ1pymv7LxS0=");
+    background: url("https://media.istockphoto.com/id/1406742992/photo/businessman-draws-increase-arrow-graph-corporate-future-growth-year-2022-to-2023-planning.jpg?b=1&s=170667a&w=0&k=20&c=hwhDfFSJET9J1A6mRK9sTJQn2hQs3Bo_kizTqasrPwA=");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4047,7 +4046,7 @@ i:before {
         width: 100%;
     }
 }
-/* 
+/*
 @media(max-width: 1199px) {
     .main_menu_inner .navbar .navbar-nav li {
         margin-right: 13px;
@@ -4835,6 +4834,7 @@ section {
 @media (min-width: 1280px) {
   .navbar {
     padding: 0;
+    top:0;
   }
 
   .navbar ul {
@@ -4972,7 +4972,7 @@ section {
 # Mobile Navigation
 --------------------------------------------------------------*/
 @media (max-width: 1279px) {
-  .navbar {
+  /* .navbar {
     position: fixed;
     top: 0;
     right: -100%;
@@ -4980,23 +4980,23 @@ section {
     max-width: 400px;
     bottom: 0;
     transition: 0.3s;
-    z-index: 9997;
+    z-index: 9997; */
   }
 
   .navbar ul {
-    position: absolute;
+    /* position: absolute;
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
     background: rgba(14, 29, 52, 0.9);
     overflow-y: auto;
     transition: 0.3s;
-    z-index: 9998;
+    z-index: 9998; */
   }
 
   .navbar a,
   .navbar a:focus {
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 12px 20px;
@@ -5005,65 +5005,65 @@ section {
     font-weight: 500;
     color: rgba(255, 255, 255, 0.7);
     white-space: nowrap;
-    transition: 0.3s;
+    transition: 0.3s; */
   }
 
   .navbar a i,
   .navbar a:focus i {
-    font-size: 12px;
+    /* font-size: 12px;
     line-height: 0;
-    margin-left: 5px;
+    margin-left: 5px; */
   }
 
   .navbar a:hover,
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    /* color: #fff; */
   }
 
   .navbar .get-a-quote,
   .navbar .get-a-quote:focus {
-    background: var(--color-primary);
+    /* background: var(--color-primary);
     padding: 8px 20px;
     border-radius: 4px;
     margin: 15px;
-    color: #fff;
+    color: #fff; */
   }
 
   .navbar .get-a-quote:hover,
   .navbar .get-a-quote:focus:hover {
-    color: #fff;
-    background: rgba(13, 66, 255, 0.8);
+    /* color: #fff;
+    background: rgba(13, 66, 255, 0.8); */
   }
 
   .navbar .dropdown ul,
   .navbar .dropdown .dropdown ul {
-    position: static;
+    /* position: static;
     display: none;
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    border: 1px solid #19335c;
+    border: 1px solid #19335c; */
   }
 
   .navbar .dropdown>.dropdown-active,
   .navbar .dropdown .dropdown>.dropdown-active {
-    display: block;
+    /* display: block; */
   }
 
   .mobile-nav-show {
-    color: #fff;
+    /* color: #fff;
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
     transition: 0.5s;
     z-index: 9999;
-    margin-right: 10px;
+    margin-right: 10px; */
   }
 
   .mobile-nav-hide {
-    color: #fff;
+    /* color: #fff;
     font-size: 32px;
     cursor: pointer;
     line-height: 0;
@@ -5071,23 +5071,19 @@ section {
     position: fixed;
     right: 20px;
     top: 20px;
-    z-index: 9999;
+    z-index: 9999; */
   }
 
   .mobile-nav-active {
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   .mobile-nav-active .navbar {
-    right: 0;
+    /* right: 0; */
   }
 
   .mobile-nav-active .navbar:before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    background: rgba(14, 29, 52, 0.8);
-    z-index: 9996;
+dark */
   }
 }
 
@@ -8091,7 +8087,7 @@ h1, h2, h3, h4, h5, h6 {
 
   </style>
 <style>
-    
+
     <style>
  html {
         line-height: 1.5;
@@ -9730,112 +9726,106 @@ h1, h2, h3, h4, h5, h6 {
 .sticky + .content {
   padding-top: 60px;
 }
-img.sticky {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
+.navbar{
+    top:0;
+    position: sticky;
+    z-index:1000;
 }
 </style>
 	</head>
-	<body>
-        <div style="display: flex;justify-content:space-evenly; margin-top:.5rem;">
-     <div>
-        {{-- <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-            start tour
-          </a> --}}
-          <a href="/" class="fxt-logo"><img style="height: 100px;
-                                ;" src="{{ asset('/storage/images/logo.png') }}" alt="Logo"></a>
-          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-            Get started
-          </button>
-          
-          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Primewaretrades</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <div>
-                A mission to harness the power of Bitcoin and technology to enable individual sovereignty and eventually garner the next evolution of humanity.
-              </div>
-              <div class="dropdown mt-3">
-                <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                  Explore
-                </button>
-                <ul class="dropdown-menu" style="display: flex;">
-                  <div>
-                    <li><a class="dropdown-item" href="/">Home</a></li>
-                  <li><a class="dropdown-item" href="/home">dashboard</a></li>
-                  <li><a class="dropdown-item" href="/login">login </a></li>
-                  <li><a class="dropdown-item" href="/register">Register</a></li>
-                  </div>
-                  <div>
-                    <li><a class="dropdown-item" href="">Brochure</a></li>
-                    <li><a class="dropdown-item" href="">Certificate of Incorporation</a></li>
-                    <li><a class="dropdown-item" href=""> House Address</a></li>
-                    <li><a class="dropdown-item" href=""> Investors Protection</a></li>
-                    <li><a class="dropdown-item" href=""> Tax & Insurance</a></li>
-                    <li><a class="dropdown-item" href="">Taxation Basic Guide</a></li>
-                    <li><a class="dropdown-item" href="">Anti Laundering</a></li>
-                    <li><a class="dropdown-item" href="">Financial Statement 2022</a></li>
-                    <li><a class="dropdown-item" href=""> Financial Statement 2021</a></li>
-                    <li><a class="dropdown-item" href=""> Financial Statement 2020</a></li>
-                    <li><a class="dropdown-item" href=""> Financial Statement 2019</a></li>
-                  </div>
+     <nav class="navbar navbar-expand-lg navbar-dark text-white " style="background-color:#11131B; ">
+            <div class="container-fluid" style="margin:1rem;">
+              <img width="70" src="{{ asset('/storage/images/logo.png') }}" alt="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown" style="">
+                <ul class="navbar-nav">
+
+                <a class="nav-link text-white" href="/"  role="button"  aria-expanded="false">
+                      Home
+                    </a>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Earn
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li><a class="dropdown-item " href="/forex">Forex</a></li>
+                          <li><a class="dropdown-item " href="/crypto">Cryptocurrency</a></li>
+                          <li><a class="dropdown-item " href="/stock">Stocks & EFTs</a></li>
+                          <li><a class="dropdown-item " href="/stake">Staking</a></li>
+                          <li><a class="dropdown-item " href="/commo">Commodities</a></li>
+                    </ul>
+                  </li>
+
+          <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Trade
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+
+                          <li><a class="dropdown-item " href="/spot">Spot Trading</a></li>
+                          <li><a class="dropdown-item " href="/margin">Margin Trading</a></li>
+                          <li><a class="dropdown-item " href="/bot">Bot Trading</a></li>
+                    </ul>
+                  </li>
+          <a class="nav-link text-white" href="/price"  role="button"  aria-expanded="false">
+                      Pricing
+                    </a>
+
+          <li class="nav-item dropdown text-white">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Company
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+
+                          <li><a class="drop" href="career ">Our Story</a></li>
+                          <li><a class="drop" href="story">Careers</a></li>
+                    </ul>
+                  </li>
+
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Resources
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark text-white" aria-labelledby="navbarDarkDropdownMenuLink">
+
+                          <li><a class="dropdown-item " href="">Company Brochure</a></li>
+                      <li><a class="dropdown-item " href="">Company Certificate of Incorporation</a></li>
+                      <li><a class="dropdown-item " href="">Company Registered House Address</a></li>
+                      <li><a class="dropdown-item " href="">Foreign Investors Protection</a></li>
+                      <li><a class="dropdown-item " href="">Company Tax & Insurance</a></li>
+                      <li><a class="dropdown-item " href="">UK Taxation Basic Guide</a></li>
+                      <li><a class="dropdown-item " href="">Guide to Anti Laundering</a></li>
+                      <li><a class="dropdown-item " href="">Unaudited Financial Statement 2022</a></li>
+                      <li><a class="dropdown-item " href="">Unaudited Financial Statement 2021</a></li>
+                      <li><a class="dropdown-item " href="">Unaudited Financial Statement 2020</a></li>
+                      <li><a class="dropdown-item " href="">Unaudited Financial Statement 2019</a></li>
+                    </ul>
+                  </li>
+
+
+
+          <li class="nav-item bg-primary text-white">
+                    <a class="nav-link  text-white" href="/register"  role="button" >
+                      Get Started
+                    </a>
+
+                  </li>
+
+
+
+
                 </ul>
               </div>
             </div>
-          </div>
-
-
-          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">See More</button>
-
-<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Primewaretrades</h5>
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body">
-    <p>Primestocktrades is committed to leading a wave of change; by connecting with, educating and empowering younger generations to reimagine, redefine and reengineer their lives, and the world.</p>
-    <div class="dropdown mt-3">
-        <button style="" class="btn btn-primary dropdown-toggle  " type="button" data-bs-toggle="dropdown">
-          Read More
-        </button>
-        <ul class="dropdown-menu mt-2" style="display: flex;">
-          <div>
-            <li><a class="dropdown-item" href="/forex">Forex</a></li>
-            <li><a class="dropdown-item" href="/crypto">Cryptocurrency</a></li>
-            <li><a class="dropdown-item" href="/stock">Stocks & EFTs</a></li>
-            <li><a class="dropdown-item" href="/stake">Staking</a></li>
-            <li><a class="dropdown-item" href="/commo">Commodities</a></li>
-            <li><a class="dropdown-item" href="/spot">Spot Trading</a></li>
-            <li><a class="dropdown-item" href="/bot">Margin Trading</a></li>
-            <li><a class="dropdown-item" href="/margin">Bot Trading</a></li>
-          </div>
-
-          <div>
-           
-            <li><a class="dropdown-item" href="career">Our Story</a></li>
-            <li><a class="dropdown-item" href="story">Careers</a></li>
-          </div>
-
-          
-          
-        </ul>
-      </div>
-  </div>
-  
-</div>
-     </div>
-     
+          </nav>
+	<body>
        
-     
 
-          </div>
-   
       <main id="main">
-       
-          
 
 
 
@@ -9852,14 +9842,17 @@ img.sticky {
 
 
 
-            
 
-      
+
+
+
+
                 <div class="v2" data-styles="bbox">
                     <div class="v2-bbox" style="background-color:#11131B">
                         <div class="v2-bbox__background" data-behavior="bbox" data-instance="bbox__ZXQ753">
-                            <video style="min-height: 320px" data-object-fit="none" data-object-position="center 86%" loop="" playsinline="" autoplay="" muted="" src="https://primestocktrades.com/video/home-footage.mp4" data-mobilesrc="video/home-footage.mp4" type="video/mp4" poster="data:image/png;base64,">
-                            </video>
+                           <video autoplay muted loop id="myVideo">
+  <source src="https://st5.depositphotos.com/74392482/63621/v/600/depositphotos_636212760-stock-video-tether-usdt-cryptocurrency-coin-animation.mp4" type="video/mp4">
+</video>
                         </div>
                         <div class="v2-bbox__foreground">
                             <div class="v2">
@@ -9881,7 +9874,7 @@ img.sticky {
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div class="v2-btn-wrapper v2-mab30" style="margin-left:1.6rem">
+                                            <div class="v2-btn-wrapper v2-mab30">
                                                 <a href="/register" class="btn btn-primary" role="button" aria-disabled="true">Open account</a>
                                                 <a href="/login" class="btn btn-secondary" role="button" aria-disabled="true">Login to Account</a>
                                             </div>
@@ -10034,47 +10027,7 @@ img.sticky {
                         </div>
                     </div>
                 </section>
-    <!--<section id="about" class="about pt-0">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row gy-4">
-          <div class="col-lg-6 position-relative align-self-start order-lg-last order-first">
-            <img src="img/Event_Header.jpeg" class="img-fluid" alt="">
-            <a href="https://youtu.be/hN6APH2fTpE" class="glightbox play-btn"></a>
-          </div>
-          <div class="col-lg-6 content order-last  order-lg-first">
-            <h3>About Us</h3>
-            <p>
-                Primestocktrades is committed to leading a wave of change; by connecting with, educating and empowering younger generations to reimagine, redefine and reengineer their lives, and the world.
-            </p>
-            <ul>
-              <li data-aos="fade-up" data-aos-delay="100">
-                <i class="bi bi-diagram-3"></i>
-                <div>
-                  <h5>Educate</h5>
-                  <p>We believe in learning to teach, and teaching to learn. Primestocktrades Media is our channel to educate; to connect with the world, to maintain the integrity of our perspective, and to share our intellectual truth.</p>
-                </div>
-              </li>
-              <li data-aos="fade-up" data-aos-delay="200">
-                <i class="bi bi-fullscreen-exit"></i>
-                <div>
-                  <h5>Empower</h5>
-                  <p>We seek to provide access to tools and information that allows people to empower themselves (both financially and philosophically) as a means towards economic and intellectual sovereignty.</p>
-                </div>
-              </li>
-              <li data-aos="fade-up" data-aos-delay="300">
-                <i class="bi bi-broadcast"></i>
-                <div>
-                  <h5>Evolve</h5>
-                  <p>We aim to actively contribute to the evolution of humanity through the application and provision of advanced technologies and tools that have a positive impact at both an individual and collective level.</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </section>--><!-- End About Us Section -->
+   
 
 
         		<div style="padding-top:5px !important; margin-top: 0 !important;" class="v2">
@@ -10315,38 +10268,38 @@ img.sticky {
             <div class="row choose_bit_inner">
                 <div class="col-lg-4 col-md-6">
                     <div class="choose_botcoin_item">
-                        <img src="https://primestocktrades.com/img/easy.jpg" />
+                        <img src="https://media.istockphoto.com/id/1409383663/photo/recession-global-market-crisis-stock-red-price-drop-arrow-down-chart-fall-stock-market.jpg?b=1&s=170667a&w=0&k=20&c=t7J1P_zVlr8zjqYITX1jleR6r-yClZCpEOJOw_eB7BU=" />
 
                         <a href="#">
                             <h4 style="background-color: #000 !important;">Focused on the Client</h4>
                         </a>
-                        <p>Size does not matter. At Primewaretrades Trading Limited the client comes first regardless of net capital Prime, account type or size of investment. All our clients receive the same quality services, the same execution, and the same level of support. Primestocktrades Trading Limited was founded on these values, and that will not change.</p>
+                        <p>Size does not matter. At Primewaretrades Trading Limited the client comes first regardless of net capital Prime, account type or size of investment. All our clients receive the same quality services, the same execution, and the same level of support. Primewaretrades Trading Limited was founded on these values, and that will not change.</p>
 
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="choose_botcoin_item">
-                        <img src="https://primestocktrades.com/img/trades.jpg" />
+                        <img src="https://media.istockphoto.com/id/1366186541/photo/digitally-generated-currency-and-exchange-stock-chart-for-finance-and-economy-based-computer.jpg?b=1&s=170667a&w=0&k=20&c=dfv_jcnBeA3Q1P2JtoIotT68AcIbjb4uTaPsbtWv_LY=" />
 
                         <a href="#">
                             <h4 style="background-color: #000 !important;">Range of Trading Instruments</h4>
                         </a>
-                        <p>Our clients can choose to trade forex and CFDs on stock indices, commodities, stocks, metals and energies from the same trading account. With a wide range of trading instruments available from a single multi asset platform Primestocktrades Trading Limited makes trading easier and efficient.</p>
+                        <p>Our clients can choose to trade forex and CFDs on stock indices, commodities, stocks, metals and energies from the same trading account. With a wide range of trading instruments available from a single multi asset platform Primewaretrades Trading Limited makes trading easier and efficient.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="choose_botcoin_item">
-                        <img src="https://primestocktrades.com/img/easy.jpg" />
+                        <img src="https://media.istockphoto.com/id/1366186541/photo/digitally-generated-currency-and-exchange-stock-chart-for-finance-and-economy-based-computer.jpg?b=1&s=170667a&w=0&k=20&c=dfv_jcnBeA3Q1P2JtoIotT68AcIbjb4uTaPsbtWv_LY=" />
 
                         <a href="#">
                             <h4 style="background-color: #000 !important;">Easy and Convenient </h4>
                         </a>
-                        <p>>All our systems are built and updated with the client in mind. Starting from our account opening procedure, to managing your account, depositing or withdrawing funds and finally trading, its all straightforward simple and easy to use for all our clients.</p>
+                        <p>All our systems are built and updated with the client in mind. Starting from our account opening procedure, to managing your account, depositing or withdrawing funds and finally trading, its all straightforward simple and easy to use for all our clients.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="choose_botcoin_item">
-                        <img src="https://primestocktrades.com/img/transparent.jpg" />
+                        <img src="https://media.istockphoto.com/id/1347310666/photo/processor-chip-tech-environment-blockchain-concept.jpg?b=1&s=170667a&w=0&k=20&c=SlO_J-vnaYFDFXCQZzeOaCmS05bPoS6qgvhjJdfgUUE=" />
 
                         <a href="#">
                             <h4 style="background-color: #000 !important;">Transparent And Fair</h4>
@@ -11634,8 +11587,8 @@ ul#footermenu li {
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4 footers-one">
                      <div class="footers-logo">
-                        <a href="/" class="fxt-logo"><img style="height: 300px;
-                                ;" src="{{ asset('/storage/images/logo.png') }}" alt="Logo"></a>
+                        <a href="/" class="fxt-logo">    <img width="150" src="http://bitcoin.com.bmvfo.bmvforex.com/storage/images/JxZzyOwMTIiMwrL6YErxStgJCXHX2067rm32AiKW.png" alt="">
+                        </a>
                      </div>
                     <div class="footers-info mt-3">
                          <p>"Primewaretrades is not just a company, it's a mission"<br> - Michael Walker, Founder and CEO </p>
@@ -11647,23 +11600,32 @@ ul#footermenu li {
                      <a href="support@primestocktrades.com"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
                  </div>
                  </div>
-                <div class="col-xs-12 col-sm-6 col-md-2 footers-two">
+                 <div class="col-xs-12 col-sm-6 col-md-2 footers-two">
                      <h5>Company </h5>
                      <ul class="list-unstyled">
-                      <li><a href="about.html">About</a></li>
-                      <li><a href="careers.html">Careers</a></li>
-                      <li><a href="pricing.html">Pricing</a></li>
-                      <li><a href="about.html">Meet the team</a></li>
+                      <li><a href="/story">About</a></li>
+                      <li><a href="/career">Careers</a></li>
+                      <li><a href="price">Pricing</a></li>
+                      <li><a href="/about">Meet the team</a></li>
                      </ul>
                  </div>
                 <div class="col-xs-12 col-sm-6 col-md-2 footers-three">
                      <h5>Information</h5>
                      <ul class="list-unstyled">
-                      <li><a href="m_cust/dash/signup">Register Now</a></li>
-                      <li><a href="spottrading.html">Spot Trading</a></li>
-                      <li><a href="margin.html">Margin Trading</a></li>
-                      <li><a href="tradebots.html">Bot Trading</a></li>
-
+                      <li><a href="/register">Register Now</a></li>
+                      <li><a href="/spot">Spot Trading</a></li>
+                      <li><a href="/margin">Margin Trading</a></li>
+                      <li><a href="/bot">Bot Trading</a></li>
+                      
+                     </ul>
+                 </div>
+                <div class="col-xs-12 col-sm-6 col-md-2 footers-four">
+                     <h5>Explore </h5>
+                     <ul class="list-unstyled">
+                      <li><a href="/forex">Forex</a></li>
+                      <li><a href="crypo">Cryptocurrency</a></li>
+                      <li><a href="/stake">Staking</a></li>
+                      <li><a href="/commodity">Commodities</a></li>
                      </ul>
                  </div>
                 <div class="col-xs-12 col-sm-6 col-md-2 footers-four">
@@ -11897,24 +11859,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
   </script>
-  {{-- <script>
-    window.onscroll = function() {myFunction()};
 
-// Get the navbar
-var navbar = document.getElementById("navbar");
-
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-  </script> --}}
 </body>
 
 </html>

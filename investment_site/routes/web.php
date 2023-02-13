@@ -73,6 +73,7 @@ Route::get('/bot',[PagesController::class,'bot']);
 Route::get('/margin',[PagesController::class,'margin']);
 Route::get('/career',[PagesController::class,'career']);
 Route::get('/story',[PagesController::class,'story']);
+Route::get('/crypto_pricing',[PagesController::class,'crypto_pricing']);
 Route::get('/price',[PagesController::class,'price']);
 Route::get('/forex_price',[PagesController::class,'forex_price']);
 
