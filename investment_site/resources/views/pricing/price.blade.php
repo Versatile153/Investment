@@ -7580,7 +7580,7 @@ h1, h2, h3, h4, h5, h6 {
               <div class="card-body">
                 <h5 class="card-title"><a href="/forex_price">Forex Pricing</a></h5>
                 <p class="card-text">Forex, also known as foreign exchange or FX trading, is the conversion of one currency into another. It is one of the most actively traded markets in the world, with an average daily trading volume of $5 trillion. Take a closer look at everything you’ll need to know about forex, including what it is, how you trade it and how leverage in forex works.</p>
-                <div class="read-more"><button class="btn-btn-primary" ><a href=""><i class="bi bi-arrow-right"></i> View Pricing</a></button></div>
+                <div class="read-more"><button class="btn-btn-primary" ><a href="/forex_price"><i class="bi bi-arrow-right"></i> View Pricing</a></button></div>
               </div>
             </div>
           </div>
@@ -7605,7 +7605,7 @@ h1, h2, h3, h4, h5, h6 {
               <div class="card-body">
                 <h5 class="card-title"><a href="stockpricing.html">Stocks & ETFs Pricing</a></h5>
                 <p class="card-text">A stock, also known as equity, is a security that represents the ownership of a fraction of the issuing corporation also An exchange-traded fund (ETF) is a type of pooled investment security that operates much like a mutual fund. Typically, ETFs will track a particular index, sector, commodity, or other asset, but unlike mutual funds, ETFs can be purchased or sold on a stock exchange the same way that a regular stock can. </p>
-                <div class="read-more"><button class="btn-btn-primary" ><a href="stockpricing.html"><i class="bi bi-arrow-right"></i> View Pricing</a></button></div>
+                <div class="read-more"><button class="btn-btn-primary" ><a href="/stock"><i class="bi bi-arrow-right"></i> View Pricing</a></button></div>
               </div>
             </div>
           </div>
@@ -7618,7 +7618,7 @@ h1, h2, h3, h4, h5, h6 {
                 <h5 class="card-title"><a href="compricing.html">Commodities Pricing</a></h5>
                 <p class="card-text">The oil and gas industry is one of the largest sectors in the world in terms of dollar value, generating an estimated $5 trillion in global revenue as of 2022.
                   Oil is crucial to the global economic framework, impacting everything from transportation to heating & electricity to industrial production & manufacturing.</p>
-                <div class="read-more"><button class="btn-btn-primary" ><a href="compricing.html"><i class="bi bi-arrow-right"></i>View Pricing</a></button></div>
+                <div class="read-more"><button class="btn-btn-primary" ><a href="/commo"><i class="bi bi-arrow-right"></i>View Pricing</a></button></div>
               </div>
             </div>
           </div>

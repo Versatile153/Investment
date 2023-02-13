@@ -9733,7 +9733,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 </style>
 	</head>
-     <nav class="navbar navbar-expand-lg navbar-dark text-white " style="background-color:#11131B; ">
+     <nav class="navbar navbar-expand-lg navbar-dark text-white " style="background-color:#1A1E2D">
             <div class="container-fluid" style="margin:1rem;">
               <img width="70" src="{{ asset('/storage/images/logo.png') }}" alt="">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -10009,7 +10009,7 @@ h1, h2, h3, h4, h5, h6 {
                                                 <h4 class="my-3">Primewaretrades is committed to leading a wave of change; by connecting with, educating and empowering younger generations to reimagine, redefine and reengineer their lives, and the world.
                                                 </h4>
                                             </a>
-                                            <p class="my-3">We believe in learning to teach, and teaching to learn. Primestocktrades Media is our channel to educate; to connect with the world, to maintain the integrity of our perspective, and to share our intellectual truth.
+                                            <p class="my-3">We believe in learning to teach, and teaching to learn. Primewaretrades Media is our channel to educate; to connect with the world, to maintain the integrity of our perspective, and to share our intellectual truth.
                                            <br> We seek to provide access to tools and information that allows people to empower themselves (both financially and philosophically) as a means towards economic and intellectual sovereignty.
                                            <br> We aim to actively contribute to the evolution of humanity through the application and provision of advanced technologies and tools that have a positive impact at both an individual and collective level.</p>
 
