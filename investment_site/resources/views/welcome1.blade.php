@@ -9912,7 +9912,7 @@ h1, h2, h3, h4, h5, h6 {
                                                         </div>
                                                         <div class="v2-card__cta v2-card__cta--left">
                                                             <div class="v2-card__cta-wrapper">
-                                                                <a href="stock_etfs.html" data-di-id="8632459c-0bae-4735-8102-2653e9d063ae" class="v2-btn v2-btn--link" id="8632459c-0bae-4735-8102-2653e9d063ae">Read more</a>
+                                                                <a href="/stock" data-di-id="8632459c-0bae-4735-8102-2653e9d063ae" class="v2-btn v2-btn--link" id="8632459c-0bae-4735-8102-2653e9d063ae">Read more</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -9934,7 +9934,7 @@ h1, h2, h3, h4, h5, h6 {
                                                         </div>
                                                         <div class="v2-card__cta v2-card__cta--left">
                                                             <div class="v2-card__cta-wrapper">
-                                                                <a href="commodity.html" data-di-id="ccece84b-5b93-47c4-b95d-75cb39a22963" class="v2-btn v2-btn--link" id="ccece84b-5b93-47c4-b95d-75cb39a22963">Read more</a>
+                                                                <a href="/commo" data-di-id="ccece84b-5b93-47c4-b95d-75cb39a22963" class="v2-btn v2-btn--link" id="ccece84b-5b93-47c4-b95d-75cb39a22963">Read more</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -9956,7 +9956,7 @@ h1, h2, h3, h4, h5, h6 {
                                                         </div>
                                                         <div class="v2-card__cta v2-card__cta--left">
                                                             <div class="v2-card__cta-wrapper">
-                                                                <a href="" data-di-id="f232e2d0-038f-45a3-83ee-dd0ee1ab1c64" class="v2-btn v2-btn--link" id="f232e2d0-038f-45a3-83ee-dd0ee1ab1c64">Read more</a>
+                                                                <a href="/forex" data-di-id="f232e2d0-038f-45a3-83ee-dd0ee1ab1c64" class="v2-btn v2-btn--link" id="f232e2d0-038f-45a3-83ee-dd0ee1ab1c64">Read more</a>
                                                             </div>
                                                         </div>
                                                     </div>

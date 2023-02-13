@@ -452,17 +452,17 @@ h1, h2, h3, h4, h5, h6 {
 
 	</head>
   
-	<body style="background-color:#F2F2F5">
+	{{-- <body style="background-color:#F2F2F5">
     <div style="display: flex;justify-content:space-around; margin-top:1rem;">
       <div>
          {{-- <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
              start tour
            </a> --}}
-           <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+           {{-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
              Get started
-           </button>
+           </button> --}}
            
-           <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+           {{-- <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
              <div class="offcanvas-header">
                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Primewaretrades</h5>
                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -539,8 +539,8 @@ h1, h2, h3, h4, h5, h6 {
    </div>
    
  </div>
-      </div>
-      
+      </div> --}}
+       
         
       <img style="border-end-start-radius: 40%;border-end-end-radius: 40%;" width="70" src="{{ asset('/storage/images/63Om7c9wvaZtut6izJvgS9hjW9NM3e6wBTkwYgO3.jpg') }}" alt="">
 
