@@ -9780,8 +9780,8 @@ h1, h2, h3, h4, h5, h6 {
                     </a>
                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
 
-                          <li><a class="drop" href="career ">Our Story</a></li>
-                          <li><a class="drop" href="story">Careers</a></li>
+                          <li><a class="dropdown-item" href="career ">Our Story</a></li>
+                          <li><a class="dropdown-item" href="story">Careers</a></li>
                     </ul>
                   </li>
 
@@ -9823,7 +9823,7 @@ h1, h2, h3, h4, h5, h6 {
             </div>
           </nav>
 	<body>
-       
+
 
       <main id="main">
 
@@ -10027,7 +10027,7 @@ h1, h2, h3, h4, h5, h6 {
                         </div>
                     </div>
                 </section>
-   
+
 
 
         		<div style="padding-top:5px !important; margin-top: 0 !important;" class="v2">
@@ -11616,7 +11616,7 @@ ul#footermenu li {
                       <li><a href="/spot">Spot Trading</a></li>
                       <li><a href="/margin">Margin Trading</a></li>
                       <li><a href="/bot">Bot Trading</a></li>
-                      
+
                      </ul>
                  </div>
                 <div class="col-xs-12 col-sm-6 col-md-2 footers-four">

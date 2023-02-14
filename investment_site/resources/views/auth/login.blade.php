@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<head>
+{{-- <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Primewaretrades.com</title>
@@ -181,8 +181,237 @@ input[type="password"]:focus{
 
 <script src="js/ui-alerts.min.js"></script>
 <script src="../sweetalert2/dist/sweetalert2.min.js"></script>
+</body> --}}
+
+
+
+
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Primewaretrades.com</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.html">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <!-- Flaticon CSS -->
+    <link rel="stylesheet" href="font/flaticon.css">
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- jquery-->
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <link rel="stylesheet" href="../sweetalert2/dist/sweetalert2.min.css">
+</head>
+<style>
+.navbar{
+    top:0;
+    position: sticky;
+    z-index:1000;
+}
+
+</style>
+<body  style="background: url(https://static.vecteezy.com/system/resources/thumbnails/003/394/851/small/world-map-with-cryptocurrency-digital-red-text-rotating-free-video.jpg)">
+<nav class="navbar navbar-expand-lg navbar-dark text-white " style="background-color:#1A1E2D">
+            <div class="container-fluid" style="margin:1rem;">
+              <img width="70" src="{{ asset('/storage/images/logo.png') }}" alt="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown" style="">
+                <ul class="navbar-nav">
+
+                <a class="nav-link text-white" href="/"  role="button"  aria-expanded="false">
+                      Home
+                    </a>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Earn
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li><a class="dropdown-item " href="/forex">Forex</a></li>
+                          <li><a class="dropdown-item " href="/crypto">Cryptocurrency</a></li>
+                          <li><a class="dropdown-item " href="/stock">Stocks & EFTs</a></li>
+                          <li><a class="dropdown-item " href="/stake">Staking</a></li>
+                          <li><a class="dropdown-item " href="/commo">Commodities</a></li>
+                    </ul>
+                  </li>
+
+          <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Trade
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+
+                          <li><a class="dropdown-item " href="/spot">Spot Trading</a></li>
+                          <li><a class="dropdown-item " href="/margin">Margin Trading</a></li>
+                          <li><a class="dropdown-item " href="/bot">Bot Trading</a></li>
+                    </ul>
+                  </li>
+          <a class="nav-link text-white" href="/price"  role="button"  aria-expanded="false">
+                      Pricing
+                    </a>
+
+          <li class="nav-item dropdown text-white">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Company
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+
+                          <li><a class="dropdown-item" href="career ">Our Story</a></li>
+                          <li><a class="dropdown-item" href="story">Careers</a></li>
+                    </ul>
+                  </li>
+
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Resources
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark text-white" aria-labelledby="navbarDarkDropdownMenuLink">
+
+                          <li><a class="dropdown-item " href="">Company Brochure</a></li>
+                      <li><a class="dropdown-item " href="">Company Certificate of Incorporation</a></li>
+                      <li><a class="dropdown-item " href="">Company Registered House Address</a></li>
+                      <li><a class="dropdown-item " href="">Foreign Investors Protection</a></li>
+                      <li><a class="dropdown-item " href="">Company Tax & Insurance</a></li>
+                      <li><a class="dropdown-item " href="">UK Taxation Basic Guide</a></li>
+                      <li><a class="dropdown-item " href="">Guide to Anti Laundering</a></li>
+                      <li><a class="dropdown-item " href="">Unaudited Financial Statement 2022</a></li>
+                      <li><a class="dropdown-item " href="">Unaudited Financial Statement 2021</a></li>
+                      <li><a class="dropdown-item " href="">Unaudited Financial Statement 2020</a></li>
+                      <li><a class="dropdown-item " href="">Unaudited Financial Statement 2019</a></li>
+                    </ul>
+                  </li>
+
+
+
+          <li class="nav-item bg-primary text-white">
+                    <a class="nav-link  text-white" href="/register"  role="button" >
+                      Get Started
+                    </a>
+
+                  </li>
+
+
+
+
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+
+<section class="vh-100 gradient-custom">
+
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+        <div class="card bg-dark text-white" style="border-radius: 1rem;">
+          <div class="card-body p-5 text-center">
+
+            <div class="mb-md-5 mt-md-4 pb-5">
+ <img width="150" src="{{ asset('/storage/images/logo.png') }}" alt="" style="border:3px solid green;">
+              <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
+              <p class="text-white-50 mb-5">Please enter your login and password!</p>
+              <form method="POST" action="{{ route('login') }}">
+                @csrf
+
+              <div class="form-outline form-white mb-4">
+                <input id="email" type="email" placeholder="Email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+
+                                @error('email')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+              </div>
+
+
+
+
+              <div class="form-outline form-white mb-4">
+                 <input id="password" type="password" placeholder="Password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+
+                                @error('password')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+              </div>
+
+                 <div class="row mb-3">
+                            <div class="col-md-6 offset-md-0">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+
+                                    <label class="form-check-label text-white" for="remember">
+                                        {{ __('Remember Me') }}
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+              <div class="row mb-3">
+                            <div class="col-md-3 offset-md-0">
+                                <button type="submit" class="btn btn-primary">
+                                    {{ __('Login') }}
+                                </button>
+
+
+                            </div>
+                        </div>
+ @if (Route::has('password.request'))
+                                    <a class="btn btn-link" href="{{ route('password.request') }}">
+                                        {{ __('Forgot Your Password?') }}
+                                    </a>
+                                @endif
+              <div class="d-flex justify-content-center text-center mt-4 pt-1">
+                <a href="#!" class="text-white"><i class="fab fa-facebook-f fa-lg"></i></a>
+                <a href="#!" class="text-white"><i class="fab fa-twitter fa-lg mx-4 px-2"></i></a>
+                <a href="#!" class="text-white"><i class="fab fa-google fa-lg"></i></a>
+              </div>
+
+            </div>
+
+            <div>
+              <p class="mb-0">Don't have an account? <a href="/register" class="text-white-50 fw-bold">Sign Up</a>
+              </p>
+            </div>
+
+          </div>
+        </div>
+    </form>
+      </div>
+    </div>
+  </div>
+</section>
+<script src="js/popper.min.js"></script>
+<!-- Bootstrap js -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Imagesloaded js -->
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<!-- Validator js -->
+<script src="js/validator.min.js"></script>
+<!-- Custom Js -->
+<script src="js/main.js"></script>
+
+
+<script src="js/jquery.mb.YTPlayer.min.js"></script>
+<!-- Validator js -->
+
+<script src="js/ui-alerts.min.js"></script>
+<script src="../sweetalert2/dist/sweetalert2.min.js"></script>
 </body>
-
-
-
 @endsection

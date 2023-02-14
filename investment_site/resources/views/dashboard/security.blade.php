@@ -297,7 +297,7 @@
                         <!-- Info -->
                         <div class="dt-avatar-info">
                             <span
-                                class="dt-avatar-name display-4 mb-2 font-weight-light">versatile eze</span>
+                                class="dt-avatar-name display-4 mb-2 font-weight-light">{{ Auth::user()->name }}</span>
                             <div class="dropdown mt-2">
 
                                 <!-- Profile Pic Uploader -->
@@ -797,7 +797,7 @@
     });
 </script><!-- Footer -->
 <footer class="dt-footer">
-<a href="/" class="fxt-logo"><img style="height: 150px; 
+<a href="/" class="fxt-logo"><img style="height: 150px;
                             margin-top:1rem;" src="{{ asset('/storage/images/logo.png') }}"
                              alt="Logo"></a>
     Copyright Primewaretrades © 2023</footer>

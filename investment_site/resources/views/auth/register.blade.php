@@ -145,19 +145,20 @@
     </style>
 </head>
 
-<section class="fxt-template-animation fxt-template-layout19">
-    <div class="container-fluid" style="background-image: url('h4-slider-1-background-img.jpg');">
+
+<section class="fxt-template-animation fxt-template-layout19" style="background-color:  ">
+    <div class="container-fluid" style="background-image: url();">
         <div class="row">
             <div class="col-md-3 col-12"></div>
             <div class="col-md-6 col-12 fxt-bg-color yeyyue ytrwiklwk">
                 <div class="fxt-content" style="margin-top:1rem">
                     <div class="fxt-form">
-                        <a href="../../index.php" class="fxt-logo">
+                        <a href="/" class="fxt-logo">
                             <center>
-                                <img style="max-width: 100%; width: 250px" src="{{ asset('/storage/images/logo.png') }}" alt="Logo">
+                                <img style="max-width: 100%; width: 250px" src="{{ asset('/storage/images/logo.png') }}" alt="Logo" style="border: 3px solid green">
                             </center>
                         </a>
-                        
+
                         <h2 style="text-transform: uppercase; text-align: center; margin-bottom: 20px">Create an
                             account</h2>
                         <p style="text-align: center; font-size: 17px">Account creation has never been easier and
@@ -170,8 +171,8 @@
 
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card"style=" width:100% ; background:url(https://st.depositphotos.com/18086274/53902/v/600/depositphotos_539028146-stock-video-bitcoin-icon-cryptocurrency-on-fire.mp4)" >
-                <div class="card-header text-white" style="text-align: center">{{ __('Register') }}</div>
+            <div class="card"style=" width:100% ; background-color: #01123c ;" >
+                <div class="card-header text-white" style="text-align: center; ">{{ __('Register') }}</div>
 
                 <div class="card-body" >
                     <form method="POST" action="{{ route('register') }}">
