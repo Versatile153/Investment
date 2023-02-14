@@ -7,12 +7,12 @@
     <meta name="description" content="PrimestockTrades is an investment company that aggregates funds for investment in bitcoin and forex trading.                                                                                                                                                                                                                                                                                                                                                                                                        ">
     <meta name="keywords" content="primestocktrades, bitcoin trading, forex, investment, trading                                                                                                                                                                                                                                                                                                                                                                                                                                                       ">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <title>New Withdrawal</title>
     <!-- Bootstrap CSS -->
-    
+
     <link rel="shortcut icon" href="https://primestocktrades.com/m_cust/dash/uploads/prime25.png">
-    
+
     <!-- Font Icon Styles -->
     <link rel="stylesheet" href="https://primestocktrades.com/m_cust/dash/assets/dist/css/icons.css">
     <!-- /font icon Styles -->
@@ -42,18 +42,18 @@
                             <div class="dt-brand__tool" data-toggle="main-sidebar">
                                 <div class="hamburger-inner"></div>
                             </div>
-                           
+
                             <span class="dt-brand__logo">
-                               <a href="/" class="fxt-logo"><img style="height: 150px; 
+                               <a href="/" class="fxt-logo"><img style="height: 150px;
                             margin-top:1rem;" src="{{ asset('/storage/images/logo.png') }}"
                              alt="Logo"></a>
                             </span>
-                           
+
 
                         </div>
-                        
+
                         <div class="dt-header__toolbar">
-                        
+
 
                             <div class="search-box d-none d-lg-block">
                                                             <h1 class="dt-page__title mt-4" style="margin-left: -1.5em;">Withdrawals <span class="breadcrumb-arrow-right"></span> New</h1>
@@ -92,7 +92,7 @@
                                 <!-- Header Menu -->
                                 <ul class="dt-nav">
                                     <li class="dt-nav__item dropdown">
-      
+
                                         <!-- Dropdown Link -->
                                         <a href="#" class="dt-nav__link dropdown-toggle" id='currentLang' data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <img class="flag-icon flag-icon-rounded flag-icon-lg mr-1m" src="https://primestocktrades.com/m_cust/dash/uploads/gb-eng.png">
@@ -131,12 +131,12 @@
                                             <span class="dt-avatar-info d-none d-sm-block">
                                                 <span
                                                     class="dt-avatar-name">{{ Auth::user()->name }}</span>
-                                                                                                       
+
                                         <!-- /dropdown link -->
 
                                         <!-- Dropdown Option -->
                                         <div class="dropdown-menu dropdown-menu-right">
-                                            
+
                                             <a class="dropdown-item" href=""> <i
                                                     class="icon icon-editors icon-fw mr-2 mr-sm-1"></i>Logout                                            </a>
                                         </div>
@@ -255,7 +255,7 @@
                                     </a>
                                 </li>
                                 <!-- Menu Header -->
-                                
+
                                 <!-- /menu item -->
 
                             </ul>
@@ -279,7 +279,7 @@
                 <div class="dt-page__header">
                     <h1 class="dt-page__title text-light display-i">Withdrawals / New Withdrawal</h1>
                                         <a href="" class="btn btn-light btn-sm display-i ft-right">My withdrawals</a>
-                    
+
                     <div class="dt-entry__header mt-1m">
                         <!-- Entry Heading -->
                         <div class="dt-entry__heading">
@@ -344,7 +344,7 @@
             <!-- Profile Content -->
             <div class="profile-content marg-t-17 marg-t-0 ">
 
-                <!-- Grid -->   
+                <!-- Grid -->
                 <div class="row">
 
                     <!-- Grid Item -->
@@ -362,7 +362,7 @@
                                 <!-- Form -->
                                 <form action="/money_withdrawal" id="addWithdrawal" method="post" accept-charset="utf-8">
                                     @csrf
-                            <input type="hidden" name="csrf_test_name" value="" />                                                 
+                            <input type="hidden" name="csrf_test_name" value="" />
                                     <div class="row">
                                         <div class="col-md-12">
                                                                                                                                     <div id="step2" class="display-b">
@@ -380,7 +380,7 @@
                                                                     <span class="input-group-text" id="inputGroupPrepend2"></span>
                                                                 </div>
                                                             </div>
-                                        
+
                                                 <!-- /row -->
                                                                                                                 <!-- Form Group -->
                                                                 <div class="form-group mb-0">
@@ -421,9 +421,9 @@
 <!-- Footer -->
 <footer class="dt-footer">
 
- <a href="/" class="fxt-logo"><img style="height: 250px; 
+ <a href="/" class="fxt-logo"><img style="height: 250px;
                             margin-top:1rem;" src="{{ asset('/storage/images/logo.png') }}"
-                             alt="Logo"></a>   Copyright PrimestockFx Trades  © 2023</footer>
+                             alt="Logo"></a>   Copyright Primewaretrades  © 2023</footer>
 <!-- /footer -->
 
 </div>

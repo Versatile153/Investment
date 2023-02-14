@@ -9781,7 +9781,7 @@ h1, h2, h3, h4, h5, h6 {
                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
 
                           <li><a class="dropdown-item" href="career ">Our Story</a></li>
-                          <li><a class="dropdown-item" href="story">Careers</a></li>
+                          <li><a class="dropdown-item" href="story">Career</a></li>
                     </ul>
                   </li>
 
