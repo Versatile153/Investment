@@ -45,7 +45,7 @@
 
                             <!-- Brand logo -->
                             <span class="dt-brand__logo">
-                               <a href="/" class="fxt-logo"><img style="height: 150px; 
+                               <a href="/" class="fxt-logo"><img style="height: 50px; 
                             margin-top:1rem;" src="{{ asset('/storage/images/logo.png') }}"
                              alt="Logo"></a>
                             </span>

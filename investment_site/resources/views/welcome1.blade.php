@@ -9734,8 +9734,8 @@ h1, h2, h3, h4, h5, h6 {
 </style>
 	</head>
      <nav class="navbar navbar-expand-lg navbar-dark text-white " style="background-color:#1A1E2D">
-            <div class="container-fluid" style="margin:1rem;">
-              <img width="70" src="{{ asset('/storage/images/logo.png') }}" alt="">
+            <div class="container-fluid" style="margin:-8px;">
+              <img width="200" src="{{ asset('/storage/images/logo.png') }}" alt="">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -9781,7 +9781,7 @@ h1, h2, h3, h4, h5, h6 {
                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
 
                           <li><a class="dropdown-item" href="career ">Our Story</a></li>
-                          <li><a class="dropdown-item" href="story">Career</a></li>
+                          <li><a class="dropdown-item" href="story">Careers</a></li>
                     </ul>
                   </li>
 
@@ -9851,7 +9851,7 @@ h1, h2, h3, h4, h5, h6 {
                     <div class="v2-bbox" style="background-color:#11131B">
                         <div class="v2-bbox__background" data-behavior="bbox" data-instance="bbox__ZXQ753">
                            <video autoplay muted loop id="myVideo">
-  <source src="https://st5.depositphotos.com/74392482/63621/v/600/depositphotos_636212760-stock-video-tether-usdt-cryptocurrency-coin-animation.mp4" type="video/mp4">
+  <source src="https://www.shutterstock.com/shutterstock/videos/1069464211/preview/stock-footage-bitcoin-btc-coin-and-ethereum-eth-coins-are-rotating-on-bills-of-dollars-digital-coin.webm">
 </video>
                         </div>
                         <div class="v2-bbox__foreground">
@@ -10268,7 +10268,7 @@ h1, h2, h3, h4, h5, h6 {
             <div class="row choose_bit_inner">
                 <div class="col-lg-4 col-md-6">
                     <div class="choose_botcoin_item">
-                        <img src="https://media.istockphoto.com/id/1409383663/photo/recession-global-market-crisis-stock-red-price-drop-arrow-down-chart-fall-stock-market.jpg?b=1&s=170667a&w=0&k=20&c=t7J1P_zVlr8zjqYITX1jleR6r-yClZCpEOJOw_eB7BU=" />
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlE3JkAaz1Lz4DSOWz_8dkvOPRmtDImxPl3A&usqp=CAU" />
 
                         <a href="#">
                             <h4 style="background-color: #000 !important;">Focused on the Client</h4>
@@ -10279,7 +10279,7 @@ h1, h2, h3, h4, h5, h6 {
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="choose_botcoin_item">
-                        <img src="https://media.istockphoto.com/id/1366186541/photo/digitally-generated-currency-and-exchange-stock-chart-for-finance-and-economy-based-computer.jpg?b=1&s=170667a&w=0&k=20&c=dfv_jcnBeA3Q1P2JtoIotT68AcIbjb4uTaPsbtWv_LY=" />
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCTQ8fbHsb3B1QUcnvwy88ERiGE3NpMPEFWg&usqp=CAU" />
 
                         <a href="#">
                             <h4 style="background-color: #000 !important;">Range of Trading Instruments</h4>
@@ -10289,7 +10289,7 @@ h1, h2, h3, h4, h5, h6 {
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="choose_botcoin_item">
-                        <img src="https://media.istockphoto.com/id/1366186541/photo/digitally-generated-currency-and-exchange-stock-chart-for-finance-and-economy-based-computer.jpg?b=1&s=170667a&w=0&k=20&c=dfv_jcnBeA3Q1P2JtoIotT68AcIbjb4uTaPsbtWv_LY=" />
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgsHoHuB77cucwVAdRQhXclDtiOvdhxiWGUA&usqp=CAU" />
 
                         <a href="#">
                             <h4 style="background-color: #000 !important;">Easy and Convenient </h4>
@@ -10299,7 +10299,7 @@ h1, h2, h3, h4, h5, h6 {
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="choose_botcoin_item">
-                        <img src="https://media.istockphoto.com/id/1347310666/photo/processor-chip-tech-environment-blockchain-concept.jpg?b=1&s=170667a&w=0&k=20&c=SlO_J-vnaYFDFXCQZzeOaCmS05bPoS6qgvhjJdfgUUE=" />
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpiAMjGduMNt9hkPse8DbiTxk-qvb-Pr9o_w&usqp=CAU" />
 
                         <a href="#">
                             <h4 style="background-color: #000 !important;">Transparent And Fair</h4>
@@ -11587,7 +11587,7 @@ ul#footermenu li {
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4 footers-one">
                      <div class="footers-logo">
-                        <a href="/" class="fxt-logo">    <img width="150" src="http://bitcoin.com.bmvfo.bmvforex.com/storage/images/JxZzyOwMTIiMwrL6YErxStgJCXHX2067rm32AiKW.png" alt="">
+                        <a href="/" class="fxt-logo">    <img width="250" src="{{ asset('/storage/images/logo.png') }}" alt="">
                         </a>
                      </div>
                     <div class="footers-info mt-3">
@@ -11595,8 +11595,8 @@ ul#footermenu li {
                      </div>
                      <div class="social-icons">
                      <a href="https://wa.me/message/6ITEC6W5E5FTE1"><i id="social-fb" class="fa fa-whatsapp fa-2x social"></i></a>
-                     <a href="https://instagram.com/primestocktrades?igshid=YmMyMTA2M2Y="><i id="social-yb" class="fa fa-instagram fa-2x social"></i></a>
-                     <a href="https://t.me/primestocktrades"><i id="social-tm" class="fa fa-telegram fa-2x social"></i></a>
+                     <a href="https://instagram.com/primewaretrades?igshid=YmMyMTA2M2Y="><i id="social-yb" class="fa fa-instagram fa-2x social"></i></a>
+                     <a href="https://t.me/primewaretrades"><i id="social-tm" class="fa fa-telegram fa-2x social"></i></a>
                      <a href="support@primestocktrades.com"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
                  </div>
                  </div>

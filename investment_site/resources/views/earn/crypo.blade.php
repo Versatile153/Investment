@@ -9736,8 +9736,8 @@ h1, h2, h3, h4, h5, h6 {
 </style>
 	</head>
      <nav class="navbar navbar-expand-lg navbar-dark text-white " style="background-color:#11131B; ">
-            <div class="container-fluid" style="margin:1rem;">
-              <img width="70" src="{{ asset('/storage/images/logo.png') }}" alt="">
+            <div class="container-fluid" style="margin:-1rem;">
+              <img width="250" src="{{ asset('/storage/images/logo.png') }}" alt="">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>

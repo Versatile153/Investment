@@ -7706,7 +7706,7 @@ h1, h2, h3, h4, h5, h6 {
                                                             <li>Profit Return <b>3 Days</b></li>
 							</ul>
 <br>
-<a class="common-btn" href="https://primestocktrades.com/dash/e_cust/dashboard/register">
+<a class="common-btn" href="register">
 Trade
 <span></span>
 </a>
@@ -7735,7 +7735,7 @@ Trade
                                                             <li>Profit Return <b>10 Days</b></li>
 							</ul>
 <br>
-<a class="common-btn" href="https://primestocktrades.com/dash/e_cust/dashboard/register">
+<a class="common-btn" href="/register">
 Trade
 <span></span>
 </a>
