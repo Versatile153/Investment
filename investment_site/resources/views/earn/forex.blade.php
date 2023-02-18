@@ -6804,9 +6804,9 @@ h1, h2, h3, h4, h5, h6 {
         <div class="row fb-cus-row">
             
             <div class="col-sm-6 text-content-1 pad-right-30" style="paddding-left:0px;padding-right:30px;">
-            <div class="text-block1"><p style="font-family: 'Helvetica Neue LT Pro',  sans-serif;">The global foreign exchange market is one of the fastest, most liquid and exciting markets. Join thousands of traders who are already trading with Primestocktrades Trading Limited, a multi award-winning United Kingdom asset manager & forex broker, offering over 60+ fx pairs in all the major currencies 24 hours a day, 5 days a week. All major currency pairs include the US dollar (USD) as either the base or counter currency. Majors include pairs like the GBP/USD, EUR/USD, and USD/JPY.</p>
+            <div class="text-block1"><p style="font-family: 'Helvetica Neue LT Pro',  sans-serif;">The global foreign exchange market is one of the fastest, most liquid and exciting markets. Join thousands of traders who are already trading with Primewaretrades Trading Limited, a multi award-winning United Kingdom asset manager & forex broker, offering over 60+ fx pairs in all the major currencies 24 hours a day, 5 days a week. All major currency pairs include the US dollar (USD) as either the base or counter currency. Majors include pairs like the GBP/USD, EUR/USD, and USD/JPY.</p>
             </div>
-            <div class="text-block2 padding-30"><p style="font-family: font-size:12px; 'Helvetica Neue LT Pro', sans-serif;">Primestocktrades Trading Limited offers you consistently tight spreads, starting from as low as 0.0 pips. We’ve partnered with leading banking and non-banking financial institutions to ensure a deep liquidity pool, so that you get the best available market prices and ultra-low latency order execution.</p>
+            <div class="text-block2 padding-30"><p style="font-family: font-size:12px; 'Helvetica Neue LT Pro', sans-serif;">Primewaretrades Trading Limited offers you consistently tight spreads, starting from as low as 0.0 pips. We’ve partnered with leading banking and non-banking financial institutions to ensure a deep liquidity pool, so that you get the best available market prices and ultra-low latency order execution.</p>
             </div>
             
                
@@ -6868,7 +6868,7 @@ h1, h2, h3, h4, h5, h6 {
     <div id="" class="container default-wd section-mobile pad-for-sys-section" style="padding-top: 35px;padding-bottom: 105px;" >
         <div class="row fb-cus-row">
             <div class="mobile-title-2">
-                                <p class="hidden-xs" style="text-align:center;padding-top:20px;">Primestocktrades Trading Limited offers much more than Forex trading! We also offer CFDs across <a href="/Primestocktradescrypto" style=" text-decoration: underline!important;"><b>Cryptocurrency</b></a> & <a href="/Primestocktradescomm/" style=" text-decoration: underline!important;"><b>Commodities</b></a> on consistently tighter spreads in unparalleled trading conditions.</p>            
+                                <p class="hidden-xs" style="text-align:center;padding-top:20px;">Primewaretrades Trading Limited offers much more than Forex trading! We also offer CFDs across <a href="/crypto" style=" text-decoration: underline!important;"><b>Cryptocurrency</b></a> & <a href="commo" style=" text-decoration: underline!important;"><b>Commodities</b></a> on consistently tighter spreads in unparalleled trading conditions.</p>            
             </div>
         </div>
         
@@ -6911,7 +6911,7 @@ h1, h2, h3, h4, h5, h6 {
 <div id="six-reason-section" class="container default-wd">
 
     <div class="title mobile-title-3"> 
-        <h2><p class="hidden-xs" style="color:#ffffff!important;padding-bottom: 10px; font-size:25px;">6 Reasons to Choose Primestocktrades Trading Limited</p>
+        <h2><p class="hidden-xs" style="color:#ffffff!important;padding-bottom: 10px; font-size:25px;">6 Reasons to Choose Primewaretrades Trading Limited</p>
       </h2>
 </div>
 
@@ -7895,7 +7895,7 @@ ul#footermenu li {
                 <div class="col-xs-12 col-sm-6 col-md-4 footers-one">
                      <div class="footers-logo">
                        <a href="/" class="fxt-logo"><img style="height: 150px; 
-                            margin-top:1rem;" src="{{ asset('/storage/images/logo.png') }}"
+                            margin-top:-1rem;" src="{{ asset('/storage/images/logo.png') }}"
                              alt="Logo"></a>
                      </div>
                     <div class="footers-info mt-3">

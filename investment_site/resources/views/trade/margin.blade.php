@@ -1,5 +1,6 @@
 
 
+
 <!Doctype html>
 <html>
 <head>
@@ -22,8 +23,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link href="https://primestocktrades.com/img/logo.png" rel="icon">
       <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
       <!-- Google Fonts -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -95,10 +95,14 @@ a:hover {
 body {
     line-height: 26px;
     font-size: 15px;
-    font-family: "Open Sans", sans-serif
+    font-family: "Open Sans", sans-serif;
+    background-color:white;
 }
 
 body,
+span,
+strong,
+li,
 h1,
 h2,
 h3,
@@ -107,8 +111,11 @@ h5,
 h6,
 p {
     margin: 0;
-    padding: 0
+    padding: 0;
+    color:white;
+    margin:1rem;
 }
+
 
 #success {
     display: none
@@ -9735,9 +9742,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 </style>
 	</head>
-     {{-- <nav class="navbar navbar-expand-lg navbar-dark text-white " style="background-color:#11131B; ">
-            <div class="container-fluid" style="margin:1rem;">
-              <img width="70" src="{{ asset('/storage/images/logo.png') }}" alt="">
+    
+     <nav class="navbar navbar-expand-lg navbar-dark text-white " style="background-color:#1A1E2D">
+            <div class="container-fluid" style="margin:-8px;">
+              <img width="150" src="{{ asset('/storage/images/logo.png') }}" alt="">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -9823,9 +9831,9 @@ h1, h2, h3, h4, h5, h6 {
                 </ul>
               </div>
             </div>
-          </nav> --}}
+          </nav>
    
-   
+  <body>
 <div class="cover hide"></div>        <style>
             .text-center {
                 text-align: center !important;
@@ -10167,10 +10175,10 @@ h1, h2, h3, h4, h5, h6 {
                                 <article class="grid-100">
                                     <h1>Leverage and Margin</h1>
                                     <h2>TRADING ON LEVERAGE</h2>
-                                    <p class="lead-in">You can trade Forex and CFDs on leverage. This can allow you to take advantage of even the smallest moves in the market. When you trade with Primestocktrades Trading Limited, your trades are executed using borrowed money. For example, 30:1 leverage on a major forex pair like GBP/USD allows you to trade with £10,000 in the market by setting aside only around £334 as a security deposit.
+                                    <p class="lead-in">You can trade Forex and CFDs on leverage. This can allow you to take advantage of even the smallest moves in the market. When you trade with Primeware Trading Limited, your trades are executed using borrowed money. For example, 30:1 leverage on a major forex pair like GBP/USD allows you to trade with £10,000 in the market by setting aside only around £334 as a security deposit.
                                         <br>
                                     </p>
-                                    <p class="lead-in">Primestocktrades Trading Limited offers different leverage for different tradeable instruments.
+                                    <p class="lead-in">Primewaretrades Trading Limited offers different leverage for different tradeable instruments.
                                         <br>
                                     </p>
                                     <div class="row">
@@ -10793,8 +10801,8 @@ ul#footermenu li {
                      <div class="footers-logo">
                         <a href="/" class="logo d-flex align-items-center">
             <!-- Uncomment the line below if you also wish to use an image logo -->
-<a href="/" class="fxt-logo"><img style="height: 250px; 
-                            margin-top:1rem;" src="{{ asset('/storage/images/logo.png') }}"
+<a href="/" class="fxt-logo"><img style="height: 150px; 
+                            margin-top:-1rem;" src="{{ asset('/storage/images/logo.png') }}"
                              alt="Logo"></a>            
            <!--- <h1>Logis</h1>--->
           </a>

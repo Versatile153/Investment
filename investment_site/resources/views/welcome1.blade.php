@@ -9735,7 +9735,7 @@ h1, h2, h3, h4, h5, h6 {
 	</head>
      <nav class="navbar navbar-expand-lg navbar-dark text-white " style="background-color:#1A1E2D">
             <div class="container-fluid" style="margin:-8px;">
-              <img width="200" src="{{ asset('/storage/images/logo.png') }}" alt="">
+              <img width="150" src="{{ asset('/storage/images/logo.png') }}" alt="">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -10251,12 +10251,16 @@ h1, h2, h3, h4, h5, h6 {
                                         <div class="row justify-content-center">
                                           <div class="col-lg-8 text-center">
                                             <h3>Call To Action</h3>
-                                            <p>Join more than 1 million users worldwide investing with Primestocktrades Trading Limited.</p>
-                                            <a class="cta-btn" href="">Register</a>
+                                            <p>Join more than 1 million users worldwide investing with Primewaretrades Trading Limited.</p>
+                                            <a class="cta-btn" href="/register">Register</a>
                                             </div>
                                           </div>
                                         </div>
                                     </section><!-- End Call To Action Section -->
+
+
+
+                                    
 
                                           		<div class="cryptohopper-web-widget" data-id="1" data-table_style="dark" data-realtime="on" data-table_length="6"></div>
 

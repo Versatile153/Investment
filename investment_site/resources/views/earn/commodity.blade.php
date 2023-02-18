@@ -58,6 +58,7 @@ s0.parentNode.insertBefore(s1,s0);
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background-color:white;
 }
 
 a {
@@ -72,6 +73,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
+  color:white;
 }
 
 /*--------------------------------------------------------------
@@ -202,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .navbar li {
-    position: relative;
+    /* position: relative; */
   }
 
   .navbar a,
@@ -250,14 +252,14 @@ h1, h2, h3, h4, h5, h6 {
 
   .navbar .dropdown ul {
     display: block;
-    position: absolute;
+    /* position: absolute; */
     left: 14px;
     top: calc(100% + 30px);
     margin: 0;
     padding: 10px 0;
     z-index: 99;
     opacity: 0;
-    visibility: hidden;
+    /* visibility: hidden; */
     background: #fff;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: 0.3s;
@@ -295,7 +297,7 @@ h1, h2, h3, h4, h5, h6 {
   .navbar .dropdown .dropdown ul {
     top: 0;
     left: calc(100% - 30px);
-    visibility: hidden;
+    /* visibility: hidden; */
   }
 
   .navbar .dropdown .dropdown:hover>ul {
@@ -308,11 +310,11 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1280px) and (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
-    left: -90%;
+    /* left: -90%; */
   }
 
   .navbar .dropdown .dropdown:hover>ul {
-    left: -100%;
+    /* left: -100%; */
   }
 }
 
@@ -320,7 +322,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .mobile-nav-show,
   .mobile-nav-hide {
-    display: none;
+    /* display: none; */
   }
 }
 
@@ -329,25 +331,25 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 @media (max-width: 1279px) {
   .navbar {
-    position: fixed;
+    /* position: fixed;
     top: 0;
     right: -100%;
     width: 100%;
     max-width: 400px;
     bottom: 0;
     transition: 0.3s;
-    z-index: 9997;
+    z-index: 9997; */
   }
 
   .navbar ul {
-    position: absolute;
+    /* position: absolute;
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
     background: rgba(14, 29, 52, 0.9);
     overflow-y: auto;
     transition: 0.3s;
-    z-index: 9998;
+    z-index: 9998; */
   }
 
   .navbar a,
@@ -395,12 +397,12 @@ h1, h2, h3, h4, h5, h6 {
 
   .navbar .dropdown ul,
   .navbar .dropdown .dropdown ul {
-    position: static;
+    /* position: static;
     display: none;
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    border: 1px solid #19335c;
+    border: 1px solid #19335c; */
   }
 
   .navbar .dropdown>.dropdown-active,
@@ -452,95 +454,96 @@ h1, h2, h3, h4, h5, h6 {
 
 	</head>
   
-	{{-- <body style="background-color:#F2F2F5">
-    <div style="display: flex;justify-content:space-around; margin-top:1rem;">
-      <div>
-         {{-- <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-             start tour
-           </a> --}}
-           {{-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-             Get started
-           </button> --}}
-           
-           {{-- <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-             <div class="offcanvas-header">
-               <h5 class="offcanvas-title" id="offcanvasExampleLabel">Primewaretrades</h5>
-               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-             </div>
-             <div class="offcanvas-body">
-               <div>
-                 A mission to harness the power of Bitcoin and technology to enable individual sovereignty and eventually garner the next evolution of humanity.
-               </div>
-               <div class="dropdown mt-3">
-                 <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                   Explore
-                 </button>
-                 <ul class="dropdown-menu" style="display: flex;">
-                   <div>
-                     <li><a class="dropdown-item" href="/">Home</a></li>
-                   <li><a class="dropdown-item" href="/home">dashboard</a></li>
-                   <li><a class="dropdown-item" href="/login">login </a></li>
-                   <li><a class="dropdown-item" href="/register">Register</a></li>
-                   </div>
-                   <div>
-                     <li><a class="dropdown-item" href="">Brochure</a></li>
-                     <li><a class="dropdown-item" href="">Certificate of Incorporation</a></li>
-                     <li><a class="dropdown-item" href=""> House Address</a></li>
-                     <li><a class="dropdown-item" href=""> Investors Protection</a></li>
-                     <li><a class="dropdown-item" href=""> Tax & Insurance</a></li>
-                     <li><a class="dropdown-item" href="">Taxation Basic Guide</a></li>
-                     <li><a class="dropdown-item" href="">Anti Laundering</a></li>
-                     <li><a class="dropdown-item" href="">Financial Statement 2022</a></li>
-                     <li><a class="dropdown-item" href=""> Financial Statement 2021</a></li>
-                     <li><a class="dropdown-item" href=""> Financial Statement 2020</a></li>
-                     <li><a class="dropdown-item" href=""> Financial Statement 2019</a></li>
-                   </div>
-                 </ul>
-               </div>
-             </div>
-           </div>
- 
- 
-           <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">See More</button>
- 
- <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-   <div class="offcanvas-header">
-     <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Primewaretrades</h5>
-     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-   </div>
-   <div class="offcanvas-body">
-     <p>Primewaretrades is committed to leading a wave of change; by connecting with, educating and empowering younger generations to reimagine, redefine and reengineer their lives, and the world.</p>
-     <div class="dropdown mt-3">
-         <button class="btn btn-primary dropdown-toggle " type="button" data-bs-toggle="dropdown">
-           Read More
-         </button>
-         <ul class="dropdown-menu mt-2" style="display: flex;">
-           <div>
-             <li><a class="dropdown-item" href="/forex">Forex</a></li>
-             <li><a class="dropdown-item" href="/crypto">Cryptocurrency</a></li>
-             <li><a class="dropdown-item" href="/stock">Stocks & EFTs</a></li>
-             <li><a class="dropdown-item" href="/stake">Staking</a></li>
-             <li><a class="dropdown-item" href="/commo">Commodities</a></li>
-             <li><a class="dropdown-item" href="/spot">Spot Trading</a></li>
-             <li><a class="dropdown-item" href="/bot">Margin Trading</a></li>
-             <li><a class="dropdown-item" href="/margin">Bot Trading</a></li>
-           </div>
- 
-           <div>
+	<nav class="navbar navbar-expand-lg navbar-dark text-white " style="background-color:#11131B; ">
+            <div class="container-fluid" style="margin:1rem;">
+              <img width="70" src="{{ asset('/storage/images/logo.png') }}" alt="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown" style="">
+                <ul class="navbar-nav">
+
+                <a class="nav-link text-white" href="/"  role="button"  aria-expanded="false">
+                      Home
+                    </a>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Earn
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li><a class="dropdown-item " href="/forex">Forex</a></li>
+                          <li><a class="dropdown-item " href="/crypto">Cryptocurrency</a></li>
+                          <li><a class="dropdown-item " href="/stock">Stocks & EFTs</a></li>
+                          <li><a class="dropdown-item " href="/stake">Staking</a></li>
+                          <li><a class="dropdown-item " href="/commo">Commodities</a></li>
+                    </ul>
+                  </li>
+
+          <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Trade
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+
+                          <li><a class="dropdown-item " href="/spot">Spot Trading</a></li>
+                          <li><a class="dropdown-item " href="/bot">Margin Trading</a></li>
+                          <li><a class="dropdown-item " href="/margin">Bot Trading</a></li>
+                    </ul>
+                  </li>
+          <a class="nav-link text-white" href="/price"  role="button"  aria-expanded="false">
+                      Pricing
+                    </a>
+
+          <li class="nav-item dropdown text-white">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Company
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+
+                          <li><a class="drop" href="career ">Our Story</a></li>
+                          <li><a class="drop" href="story">Careers</a></li>
+                    </ul>
+                  </li>
+
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Resources
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark text-white" aria-labelledby="navbarDarkDropdownMenuLink">
+
+                          <li><a class="dropdown-item " href="">Company Brochure</a></li>
+                      <li><a class="dropdown-item " href="">Company Certificate of Incorporation</a></li>
+                      <li><a class="dropdown-item " href="">Company Registered House Address</a></li>
+                      <li><a class="dropdown-item " href="">Foreign Investors Protection</a></li>
+                      <li><a class="dropdown-item " href="">Company Tax & Insurance</a></li>
+                      <li><a class="dropdown-item " href="">UK Taxation Basic Guide</a></li>
+                      <li><a class="dropdown-item " href="">Guide to Anti Laundering</a></li>
+                      <li><a class="dropdown-item " href="">Unaudited Financial Statement 2022</a></li>
+                      <li><a class="dropdown-item " href="">Unaudited Financial Statement 2021</a></li>
+                      <li><a class="dropdown-item " href="">Unaudited Financial Statement 2020</a></li>
+                      <li><a class="dropdown-item " href="">Unaudited Financial Statement 2019</a></li>
+                    </ul>
+                  </li>
+
+
+
+          <li class="nav-item bg-primary text-white">
+                    <a class="nav-link  text-white" href="/register"  role="button" >
+                      Get Started
+                    </a>
+
+                  </li>
+
+
+
+
+                </ul>
+              </div>
+            </div>
+          </nav>
             
-             <li><a class="dropdown-item" href="career">Our Story</a></li>
-             <li><a class="dropdown-item" href="story">Careers</a></li>
-           </div>
- 
-           
-           
-         </ul>
-       </div>
-   </div>
-   
- </div>
-      </div> --}}
-       
         
       <img style="border-end-start-radius: 40%;border-end-end-radius: 40%;" width="70" src="{{ asset('/storage/images/63Om7c9wvaZtut6izJvgS9hjW9NM3e6wBTkwYgO3.jpg') }}" alt="">
 
@@ -879,7 +882,7 @@ $(document).ready(function(){
 <p class="trade-commodities-sec-para-cont-padding" style="padding-left: 10px;padding-top: 5px;">Spreads from 0.0 pips & leverage up to 30:1</p></span><br>
 <span style="display: inline-flex;padding-bottom: 10px;"><p><img class="trade-commodities-sec-checkbox-img-small" style="padding-top: 3px;" src="https://primestocktrades.com/img/check-box-new-small.png" data-lazy-src="https://primestocktrades.com/img/check-box-new-small.png"><noscript><img class="trade-commodities-sec-checkbox-img-small" style="padding-top: 3px;" src="https://primestocktrades.com/img/check-box-new-small.png"></noscript> </p>
 <p class="trade-commodities-sec-para-cont-padding" style="padding-left: 10px;padding-top: 5px;">Customisable interface, including colours of technical indicators</p></span><br>
-<span style="display: inline-flex;padding-bottom: 10px;"><p><img class="trade-commodities-sec-checkbox-img-small" style="padding-top: 6px;" src="img/check-box-new-small.png" data-lazy-src="img/check-box-new-small.png"><noscript><img class="trade-commodities-sec-checkbox-img-small" style="padding-top: 6px;" src="https://primestocktrades.com/img/check-box-new-small.png"></noscript> </p>
+<span style="display: inline-flex;padding-bottom: 10px;"><p><img class="trade-commodities-sec-checkbox-img-small" style="padding-top: 6px;" src="https://primestocktrades.com/img/check-box-new-small.png" data-lazy-src="img/check-box-new-small.png"><noscript><img class="trade-commodities-sec-checkbox-img-small" style="padding-top: 6px;" src="https://primestocktrades.com/img/check-box-new-small.png"></noscript> </p>
 <p class="trade-commodities-sec-para-cont-padding" style="padding-left: 10px;padding-top: 5px;">One-click trading</p></span><br>
 <span style="display: inline-flex;padding-bottom: 10px;"><p><img class="trade-commodities-sec-checkbox-img-small" style="padding-top: 6px;max-width: none" src="https://primestocktrades.com/img/check-box-new-small.png" data-lazy-src="img/check-box-new-small.png"><noscript><img class="trade-commodities-sec-checkbox-img-small" style="padding-top: 6px;max-width: none" src="https://primestocktrades.com/img/check-box-new-small.png"></noscript> </p>
 <p class="trade-commodities-sec-para-cont-padding" style="padding-left: 10px;padding-top: 5px;">Live price streaming on all accounts 128-bits encryption for secure trading</p></span><br>
@@ -913,7 +916,7 @@ $(document).ready(function(){
 <div id="six-reason-section" class="container default-wd">
 
     <div class="title mobile-title-3"> 
-    <h2><p class="hidden-xs" style="color:#ffffff!important;padding-bottom: 10px;font-size: 28px !important;">6 Reasons to Choose Primestocktrades Trading Limited</p>
+    <h2><p class="hidden-xs" style="color:#ffffff!important;padding-bottom: 10px;font-size: 28px !important;">6 Reasons to Choose Primewaretrades Trading Limited</p>
       </h2>
 </div>
 

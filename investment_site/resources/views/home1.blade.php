@@ -26,8 +26,14 @@
     <link rel="stylesheet" href="http://translate.google.com/translate?js=n&sl=auto&tl=destination_language&u=http://example.net">
     <link href="https://primestocktrades.com/m_cust/dash/assets/dist/summernote/summernote-bs4.css" rel="stylesheet">
     <link rel="stylesheet" href="https://primestocktrades.com/m_cust/dash/assets/dist/css/intlTelInput.css">
-
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/jquery.min.js"></script>
+
+   <script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
     </head>
     <body class="dt-header--fixed theme-dark dt-layout--full-width dt-sidebar--fixed o-auto">
         <!-- Root -->
@@ -47,7 +53,7 @@
 
                             <!-- Brand logo -->
                             <span class="dt-brand__logo">
-							<a href="/" class="fxt-logo"><img style="height: 150px; 
+							<a href="/" class="fxt-logo"><img style="height: 50px; 
                             margin-top:1rem;" src="{{ asset('/storage/images/logo.png') }}"
                              alt="Logo"></a>
                             </span>
@@ -84,7 +90,7 @@
                                         <!-- /dropdown link -->
 
                                         <!-- Dropdown Option -->
-                                        <div class="dropdown-menu">
+                                        {{-- <div class="dropdown-menu">
 
                                             <!-- Search Box -->
                                             <form class="search-box right-side-icon">
@@ -95,14 +101,15 @@
                                             </form>
                                             <!-- /search box -->
 
-                                        </div>
+                                        </div> --}}
                                         <!-- /dropdown option -->
 
                                     </li>
                                 </ul>
                                 <!-- /header menu -->
                                 <!-- Header Menu -->
-                                <ul class="dt-nav">
+                                <div id="google_translate_element" class="btn btn-primary rounded text-white" ></div>  
+                                {{-- <ul class="dt-nav">
                                     <li class="dt-nav__item dropdown">
 
                                         <!-- Dropdown Link -->
@@ -123,14 +130,17 @@
 <img class="flag-icon flag-icon-rounded flag-icon-lg mr-2" src="https://primestocktrades.com/m_cust/dash/uploads/spain.png"><span>Español</span> </button>
                                             <button class="dropdown-item sitelangChange" type="button" data-id="https://primestocktrades.com/m_cust/dash/switchlang/German">
 <img class="flag-icon flag-icon-rounded flag-icon-lg mr-2" src="https://primestocktrades.com/m_cust/dash/uploads/germany.png"><span>German</span> </button>
+                                  
                                         </div>
                                         <!-- /dropdown option -->
 
                                     </li>
-                                </ul>
+                                </ul> --}}
+                             
                                 <!-- /header menu -->
 
                                 <!-- Header Menu -->
+                                <div></div>
                                 <ul class="dt-nav">
                                     <li class="dt-nav__item dropdown">
 
@@ -525,8 +535,8 @@
     <!-- /site content -->
     <script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/functions.js"></script><!-- Footer -->
 <footer class="dt-footer">
-<a href="/" class="fxt-logo"><img style="height: 150px; 
-                            margin-top:1rem;" src="{{ asset('/storage/images/logo.png') }}"
+<a href="/" class="fxt-logo"><img style="height: 50px; 
+                            margin-top:1rem; margin-left: 5rem;" src="{{ asset('/storage/images/logo.png') }}"
                              alt="Logo"></a>
     Copyright Primewaretrades © 2023</footer>
 <!-- /footer -->
@@ -576,7 +586,7 @@ $('.choose-option__icon').on('click', function(e){
     <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
       
 <script src="https://primestocktrades.com/m_cust/dash/assets/dist/summernote/summernote-bs4.js"></script>
-{{-- <script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/lang.js"></script> --}}
+<script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/lang.js"></script>
 <script src="https://primestocktrades.com/m_cust/dash/assets/dist/summernote/editor-summernote.js"></script>
 <script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/moment/moment.js"></script>
 <script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/bootstrap/bootstrap.bundle.min.js"></script>

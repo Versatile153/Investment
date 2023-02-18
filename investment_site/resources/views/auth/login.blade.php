@@ -224,7 +224,7 @@ input[type="password"]:focus{
 <body  style="background: url(https://static.vecteezy.com/system/resources/thumbnails/003/394/851/small/world-map-with-cryptocurrency-digital-red-text-rotating-free-video.jpg)">
 <nav class="navbar navbar-expand-lg navbar-dark text-white " style="background-color:#1A1E2D">
             <div class="container-fluid" style="margin:-8px;">
-              <img width="250" src="{{ asset('/storage/images/logo.png') }}" alt="">
+              <img width="150" src="{{ asset('/storage/images/logo.png') }}" alt="">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>

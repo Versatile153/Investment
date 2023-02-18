@@ -24,7 +24,7 @@
     <!-- include summernote css/js -->
     <link href="https://primestocktrades.com/m_cust/dash/assets/dist/summernote/summernote-bs4.css" rel="stylesheet">
     <link rel="stylesheet" href="https://primestocktrades.com/m_cust/dash/assets/dist/css/intlTelInput.css">
-
+<script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/lang.js"></script>
     <script src="https://primestocktrades.com/m_cust/dash/assets/dist/js/jquery.min.js"></script>
     </head>
     <body class="dt-header--fixed theme-dark dt-layout--full-width dt-sidebar--fixed o-auto">
@@ -138,7 +138,7 @@
                                         <!-- Dropdown Link -->
                                         <a href="#" class="dt-nav__link dropdown-toggle no-arrow dt-avatar-wrapper"
                                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <img width="150" src="{{ asset('/storage/images/logo.png') }}" alt="logo">
+                                            <img width="100" src="{{ asset('/storage/images/logo.png') }}" alt="logo">
                                             <span class="dt-avatar-info d-none d-sm-block">
                                                 <span class="dt-avatar-info d-none d-sm-block">
 

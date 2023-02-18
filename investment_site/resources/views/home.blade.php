@@ -636,7 +636,7 @@ body {
 	<section id="sidebar">
 		<a href="#" class="brand" style="margin-left:1rem;">
             {{-- <img width="40" class="d-none d-sm-inline-block w-100" src="https://media.istockphoto.com/id/1369738799/photo/blue-round-clock-on-white-background.jpg?b=1&s=170667a&w=0&k=20&c=aBwVsg0PbTUoBIeYAX7M7uhT47cEihCbfml1q-YWyls=" alt="logo"> --}}
-<img width="150" src="{{ asset('/storage/images/logo.png') }}" alt="logo">
+<img width="100" src="{{ asset('/storage/images/logo.png') }}" alt="logo">
 			<span class="text">Primewaretrades</span>
 		</a>
 		<ul class="side-menu top">

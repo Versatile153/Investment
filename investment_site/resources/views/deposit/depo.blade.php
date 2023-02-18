@@ -45,7 +45,7 @@
 
                             <!-- Brand logo -->
                             <span class="dt-brand__logo">
-                               <a href="/" class="fxt-logo"><img style="height: 50px; 
+                               <a href="/" class="fxt-logo"><img style="height: 150px; 
                             margin-top:1rem;" src="{{ asset('/storage/images/logo.png') }}"
                              alt="Logo"></a>
                             </span>
@@ -376,7 +376,7 @@
                                                     <div class="token-currency-choose payment-list">
                                                         <div class="row guttar-15px">
                                                                                                                         <div class="col-6">
-                                                                <div class="payment-item pay-option">
+                                                                <div class="payment-item pay-option" style="background:red;">
                                                                     <input class="pay-option-check pay-method"
                                                                         type="radio"
                                                                         id="Day Trading2"
