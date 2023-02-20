@@ -9124,56 +9124,57 @@ ul#footermenu li {
                                                                         value="41" /><img
                                                                         src="https://primestocktrades.com/m_cust/dash/uploads/DAA9DF07-6B67-47F0-B3C8-E44022CBABD3.png"
                                                                         alt="Select payment method"
-                                                                        class="selected_img">
+                                                                        class="selected_img" style="width:200px">
                                                                 </div>
+                                                               
                                                                                                                                 <div class="cnt_min col-md-2">
                                                                     <input type="radio" name="payment_method"
                                                                         value="42" /><img
                                                                         src="https://primestocktrades.com/m_cust/dash/uploads/A21D8A4C-D4D6-443B-947F-52C4514E6D2D.png"
                                                                         alt="Select payment method"
-                                                                        class="selected_img">
+                                                                        class="selected_img" style="width:160px">
                                                                 </div>
                                                                                                                                 <div class="cnt_min col-md-2">
                                                                     <input type="radio" name="payment_method"
                                                                         value="43" /><img
                                                                         src="https://primestocktrades.com/m_cust/dash/uploads/D3A1C922-F01F-4B8E-A046-D17A2F3FF20E.png"
                                                                         alt="Select payment method"
-                                                                        class="selected_img">
+                                                                        class="selected_img" style="width:160px">
                                                                 </div>
                                                                                                                                 <div class="cnt_min col-md-2">
                                                                     <input type="radio" name="payment_method"
                                                                         value="44" /><img
                                                                         src="https://primestocktrades.com/m_cust/dash/uploads/ECD4073F-A1EC-42EC-97F2-BCF187C46B35.png"
                                                                         alt="Select payment method"
-                                                                        class="selected_img">
+                                                                        class="selected_img" style="width:160px">
                                                                 </div>
                                                                                                                                 <div class="cnt_min col-md-2">
                                                                     <input type="radio" name="payment_method"
                                                                         value="45" /><img
                                                                         src="https://primestocktrades.com/m_cust/dash/uploads/660F7C8E-09CE-4767-A45E-4E562F8F2370.png"
                                                                         alt="Select payment method"
-                                                                        class="selected_img">
+                                                                        class="selected_img" style="width:160px">
                                                                 </div>
                                                                                                                                 <div class="cnt_min col-md-2">
                                                                     <input type="radio" name="payment_method"
                                                                         value="46" /><img
                                                                         src="https://primestocktrades.com/m_cust/dash/uploads/4FB55AFB-C3D1-4A62-89AA-CC878D9133B5.png"
                                                                         alt="Select payment method"
-                                                                        class="selected_img">
+                                                                        class="selected_img" style="width:160px">
                                                                 </div>
                                                                                                                                 <div class="cnt_min col-md-2">
                                                                     <input type="radio" name="payment_method"
                                                                         value="47" /><img
                                                                         src="https://primestocktrades.com/m_cust/dash/uploads/02334F22-C7AD-4F85-80DC-BDAD5328B08D1.png"
                                                                         alt="Select payment method"
-                                                                        class="selected_img">
+                                                                        class="selected_img" style="width:160px">
                                                                 </div>
                                                                                                                                 <div class="cnt_min col-md-2">
                                                                     <input type="radio" name="payment_method"
                                                                         value="48" /><img
                                                                         src="https://primestocktrades.com/m_cust/dash/uploads/C0C61C55-309A-4772-9603-779EC50253C4.png"
                                                                         alt="Select payment method"
-                                                                        class="selected_img">
+                                                                        class="selected_img" style="width:160px">
                                                                 </div>
                                                                                                                             </div>
                                                         </div>
@@ -9182,7 +9183,7 @@ ul#footermenu li {
                                                                                                 <!-- Form Group -->
                                                 <div class="form-group mb-0">
                                                     <button type="submit" id="submitButtonForm"
-                                                        class="btn btn-info text-uppercase w-100 mt-2m">
+                                                        class="btn btn-info text-uppercase w-0 mt-2m">
                                                         Proceed to pay</button>
                                                         <button type="submit" class="btn btn-info text-uppercase w-100 mt-2m hide" id="withdrawSubmitButton">Process withdrawal</button>
                                                 </div>
