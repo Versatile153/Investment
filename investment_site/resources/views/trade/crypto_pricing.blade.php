@@ -7697,13 +7697,42 @@ h1, h2, h3, h4, h5, h6 {
 <div class="col-lg-12">
     <div class="touch-content pt-2 pricer" style="">
 <div class="section-title">
-<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Crypto Beginner</h4>
-<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">£100.00+</h4>
+<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">STARTER</h4>
+<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">$200+</h4>
 <ul style=" text-align: left; padding-left:0px;">
-                                                            <li>Min Deposit <b>£100.00</b></li>
-															<li>Max Deposit <b>£1,999.00</b></li>
-                                                            <li>Daily Profit <b>1.30%</b></li>
-                                                            <li>Profit Return <b>3 Days</b></li>
+                                                            <li>Min Deposit <b>$200.00</b></li>
+															<li>Max Deposit <b>$10,000.00</b></li>
+                                                            <li>Daily Profit <b>0.8%</b></li>
+                                                            <li>Profit Return <b>6 Days</b></li>
+							</ul>
+<br>
+<a class="common-btn" href="register">
+Trade
+<span></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+       <div class="col-lg-3 mb-4">
+       
+        <div class="touch-area " style="border-radius: 10px; background-color: #eee;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <div class="touch-content pt-2 pricer" style="">
+<div class="section-title">
+<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">STANDARD</h4>
+<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">$10,100+</h4>
+<ul style=" text-align: left; padding-left:0px;">
+                                                            <li>Min Deposit <b>$10,100.00</b></li>
+															<li>Max Deposit <b>$49,000.00</b></li>
+                                                            <li>Daily Profit <b>1.6%</b></li>
+                                                            <li>Profit Return <b>6 Days</b></li>
 							</ul>
 <br>
 <a class="common-btn" href="register">
@@ -7726,16 +7755,16 @@ Trade
 <div class="col-lg-12">
     <div class="touch-content pt-2 pricer" style="">
 <div class="section-title">
-<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Crypto Advanced</h4>
-<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">£2,000.00+</h4>
+<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">BUSINESS</h4>
+<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">$50,000+</h4>
 <ul style=" text-align: left; padding-left:0px;">
-                                                            <li>Min Deposit <b>£2,000.00</b></li>
-															<li>Max Deposit <b>£49,999.00</b></li>
-                                                            <li>Daily Profit <b>1.65%</b></li>
-                                                            <li>Profit Return <b>10 Days</b></li>
+                                                            <li>Min Deposit <b>$50,000.00</b></li>
+															<li>Max Deposit <b>$249,999.00</b></li>
+                                                            <li>Daily Profit <b>2.4%</b></li>
+                                                            <li>Profit Return <b>6 Days</b></li>
 							</ul>
 <br>
-<a class="common-btn" href="/register">
+<a class="common-btn" href="register">
 Trade
 <span></span>
 </a>
@@ -7747,7 +7776,7 @@ Trade
 </div>
 
 </div>
-        <div class="col-lg-3 mb-4">
+       <div class="col-lg-3 mb-4">
        
         <div class="touch-area " style="border-radius: 10px; background-color: #eee;">
 <div class="container">
@@ -7755,17 +7784,16 @@ Trade
 <div class="col-lg-12">
     <div class="touch-content pt-2 pricer" style="">
 <div class="section-title">
-<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Crypto Competent</h4>
-<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">£50,000.00+</h4>
+<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">MEGA</h4>
+<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">$250,000+</h4>
 <ul style=" text-align: left; padding-left:0px;">
-                                                            <li>Min Deposit <b>£50,000.00</b></li>
-								<li>Max Deposit <b>£249,999.00</b></li>
-                                                                <li>Daily Profit <b>2.50%</b></li>
-                                                                
-                                                                <li>Profit Return <b>30 Days</b></li>
+                                                            <li>Min Deposit <b>$250,000.00</b></li>
+															<li>Max Deposit <b>UNLIMITED</b></li>
+                                                            <li>Daily Profit <b>3.2%</b></li>
+                                                            <li>Profit Return <b>6 Days</b></li>
 							</ul>
 <br>
-<a class="common-btn " href="https://primestocktrades.com/dash/e_cust/dashboard/register">
+<a class="common-btn" href="register">
 Trade
 <span></span>
 </a>
@@ -7777,93 +7805,8 @@ Trade
 </div>
 
 </div>
-        <div class="col-lg-3 mb-4">
-       
-        <div class="touch-area " style="border-radius: 10px; background-color: #eee;">
-<div class="container">
-<div class="row">
-<div class="col-lg-12">
-    <div class="touch-content pt-2 pricer" style="">
-<div class="section-title">
-<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Crypto Expert</h4>
-<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">£250,000.00+</h4>
-<ul style=" text-align: left; padding-left:0px;">
-                                                            <li>Min Deposit <b>£250,000.00</b></li>
-															<li>Max Deposit <b>£10,000,000.00</b></li>
-                                                            <li>Daily Profit <b>5%</b></li>
-                                                            <li>Profit Return <b>60 Days</b></li>
-							</ul>
-<br>
-<a class="common-btn" href="https://primestocktrades.com/dash/e_cust/dashboard/register">
-Trade
-<span></span>
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-</div>
-         <div class="col-lg-3 mb-4">
-       
-        <div class="touch-area " style="border-radius: 10px; background-color:gold;">
-<div class="container">
-<div class="row">
-<div class="col-lg-12">
-    <div class="touch-content pt-2 pricer" style="">
-<div class="section-title">
-<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Child Insurance</h4>
-<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">£10,000.00+</h4>
-<ul style=" text-align: left; padding-left;0px;">
-                                                            <li>Min Deposit <b>£10,000.00</b></li>
-															<li>Max Deposit <b>£500,000.00</b></li>
-                                                            <li>Daily Profit <b>4%</b></li>
-                                                            <li>Profit Return <b>90 Days</b></li>
-							</ul>
-<br>
-<a class="common-btn " href="https://primestocktrades.com/dash/e_cust/dashboard/register">
-Invest
-<span></span>
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-</div>
-         <div class="col-lg-3 mb-4">
-       
-        <div class="touch-area " style="border-radius: 10px; background-color: gold;">
-<div class="container">
-<div class="row">
-<div class="col-lg-12">
-    <div class="touch-content pt-2 pricer" style="">
-<div class="section-title">
-<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Home Mortgage</h4>
-<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">£50,000.00+</h4>
-<ul style=" text-align: left; padding-left:0px;">
-                                                            	<li>Min Deposit <b>£50,000.00</b></li>
-																<li>Max Deposit <b>£10,000,000.00</b></li>
-                                                                <li>Daily Profit <b>9.50%</b></li>
-                                                                <li>Profit Return <b>127 Days</b></li>
-							</ul>
-<br>
-<a class="common-btn " href="https://primestocktrades.com/dash/e_cust/dashboard/register">
-Invest
-<span></span>
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-</div>
+        
+        
     </div>
 </div>
 </div>
@@ -7872,7 +7815,313 @@ Invest
 </div>
 </div>
 </section>
-          
+
+
+<section class="faq-area ptb-100">
+<div class="container">
+<div class="row">
+    <div class="col-lg-12">
+<div class="widget-area">
+<div class="services widget-item">
+<h3>OIL & GAS</h3>
+<div class="row">
+        <div class="col-lg-3 mb-4">
+       
+        <div class="touch-area " style="border-radius: 10px; background-color: #eee;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <div class="touch-content pt-2 pricer" style="">
+<div class="section-title">
+<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Light (Sweet) Crude</h4>
+<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">$5,000+</h4>
+<ul style=" text-align: left; padding-left:0px;">
+                                                            <li>Min Deposit <b>$5,000.00</b></li>
+															<li>Max Deposit <b>$20,000.00</b></li>
+                                                            <li>Daily Profit <b>1.2%</b></li>
+                                                            <li>Profit Return <b>6 Days</b></li>
+							</ul>
+<br>
+<a class="common-btn" href="register">
+Trade
+<span></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+       <div class="col-lg-3 mb-4">
+       
+        <div class="touch-area " style="border-radius: 10px; background-color: #eee;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <div class="touch-content pt-2 pricer" style="">
+<div class="section-title">
+<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Medium (sweet) Crude</h4>
+<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">$25,000+</h4>
+<ul style=" text-align: left; padding-left:0px;">
+                                                            <li>Min Deposit <b>$25,000.00</b></li>
+															<li>Max Deposit <b>$50,000.00</b></li>
+                                                            <li>Daily Profit <b>1.8%</b></li>
+                                                            <li>Profit Return <b>6 Days</b></li>
+							</ul>
+<br>
+<a class="common-btn" href="register">
+Trade
+<span></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+        <div class="col-lg-3 mb-4">
+       
+        <div class="touch-area " style="border-radius: 10px; background-color: #eee;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <div class="touch-content pt-2 pricer" style="">
+<div class="section-title">
+<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Medium(sour) Crude</h4>
+<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">$50,000+</h4>
+<ul style=" text-align: left; padding-left:0px;">
+                                                            <li>Min Deposit <b>$50,000.00</b></li>
+															<li>Max Deposit <b>$150,000.00</b></li>
+                                                            <li>Daily Profit <b>2.1%</b></li>
+                                                            <li>Profit Return <b>6 Days</b></li>
+							</ul>
+<br>
+<a class="common-btn" href="register">
+Trade
+<span></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+       <div class="col-lg-3 mb-4">
+       
+        <div class="touch-area " style="border-radius: 10px; background-color: #eee;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <div class="touch-content pt-2 pricer" style="">
+<div class="section-title">
+<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Heavy (sour) Crude</h4>
+<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">$200,000+</h4>
+<ul style=" text-align: left; padding-left:0px;">
+                                                            <li>Min Deposit <b>$200,000.00</b></li>
+															<li>Max Deposit <b>$5000,000</b></li>
+                                                            <li>Daily Profit <b>2.8%</b></li>
+                                                            <li>Profit Return <b>6 Days</b></li>
+							</ul>
+<br>
+<a class="common-btn" href="register">
+Trade
+<span></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="col-lg-3 mb-4">
+       
+        <div class="touch-area " style="border-radius: 10px; background-color: #eee;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <div class="touch-content pt-2 pricer" style="">
+<div class="section-title">
+<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Mega Heavy(sour)Crude</h4>
+<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">$500,000+</h4>
+<ul style=" text-align: left; padding-left:0px;">
+                                                            <li>Min Deposit <b>$500,000.00</b></li>
+															<li>Max Deposit <b>UNLIMITED</b></li>
+                                                            <li>Daily Profit <b>2.8%</b></li>
+                                                            <li>Profit Return <b>6 Days</b></li>
+							</ul>
+<br>
+<a class="common-btn" href="register">
+Trade
+<span></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+        
+        
+    </div>
+</div>
+</div>
+</div>
+    
+</div>
+</div>
+</section>
+
+
+
+          <section class="faq-area ptb-100">
+<div class="container">
+<div class="row">
+    <div class="col-lg-12">
+<div class="widget-area">
+<div class="services widget-item">
+<h3>Precious Metal Pricing</h3>
+<div class="row">
+        <div class="col-lg-3 mb-4">
+       
+        <div class="touch-area " style="border-radius: 10px; background-color: #eee;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <div class="touch-content pt-2 pricer" style="">
+<div class="section-title">
+<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Silver</h4>
+<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">$3,000+</h4>
+<ul style=" text-align: left; padding-left:0px;">
+                                                            <li>Min Deposit <b>$3,000.00</b></li>
+															<li>Max Deposit <b>$10,990.00</b></li>
+                                                            <li>Daily Profit <b>1.3%</b></li>
+                                                            <li>Profit Return <b>7 Days</b></li>
+							</ul>
+<br>
+<a class="common-btn" href="register">
+Trade
+<span></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+       <div class="col-lg-3 mb-4">
+       
+        <div class="touch-area " style="border-radius: 10px; background-color: #eee;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <div class="touch-content pt-2 pricer" style="">
+<div class="section-title">
+<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Platinum</h4>
+<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">$15,000+</h4>
+<ul style=" text-align: left; padding-left:0px;">
+                                                            <li>Min Deposit <b>$15,000.00</b></li>
+															<li>Max Deposit <b>$50,990.00</b></li>
+                                                            <li>Daily Profit <b>2.3%</b></li>
+                                                            <li>Profit Return <b>7 Days</b></li>
+							</ul>
+<br>
+<a class="common-btn" href="register">
+Trade
+<span></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+        <div class="col-lg-3 mb-4">
+       
+        <div class="touch-area " style="border-radius: 10px; background-color: #eee;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <div class="touch-content pt-2 pricer" style="">
+<div class="section-title">
+<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Gold</h4>
+<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">$59,000+</h4>
+<ul style=" text-align: left; padding-left:0px;">
+                                                            <li>Min Deposit <b>$59,000.00</b></li>
+															<li>Max Deposit <b>$249,990.00</b></li>
+                                                            <li>Daily Profit <b>3.1%</b></li>
+                                                            <li>Profit Return <b>7 Days</b></li>
+							</ul>
+<br>
+<a class="common-btn" href="register">
+Trade
+<span></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+       <div class="col-lg-3 mb-4">
+       
+        <div class="touch-area " style="border-radius: 10px; background-color: #eee;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <div class="touch-content pt-2 pricer" style="">
+<div class="section-title">
+<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Rhodium</h4>
+<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">$250,990+</h4>
+<ul style=" text-align: left; padding-left:0px;">
+                                                            <li>Min Deposit <b>$250,990.00</b></li>
+															<li>Max Deposit <b>UNLIMITED</b></li>
+                                                            <li>Daily Profit <b>3.8%</b></li>
+                                                            <li>Profit Return <b>7 Days</b></li>
+							</ul>
+<br>
+<a class="common-btn" href="register">
+Trade
+<span></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+
+        
+        
+    </div>
+</div>
+</div>
+</div>
+    
+</div>
+</div>
+</section>
         
             </div>
 
@@ -7971,7 +8220,7 @@ ul#footermenu li {
                 <div class="col-xs-12 col-sm-6 col-md-4 footers-one">
                      <div class="footers-logo">
                        <a href="default.php">
-                         <img src="img/logo.png" class="img-fluid" alt="Logo">
+                         <img width="100" src="{{ asset('/storage/images/logo.png') }}" alt="">
                        </a>
                      </div>
                     <div class="footers-info mt-3">
