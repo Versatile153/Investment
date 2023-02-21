@@ -8122,6 +8122,147 @@ Trade
 </div>
 </div>
 </section>
+
+
+
+
+<section class="faq-area ptb-100">
+<div class="container">
+<div class="row">
+    <div class="col-lg-12">
+<div class="widget-area">
+<div class="services widget-item">
+<h3>Real Estate</h3>
+<div class="row">
+        <div class="col-lg-3 mb-4">
+       
+        <div class="touch-area " style="border-radius: 10px; background-color: #eee;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <div class="touch-content pt-2 pricer" style="">
+<div class="section-title">
+<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Real Estate Bronze</h4>
+<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">$10,000+</h4>
+<ul style=" text-align: left; padding-left:0px;">
+                                                            <li>Min Deposit <b>$10,000.00</b></li>
+															<li>Max Deposit <b>$49,999.00</b></li>
+                                                            <li>Daily Profit <b>1.8%</b></li>
+                                                            <li>Profit Return <b>6 Days</b></li>
+							</ul>
+<br>
+<a class="common-btn" href="register">
+Trade
+<span></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+       <div class="col-lg-3 mb-4">
+       
+        <div class="touch-area " style="border-radius: 10px; background-color: #eee;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <div class="touch-content pt-2 pricer" style="">
+<div class="section-title">
+<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Real Estate Standard</h4>
+<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">$49,999+</h4>
+<ul style=" text-align: left; padding-left:0px;">
+                                                            <li>Min Deposit <b>$49,999.00</b></li>
+															<li>Max Deposit <b>$99,999.00</b></li>
+                                                            <li>Daily Profit <b>2.4%</b></li>
+                                                            <li>Profit Return <b>6 Days</b></li>
+							</ul>
+<br>
+<a class="common-btn" href="register">
+Trade
+<span></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+        <div class="col-lg-3 mb-4">
+       
+        <div class="touch-area " style="border-radius: 10px; background-color: #eee;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <div class="touch-content pt-2 pricer" style="">
+<div class="section-title">
+<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Real Estate Commercial</h4>
+<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">$100,000+</h4>
+<ul style=" text-align: left; padding-left:0px;">
+                                                            <li>Min Deposit <b>$100,000.00</b></li>
+															<li>Max Deposit <b>$999,999.00</b></li>
+                                                            <li>Daily Profit <b>3.2%</b></li>
+                                                            <li>Profit Return <b>6 Days</b></li>
+							</ul>
+<br>
+<a class="common-btn" href="register">
+Trade
+<span></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+       <div class="col-lg-3 mb-4">
+       
+        <div class="touch-area " style="border-radius: 10px; background-color: #eee;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <div class="touch-content pt-2 pricer" style="">
+<div class="section-title">
+<h4 style="color: #072c5c; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Real Estate Grand</h4>
+<h4 style="color: #072c5c; text-align: center; font-size: 28px;  padding-bottom: 20px ;">$1,000,000+</h4>
+<ul style=" text-align: left; padding-left:0px;">
+                                                            <li>Min Deposit <b>$1,000,000</b></li>
+															<li>Max Deposit <b>UNLIMITED</b></li>
+                                                            <li>Daily Profit <b>3.8%</b></li>
+                                                            <li>Profit Return <b>6 Days</b></li>
+							</ul>
+<br>
+<a class="common-btn" href="register">
+Trade
+<span></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+
+        
+        
+    </div>
+</div>
+</div>
+</div>
+    
+</div>
+</div>
+</section>
         
             </div>
 

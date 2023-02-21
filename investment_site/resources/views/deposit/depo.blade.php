@@ -8946,18 +8946,164 @@ Invest
 
 </div>
 <!-- Form Group -->
-                                                <div class="form-group mb-0">
-                                                    <button id="next" class="btn btn-info text-uppercase w-100 common-btn">
-                                                    Proceed to amount</button>
-                                                </div>
+                                                
                                                 <!-- /form group -->
 </div>
+
+
+
+
+
 </section>
+
+<div class="row">
+    <div class="col-lg-12">
+<div class="widget-area">
+<div class="services widget-item">
+<h3>Real Estate </h3>
+<div class="row">
+        <div class="col-lg-5 mb-4">
+       
+        <div class="touch-area " style="border-radius: 10px; background-color: wheat;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <div class="touch-content pt-2 pricer" style="">
+<div class="section-title">
+<h4 style="color: whitesmoke; font-weight: 700; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Real Estate Bronze</h4>
+<h4 style="color: white; text-align: center; font-size: 28px;  padding-bottom: 10px ;">1.8% Daily </h4>
+
+<input class="pay-option-check pay-method"
+            type="radio"
+            id="Position Tradings5"
+             min="3000.00"
+             max=10990.00"
+             name="plan" value="9">
+              <label class="pay-option-label"
+             for="Position Tradings5">
+<h5 style=" text-align: left; padding-left:0px;">Investment:<b>$10,000 - $49,999</b></h5>
+<h5 style=" font-size: 15px">Min Deposit: <b>$10,000</b></h5>
+<h5 style=" font-size: 15px">Max Deposit: <b>$49,999</b></h5>
+<h5 style=" font-size: 15px">Profit Return: <b>6 Days</b></h5>
+
+</label>
+					
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+        <div class="col-lg-5 mb-4">
+       
+        <div class="touch-area " style="border-radius: 10px; background-color: wheat;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <div class="touch-content pt-2 pricer" style="">
+<div class="section-title">
+<h4 style="color: whitesmoke; font-weight: 700; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Real Estate Standard</h4>
+<h4 style="color: white; text-align: center; font-size: 28px;  padding-bottom: 10px ;">2.4% Daily</h4>
+<input class="pay-option-check pay-method"
+                                                                        type="radio"
+                                                                        id="Child Insurances10"
+                                                                        min="15000"
+                                                                        max="50990"
+                                                                        name="plan" value="10">
+                                                                    <label class="pay-option-label"
+                                                                        for="Child Insurances10">
+ <h5 style=" text-align: left; padding-left:0px;">Investment:<b>$49,999 - $99,999</b></h5>                                                                       
+<h5 style=" font-size: 15px">Min Deposit: <b>$49,999</b></h5>
+<h5 style=" font-size: 15px">Max Deposit: <b>$99,999</b></h5>
+<h5 style=" font-size: 15px">Profit Return: <b>6 Days</b></h5>
+{{-- <h5 style=" font-size: 15px">24/7 Support: <b>Yes</b></h5> --}}
+							</label>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+        <div class="col-lg-5 mb-4">
+       
+        <div class="touch-area " style="border-radius: 10px; background-color:wheat;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <div class="touch-content pt-2 pricer" style="">
+<div class="section-title">
+<h4 style="color: whitesmoke; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Real Estate Commercials</h4>
+<h4 style="color: white; text-align: center; font-size: 28px;  padding-bottom: 10px ;">3.2% Daily</h4>
+<input class="pay-option-check pay-method"
+                 type="radio"
+                 id="_nasdaq Indexs15"
+                 min="200000"
+                 max="500000"
+                 name="plan" value="7">
+              <label class="pay-option-label"
+                   for="_nasdaq Indexs15">
+<h5 style=" text-align: left; padding-left:0px;">Investment:<b>$100,000 - $999,999</b></h5>                                                                       
+<h5 style=" font-size: 15px">Min Deposit: <b>$100,000</b></h5>
+<h5 style=" font-size: 15px">Max Deposit: <b>$999,999</b></h5>
+<h5 style=" font-size: 15px">Profit Return: <b>6 Days</b></h5>
+							</label>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+       <div class="col-lg-5 mb-4">
+       
+        <div class="touch-area " style="border-radius: 10px; background-color: wheat;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <div class="touch-content pt-2 pricer" style="">
+<div class="section-title">
+<h4 style="color: whitesmoke; font-weight: 600; text-align: center; padding-top: 10px ; padding-bottom: 5px ;">Real Estate Grand</h4>
+<h4 style="color: white; text-align: center; font-size: 28px;  padding-bottom: 10px ;">3.8% Daily</h4>
+<input class="pay-option-check pay-method"
+                 type="radio"
+                 id="_s & P/tsx Indexs13"
+                 min="250999"
+                 max=""
+                 name="plan" value="7">
+              <label class="pay-option-label"
+                   for="_s & P/tsx Indexs13">
+<h5 style=" text-align: left; padding-left:0px;">Investment:<b>$1,000,000 - Unlimited</b></h5>                                                                       
+<h5 style=" font-size: 15px">Min Deposit: <b>$1,000,000</b></h5>
+<h5 style=" font-size: 15px">Max Deposit: <b>Unlimited</b></h5>
+<h5 style=" font-size: 15px">Profit Return: <b>6 Days</b></h5>
+							</label>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
 
 
       </div>
     </section>
-          
+          <div class="form-group mb-0">
+         <button id="next" class="btn btn-info text-uppercase w-70 common-btn">
+           Proceed to amount</button>
+     </div>
         
             </div>
              </div>
@@ -9120,7 +9266,7 @@ ul#footermenu li {
 
                                                         <div class="form-group">
                                                             <label for="amount">Payment method</label>
-                                                            <div class="row" >
+                                                            <div class="row" style="border:1px solid red; width: 120rem">
                                                                                                                                 <div class="cnt_min col-md-2">
                                                                     <input type="radio" name="payment_method"
                                                                         value="41" /><img
