@@ -8976,8 +8976,8 @@ Invest
 <input class="pay-option-check pay-method"
             type="radio"
             id="Position Tradings5"
-             min="3000.00"
-             max=10990.00"
+             min="10000.00"
+             max=49999.00"
              name="plan" value="9">
               <label class="pay-option-label"
              for="Position Tradings5">
@@ -9010,8 +9010,8 @@ Invest
 <input class="pay-option-check pay-method"
                                                                         type="radio"
                                                                         id="Child Insurances10"
-                                                                        min="15000"
-                                                                        max="50990"
+                                                                        min="49999"
+                                                                        max="99999"
                                                                         name="plan" value="10">
                                                                     <label class="pay-option-label"
                                                                         for="Child Insurances10">
@@ -9043,8 +9043,8 @@ Invest
 <input class="pay-option-check pay-method"
                  type="radio"
                  id="_nasdaq Indexs15"
-                 min="200000"
-                 max="500000"
+                 min="100000"
+                 max="999999"
                  name="plan" value="7">
               <label class="pay-option-label"
                    for="_nasdaq Indexs15">
@@ -9075,7 +9075,7 @@ Invest
 <input class="pay-option-check pay-method"
                  type="radio"
                  id="_s & P/tsx Indexs13"
-                 min="250999"
+                 min="1000000"
                  max=""
                  name="plan" value="7">
               <label class="pay-option-label"
